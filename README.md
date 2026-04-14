@@ -469,7 +469,7 @@ Datos psicográficos:
 - Usuarios que no cuentan con los recursos para adquirir un auto propio (nuevo o de segunda mano), pero que requieren movilidad en situaciones específicas.
 - Personas que necesitan disponer de un vehículo particular por un período corto, ya sea para actividades puntuales, compromisos laborales o viajes.
 
-# Capítulo II: Requirements Elicitation & Analysis
+# Capítulo II: Requirements Development and Software Solution Design
 ## 2.1. Competidores 
 
 Previo al desarrollo de la aplicación, hicimos una búsqueda de las opciones que ya existen en el mercado, para ver que es lo que ofrecen y como podemos diferenciarnos de ellos.
@@ -671,9 +671,10 @@ Formulario segmento Inquilinos: https://forms.gle/kz3BdxPoZHKNgqUg9
 
 ### 2.3.4. Empathy Mapping 
 
-### 2.3.5. As-is Scenario Mapping 
 
-## 2.4. Ubiquitous Language
+### 2.3.5. Big Picture EventStorming
+
+### 2.3.6. Ubiquitous Language
 
 Arrendador:	Usuario que publica su vehículo para alquiler.
 
@@ -692,52 +693,50 @@ Framework:	Conjunto de herramientas y librerías que usamos para construir la ap
 Entidad:	Objeto del dominio que tiene identidad propia .
 
 Repositorio: Componente de software que gestiona la persistencia de
+## 2.4. Requirements Specification
 
-# Capítulo III: Requirements Specification
+### 2.4.1. User Stories
 
-En este capítulo se definen los requisitos del producto digital, basados en los hallazgos de investigación y los escenarios ideales de usuario.
+### 2.4.2. Impact Mapping
 
-## 3.1. To-Be Scenario Mapping 
+### 2.4.3. Product Backlog
 
-## 3.2. User Stories
+## 2.5. Strategic-Level Domain Driven Design
 
-## 3.3. Impact Mapping:
+En esta sección se introduce el proceso de Domain-Driven Desing a nivel estratégico para MOVEO. Nuestro enfoque nos permitió conceptualizar el sistema a partir de la lógica de nuetro negocio, con el proposito de modelar una arquitectura de microservicios coherentes. Para conseguir eso identificamos subconjuntos del sistema con límites naturales y claros, conocidos como los Bounded Contexts. Las herramientas utilizadas para este propósito son el EventStorming, que nos ayudó a visualizar el flujo de eventos del negocio, y el Bounded Context Canvas, la cual nos ayuda a definir formalmente cada contexto y sus relaciones, garantizando así una base sólida para el desarrollo de nuestro proyecto.
 
-## 3.4. Product Backlog.
+### 2.5.1 EventStorming
 
-### 3.4. Product Backlog
+Event Storming es una técnica que consiste en la realización de un taller facilitado en el que los miembros del equipo identifican eventos claves del negocio y los requisitos para el bien funcionamiento de la plataforma, a lo largo de diferentes pasos que deber ser realizados colaborativamente.
+
+Esta herramiente nos permitió elaborar una arquitectura de aplicación más robusta, estructurada y alineada con el enfoque de Domain-Driven Desing, además de visualizar posibles flujos de los usuarios y estructuras de código a utilizar. En nuestro negocio por temas de visualización y facilidad al momento de diseñar los diagramas hemos utilizado la plataforma de Miro para realizar el Event Storming.
 
 
-# Capítulo IV: Solutions Software Design
+#### 2.5.1.1. Candidate Context Discovery
+#### 2.5.1.2. Domain Message Flows Modeling
+#### 2.5.1.3. Bounded Contexts Canvases
 
-## 4.1. Strategic-Level Domain Driven Design
+### 2.5.2. Context Mapping
 
-### 4.1.1 EventStorming
+### 2.5.3. Software Architecture
 
-#### 4.1.1.1. Candidate Context Discovery 
-#### 4.1.1.2. Domain Message Flows Modeling 
-#### 4.1.1.3. Bounded Contexts Canvases
+#### 2.5.3.1. Software Architecture Context Level Diagrams
+#### 2.5.3.2. Software Architecture Container Level Diagrams
+#### 2.5.3.3. Software Architecture Deployment Diagrams
 
-### 4.1.2. Context Mapping
+## 2.6. Tactical-Level Domain Driven Design
 
-### 4.1.3. Software Architecture 
+### 2.6.x. Bounded Contexts: <Bounded Context Name>
 
-#### 4.1.3.1. Software Architecture Context Level Diagrams
-#### 4.1.3.2. Software Architecture Container Level Diagrams
-#### 4.1.3.3. Software Architecture Deployment Diagrams
+#### 2.6.1.1 Domain Layer
+#### 2.6.1.2 Interface Layer
+#### 2.6.1.3 Application Layer
+#### 2.6.1.4 Infrastructure Layer
+#### 2.6.1.5 Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.1.6 Bounded Context Software Architecture Code Level Diagrams
+#### 2.6.1.7 Bounded Context Domain Layer Class Diagrams
+#### 2.6.1.8 Bounded Context Database Design Diagram
 
-## 4.2. Tactical-Level Domain Driven Design
-
-### 4.2.1. Bounded Contexts: <Bounded Context Name>
-
-#### 4.2.1.1 Domain Layer
-#### 4.2.1.2 Interface Layer
-#### 4.2.1.3 Application Layer
-#### 4.2.1.4 Infrastructure Layer
-#### 4.2.1.5 Bounded Context Software Architecture Component Level Diagrams
-#### 4.2.1.6 Bounded Context Software Architecture Code Level Diagrams
-#### 4.2.1.7 Bounded Context Domain Layer Class Diagrams
-#### 4.2.1.8 Bounded Context Database Design Diagram
 
 ## Conclusiones y Recomendaciones
 
