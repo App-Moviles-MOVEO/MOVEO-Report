@@ -1522,7 +1522,7 @@ Esta herramiente nos permitió elaborar una arquitectura de aplicación más rob
 El **Diagrama de Contexto** constituye el primer nivel de abstracción del Modelo C4. Su propósito fundamental es delimitar el alcance del sistema a construir, en este caso **WheelsPe**, y definir con claridad sus fronteras mediante la interacción con actores humanos y sistemas externos de terceros. Este diagrama proporciona una visión de alto nivel que permite comprender el rol estratégico de WheelsPe en el ecosistema de movilidad compartida sin profundizar en su complejidad técnica interna, lo que lo convierte en una herramienta de comunicación esencial tanto para los desarrolladores como para los inversionistas y demás partes interesadas del proyecto.
 
 <p align="center">
-  <img src="WheelsPe System Context.png" alt="WheelsPe System Context Diagram" width="100%">
+  <img src="assets/WheelsPe System Context.png" alt="WheelsPe System Context Diagram" width="100%">
 </p>
 <p align="center">
   <b>Figura:</b> Diagrama de Contexto del Sistema WheelsPe.
@@ -1546,7 +1546,7 @@ En esta vista, se observa que la **WheelsPe Platform** está compuesta por tres 
 3.  **Database:** (MySQL) Donde se resguarda la *Bitácora de eventos*, el historial de *Pagos* y la persistencia de toda la información del sistema.
 
 <p align="center">
-  <img src="WheelsPe Containers.png" alt="WheelsPe Containers Diagram" width="100%">
+  <img src="assets/WheelsPe Containers.png" alt="WheelsPe Containers Diagram" width="100%">
 </p>
 <p align="center">
   <b>Figura:</b> Diagrama de Contenedores de la plataforma WheelsPe.
@@ -1565,7 +1565,7 @@ Dentro de la **API Application**, la arquitectura se organiza en tres capas clar
 * **Capa de Infraestructura:** Utiliza el *Data Repository* para centralizar el acceso a la *Database* mediante **Entity Framework Core**, mientras coordina las salidas hacia sistemas externos: el *Servicio de Verificación* para el proceso KYC, la *API de Mapas* para la navegación y la *Pasarela de Pagos* para ejecutar la *Liquidación al proveedor*.
 
 <p align="center">
-  <img src="WheelsPe Component.png" alt="WheelsPe Component Diagram" width="100%">
+  <img src="assets/WheelsPe Component.png" alt="WheelsPe Component Diagram" width="100%">
 </p>
 <p align="center">
   <b>Figura:</b> Diagrama de Componentes de la API Application.
@@ -1630,7 +1630,7 @@ Esta estructura garantiza que la lógica central de WheelsPe permanezca aislada 
 Este diagrama representa la arquitectura del Bounded Context de **IAM** (Identity & Access Management) bajo el enfoque de Domain-Driven Design...
 
 <p align="center">
-  <img src="WheelsPe Bounded Context Iam.png" alt="IAM Component Diagram" width="100%">
+  <img src="assets/WheelsPe Bounded Context Iam.png" alt="IAM Component Diagram" width="100%">
 </p>
 <p align="center">
   <b>Figura:</b> Diagrama de Componentes del Bounded Context IAM.
@@ -1643,7 +1643,7 @@ Este diagrama representa la arquitectura del Bounded Context de **IAM** (Identit
 Este diagrama representa la arquitectura de clases del dominio para IAM, detallando la relación entre el Agregado de Usuario, sus Objetos de Valor y la Reputación...
 
 <p align="center">
-  <img src="Bounded Context Domain Layer Class Diagrams IAM.jpeg" alt="IAM Domain Class Diagram" width="100%">
+  <img src="assets/Bounded Context Domain Layer Class Diagrams IAM.jpeg" alt="IAM Domain Class Diagram" width="100%">
 </p>
 <p align="center">
   <b>Figura:</b> Diagrama de Clases de la Capa de Dominio - IAM.
@@ -1654,7 +1654,7 @@ Este diagrama representa la arquitectura de clases del dominio para IAM, detalla
 Este diagrama representa el modelo lógico de datos para el Bounded Context de IAM, diseñado bajo un enfoque relacional que prioriza la integridad de la identidad...
 
 <p align="center">
-  <img src="Bounded Context Database Design Diagram IAM.jpeg" alt="IAM Database Design" width="100%">
+  <img src="assets/Bounded Context Database Design Diagram IAM.jpeg" alt="IAM Database Design" width="100%">
 </p>
 <p align="center">
   <b>Figura:</b> Modelo Entidad-Relación para el Bounded Context IAM.
