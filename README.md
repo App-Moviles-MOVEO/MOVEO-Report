@@ -909,14 +909,89 @@ Esta estructura garantiza que la lógica central de WheelsPe permanezca aislada 
 ## 2.6. Tactical-Level Domain-Driven Design
 
 ### 2.6.1. Bounded Context: Identity & Access Management (IAM)
+
 #### 2.6.1.1. Domain Layer
+
+* **Usuario (Entity):** Es la entidad principal que representa a la persona en la plataforma. Posee una identidad persistente y es el corazón del agregado GestionIdentidad.
+    * **Atributos:** `idUsuario`, `nombreCompleto`, `correoElectronico`, `telefono`, `rol` (Proveedor o Usuario), `estadoVerificacion`.
+    * **Métodos:**
+        * `actualizarPerfilBasico(nuevoNombre, nuevoTelefono)`: Modifica datos de contacto validando que no sean nulos y cumplan el formato telefónico.
+        * `cambiarRol(nuevoRol)`: Ejecuta la transición de funciones asegurando que no haya servicios activos y reiniciando el estado de verificación si es necesario.
+        * `actualizarEstadoVerificacion(nuevoEstado)`: Cambia la fase del proceso KYC (Pendiente, Verificado, Rechazado).
+
+* **DocumentoIdentidad (Value Object):** Contiene la información inmutable de los documentos legales para la acreditación de confianza.
+    * **Atributos:** `tipoDocumento`, `numero`, `fechaVencimiento`, `urlImagenFrontal`.
+    * **Métodos:** `validarVigencia()`.
+
+* **Reputacion (Entity):** Entidad que encapsula el comportamiento histórico del usuario para generar confianza digital.
+    * **Atributos:** `idReputacion`, `puntajePromedio`, `totalCalificaciones`.
+    * **Métodos:** `recalcularPromedio(puntos)`, `evaluarEstadoCritico()`.
+
+* **GestionIdentidad (Aggregate):** Raíz que agrupa al Usuario, su Reputacion y sus Documentos. Asegura que solo usuarios verificados realicen acciones críticas.
+    * **Métodos:** `iniciarProcesoKYC()`, `validarCapacidadOperativa()`.
+
+* **ValidadorIdentidad (Domain Service):** Lógica compleja que compara los datos del DNI con la identidad del perfil para prevenir suplantaciones.
+
+* **UsuarioRepository (Repository):** Define el contrato para persistir perfiles y buscar usuarios por credenciales.
+
 #### 2.6.1.2. Interface Layer
+
+* **RegistroController (Controller):** Expone el endpoint para la creación de perfiles con selección de rol.
+    * **Métodos:** `registrarUsuario(UserDTO)`.
+* **PerfilController (Controller):** Gestiona la visualización y edición de la información del usuario.
+    * **Métodos:** `obtenerPerfil()`, `editarPerfilBasico()`.
+* **VerificacionController (Controller):** Interfaz para el envío de documentos de identidad.
+    * **Métodos:** `enviarEvidenciaKYC()`.
+* **UserResponse (DTO):** Objeto que retorna al frontend los datos del perfil, ocultando información sensible como hashes de contraseñas.
+
 #### 2.6.1.3. Application Layer
+
+* **AutenticacionService (Application Service):** Orquesta el flujo de login comunicándose con el proveedor de seguridad externo.
+    * **Métodos:** `iniciarSesion()`, `renovarToken()`.
+* **GestionPerfilService (Application Service):** Coordina la actualización de datos llamando a los métodos del dominio y persistiendo en el repositorio.
+    * **Métodos:** `actualizarDatosContacto()`.
+* **NotificadorSeguridadHandler (Event Handler):** Reacciona a eventos como `IdentidadVerificada` para enviar notificaciones push de éxito al usuario.
+
 #### 2.6.1.4. Infrastructure Layer
-#### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
-#### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
-##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
-##### 2.6.1.6.2. Bounded Context Database Design Diagram
+
+* **MySqlUserRepository (Implementation):** Implementación técnica del repositorio que utiliza un ORM para realizar operaciones CRUD en la base de datos MySQL.
+* **FirebaseAuthAdapter (External Service):** Adaptador que conecta con Firebase para delegar la autenticación robusta y la gestión de sesiones.
+* **S3StorageAdapter (External Service):** Implementación encargada de subir y recuperar las imágenes de los documentos en el almacenamiento en la nube.
+
+#### 2.6.1.5 Bounded Context Software Architecture Component Level Diagrams
+
+Este diagrama representa la arquitectura del Bounded Context de **IAM** (Identity & Access Management) bajo el enfoque de Domain-Driven Design...
+
+<p align="center">
+  <img src="WheelsPe Bounded Context Iam.png" alt="IAM Component Diagram" width="100%">
+</p>
+<p align="center">
+  <b>Figura 5:</b> Diagrama de Componentes del Bounded Context IAM.
+</p>
+
+#### 2.6.1.6 Bounded Context Software Architecture Code Level Diagrams
+
+##### 2.6.1.6.1 Bounded Context Domain Layer Class Diagrams
+
+Este diagrama representa la arquitectura de clases del dominio para IAM, detallando la relación entre el Agregado de Usuario, sus Objetos de Valor y la Reputación...
+
+<p align="center">
+  <img src="Bounded Context Domain Layer Class Diagrams IAM.jpeg" alt="IAM Domain Class Diagram" width="100%">
+</p>
+<p align="center">
+  <b>Figura 6:</b> Diagrama de Clases de la Capa de Dominio - IAM.
+</p>
+
+##### 2.6.1.6.2 Bounded Context Database Design Diagram
+
+Este diagrama representa el modelo lógico de datos para el Bounded Context de IAM, diseñado bajo un enfoque relacional que prioriza la integridad de la identidad...
+
+<p align="center">
+  <img src="Bounded Context Database Design Diagram IAM.jpeg" alt="IAM Database Design" width="100%">
+</p>
+<p align="center">
+  <b>Figura 7:</b> Modelo Entidad-Relación para el Bounded Context IAM.
+</p>
 
 ### 2.6.2. Bounded Context: Carpooling
 #### 2.6.2.1. Domain Layer
