@@ -318,6 +318,7 @@ El Banco Central de Reserva del Perú estimó que una persona pierde en promedio
 *Impacto económico y pérdidas anuales por la congestión vehicular en Lima*
 
 ![Impacto.png](Assets/Impacto.png)
+
 *Nota.* Elaboración propia. Basado en BCRP (2024) e Infobae Perú / AFIN (2025).
 
 Respecto al crecimiento del parque automotor frente a la infraestructura vial, la brecha es estructural: entre 2015 y 2024, el parque automotor en Lima aumentó un 40% con el ingreso de más de 600,000 vehículos, mientras que la red vial departamental apenas creció un 7% (Instituto Peruano de Economía, 2024). Finalmente, según la asociación Lima Cómo Vamos, un auto en Lima transporta en promedio 1.2 personas, lo que significa que en la mayoría de casos el conductor viaja solo (citado en Gutiérrez, 2018). Esto evidencia el enorme potencial desaprovechado del transporte compartido en la ciudad y sustenta la necesidad urgente de conectar a conductores con pasajeros para optimizar los vehículos ya existentes.
@@ -327,6 +328,7 @@ Respecto al crecimiento del parque automotor frente a la infraestructura vial, l
 *Brecha estructural entre el parque automotor y la red vial frente a la ocupación vehicular*
 
 ![Brecha.png](Assets/Brecha.png)
+
 *Nota.* Elaboración propia. Basado en Instituto Peruano de Economía (2024) y Gutiérrez (2018).
 
 ## 1.2.2. Lean UX Process
@@ -1181,42 +1183,42 @@ Este segmento está dominado por la comunidad universitaria (50 %) y trabajadore
 **Figura 29**
 
 *Ocupación profesional de los usuarios encuestados*  
-**![Gráfico de las respuestas de Formularios. Título de la pregunta:   ¿A qué te dedicas profesionalmente?  . Número de respuestas: 21 respuestas.][image37]**
+**![Gráfico de las respuestas de Formularios. Título de la pregunta:   ¿A qué te dedicas profesionalmente?  . Número de respuestas: 21 respuestas.](https://i.imgur.com/vsa8sng.png)**
 
 *Nota.* Elaboración propia. Distribución de la situación laboral o académica actual de los usuarios de movilidad encuestados (n=20).
 
 **Figura 30**
 
 *Dispositivo móvil principal utilizado en el día a día*  
-**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Qué dispositivo móvil utilizas principalmente en tu día a día?. Número de respuestas: 20 respuestas.][image38]**
+**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Qué dispositivo móvil utilizas principalmente en tu día a día?. Número de respuestas: 20 respuestas.](https://i.imgur.com/n2i1AmE.png)**
 
 *Nota.* Elaboración propia. Proporción de los dispositivos y sistemas operativos (Android vs. iOS) más utilizados diariamente por los usuarios (n=20).
 
 **Figura 31**
 
 *Navegador web de preferencia para buscar servicios o rutas*  
-**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Cuál es tu navegador de preferencia al buscar servicios o rutas?. Número de respuestas: 20 respuestas.][image39]**
+**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Cuál es tu navegador de preferencia al buscar servicios o rutas?. Número de respuestas: 20 respuestas.](https://i.imgur.com/WrFXfm9.png)**
 
 *Nota.* Elaboración propia. Navegadores de internet preferidos por los encuestados para realizar búsquedas relacionadas con su movilidad (n=20).
 
 **Figura 32**
 
 *Canales digitales para explorar nuevas opciones de transporte*  
-**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Por qué canales digitales sueles informarte o resolver dudas sobre nuevas opciones de transporte?. Número de respuestas: 19 respuestas.][image40]**
+**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Por qué canales digitales sueles informarte o resolver dudas sobre nuevas opciones de transporte?. Número de respuestas: 19 respuestas.](https://i.imgur.com/K3qArGC.png)**
 
 *Nota.* Elaboración propia. Medios y plataformas digitales a los que recurren los usuarios para informarse sobre alternativas de transporte compartido o alquiler (n=19).
 
 **Figura 33**
 
 *Perfil del usuario al elegir una opción de transporte o alquiler*  
-**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Cómo te definirías al momento de elegir una opción de transporte o alquiler?. Número de respuestas: 20 respuestas.][image41]**
+**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Cómo te definirías al momento de elegir una opción de transporte o alquiler?. Número de respuestas: 20 respuestas.](https://i.imgur.com/Srix732.png)**
 
 *Nota.* Elaboración propia. Autopercepción de los encuestados respecto a sus hábitos y prioridades de consumo al momento de seleccionar su medio de transporte (n=20).
 
 **Figura 34**
 
 *Principal obstáculo al buscar transporte rápido y económico*  
-**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Qué es lo que más te dificulta al intentar encontrar transporte rápido y económico hoy?. Número de respuestas: 20 respuestas.][image42]**
+**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Qué es lo que más te dificulta al intentar encontrar transporte rápido y económico hoy?. Número de respuestas: 20 respuestas.](https://i.imgur.com/2eoQCBi.png)**
 
 *Nota.* Elaboración propia. Identificación de las barreras y problemas más críticos que enfrentan los usuarios al intentar coordinar sus trayectos diarios (n=20).
 
@@ -1224,7 +1226,7 @@ Este segmento está dominado por la comunidad universitaria (50 %) y trabajadore
 
 *Nivel de seguridad percibido al viajar con identidades no validadas*
 
-**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Qué tan seguro te sientes compartiendo un viaje con alguien cuya identidad no ha sido validada por una entidad formal?. Número de respuestas: 20 respuestas.][image43]**
+**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Qué tan seguro te sientes compartiendo un viaje con alguien cuya identidad no ha sido validada por una entidad formal?. Número de respuestas: 20 respuestas.](https://i.imgur.com/nisU5Ro.png)**
 
 *Nota.* Elaboración propia. Grado de inseguridad que experimentan los pasajeros al compartir un viaje gestionado mediante canales informales sin verificación oficial (n=20).
 
@@ -1241,33 +1243,34 @@ Este segmento está dominado por la comunidad universitaria (50 %) y trabajadore
 **Figura 36**
 
 *Dispositivo móvil principal utilizado en el día a día*  
-**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Qué dispositivo móvil utilizas principalmente en tu día a día?. Número de respuestas: 20 respuestas.][image44]**
+**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Qué dispositivo móvil utilizas principalmente en tu día a día?. Número de respuestas: 20 respuestas.](https://i.imgur.com/Twm1XRM.png)**
 
 *Nota. Nota.* Elaboración propia. Proporción de los dispositivos y sistemas operativos (Android vs. iOS) más utilizados diariamente por los usuarios (n=20).
 
 **Figura 37**
 
 *Perfil del usuario al elegir una opción de transporte o alquiler*  
-**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Cómo te definirías al momento de elegir una opción de transporte o alquiler?. Número de respuestas: 20 respuestas.][image45]**
+**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Cómo te definirías al momento de elegir una opción de transporte o alquiler?. Número de respuestas: 20 respuestas.](https://i.imgur.com/Srix732.png)**
 
 *Nota.* Elaboración propia. Autopercepción de los encuestados respecto a sus hábitos y prioridades de consumo al momento de seleccionar su medio de transporte (n=20).
 
 **Figura 38**
 
 *Frecuencia de cancelaciones de viajes o reservas por parte de conductores informales*  
-**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Has tenido problemas con cancelaciones de último minuto que afectaron tus clases o trabajo?. Número de respuestas: 20 respuestas.][image46]***Nota.* Elaboración propia. Porcentaje de usuarios encuestados que experimentan cancelaciones de último minuto al utilizar opciones de transporte no reguladas, lo que representa una de las principales fricciones y causas de estrés para este segmento (n=20). 
+**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Has tenido problemas con cancelaciones de último minuto que afectaron tus clases o trabajo?. Número de respuestas: 20 respuestas.](https://i.imgur.com/m1lRCb2.png)**
+*Nota.* Elaboración propia. Porcentaje de usuarios encuestados que experimentan cancelaciones de último minuto al utilizar opciones de transporte no reguladas, lo que representa una de las principales fricciones y causas de estrés para este segmento (n=20). 
 
 **Figura 39**
 
 *Canales digitales para explorar nuevas opciones de transporte*  
-**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Por qué canales digitales sueles informarte o resolver dudas sobre nuevas opciones de transporte?. Número de respuestas: 19 respuestas.][image47]**
+**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Por qué canales digitales sueles informarte o resolver dudas sobre nuevas opciones de transporte?. Número de respuestas: 19 respuestas.](https://i.imgur.com/bnmyL0w.png)**
 
 *Nota.* Elaboración propia. Medios y plataformas digitales a los que recurren los usuarios para informarse sobre alternativas de transporte compartido o alquiler (n=19).
 
 **Figura 40**
 
 *Navegador web de preferencia para buscar servicios o rutas*  
-**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Cuál es tu navegador de preferencia al buscar servicios o rutas?. Número de respuestas: 20 respuestas.][image48]**
+**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Cuál es tu navegador de preferencia al buscar servicios o rutas?. Número de respuestas: 20 respuestas.](https://i.imgur.com/HmlQhMz.png)**
 
 *Nota.* Elaboración propia. Navegadores de internet preferidos por los encuestados para realizar búsquedas relacionadas con su movilidad (n=20).
 
@@ -1283,25 +1286,25 @@ Este segmento está dominado por la comunidad universitaria (50 %) y trabajadore
 **Figura 41**
 
 *Nivel de seguridad percibido al viajar con identidades no validadas*  
-**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Qué tan seguro te sientes compartiendo un viaje con alguien cuya identidad no ha sido validada por una entidad formal?. Número de respuestas: 20 respuestas.][image49]**  
+**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Qué tan seguro te sientes compartiendo un viaje con alguien cuya identidad no ha sido validada por una entidad formal?. Número de respuestas: 20 respuestas.](https://i.imgur.com/9diXutx.png)**  
 *Nota.* Elaboración propia. Grado de inseguridad que experimentan los pasajeros al compartir un viaje gestionado mediante canales informales sin verificación oficial (n=20).
 
 **Figura 42**
 
 *Disposición a abandonar canales informales por una comunidad verificada*  
-**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Estarías dispuesto a dejar de usar grupos informales si una App te garantiza que todos en el vehículo pertenecen a tu misma comunidad (ej. UPC)?. Número de respuestas: 20 respuestas.][image50]**  
+**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Estarías dispuesto a dejar de usar grupos informales si una App te garantiza que todos en el vehículo pertenecen a tu misma comunidad (ej. UPC)?. Número de respuestas: 20 respuestas.](https://i.imgur.com/jJCocRE.png)**  
 *Nota.* Elaboración propia. Nivel de disposición de los pasajeros encuestados para migrar de los grupos de redes sociales hacia una plataforma cerrada que garantice la validación institucional de sus miembros, reflejando el valor de la confianza comunitaria (n=20).
 
 **Figura 43**
 
 *Nivel de importancia asignado a las reseñas y calificaciones de terceros*  
-**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Qué importancia le das a poder visualizar reseñas y calificaciones de otros pasajeros antes de subir a un vehículo?. Número de respuestas: 20 respuestas.][image51]**  
+**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Qué importancia le das a poder visualizar reseñas y calificaciones de otros pasajeros antes de subir a un vehículo?. Número de respuestas: 20 respuestas.](https://i.imgur.com/Xic4GNp.png)**  
 *Nota.* Elaboración propia. Nivel de importancia que los pasajeros otorgan a las reseñas. La mayoría (50%) le asigna un peso medio, evidenciando que priorizan la validación oficial de identidad frente a la opinión de terceros (n=20).
 
 **Figura 44**
 
 *Valoración de integrar alquileres y viajes compartidos en una sola aplicación*  
-**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Qué tan útil te parecería una aplicación que una el alquiler de vehículos verificados y la opción de compartir gastos mediante carpooling?. Número de respuestas: 20 respuestas.][image52]**  
+**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Qué tan útil te parecería una aplicación que una el alquiler de vehículos verificados y la opción de compartir gastos mediante carpooling?. Número de respuestas: 20 respuestas.](https://i.imgur.com/dpQCWTD.png)**  
 *Nota.* Elaboración propia. Nivel de importancia que los usuarios le otorgan a centralizar el alquiler y el carpooling en una única plataforma. El 45% lo considera indispensable para optimizar y automatizar su rutina de movilidad (n=20).
 
 **Hallazgos Clave del Segmento 2**
