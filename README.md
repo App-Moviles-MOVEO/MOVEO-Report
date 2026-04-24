@@ -1,37 +1,64 @@
+<div align="center">
+
 # MOVEO-Report
 
-<p align="center">
-    <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
-    <strong>Ingeniería de Software</strong><br>
-    <strong>CICLO 2026-10</strong><br>
-    <strong>Aplicaciones para Dispositivos Móviles</strong><br>
-    <strong>3678</strong><br>
-    <strong>Profesor: David Gerardo Quevedo Velasco</strong><br>
-    <strong>Startup:</strong><br>
-    <strong>Producto: </strong><br>
-    <strong>INFORME DE TRABAJO FINAL</strong><br>
-    <strong>AGOSTO 2026</strong><br>
-</p>
+<strong>Universidad Peruana de Ciencias Aplicadas</strong>
 
-## Relación de integrantes
-| Integrante                              | Código         |
-|-----------------------------------------|----------------|
-| Barba Estrada, Bryan Eduardo            | U202323479     |
-| Cotrina Siclla, Sofia Alessandra        | U20231B120     |
-| Encalada Salazar, Alexis                | U20211G491     |
-| Goñe Araccata, Esther Abigail           | U202318049     |
-| Salazar Caballero, Alvaro Fabrizzio     | U202321941     |
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" width="150"></img>
 
+**Universidad Peruana de Ciencias Aplicadas**
 
+**Carrera:** Ingeniería de Software
 
-# Registro de Versiones del Informe
+**Periodo:** 202610
 
-| Versión | Fecha | Autor(es)  |  Descripción de Modificación |
-|---------|-------|------------|------------------------------|
+**Curso:** Aplicaciones para Dispositivos Móviles
 
+**Sección:** 3687
+
+**Profesor:** Quevedo Velasco, David Gerardo
+
+**Informe del Trabajo final**
+
+**Startup:** MOVEO
+
+**Producto:** WheelsPe
+
+</div>
+
+<div align="center">
+
+| Alumnos |  |
+| :---: | :---: |
+| **Código** | **Apellidos y Nombres** |
+| u202312031 | Arrieta Quispe, Alison Jimena |
+| u20211g491 | Encalada Salazar, Alexis |
+| u202318049 | Goñe Araccata, Esther Abigail |
+| u202321941 | Salazar Caballero, Alvaro Fabrizzio |
+| u202317362 | Santiago Peña, Andreow Jomark |
+
+**Abril, 2026**
+
+</div>
+
+# **Registro de Versiones del Informe**
+
+| Versión | Fecha | Autor(es) | Descripción de modificación |
+| :---- | :---- | :---- | :---- |
+| 1.0 (AV1) | 09/04/2026 | Arrieta Quispe, Alison Jimena Encalada Salazar, Alexis Goñe Araccata, Esther Abigail Salazar Caballero, Alvaro Fabrizzio Santiago Peña, Andreow Jomark | Capítulo I: Introducción 1.1 Startup Profile (Descripción de la Startup y perfiles del equipo) 1.2 Solution Profile (Antecedentes y problemática) 1.2.2.1 Lean UX Problem Statements (Definición de los problemas a resolver) 1.2.2.2 Lean UX Assumptions (Identificación de suposiciones) 1.2.2.3 Lean UX Hypothesis Statements (Formulación de hipótesis) 1.3 Segmentos objetivo (Definición del público meta) |
+| 1.1 (AV1) | 13/04/2026 | Arrieta Quispe, Alison Jimena Encalada Salazar, Alexis Goñe Araccata, Esther Abigail Salazar Caballero, Alvaro Fabrizzio Santiago Peña, Andreow Jomark | Capítulo I: Introducción y Capítulo II: Requirements Development 1.2.2.4 Lean UX Canvas (Creación del lienzo de Lean UX) 2.1.1 Análisis competitivo (Investigación de competidores) 2.1.2 Estrategias y tácticas frente a competidores (Definición de estrategias competitivas) 2.2.1.Diseño de entrevistas (Creación de guiones de entrevistas) |
+| 1.2 (AV1) | 17/04/2026 | Arrieta Quispe, Alison Jimena Encalada Salazar, Alexis Goñe Araccata, Esther Abigail Salazar Caballero, Alvaro Fabrizzio Santiago Peña, Andreow Jomark |  |
+| 1.3 (AV1) | 18/04/2026 | Arrieta Quispe, Alison Jimena Encalada Salazar, Alexis Goñe Araccata, Esther Abigail Salazar Caballero, Alvaro Fabrizzio Santiago Peña, Andreow Jomark |  |
+| 1.4 (AV1) | 22/04/2026 | Arrieta Quispe, Alison Jimena Encalada Salazar, Alexis Goñe Araccata, Esther Abigail Salazar Caballero, Alvaro Fabrizzio Santiago Peña, Andreow Jomark |  |
+| 1.5 (AV1) | 23/04/2026 | Arrieta Quispe, Alison Jimena Encalada Salazar, Alexis Goñe Araccata, Esther Abigail Salazar Caballero, Alvaro Fabrizzio Santiago Peña, Andreow Jomark |  |
 
 # Project Report Collaboration Insights 
+
+Repositorio donde se encuentra el **Project Report**: [https://github.com/App-Moviles-MOVEO/MOVEO-Report](https://github.com/App-Moviles-MOVEO/MOVEO-Report)
+
+FOTO
+
+Utilizamos Google Docs como herramienta colaborativa para redactar el informe y luego trasladamos la información al archivo README.md de nuestro repositorio.
 
 # Contenido
 [Student Outcome](#student-outcome)
@@ -168,147 +195,16 @@
 
 # Student Outcome
 
-<table>
-  <tr>
-    <td><b>Criterio específico</b></td>
-    <td><b>Acciones realizadas</b></td>
-    <td><b>Conclusiones</b></td>
-  </tr>
+El curso aporta al cumplimiento del criterio ABET: **ABET – EAC \- Student Outcome 7:** **Aprendizaje Continuo y Autónomo**
 
-  <!-- PRIMER CRITERIO: Trabaja en equipo para proporcionar liderazgo en forma conjunta -->
+**Criterio:** *La capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje apropiadas.*
 
-  <tr>
-    <td>
-      <p>Trabaja en equipo para proporcionar liderazgo en forma conjunta</p>
-    </td>
-    <td>
-      <p><strong>TB1</strong></p>
-      <p><strong>Luna Morales, Gianfranco:</strong> Facilité todas las reuniones de planning del Sprint 1 donde coordiné la distribución de HU entre desarrolladores, propuse la metodología de seguimiento en Trello que adoptamos como equipo y medié los conflictos que surgieron sobre la priorización de features, logrando que todos llegáramos a consensos constructivos.</p>
-      <p><strong>Huang Liu, Franco Gabriel:</strong> Lideré el análisis exhaustivo de nuestros competidores Peru Rent A Car, Kayak y Budget Car Rental, coordiné todas las sesiones de user research y testing de usabilidad, facilité workshops de ideación para UX/UI donde todos aportamos ideas creativas, y representé constantemente la voz del usuario en las decisiones técnicas para mantener el foco en la experiencia.</p>
-      <p><strong>Santiago Peña, Andreow Jomark:</strong> Organicé las reuniones iniciales del equipo para definir roles y responsabilidades, coordiné la creación del repositorio GitHub y la estructura de carpetas del proyecto, facilité las sesiones de brainstorming para definir el alcance del landing page y medié en la toma de decisiones sobre qué secciones incluir en la primera versión de MOVEO.</p>
-    </td>
-    <td>
-      <p><strong>TB1</strong></p>
-      <p>En conclusión: La comunicación efectiva y constante entre los miembros favoreció la coordinación y el avance armónico del proyecto.</p>
-    </td>
-  </tr>
+En el cuadro siguiente se detallan las actividades llevadas a cabo y las conclusiones formuladas por el equipo, las cuales sirven como evidencia del logro alcanzado en el ABET – EAC \- Student Outcome.
 
-  <tr>
-    <td>
-      <p>Trabaja en equipo para proporcionar liderazgo en forma conjunta</p>
-    </td>
-    <td>
-      <p><strong>TP1</strong></p>
-      <p><strong>Luna Morales, Gianfranco:</strong> Facilité todas las reuniones de planning del Sprint 1 donde coordiné la distribución de HU entre desarrolladores, propuse la metodología de seguimiento en Trello que adoptamos como equipo y medié los conflictos que surgieron sobre la priorización de features, logrando que todos llegáramos a consensos constructivos.</p>
-      <p><strong>Huang Liu, Franco Gabriel:</strong> Lideré el análisis exhaustivo de nuestros competidores Peru Rent A Car, Kayak y Budget Car Rental, coordiné todas las sesiones de user research y testing de usabilidad, facilité workshops de ideación para UX/UI donde todos aportamos ideas creativas, y representé constantemente la voz del usuario en las decisiones técnicas para mantener el foco en la experiencia.</p>
-      <p><strong>Santiago Peña, Andreow Jomark:</strong> Organicé las reuniones iniciales del equipo para definir roles y responsabilidades, coordiné la creación del repositorio GitHub y la estructura de carpetas del proyecto, facilité las sesiones de brainstorming para definir el alcance del landing page y medié en la toma de decisiones sobre qué secciones incluir en la primera versión de MOVEO.</p>
-    </td>
-    <td>
-      <p><strong>TP1</strong></p>
-      <p>En conclusión: El liderazgo compartido y la distribución equitativa de responsabilidades permitieron consolidar un equipo cohesionado, capaz de tomar decisiones conjuntas y responder de forma ágil a los desafíos del proyecto.</p>
-    </td>
-  </tr>
-
-  <tr>
-    <td>
-      <p>Trabaja en equipo para proporcionar liderazgo en forma conjunta</p>
-    </td>
-    <td>
-      <p><strong>TB2</strong></p>
-      <p><strong>Luna Morales, Gianfranco:</strong> Facilité las reuniones de planning del Sprint 3, coordinando la distribución de tareas para la implementación de los módulos de Usuario, Vehículo y Alquiler en el backend. Propuse y ayudé a configurar la integración de CI/CD en GitHub Actions para automatizar las pruebas y despliegues. Medié discusiones técnicas sobre la arquitectura DDD, guiando al equipo hacia soluciones prácticas y alineadas con los objetivos del sprint.</p>
-      <p><strong>Huang Liu, Franco Gabriel:</strong> Lideré la definición de los esquemas de datos para los modelos de dominio en el backend, asegurando consistencia y alineación con la lógica de negocio. Coordiné las sesiones de validación de la API con el frontend, actuando como puente entre ambos equipos de desarrollo y representando el enfoque en la experiencia de usuario desde la perspectiva del backend.</p>
-      <p><strong>Santiago Peña, Andreow Jomark:</strong> Organicé y coordiné reuniones para alinear el desarrollo del backend con los requerimientos del frontend, facilitando la comunicación entre ambos equipos. Lideré la configuración inicial del repositorio <code>MOVEO-backend</code>, la estructura base del proyecto .NET y la integración con el sistema de control de versiones y la documentación.</p>
-    </td>
-    <td>
-      <p><strong>TB2</strong></p>
-      <p>En conclusión: El liderazgo compartido se mantuvo y se fortaleció, permitiendo una distribución efectiva de tareas técnicas complejas y una toma de decisiones colaborativa y eficiente durante el desarrollo del backend en el Sprint 3.</p>
-    </td>
-  </tr>
-
-  <tr>
-    <td>
-      <p>Trabaja en equipo para proporcionar liderazgo en forma conjunta</p>
-    </td>
-    <td>
-      <p><strong>TF1</strong></p>
-      <p><strong>Luna Morales, Gianfranco:</strong> Facilité las reuniones finales de integración del Sprint 4, coordinando la alineación entre frontend y backend para entregar una solución completamente funcional. Lideré la implementación del módulo de soporte técnico con notificaciones en tiempo real y medié en la priorización final de bugs críticos antes del cierre del proyecto.</p>
-      <p><strong>Huang Liu, Franco Gabriel:</strong> Lideré la integración completa de la API REST con el frontend, implementando el flujo de autenticación basado en JWT y tokens HTTP-only. Coordiné la validación técnica de todos los endpoints con Swagger y aseguré que la documentación reflejara con precisión la funcionalidad desplegada en producción.</p>
-      <p><strong>Santiago Peña, Andreow Jomark:</strong> Organicé la entrega final del proyecto, incluyendo la redacción de las secciones técnicas del informe, la consolidación del repositorio y la validación del CI/CD en GitHub Actions. Lideré el despliegue del backend en Railway y del frontend en Render, asegurando que ambos componentes funcionaran en conjunto en el entorno de staging.</p>
-    </td>
-    <td>
-      <p><strong>TF1</strong></p>
-      <p>En conclusión: El liderazgo compartido permitió cerrar el proyecto con una solución integrada, bien documentada y desplegada, reflejando un alto nivel de madurez técnica y coordinación entre los miembros del equipo.</p>
-    </td>
-  </tr>
-
-  <!-- SEGUNDO CRITERIO: Crea un entorno colaborativo e inclusivo... -->
-
-  <tr>
-    <td>
-      <p><b>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</b></p>
-    </td>
-    <td>
-      <p><strong>TB1</strong></p>
-      <p><strong>Luna Morales, Gianfranco:</strong> Creé el workspace de Trello completo y definí el flujo de trabajo que seguimos actualmente, establecí junto al equipo la Definition of Ready y Done que nos guía en cada tarea, organicé daily standups virtuales diarios e implementé retrospectivas semanales donde todos participamos para mejorar continuamente nuestros procesos.</p>
-      <p><strong>Huang Liu, Franco Gabriel:</strong> Diseñé wireframes de forma colaborativa involucrando a todo el equipo en las decisiones de diseño, establecí métricas UX específicas como tiempo de carga menor a 3 segundos y usabilidad superior al 85%, organicé sesiones de testing con usuarios reales para validar nuestras hipótesis y creé un design system unificado que mantiene la coherencia visual en todo el proyecto.</p>
-      <p><strong>Santiago Peña, Andreow Jomark:</strong> Creé el canal de comunicación principal del equipo en WhatsApp y Discord, establecí las metas iniciales de completar el landing page y la documentación básica para la primera entrega, planifiqué la distribución de tareas entre compañeros según sus fortalezas e implementé reuniones de seguimiento diarias para mantener a todos alineados con los objetivos.</p>
-    </td>
-    <td>
-      <p><strong>TB1</strong></p>
-      <p>En conclusión: La comunicación interdisciplinaria permitió un mejor desarrollo y entendimiento del proyecto en todas sus fases.</p>
-    </td>
-  </tr>
-
-  <tr>
-    <td>
-      <p><b>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</b></p>
-    </td>
-    <td>
-      <p><strong>TP1</strong></p>
-      <p><strong>Luna Morales, Gianfranco:</strong> Creé el workspace de Trello completo y definí el flujo de trabajo que seguimos actualmente, establecí junto al equipo la Definition of Ready y Done que nos guía en cada tarea, organicé daily standups virtuales diarios e implementé retrospectivas semanales donde todos participamos para mejorar continuamente nuestros procesos.</p>
-      <p><strong>Huang Liu, Franco Gabriel:</strong> Diseñé wireframes de forma colaborativa involucrando a todo el equipo en las decisiones de diseño, establecí métricas UX específicas como tiempo de carga menor a 3 segundos y usabilidad superior al 85%, organicé sesiones de testing con usuarios reales para validar nuestras hipótesis y creé un design system unificado que mantiene la coherencia visual en todo el proyecto.</p>
-      <p><strong>Santiago Peña, Andreow Jomark:</strong> Creé el canal de comunicación principal del equipo en WhatsApp y Discord, establecí las metas iniciales de completar el landing page y la documentación básica para la primera entrega, planifiqué la distribución de tareas entre compañeros según sus fortalezas e implementé reuniones de seguimiento diarias para mantener a todos alineados con los objetivos.</p>
-    </td>
-    <td>
-      <p><strong>TP1</strong></p>
-      <p>En conclusión: El enfoque colaborativo, la planificación clara y el compromiso colectivo con las metas definidas fueron clave para cumplir con los objetivos de esta entrega de manera eficaz y con calidad.</p>
-    </td>
-  </tr>
-
-  <tr>
-    <td>
-      <p><b>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</b></p>
-    </td>
-    <td>
-      <p><strong>TB2</strong></p>
-      <p><strong>Luna Morales, Gianfranco:</strong> Actualicé el workspace de Trello para el Sprint 3, definiendo columnas específicas para tareas de backend (DDD, API, Despliegue). Establecí junto al equipo metas claras para la implementación de los módulos de Usuario, Vehículo y Alquiler, y las tareas de despliegue en Railway y Render. Organicé daily standups enfocados en el avance del backend y coordiné retrospectivas para mejorar el flujo de trabajo del equipo técnico.</p>
-      <p><strong>Huang Liu, Franco Gabriel:</strong> Colaboré en la definición de los objetivos técnicos del backend, enfocados en la correcta implementación de la lógica de negocio. Establecí metas de calidad para los esquemas de datos y la documentación de la API. Planifiqué y participé en sesiones de integración entre el backend y el frontend para garantizar que los servicios cumplieran con los requisitos de la interfaz de usuario.</p>
-      <p><strong>Santiago Peña, Andreow Jomark:</strong> Establecí como meta principal la creación de un backend robusto y bien documentado. Planifiqué la integración con los servicios de nube (Railway, Render) y coordiné tareas para la configuración de CI/CD. Organicé reuniones de seguimiento para alinear el avance del backend con el cronograma del sprint y los objetivos generales del proyecto.</p>
-    </td>
-    <td>
-      <p><strong>TB2</strong></p>
-      <p>En conclusión: La planificación meticulosa, la definición clara de metas técnicas y el mantenimiento de un entorno colaborativo permitieron al equipo avanzar de manera cohesiva y eficiente en la implementación del backend durante el Sprint 3, cumpliendo con los objetivos establecidos.</p>
-    </td>
-  </tr>
-
-  <tr>
-    <td>
-      <p><b>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</b></p>
-    </td>
-    <td>
-      <p><strong>TF1</strong></p>
-      <p><strong>Luna Morales, Gianfranco:</strong> Actualicé el tablero de Trello con las tareas críticas del Sprint 4, incluyendo pruebas de integración, corrección de bugs y preparación de la documentación final. Establecí metas diarias para garantizar la entrega a tiempo y organicé las sesiones de validación con usuarios reales para retroalimentar el producto final.</p>
-      <p><strong>Huang Liu, Franco Gabriel:</strong> Definí los criterios de calidad para la API final, incluyendo cobertura de pruebas unitarias, documentación Swagger y manejo de errores coherente. Planifiqué y ejecuté pruebas de extremo a extremo con Postman para validar todos los flujos del negocio antes del despliegue.</p>
-      <p><strong>Santiago Peña, Andreow Jomark:</strong> Establecí como meta entregar un sistema completamente funcional con autenticación, verificación de identidad, reservas, pagos simulados, notificaciones y soporte. Coordiné las pruebas finales, la redacción del informe técnico y la preparación de los videos demostrativos, asegurando coherencia entre el código, la documentación y la experiencia del usuario.</p>
-    </td>
-    <td>
-      <p><strong>TF1</strong></p>
-      <p>En conclusión: La planificación rigurosa, la comunicación constante y el enfoque en la calidad permitieron al equipo entregar una solución final robusta, validada y lista para producción, cumpliendo con todos los objetivos del curso y las expectativas del profesor.</p>
-    </td>
-  </tr>
-</table>
-
-# Objetivos SMART
+| Criterio específico | Acciones realizadas | Conclusiones |  |
+| ----- | ----- | ----- | ----- |
+| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software. | **Arrieta Quispe, Alison Jimena**<br>*AV1*<br>Investigó y aplicó conceptos de Domain-Driven Design para desarrollar el Domain Message Flows Modeling, Bounded Context Canvases y el Bounded Context Billing, profundizando en el modelado de flujos entre contextos y reglas de negocio financieras.<br><br>**Encalada Salazar, Alexis**<br>*AV1*<br>Estudió los fundamentos teóricos de DDD para construir el Ubiquitous Language, el Event Storming y el Context Mapping, aplicando patrones de diseño estratégico en el Bounded Context Rental.<br><br>**Goñe Araccata, Esther Abigail**<br>*AV1*<br>Investigó y aplicó metodologías Lean UX y Event Storming para desarrollar el Startup Profile, Solution Profile, el análisis de entrevistas y el Bounded Context Operations, integrando técnicas de investigación cualitativa con la exploración del dominio.<br><br>**Salazar Caballero, Alvaro Fabrizzio**<br>*AV1*<br>Investigó patrones de arquitectura de software y gestión de identidad para desarrollar la Software Architecture y el Bounded Context Iam, adquiriendo conocimientos sobre seguridad y verificación de usuarios en plataformas digitales.<br><br>**Santiago Peña, Andreow Jomark**<br>*AV1*<br>Aplicó técnicas de Needfinding e investigación con usuarios para desarrollar el análisis de entrevistas y el Bounded Context Carpooling, conectando los hallazgos de campo con el modelado del dominio de movilidad compartida. | **AV1:**<br>Durante la elaboración del primer avance, el equipo identificó y adquirió de forma autónoma los conocimientos necesarios para cada área del proyecto, desde metodologías de discovery hasta diseño estratégico con DDD, demostrando capacidad para actualizar su formación según las exigencias reales del desarrollo. |  |
+| Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software. | **Arrieta Quispe, Alison Jimena**<br>*AV1*<br>Al modelar los flujos entre contextos y el contexto Billing, reconoció que el diseño estratégico de software exige formación continua más allá de los contenidos del curso, profundizando en reglas de negocio sobre comisiones y reembolsos.<br><br>**Encalada Salazar, Alexis**<br>*AV1*<br>Al construir el Ubiquitous Language a partir del Event Storming, reconoce que la calidad del diseño depende del entendimiento profundo del dominio y no solo del conocimiento técnico.<br><br>**Goñe Araccata, Esther Abigail**<br>*AV1*<br>Al liderar las entrevistas y el Big Picture Event Storming, reconoció que la investigación con usuarios y la facilitación colaborativa son competencias profesionales que requieren desarrollo continuo, complementando su formación técnica.<br><br>**Salazar Caballero, Alvaro Fabrizzio**<br>*AV1*<br>Al diseñar la arquitectura y el contexto Iam, reconoció que la seguridad y la gestión de identidad son áreas en constante evolución, investigando estándares que van más allá del contenido impartido en el curso.<br><br>**Santiago Peña, Andreow Jomark**<br>*AV1*<br>Al desarrollar el Needfinding y el contexto Carpooling, reconoció que el aprendizaje profesional integra tanto la investigación con usuarios como el modelado técnico, ampliando su visión del rol del ingeniero de software. | **AV1:**<br>Durante esta primera etapa del proyecto, el equipo demostró consciencia sobre la necesidad del aprendizaje permanente al enfrentar responsabilidades que requerían conocimientos fuera del contenido directo del curso, respondiendo de forma proactiva mediante investigación autónoma y aplicación práctica en cada entregable. |  |
 
 # Capítulo I: Introducción
 # 1.1. Startup Profile
