@@ -54,7 +54,8 @@
 
 
 
-## Abril 2026
+### Abril 2026
+<br>
 
 </div>
 
@@ -210,14 +211,12 @@ Utilizamos Google Docs como herramienta colaborativa para redactar el informe y 
 
 # Student Outcome
 
-El curso aporta al cumplimiento del criterio ABET: ABET – EAC - Student Outcome 7: Aprendizaje Continuo y Autónomo
-Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje apropiadas.
-En el cuadro siguiente se detallan las actividades llevadas a cabo y las conclusiones formuladas por el equipo, las cuales sirven como evidencia del logro alcanzado en el ABET – EAC - Student Outcome.
-
+El curso aporta al cumplimiento del criterio ABET: **ABET – EAC \- Student Outcome 7:** **Aprendizaje Continuo y Autónomo**
 
 **Criterio:** *La capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje apropiadas.*
 
 En el cuadro siguiente se detallan las actividades llevadas a cabo y las conclusiones formuladas por el equipo, las cuales sirven como evidencia del logro alcanzado en el ABET – EAC \- Student Outcome.
+
 
 | Criterio específico | Acciones realizadas | Conclusiones |  |
 | ----- | ----- | ----- | ----- |
@@ -245,11 +244,11 @@ En esta sección presentamos a los miembros de la startup, describiendo nuestros
 
 | Foto | Perfil |
 | :---: | ----- |
-| ![image2] | **Arrieta Quispe, Alison Jimena**<br>Mi nombre es Alison, tengo 19 años y soy estudiante de Ingeniería de Software enfocada en el desarrollo de aplicaciones web modernas potenciadas con Inteligencia Artificial para entornos globales. |
+| ![Allison.png](https://i.imgur.com/0BbgcTE.png) | **Arrieta Quispe, Alison Jimena**<br>Mi nombre es Alison, tengo 19 años y soy estudiante de Ingeniería de Software enfocada en el desarrollo de aplicaciones web modernas potenciadas con Inteligencia Artificial para entornos globales. |
 | ![Alexis.png](Assets/Alexis.png) | **Encalada Salazar, Alexis**<br>Soy Alexis Encalada Salazar, actualmente tengo 22 años, Curso el 5to ciclo de la carrera de ingeniería de software en la universidad peruana de ciencias aplicadas. Considero que soy alguien responsable, así cómo perseverante tanto en trabajos solitarios como en equipo. Pienso ayudar a mi equipo con mis conocimientos en los lenguajes de programación C++ y python y también en edición de videos |
-| ![][image4] | **Goñe Araccata, Esther Abigail**<br>Mi nombre es Abigail Goñe, tengo 20 años y actualmente me encuentro en el séptimo ciclo de la carrera de Ingeniería de Software. Soy una persona responsable, amigable y me gusta poder ayudar a los demás en todo lo que pueda. |
-| ![][image6] | **Salazar Caballero, Alvaro Fabrizzio**<br>Soy Alvaro Fabrizzio Salazar Caballero, estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Me interesa contribuir al equipo con mis conocimientos en desarrollo backend y gestión de proyectos. |
-| ![][image5] | **Santiago Peña, Andreow Jomark**<br>Soy estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas, con una gran pasión por el desarrollo de aplicaciones móviles y backend. |
+| ![Abi.png](https://i.imgur.com/zNcJvTe.png) | **Goñe Araccata, Esther Abigail**<br>Mi nombre es Abigail Goñe, tengo 20 años y actualmente me encuentro en el séptimo ciclo de la carrera de Ingeniería de Software. Soy una persona responsable, amigable y me gusta poder ayudar a los demás en todo lo que pueda. |
+| ![Alvaro.png](Assets/Alvaro.png) | **Salazar Caballero, Alvaro Fabrizzio**<br>Soy Alvaro Fabrizzio Salazar Caballero, estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Me interesa contribuir al equipo con mis conocimientos en desarrollo backend y gestión de proyectos. |
+| ![Andreow.png](Assets/Andreow.png) | **Santiago Peña, Andreow Jomark**<br>Soy estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas, con una gran pasión por el desarrollo de aplicaciones móviles y backend. |
 
 # 1.2. Solution Profile
 
@@ -264,6 +263,7 @@ El problema central radica en la profunda desconexión, ineficiencia e informali
 
 #### ¿Cuál es la relación con la persona en cuestión?
 El problema se manifiesta en múltiples momentos cotidianos según el actor involucrado. Para los propietarios particulares, la frustración aparece cada fin de semana o a fin de mes, cuando perciben que su vehículo se deprecia sin generar ingresos al no encontrar arrendatarios confiables. Para las empresas formales del rubro, el obstáculo es diario, ya que los procesos anticuados no les permiten captar clientes a la velocidad que exige el mercado. Para quienes alquilan un vehículo, la fricción económica surge en el momento exacto en que inician su viaje con asientos vacíos, asumiendo en solitario los costos de combustible y peajes. Finalmente, para estudiantes y trabajadores, la dificultad ocurre todos los días durante las horas pico, cuando intentan encontrar una ruta compartida y pierden tiempo valioso intercambiando mensajes de confirmación sin garantías de seguridad.
+
 **¿Cuándo?**
 #### ¿Cuándo sucede el problema?
 El problema se manifiesta en múltiples momentos cotidianos según el actor involucrado. Para los propietarios particulares, la frustración aparece cada fin de semana o a fin de mes, cuando perciben que su vehículo se deprecia sin generar ingresos al no encontrar arrendatarios confiables. Para las empresas formales del rubro, el obstáculo es diario, ya que los procesos anticuados no les permiten captar clientes a la velocidad que exige el mercado. Para quienes alquilan un vehículo, la fricción económica surge en el momento exacto en que inician su viaje con asientos vacíos, asumiendo en solitario los costos de combustible y peajes. Finalmente, para estudiantes y trabajadores, la dificultad ocurre todos los días durante las horas pico, cuando intentan encontrar una ruta compartida y pierden tiempo valioso intercambiando mensajes de confirmación sin garantías de seguridad.
@@ -555,89 +555,760 @@ Finalmente, para mitigar la resistencia cultural a formalizar el alquiler entre 
 
 ## 2.2. Entrevistas
 
-En esta sección se presenta la investigación cualitativa realizada mediante entrevistas profundas a representantes de nuestros dos segmentos objetivo: **propietarios de vehículos** (Segmento 1) e **inquilinos o usuarios que desean alquilar autos** (Segmento 2). El objetivo es comprender sus necesidades reales, frustraciones, hábitos de consumo y expectativas frente a una plataforma de alquiler de autos, validando así los supuestos del modelo de negocio y ajustando la propuesta de valor de Moveo a lo que el mercado realmente demanda.
-
 ### 2.2.1. Diseño de entrevista 
-Esta sección incluye preguntas demográficas, conductuales y psicográficas dirigidas a cada segmento, con el fin de construir arquetipos (personas) basados en evidencia real. Se aplican buenas prácticas de diseño de entrevistas: preguntas abiertas, no sugestivas, orden lógico (de lo general a lo específico) y enfoque en comportamientos reales, no hipotéticos.
 
-Antes de realizar las entrevistas profundas, se aplicó un formulario digital (Google Forms) a todos los participantes con el objetivo de recolectar información demográfica y conductual básica. Esto permitió segmentar adecuadamente a los entrevistados, personalizar el enfoque de cada entrevista según su perfil, y optimizar el tiempo durante las sesiones cualitativas.
+El diseño de las entrevistas a profundidad se fundamenta en un enfoque experimental que busca recolectar retroalimentación cualitativa para determinar si las hipótesis planteadas en el **Lean UX Canvas** son válidas o requieren un pivot comercial . El objetivo principal es profundizar en los "dolores" y frustraciones de los usuarios para confirmar que el problema identificado es real y lo suficientemente crítico como para justificar el desarrollo de la solución.
 
-Formulario segmento Proveedores de Vehiculos: https://forms.gle/uyVSkqSiuiKx1nb69
+* **Segmento \#1:** Propietarios particulares de vehículos y gestores de micro-agencias de alquiler.  
+* **Segmento \#2:** Conductores que requieren vehículos para movilidad y pasajeros que utilizan rutas fijas.
 
+**Segmento objetivo \#1: Proveedores de Vehículos**
 
-Formulario segmento Inquilinos: https://forms.gle/kz3BdxPoZHKNgqUg9
-#### **Segmento 1: Proveedores de Vehiculos** 
+**Perfil 1: Propietarios Particulares (Individual Car Owners)**
 
-**Demográficas (para arquetipo):**
-- ¿Cuál es tu nombre completo?
-- ¿Qué edad tienes?
-- ¿En qué distrito resides?
-- ¿Cuál es tu género?
-- ¿Cuál es tu estado civil?
-- ¿Vives solo, con pareja, con hijos u otros familiares?
-- ¿A qué te dedicas (trabajo, estudios, negocio propio)?
+**Objetivo de la entrevista:** Realizar una inmersión profunda en las barreras psicológicas y financieras que impiden que un propietario ponga su activo de alto valor en circulación. Se busca validar si la percepción de "riesgo de robo o daño" puede ser mitigada mediante un sistema de identidad digital (KYC) y un esquema de reputación mutua. Asimismo, se busca cuantificar el interés económico real frente al esfuerzo de gestión que implica el alquiler entre pares (P2P).
 
-**Psicográficas y comportamentales (para arquetipo):**
-- ¿Cómo describirías tu personalidad cuando se trata de prestar algo valioso (precavido, confiado, flexible, exigente)?
-- ¿Qué marcas de autos confías más para alquilar? ¿Por qué?
-- ¿Qué influencers, blogs, canales o redes sociales te influyen a la hora de tomar decisiones sobre tu auto o negocios?
-- ¿Qué dispositivos usas con más frecuencia (celular, laptop, tablet)? ¿Qué apps o navegadores prefieres?
-- ¿Por qué canales digitales sueles informarte o resolver dudas (WhatsApp, Instagram, Facebook, Google, foros)?
+**Características demográficas e introductorias:**
 
-> *Nota: Estas preguntas fueron incluidas en el formulario inicial para identificar patrones de comportamiento digital y afinidades, lo que permitió guiar mejor las entrevistas profundas y construir arquetipos más precisos.*
+* ¿Cuál es tu nombre completo y edad?  
+* ¿En qué distrito resides actualmente y qué modelo de vehículo posees?  
+* ¿A qué te dedicas profesionalmente? (Dependiente, independiente o dueño de negocio).  
+* ¿Cuál es el uso real que le das a tu vehículo durante la semana? ¿Cuántas horas o días permanece estacionado sin ser utilizado?  
+* ¿Consideras que tu vehículo es actualmente una herramienta que te genera ingresos o es puramente un gasto mensual en tu economía (mantenimiento, seguro, cochera)?
 
+**Preguntas sobre la problemática:**
 
-**Necesidades y comportamiento (preguntas principales):**
-- ¿Qué tipo de unidades sueles alquilar (auto, SUV, camioneta, moto, otro)?
-- ¿Cuál es el tiempo mínimo y máximo que normalmente estás dispuesto a prestar tu vehículo?
-- ¿Qué requisitos solicitas a una persona antes de entregarle tu vehículo?
-- ¿Dónde publicas actualmente tus vehículos para alquilarlos (apps, redes sociales, conocidos)?
-- ¿Cómo gestionas el control de tus autos disponibles y en uso (anotaciones, Excel, aplicación, otro)?
-- ¿Qué tan confiable consideras que son las plataformas actuales para validar a los clientes?
-- ¿Qué tan útil sería para ti ver comentarios de otros dueños sobre un cliente antes de alquilar?
-- ¿Te interesaría contar con un panel digital donde registres todos tus autos y su estado?
-- ¿Qué tan importante consideras poder calificar a los clientes después de cada alquiler?
-- ¿Has tenido malas experiencias alquilando tu auto? Cuéntame qué pasó y qué aprendiste.
+* ¿Alguna vez has considerado alquilar tu auto para generar ingresos extra? Si la respuesta es negativa, ¿cuál es el miedo o preocupación específica que más te detiene?  
+* ¿Qué nivel de confianza te generan los canales actuales (redes sociales, recomendaciones) para verificar la honestidad de una persona antes de entregarle tus llaves?  
+* ¿Qué tan expuesto te sientes ante posibles infracciones de tránsito o daños mecánicos causados por terceros?  
+* ¿Has escuchado o vivido alguna mala experiencia relacionada con el préstamo o alquiler informal de vehículos? ¿Cómo influye eso en tu decisión actual?
 
----
-#### **Segmento 2: Clientes**
+**Preguntas sobre la solución:**
 
-**Demográficas (para arquetipo):**
-- ¿Cuál es tu nombre completo?
-- ¿Qué edad tienes?
-- ¿En qué distrito vives?
-- ¿Cuál es tu género?
-- ¿Cuál es tu estado civil?
-- ¿Vives solo, con pareja, con hijos u otros familiares?
-- ¿Cuál es tu ocupación principal?
+* Si una aplicación móvil realizará una validación estricta de identidad conectada a antecedentes policiales y perfiles sociales, ¿cambiaría tu disposición a alquilar?  
+* ¿Qué importancia le das a contar con un historial de reseñas donde otros propietarios califiquen el comportamiento del conductor?  
+* ¿Estarías dispuesto a pagar una comisión por cada reserva si la plataforma te asegura un filtrado riguroso de clientes y soporte ante incidencias?  
+* ¿Te resultaría útil contar con un panel digital en tu celular para gestionar los pagos y la disponibilidad de tu auto sin complicaciones manuales?
 
-**Psicográficas y comportamentales (para arquetipo):**
-- ¿Cómo describirías tu estilo al tomar decisiones de consumo (espontáneo, investigador, influenciable, ahorrativo)?
-- ¿Qué marcas de autos o servicios de alquiler prefieres o evitas? ¿Por qué?
-- ¿Qué personas, influencers o medios digitales te ayudan a decidir antes de alquilar un auto?
-- ¿Qué dispositivos usas con más frecuencia (celular, laptop, tablet)? ¿Qué apps o navegadores prefieres?
-- ¿Por qué canales digitales sueles buscar soluciones o servicios (WhatsApp, Instagram, Google Maps, TikTok, foros)?
+**Perfil 2: Micro y Pequeñas Agencias (Rental SMBs)**
 
-> *Nota: La información recolectada en el formulario permitió identificar segmentos de comportamiento digital y afinidades de marca, facilitando la construcción de arquetipos realistas y la personalización de las preguntas durante la entrevista.*
+**Objetivo de la entrevista:** Identificar los puntos de fricción operativa en las pequeñas empresas de alquiler que aún operan bajo modelos tradicionales. Se busca validar la necesidad de una herramienta tipo **SaaS (Software as a Service)** que les permita digitalizar su inventario y expandir su alcance comercial hacia nuevos segmentos (como la comunidad universitaria) que actualmente no logran captar por su limitación geográfica o falta de presencia digital.
 
+**Características demográficas e introductorias:**
 
-**Necesidades y comportamiento (preguntas principales):**
-- ¿Qué documentos te han solicitado en tus experiencias previas al alquilar un auto?
-- ¿Qué tipo de vehículo prefieres alquilar según tu necesidad (trabajo, viaje, ocasión especial)?
-- ¿Qué requisitos o condiciones suelen ponerte antes de alquilar (edad mínima, tarjeta de crédito, otros)?
-- ¿Qué factores te desaniman al momento de querer alquilar un auto (precio, desconfianza, restricciones, otro)?
-- ¿Dónde sueles buscar opciones de autos en alquiler (apps, redes, páginas web, conocidos)?
-- ¿Qué tan confías en que las aplicaciones muestran información real de los dueños y autos?
-- ¿Qué tan valioso sería para ti revisar reseñas de otros usuarios sobre el dueño antes de alquilar?
-- ¿Te resultaría útil poder reservar un vehículo con anticipación directamente desde la app?
-- ¿Qué tan importante es para ti dejar una opinión sobre tu experiencia con el dueño o el vehículo?
-- ¿Cuál ha sido tu peor experiencia alquilando un auto? ¿Qué cambiarías para evitarlo?
+* ¿Cuál es tu nombre y cuál es el nombre comercial de tu agencia de alquiler?  
+* ¿En qué zona de Lima se ubica tu local principal y qué tan difícil es captar clientes fuera de ese radio?  
+* ¿Cuántos vehículos conforman tu flota actual y qué porcentaje de ellos suele estar alquilado de manera constante?  
+* ¿A qué tipo de público te diriges principalmente hoy en día y bajo qué requisitos de seguridad trabajas?  
+* ¿Cómo llevas hoy el control de tus reservas, contratos y el estado de tus vehículos (cuadernos, Excel, sistema propio)?
 
+**Preguntas sobre la problemática:**
+
+* ¿Qué procesos administrativos (contratos, verificación de documentos) te consumen más tiempo y resultan más propensos a errores humanos?  
+* ¿Consideras que el proceso de validación de clientes que realizas hoy es suficiente para proteger tu flota de posibles fraudes o mal uso?  
+* ¿Has tenido que rechazar alquileres por no tener una forma rápida de verificar la solvencia o identidad de un interesado?  
+* ¿Cómo compites actualmente con las grandes franquicias internacionales en términos de visibilidad y tecnología?
+
+**Preguntas sobre la solución:**
+
+* ¿Qué tan valioso sería para tu empresa contar con un panel administrativo que te brinde reportes de rentabilidad y alertas de mantenimiento por cada unidad?  
+* ¿Estarías dispuesto a migrar toda tu gestión manual a una herramienta digital si esta te garantiza exposición ante una comunidad de usuarios ya verificados?  
+* ¿Qué importancia le das a que la plataforma automatice los contratos y el cobro de garantías para reducir tu carga legal?  
+* ¿Qué funcionalidad técnica es indispensable para ti para considerar que una aplicación es "profesional" para gestionar tu flota?
+
+**Segmento objetivo \#2: Usuarios de Movilidad**
+
+**Perfil 3: Conductores Arrendatarios (Drivers / Estudiantes)**
+
+**Objetivo de la entrevista:** Explorar la elasticidad de la demanda y la disposición de los conductores a adoptar el **carpooling** como una estrategia de ahorro directo. Se busca validar si el costo del alquiler actual es una barrera para la recurrencia y si la integración de una funcionalidad para "vender asientos vacíos" dentro del mismo alquiler es un incentivo suficiente para preferir **WheelsPe** frente a la competencia.
+
+**Características demográficas e introductorias:**
+
+* ¿Cuál es tu nombre completo, edad y ocupación principal? (Estudiante o trabajador).  
+* ¿En qué distrito vives y realizas tus actividades principales? (Ruta habitual).  
+* ¿Con qué frecuencia necesitas alquilar un vehículo y cuáles son los motivos principales (traslados universitarios, trabajo puntual)?  
+* Aproximadamente, ¿cuánto dinero destinas mensualmente a tus gastos de movilidad y qué porcentaje representa de tus ingresos?
+
+**Preguntas sobre la problemática:**
+
+* ¿Has alquilado un auto antes? ¿Qué fue lo que más te disgustó o dificultó del proceso (precios, trámites, depósitos)?  
+* ¿Cuál es el gasto que más te duele pagar al moverte por la ciudad: la tarifa de alquiler, el combustible o los peajes?  
+* ¿Sueles realizar tus trayectos solo o con asientos vacíos en el vehículo que has alquilado?  
+* ¿Qué tan seguro te sientes llevando a una persona que contactaste por un grupo de WhatsApp informal para "dividir gastos"?
+
+**Preguntas sobre la solución:**
+
+* Si al alquilar el auto la app te permitiera publicar tus asientos disponibles de forma automática, ¿lo harías para que otros pasajeros te ayuden a pagar el costo del viaje?  
+* ¿Qué tan importante es para ti ver el perfil verificado y la calificación de los pasajeros que subirías a tu auto?  
+* ¿Estarías dispuesto a pasar por un filtro de identidad estricto si esto te da acceso a vehículos de particulares a precios mucho más bajos que una agencia tradicional?  
+* ¿Qué funcionalidad te motivaría a alquilar vehículos de forma más seguida a través de una aplicación?
+
+**Perfil 4: Pasajeros Recurrentes (Passengers)**
+
+**Objetivo de la entrevista:** Identificar las brechas de seguridad, puntualidad y comodidad en los pasajeros que hoy utilizan "jalones" informales. El fin es validar si la propuesta de **trazabilidad GPS, botones de auxilio y perfiles universitarios/corporativos verificados** es el factor determinante para que abandonen los grupos de redes sociales y migren a nuestra plataforma formal.
+
+**Características demográficas e introductorias:**
+
+* ¿Cuál es tu nombre, edad y qué ruta de transporte realizas con más frecuencia diariamente?  
+* ¿Cuál es tu principal medio de transporte hoy y cuánto tiempo promedio pierdes en el tráfico de Lima cada día?  
+* ¿Qué tan satisfecho estás con tus opciones actuales de transporte del 1 al 10 y por qué?  
+* ¿Por qué medios coordinas actualmente tus viajes compartidos cuando no deseas usar el transporte público masivo?
+
+**Preguntas sobre la problemática:**
+
+* Si usas grupos de Facebook o WhatsApp para viajar: ¿Cuál ha sido tu peor experiencia en términos de seguridad, puntualidad o trato del conductor?  
+* ¿Qué tan seguro te sientes subiéndote al auto de alguien cuya identidad no conoces realmente y que no tiene reseñas de otros pasajeros?  
+* ¿Has tenido problemas con cancelaciones de último minuto que te han perjudicado en tus horarios de estudio o trabajo?  
+* ¿Por qué sigues usando esos grupos informales a pesar de los riesgos e inconvenientes mencionados?
+
+**Preguntas sobre la solución:**
+
+* ¿Qué tan valioso sería para ti poder ver el centro de estudios/trabajo y la identidad validada del conductor antes de subirte al auto?  
+* ¿Estarías dispuesto a pagar una tarifa ligeramente mayor que la de un "jalón" informal a cambio de viajar en un auto con monitoreo GPS en tiempo real?  
+* ¿Qué tan importante es para ti poder dejar una calificación sobre la experiencia de viaje y ver las reseñas de otros pasajeros sobre el conductor?  
+* ¿Qué característica mínima debería tener WheelsPe para que borres definitivamente tus grupos informales de transporte y uses solo nuestra aplicación?
 
 ### 2.2.2. Registro de entrevistas
 
+**Segmento objetivo \#1: Proveedores de Vehículos**
+
+**Entrevistado 1: Gabriel Borja**
+
+* **Edad:** 24 años  
+* **Ocupación:** Ingeniero de Software Jr. (Freelance)  
+* **Distrito:** Surquillo  
+* **Dispositivos utilizados:** Xiaomi Redmi Note 13 Pro (Android)  
+* **Navegador habitual:** Google Chrome
+
+  **Figura 4**  
+  *Entrevista \#1 para WheelsPe*
+
+  *![entrevista1](https://i.imgur.com/w7fTx6l.png)*
+  
+
+* **Instante en el que inicia:** 0:10 min  
+* **Duración de la entrevista:** 07:45 min  
+* **URL:** [https://goo.su/c7RNR](https://goo.su/c7RNR) 
+
+**Resumen:** Gabriel posee un perfil sumamente analítico, donde la lógica financiera prevalece sobre cualquier apego emocional hacia su vehículo. Al trabajar bajo una modalidad 100% remota, percibe su auto como un activo de capital subutilizado que genera gastos de mantenimiento y depreciación sin retorno. Su enfoque es puramente transacional; busca una plataforma que funcione con la precisión de un sistema bancario, eliminando cualquier interacción social innecesaria y centrándose en la seguridad jurídica y mecánica.
+
+**Personalidad y Comportamiento:**
+
+* **Pragmático y radical:** Posee una "cero tolerancia" al error operativo. "Si el arrendatario no sabe usar caja automática o confunde los fluidos, prefiero mil veces que mi auto siga juntando polvo en la cochera".  
+* **Desapego emocional:** A diferencia del usuario promedio, no ve el auto como una extensión de su personalidad, sino como una herramienta de flujo de caja. Su comunicación es fría, directa y orientada a cláusulas.  
+* **Obsesión por el control:** Necesita saber exactamente qué está pasando con su propiedad. No busca "hacer amigos" en la app, busca usuarios que cumplan contratos.
+
+**Tecnología y Canales de Interacción:**
+
+* **Power User de Android:** Utiliza un Xiaomi de gama media-alta y personaliza sus capas de seguridad. No instala apps que no tengan una política de privacidad clara.  
+* **Navegador:** Google Chrome es su centro de comando. Lo utiliza para validar la legalidad de cualquier plataforma y realizar consultas en tiempo real en las bases de datos de Sunat y Sunarp: "Antes de registrarme, Googleo quiénes están detrás de la startup".  
+* **Ecosistema Digital:** Prefiere las billeteras digitales y los pagos automáticos; odia el uso de efectivo por la falta de trazabilidad.
+
+**Confianza y Seguridad:**
+
+* **Confianza basada en Datos (Big Data):** Para él, un DNI físico es insuficiente y fácilmente falsificable. "No me sirve un documento, quiero ver un historial de comportamiento digital, LinkedIn verificado y biometría".  
+* **Seguridad predictiva:** Su disposición al alquiler sube un 100% si el sistema garantiza una validación biométrica facial antes de entregar las llaves.
+
+**Hallazgos clave para arquetipo:**
+
+* **Necesidad técnica:** Requiere un panel de telemetría en la app (control de velocidad, frenados bruscos y ubicación GPS).  
+* **Valor agregado:** Valora la facturación automática para sus declaraciones de impuestos y los contratos digitales con firma biométrica que lo blinden ante multas ajenas.  
+
+**Entrevistado 2: Ana Monroy**  
+
+* **Edad:** 23 años  
+* **Ocupación:** Administradora de MYPE (Agencia de Alquiler local)  
+* **Distrito:** Surquillo  
+* **Dispositivos utilizados:** Samsung Galaxy A54 (Android)  
+* **Navegador habitual:** Google Chrome
+
+  **Figura 5**  
+  *Entrevista \#2 para WheelsPe*
+
+  *![entrevista2](https://i.imgur.com/Jw6RpEa.png)*
+
+* **Instante en el que inicia:** 8:01 min  
+* **Duración de la entrevista:** 09:56 min  
+* **URL:** [https://goo.su/c7RNR](https://goo.su/c7RNR) 
+
+**Resumen:** Ana representa la voz de la experiencia en el rubro de alquiler tradicional que se siente amenazada por la informalidad digital. Gestiona una flota de 5 vehículos mediante procesos manuales que ya no escalan. Su narrativa está marcada por el "trauma del fraude"; ha sido víctima de estafas con depósitos bancarios falsos y devoluciones de vehículos en mal estado, lo que la hace extremadamente cautelosa y exigente con los filtros de entrada de cualquier plataforma nueva.
+
+**Personalidad y Comportamiento:**
+
+* **Resiliente y escéptica:** Es una mujer directa que ha aprendido "a las malas" a leer a los clientes. "Prefiero tener un auto parado y perder la ganancia del día que alquilárselo a alguien que no tiene un perfil profesional verificable".  
+* **Calidad sobre cantidad:** No le interesa el volumen masivo de alquileres, sino la recurrencia de clientes "triple A" (profesionales o universitarios de confianza).  
+* **Protectora del activo:** Ve cada golpe en el auto como un golpe a su patrimonio familiar.
+
+**Tecnología y Canales de Interacción:**
+
+* **Mobile Office:** Su Samsung es su oficina principal. Utiliza Android por la facilidad para organizar archivos de contratos y fotos de los vehículos.  
+* **Navegador:** Chrome es su herramienta de fiscalización. Tiene siempre abiertas pestañas de deudas de papeletas (SAT), récord del conductor y gravámenes vehiculares.  
+* **Canales informales:** Actualmente usa grupos de Facebook, pero los desprecia por la baja calidad de los leads: "Hay gente que se crea perfiles ayer y hoy quiere que le dé un auto de  20,000".
+
+**Confianza y Seguridad:**
+
+* **Filtros institucionales:** Exige que la aplicación actúe como un filtro legal. "Si la app no tiene un filtro de antecedentes penales y judiciales activo y actualizado, para mí es solo otro grupo de Facebook".  
+* **Pagos garantizados:** Busca un sistema que retenga la garantía de forma segura sin que ella tenga que lidiar con billetes falsos o transferencias que luego son revertidas.
+
+**Hallazgos clave para arquetipo:**
+
+* **Necesidad técnica:** Requiere una herramienta **SaaS integrada** que le permita ver la rentabilidad de su flota por unidad y automatizar el cobro de garantías (Escrow).  
+* **Factor decisor:** La validación de identidad (KYC) de nivel bancario es la única razón por la que migraría su negocio a WheelsPe.  
+
+**Entrevistado 3: Alex Avila**  
+
+* **Edad:** 21 años  
+* **Ocupación:** Estudiante de Ingeniería de Sistemas \+ Diseñador Freelance  
+* **Distrito:** Santiago de Surco  
+* **Dispositivos utilizados:** Motorola Edge 40 (Android)  
+* **Navegador habitual:** Google Chrome
+  
+  
+  **Figura 6**
+
+  *Entrevista \#3 para WheelsPe*
+  
+  **![entrevista3](https://i.imgur.com/uKbFxSl.png)**
+
+* **Instante en el que inicia:** 18:02 min  
+* **Duración de la entrevista:** 03:43 min  
+* **URL:** [https://goo.su/c7RNR](https://goo.su/c7RNR)
+
+**Resumen:** Alex es un joven pragmático que ve su vehículo (un Toyota Yaris 2024\) como una herramienta financiera antes que un simple medio de transporte. Su motivación es 100% económica: generar ingresos pasivos que cubran la mensualidad de su universidad y el mantenimiento del auto, ya que gran parte de la semana se desplaza en transporte público o bicicleta para evitar el tráfico. A diferencia de un usuario mayor, Alex no teme a la tecnología, pero sí a la ineficacia de los procesos de validación actuales.
+
+**Personalidad y Comportamiento:**
+
+* **Tecnológico y crítico:** Valora la automatización. "Si tengo que llenar un formulario a mano, el servicio ya nació muerto".  
+* **Minucioso con el activo:** Al ser un auto nuevo, le obsesiona el estado estético. "No es solo que no lo choquen, es que no fumen dentro ni dejen restos de comida; el olor impregna la tapicería y eso baja el valor de reventa".  
+* **Directo:** Prefiere chats rápidos y eficientes. No le gusta la "negociación" informal; prefiere precios fijos y reglas claras.
+
+**Tecnología y Canales de Interacción:**
+
+* **Android Power User:** Utiliza su Motorola para todo, desde gestionar sus diseños hasta monitorear su cuenta bancaria. Prefiere Android por la libertad de integrar widgets de seguimiento.  
+* **Navegador:** Usa Chrome sincronizado con su PC de diseño para revisar perfiles y antecedentes de posibles arrendatarios de forma rápida.  
+* **Canales informales:** Ha intentado usar grupos de Facebook, pero los abandonó por la "poca seriedad" de los perfiles y el spam de bots.
+
+**Confianza y Seguridad:**
+
+* **Validación Digital:** Confía en los datos. Para él, un perfil con LinkedIn vinculado y verificación facial (biometría) es el estándar mínimo de seguridad.  
+* **Reputación en Red:** "Si alguien tiene 3 estrellas, ni siquiera le contesto. En esta generación, tu reputación digital es tu mejor carta de garantía".
+
+**Hallazgos clave para arquetipo:**
+
+* **Necesidad técnica:** Sistema de reporte de daños mediante fotos en tiempo real (antes y después) para evitar disputas de "ya estaba así".  
+* **Valor agregado:** Registro automático de multas. Quiere que la app le notifique si el arrendatario cometió una infracción mientras tenía el auto.  
+
+**Entrevistado 4: David Gallo**  
+
+* **Edad:** 24 años  
+* **Ocupación:** Inversionista de Flota (3 vehículos)  
+* **Distrito:** Magdalena  
+* **Dispositivos utilizados:** Google Pixel 8 (Android)  
+* **Navegador habitual:** Google Chrome
+
+  **Figura 7**
+
+  *Entrevista \#4 para WheelsPe*
+  
+  **![entrevista4](https://i.imgur.com/ouFuqTh.png)**
+
+* **Instante en el que inicia:** 21:51 min  
+* **Duración de la entrevista:** 03:15 min  
+* **URL:** [https://goo.su/c7RNR](https://goo.su/c7RNR) 
+
+**Resumen:** David representa al perfil del "Power Provider" dentro de la plataforma. A diferencia de los propietarios particulares que ven el alquiler como un ingreso extra ocasional, David tiene un enfoque **puramente orientado al negocio y a la optimización de activos**. Como inversionista joven y nativo digital, ve a sus vehículos como *commodities* o máquinas de generar flujo de caja. No posee ningún vínculo emocional con sus unidades; su prioridad absoluta es maximizar el **ROI (Retorno de Inversión)** y reducir a cero el "tiempo muerto" de sus autos. Es un usuario sumamente exigente con la estabilidad del software, pues penaliza cualquier fallo técnico o proceso de validación lento que le haga perder una oportunidad de alquiler.
+
+**Personalidad y Comportamiento:**
+
+* **Competitivo y orientado a métricas:** Su lenguaje es netamente financiero. Evalúa el éxito de su día en función de la tasa de ocupación de su flota. "Quiero que la app me dé data en tiempo real: cuánto gano por cada hora que el auto está en la calle; si el ratio no es rentable, muevo mi inversión a otro sector".  
+* **Impaciente y Eficiente:** Valora la inmediatez por encima de la cortesía. Considera que los procesos manuales (como validar documentos por WhatsApp) son cuellos de botella que impiden el crecimiento. Si un proceso de pago tarda más de lo esperado, su nivel de frustración aumenta drásticamente.  
+* **Pragmático:** No busca socializar ni generar vínculos de amistad con los arrendatarios. Su único interés es que el sistema garantice que la transacción sea segura, el pago se realice sin fricciones y el vehículo regrese en óptimas condiciones operativas.
+
+**Tecnología y Canales de Interacción:**
+
+* **Geek de Android (Power User):** Utiliza un Google Pixel 8 por la fluidez de la experiencia "Stock Android". Es propenso a probar versiones beta de aplicaciones y utiliza herramientas de automatización para gestionar sus finanzas.  
+* **Monitoreo Constante:** Google Chrome es su ventana comparativa fundamental. Lo utiliza para realizar *benchmarking* constante de precios de agencias tradicionales (Budget, Hertz) y otras plataformas informales para ajustar sus tarifas en tiempo real.  
+* **Ecosistema Fintech:** Domina las billeteras digitales (Yape, Plin) y prefiere cualquier método de pago que sea instantáneo. Odia el manejo de efectivo y los depósitos en cuenta que no se reflejan de inmediato.
+
+**Confianza y Seguridad:**
+
+* **Respaldo Institucional vs. Personal:** Para David, la confianza no reside en "la buena cara" del usuario, sino en el respaldo legal de WheelsPe. "Yo pago la comisión de la app no solo por el contacto, sino porque espero que la plataforma me defienda legalmente y ejecute las garantías si el cliente comete una negligencia".  
+* **Seguridad Contractual Automatizada:** Valora críticamente que la plataforma gestione toda la documentación (contratos, términos de servicio y seguros) de forma automática y digital, eliminando el uso de papel o firmas presenciales.
+
+**Hallazgos clave para arquetipo (Insights):**
+
+* **Necesidad Técnica Crítica:** Desea una integración profunda con sistemas de **pago inmediato** y, sobre todo, una función de **"precios dinámicos"** (Surge Pricing) que le permita elevar sus tarifas automáticamente durante fines de semana, feriados o eventos de alta demanda.  
+* **Gestión Centralizada:** Requiere un **Dashboard de Analítica de Flota** que le permita gestionar sus 3 (o más) vehículos desde una sola sesión, permitiéndole ver el estado mecánico y financiero de cada unidad de forma individualizada.  
+* **Factor Decisor:** Migraría su flota completa a WheelsPe solo si la app le garantiza un proceso de validación de identidad (KYC) que no tome más de 5 minutos, permitiéndole cerrar tratos "al paso".
+
+**Segmento objetivo \#2: Usuarios de Movilidad**
+
+**Entrevistado 5: Alisa Goicochea**
+
+* **Edad:** 21 años  
+* **Ocupación:** Estudiante de Arquitectura (7mo ciclo) \+ Ilustradora Freelance  
+* **Distrito:** Santiago de Surco  
+* **Dispositivos utilizados:** Samsung Galaxy A54 (Android)  
+* **Navegador habitual:** Google Chrome
+
+  **Figura 8**
+
+  *Entrevista \#5 para WheelsPe*
+  
+  **![entrevista5](https://i.imgur.com/ofpjuRT.png)**
+
+* **Instante en el que inicia:** 25:12 min  
+* **Duración de la entrevista:** 03:54 min  
+* **URL:** [https://goo.su/c7RNR](https://goo.su/c7RNR) 
+
+**Resumen:** Alisa es una usuaria cuya movilidad está condicionada por la vulnerabilidad de sus herramientas de estudio. Como estudiante de arquitectura, el traslado de maquetas a escala y paneles es una tarea crítica; considera que el transporte público masivo es "zona de guerra" para sus proyectos. Esto la ha forzado a depender de "jalones" en WhatsApp, una solución que le genera un estado de ansiedad constante debido a la falta de garantías y la informalidad de los conductores.
+
+**Personalidad y Comportamiento:**
+
+* **Vigilante y metódica:** Posee protocolos de seguridad defensivos. "Apenas subo al auto, llamo a mi mamá o hablo fuerte por celular para que el chofer sepa que alguien tiene mi ubicación".  
+* **Nivel de exigencia alto con la puntualidad:** Al manejar entregas finales con horarios inamovibles en la UPC, no perdona los retrasos. "He llegado a llorar de frustración porque un jalón me canceló 10 minutos antes de una crítica de taller".  
+* **Solidaridad selectiva:** Confía en el "uniforme invisible". Siente que si alguien estudia en su misma universidad o facultad, el riesgo de agresión o robo disminuye significativamente.
+
+**Tecnología y Canales de Interacción:**
+
+* **Fidelidad a Android:** Utiliza su Samsung no solo para comunicarse, sino como visor de planos y portafolio digital. Prefiere Chrome por la sincronización con sus cuentas de la universidad.  
+* **Fatiga de WhatsApp:** Describe los grupos de transporte compartido como "un caos tóxico". Odia tener 500 mensajes sin leer y tener que "cazar" un sitio en segundos: "Si parpadeas, te quedaste sin viaje".  
+* **Investigación previa:** Antes de subir a un auto coordinado por redes, intenta buscar el perfil del conductor en Google para ver si es una persona real, aunque admite que es un proceso ineficiente.
+
+**Confianza y Seguridad:**
+
+* **Escéptica de la informalidad:** Es consciente de que los grupos de WhatsApp son "tierra de nadie". "Si te pasa algo, el administrador del grupo solo borra al tipo y ya, no hay justicia".  
+* **Las reseñas como sistema de defensa:** Considera que el historial de comentarios es vital. "Si alguien dice 'manejó brusco' o 'fue irrespetuoso', lo bloqueo de inmediato. Mi seguridad no tiene precio".  
+* **Deseo de trazabilidad:** Valora la tecnología GPS por encima de la comodidad del auto. Quiere que sus padres puedan ver su ruta en tiempo real sin tener que estar enviando capturas de pantalla manualmente.
+
+**Hallazgos clave para arquetipo:**
+
+* **Necesidad crítica:** Requiere una plataforma que centralice la identidad validada (KYC) y ofrezca un **Botón de Pánico** nativo.  
+* **Elasticidad de precio:** Está dispuesta a pagar hasta un **20% de sobreprecio** en comparación con los "jalones" informales, siempre que la app le garantice viajar exclusivamente con miembros verificados de la comunidad UPC.  
+* **Valor agregado:** Prioriza la paz mental y la integridad de sus maquetas sobre el lujo del vehículo; busca certeza y seguridad de género (opción de viajar solo con mujeres).  
+  
+
+**Entrevistado 6: Paul Espinoza**  
+
+* **Edad:** 28 años  
+* **Ocupación:** Consultor de Negocios (Especialista en Estrategia)  
+* **Distrito:** Miraflores  
+* **Dispositivos utilizados:** Xiaomi 13 Ultra (Android)  
+* **Navegador habitual:** Google Chrome
+
+  **Figura 9**  
+  *Entrevista \#6 para WheelsPe*
+
+  *![entrevista6](https://i.imgur.com/uKvYa8v.png)*
+
+* **Instante en el que inicia:** 29:11 min  
+* **Duración de la entrevista:** 11:01 min  
+* **URL:** [https://goo.su/c7RNR](https://goo.su/c7RNR)
+
+**Resumen:** Paul es un ejecutivo orientado a la optimización de recursos y la gestión de la imagen profesional. Alisa su logística diaria alquilando vehículos para asistir a reuniones con clientes corporativos, pero percibe el costo del alquiler individual como una ineficiencia financiera. Para él, el vehículo es una extensión de su oficina y una herramienta de representación; por ello, la limpieza y el estado estético de la unidad no son negociables.
+
+**Personalidad y Comportamiento:**
+
+* **Exigente y directo:** Su tiempo tiene un alto valor monetario. "Si el auto tiene los asientos sucios o huele mal, me malogra la imagen con mi cliente y eso es una falta de respeto a mi contrato".  
+* **Negociador nato:** Busca constantemente el "win-win". No ve el carpooling como una carencia, sino como una oportunidad de *networking* o de amortizar su inversión: "Si puedo vender mis asientos vacíos a gente de mi rubro, el alquiler me sale gratis y gano contactos".  
+* **Pragmático:** No le interesan las funciones sociales innecesarias en una app; quiere procesos de reserva que se completen en menos de tres clics.
+
+**Tecnología y Canales de Interacción:**
+
+* **Fidelidad a la potencia:** Usa un Xiaomi de gama alta por la versatilidad de las aplicaciones de oficina y la carga rápida. Android es su aliado para la multitarea corporativa.  
+* **Navegador:** Chrome es su principal herramienta de investigación secundaria. Antes de cerrar cualquier reserva, busca el perfil de LinkedIn de los propietarios para validar su trayectoria: "Si el dueño no parece alguien profesional, prefiero buscar otro auto".  
+* **Billetera Digital:** Evita a toda costa el uso de efectivo. Prefiere que todos los pagos, incluyendo la división de gastos con otros pasajeros, se gestionen de forma automática y digital.
+
+**Confianza y Seguridad:**
+
+* **Validación Corporativa:** Su confianza se basa en el entorno laboral. "Si la app me indica que el conductor o el pasajero trabaja en el mismo centro empresarial o edificio que yo, confío plenamente".  
+* **Seguridad de Reputación:** Se guía por las calificaciones de usuarios de su mismo rango de edad y ocupación.
+
+**Hallazgos clave para arquetipo:**
+
+* **Necesidad crítica:** Requiere la función de **Carpooling integrada** de manera nativa para publicar rutas de trabajo y recuperar el costo del arrendamiento.  
+* **Valor agregado:** Busca la opción de "Facturación Automática" y "Reservas Inmediatas" para no depender de la aprobación manual del dueño.
+  
+
+**Entrevistado 7: Daniela Gómez**
+
+* **Edad:** 19 años  
+* **Ocupación:** Estudiante de Diseño Gráfico (4to ciclo)  
+* **Distrito:** Surco  
+* **Dispositivos utilizados:** Motorola G84 (Android)  
+* **Navegador habitual:** Google Chrome
+
+  **Figura 10**  
+  *Entrevista \#7 para WheelsPe*
+
+  *![entrevista7](https://i.imgur.com/mg7jCEw.png)*
+
+* **Instante en el que inicia:** 40:17 min  
+* **Duración de la entrevista:** 11:58 min  
+* **URL:** [https://goo.su/c7RNR](https://goo.su/c7RNR) 
+
+**Resumen:** Daniela representa a la generación "Always On" que vive y se comunica a través de lenguajes visuales. Como estudiante de diseño, es sumamente sensible a la estética de las interfaces y a la veracidad visual de la información. Debido a sus horarios universitarios nocturnos, se ve forzada a usar transporte compartido por economía, pero lo hace bajo una carga de estrés constante debido a la vulnerabilidad que percibe en los canales informales.
+
+**Personalidad y Comportamiento:**
+
+* **Introvertida y vigilante:** No suele iniciar conversaciones, pero es una observadora aguda de los detalles de seguridad. "Me fijo en cómo me habla el conductor por chat; si usa demasiadas jergas o es muy confianzudo, ya me parece peligroso".  
+* **Autoprotección activa:** Ha desarrollado protocolos de supervivencia digital. "Mando mi ubicación en tiempo real a mis 5 mejores amigas por si acaso; es triste, pero es mi realidad para poder volver a casa tranquila".  
+* **Sensibilidad visual:** Juzga la confiabilidad de una persona por la calidad de sus fotos: "Un perfil sin foto o con una imagen de Google me genera rechazo inmediato".
+
+**Tecnología y Canales de Interacción:**
+
+* **Consumo Visual:** Todo su mundo pasa por el móvil. Usa Android por la facilidad de personalización de sus widgets de seguridad y apps de diseño.  
+* **Navegador:** Chrome es su ventana para leer reseñas cualitativas. Busca blogs y comentarios de otras mujeres sobre servicios de transporte para identificar "red flags".  
+* **Canales:** Actualmente "atrapada" en grupos de Facebook y WhatsApp por falta de alternativas, aunque los describe como desorganizados e inseguros.
+
+**Confianza y Seguridad:**
+
+* **Validación Visual Obligatoria:** "Si no veo una foto real y un video corto de identidad verificado por la app, no me subo". Confía ciegamente en las insignias de "Conductor Seguro" o "Identidad Verificada".  
+* **Comunidad como filtro:** Siente que los grupos informales son "tierra de nadie". Necesita que la app le garantice que el conductor es parte de una comunidad institucional (universitaria o corporativa).
+
+**Hallazgos clave para arquetipo:**
+
+* **Necesidad crítica:** Valora los filtros de **"Solo mujeres"** o **"Comunidad universitaria verificada"** como el único factor que la haría borrar definitivamente sus grupos de WhatsApp.  
+* **Valor agregado:** Requiere una interfaz limpia, intuitiva y visualmente atractiva que transmita profesionalismo y calma desde el primer contacto.  
+
+**Entrevistado 8: Mathías Santiago**  
+
+* **Edad:** 21 años  
+* **Ocupación:** Estudiante de Ingeniería de Inteligencia Artificial (7mo ciclo) \+ Practicante de Consultoría de Datos.  
+* **Distrito:** Santiago de Surco  
+* **Dispositivos utilizados:** Samsung Galaxy Z Fold 5 (Android)  
+* **Navegador habitual:** Google Chrome
+
+  **Figura 11**
+
+  *Entrevista \#8 para WheelsPe*
+  
+  **![image19](https://i.imgur.com/B7qkEuG.png)**
+
+* **Instante en el que inicia:** 52:21 min  
+* **Duración de la entrevista:** 03:51 min  
+* **URL:** [https://goo.su/c7RNR](https://goo.su/c7RNR)
+
+**Resumen:** Mathias representa al usuario de alto rendimiento que divide su tiempo entre la exigencia académica de la **Ingeniería de IA** y sus primeras responsabilidades en el sector corporativo de San Isidro. Para él, la movilidad no es un traslado, sino un espacio de productividad y transición mental. Valora la **eficiencia operativa** y el aprovechamiento del tiempo por encima del ahorro marginal. Considera que el transporte público de Lima es un entorno de "alta fricción" que drena su energía antes de llegar a sus metas, y ve en **WheelsPe** un ecosistema que garantiza el estándar de comodidad y formalidad necesario para su ritmo de vida profesional y académico.
+
+**Personalidad y Comportamiento:**
+
+* **Pragmático y selectivo:** Su enfoque es la optimización de procesos. "Mi tiempo de traslado es mi tiempo de lectura o planificación; prefiero viajar en silencio con alguien que trabaje en mi zona o estudie en mi facultad que lidiar con la aleatoriedad de un taxi de la calle".  
+* **Enfoque en comunidad profesional/académica:** Posee un sesgo de confianza hacia sus pares institucionales. Se siente más cómodo compartiendo el espacio con personas que tengan un estilo de vida similar, valorando la puntualidad extrema y el respeto al espacio personal (especialmente el silencio o la música tenue durante el trayecto).  
+* **Orientado a la trazabilidad:** Necesita tener el control de sus gastos de movilidad. Le genera rechazo el regateo de precios o el uso de efectivo, prefiriendo procesos 100% automatizados y digitales.
+
+**Tecnología y Canales de Interacción:**
+
+* **Productividad Móvil Extrema:** Al utilizar un **Samsung Galaxy Z Fold 5**, aprovecha la pantalla extendida para revisar reportes de datos, código y correos durante el viaje. Android es su ecosistema por la capacidad de multitarea real y la integración nativa con herramientas de **Google Workspace**.  
+* **Sincronización Total:** Utiliza **Google Chrome** sincronizado entre su smartphone y su laptop de desarrollo. No utiliza redes sociales de ocio (como TikTok o Facebook) por considerarlas distracciones de baja señal; su único canal de validación social es **LinkedIn**, el cual utiliza para verificar la trayectoria de las personas con las que interactúa.  
+* **Early Adopter de IA:** Está interesado en cómo la inteligencia de la aplicación puede predecir sus rutas habituales basándose en su comportamiento previo.
+
+**Confianza y Seguridad:**
+
+* **Validación Institucional:** Su modelo de confianza es jerárquico y validado por nodos de confianza. "Si la plataforma me garantiza que el conductor es un egresado de mi universidad o un colaborador de una empresa reconocida, mi nivel de desconfianza desaparece".  
+* **Seguridad por Datos:** Confía en los sistemas de pago vinculados y la trazabilidad GPS del servicio. "La seguridad para mí es que el sistema sepa exactamente con quién estoy y por dónde voy, permitiéndome concentrarme en mi trabajo sin preocuparme por el entorno".
+
+**Hallazgos clave para arquetipo (Insights):**
+
+* **Necesidad Estratégica:** Busca la opción de **"Suscripción de ruta"** o viajes recurrentes. Desea asegurar un cupo diario con el mismo grupo de conductores confiables de su zona para eliminar la incertidumbre logística de sus mañanas.  
+* **Valor Agregado de Ingeniería:** Requiere **integración nativa con calendarios (Google Calendar)** para que sus viajes se programen automáticamente según sus horarios de clase o reuniones de oficina.  
+* **Formalidad Financiera:** Valora la generación de comprobantes digitales detallados que le permitan llevar un control de presupuesto personal preciso.
+
 ### 2.2.3. Análisis de Entrevistas 
 
+Esta sección presenta un análisis sistemático y detallado de los hallazgos obtenidos mediante las técnicas de recolección de datos (entrevistas a profundidad y encuestas digitales). El objetivo es triangular la información cualitativa de los 8 entrevistados con la data cuantitativa de las 41 respuestas totales (n=21 para proveedores y n=20 para usuarios), estableciendo una base sólida de evidencia empírica para el diseño de la solución WheelsPe.
+
+**Segmento \#1: Proveedores de Vehículos**
+
+Este segmento está compuesto por propietarios particulares y gestores de micro-flotas que buscan rentabilizar sus activos. Los datos revelan un perfil con alta aversión al riesgo pero con una fuerte inclinación hacia la digitalización si se garantiza la seguridad mecánica y legal.
+
+| Característica | Valor Estadístico | Fuente |
+| ----- | ----- | ----- |
+| **Ocupación predominante** | Independiente (57.1%) / Dueño de MYPE (23.8%) | Encuesta (n=21) |
+| **Dispositivo móvil principal** | Smartphone Android (57.1%) | Encuesta (n=21) |
+| **Navegador de gestión** | Google Chrome (56.3%) | Encuesta (n=16) |
+| **App de coordinación** | WhatsApp (33.3%) y Facebook (28.6%) | Encuesta (n=21) |
+| **Marcas de confianza** | Toyota (60%) y Kia (40%) | Encuesta (n=20) |
+| **Canal de información** | Grupos de Facebook (28.6%) y YouTube (19%) | Encuesta (n=21) |
+| **Mayor temor** | Daños mecánicos ocultos (50%) | Encuesta (n=20) |
+| **Disposición al pago** | Muy alta \- Nivel 5 de 5 (44.4%) | Encuesta (n=18) |
+
+**Figura 12**  
+*Ocupación profesional de los proveedores encuestados*  
+**![Gráfico de las respuestas de Formularios. Título de la pregunta:   ¿A qué te dedicas profesionalmente?  . Número de respuestas: 21 respuestas.](https://i.imgur.com/goeqpDb.png)**  
+*Nota.* Elaboración propia. Resultados de la encuesta realizada al segmento de proveedores de vehículos (n=21) sobre su situación laboral actual.
+
+**Figura 13**
+
+*Dispositivo tecnológico de uso más frecuente*  
+**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Qué dispositivo usas con más frecuencia?. Número de respuestas: 21 respuestas.](https://i.imgur.com/4N9dTpM.png)**  
+*Nota.* Elaboración propia. Distribución de los dispositivos tecnológicos principales utilizados en el día a día por los encuestados (n=21).
+
+**Figura 14**
+
+*Navegador web de preferencia para la búsqueda de servicios*  
+**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Cuál es tu navegador de preferencia al buscar servicios o rutas?. Número de respuestas: 16 respuestas.](https://i.imgur.com/7aCQdsL.png)**  
+*Nota.* Elaboración propia. Preferencia de navegadores web utilizados por la muestra encuestada para gestionar información o rutas (n=16).
+
+**Figura 15**
+
+*Aplicaciones y canales preferidos para la gestión de servicios*
+
+**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Qué apps o navegadores prefieres usar para gestionar cosas importantes (como publicar o buscar servicios)? (  . Número de respuestas: 21 respuestas.](https://i.imgur.com/zudPaWl.png)**  
+*Nota.* Elaboración propia. Principales aplicaciones y plataformas digitales que los proveedores prefieren utilizar para coordinar servicios y publicaciones (n=21).
+
+**Figura 16**
+
+*Nivel de confianza en marcas de vehículos para el alquiler*  
+**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Qué marcas de autos confías más para alquilar (si tuvieras que elegir)?. Número de respuestas: 20 respuestas.](https://i.imgur.com/a2tn9pS.png)**  
+*Nota.* Elaboración propia. Marcas de automóviles que generan mayor percepción de seguridad y confianza entre los encuestados al momento de alquilar (n=20). Se permitieron respuestas múltiples.
+
+**Figura 17**
+
+*Canales digitales empleados para buscar información y resolver dudas*
+
+**![Gráfico de las respuestas de Formularios. Título de la pregunta:  ¿Por qué canales digitales sueles informarte o resolver dudas sobre temas como alquiler de autos, seguros o plataformas?  . Número de respuestas: 21 respuestas.](https://i.imgur.com/agKQzzD.png)**  
+*Nota.* Elaboración propia. Distribución de las plataformas y medios digitales que utilizan los encuestados para informarse sobre temas relacionados al alquiler de vehículos y seguros (n=21).
+
+**Figura 18**
+
+*Principales temores de los propietarios al entregar su vehículo a un tercero*  
+**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Qué es lo que más te genera temor al entregar las llaves de tu auto a un tercero?. Número de respuestas: 20 respuestas.](https://i.imgur.com/ehZpBrH.png)**  
+*Nota.* Elaboración propia. Representación porcentual de los principales miedos y preocupaciones que perciben los proveedores al momento de alquilar su auto (n=20).
+
+**Figura 19**
+
+*Disposición al pago de comisiones a cambio de seguridad KYC y respaldo operativo*  
+**![Gráfico de las respuestas de Formularios. Título de la pregunta:  ¿Qué tan dispuesto estarías a pagar una comisión por cada reserva exitosa si WheelsPe garantiza el filtrado de identidad (KYC) y ofrece respaldo operativo ante incidencias?  . Número de respuestas: 18 respuestas.](https://i.imgur.com/wsmmrOZ.png)**  
+*Nota.* Elaboración propia. Nivel de disposición de los encuestados (en una escala del 1 al 5, donde 5 representa una disposición muy alta) para pagar una comisión por transacción si la plataforma garantiza el filtrado de identidad y soporte ante incidencias (n=18).
+
+**Características Objetivas**
+
+| Característica | Descripción | Relación con Entrevistas |
+| ----- | ----- | ----- |
+| **Ecosistema Android y Chrome** | El 57.1 % de los proveedores utiliza Android y el 56.3 % Chrome para sus actividades de negocio. | Se alinea con **Gabriel Borja** y **Ana Monroy**, quienes gestionan flotas y servicios desde dispositivos Xiaomi y Samsung. |
+| **Dependencia de Redes Sociales** | El 33.3 % usa WhatsApp y el 28.6 % Facebook para publicar y captar clientes. | **David Gallo** mencionó que su visibilidad depende enteramente de grupos de Facebook, lo cual es ineficiente. |
+| **Trauma por Experiencias Previas** | El 70 % ha tenido experiencias negativas propias y un 20 % mediante terceros. | **Ana Monroy** describió su "trauma del fraude" por estafas previas con depósitos falsos. |
+| **Fricción en Daños y Multas** | El 72.2 %  reporta daños mecánicos no informados y el 55.6 % multas recibidas semanas después. | **Alex Avila** expresó miedo extremo a que le devuelvan el auto con fallas mecánicas no detectables al momento. |
+| **Preferencia de Marcas** | Toyota lidera con un 60 %  de confianza por su valor de reventa y durabilidad. | **Alex Avila** posee un Toyota Yaris y lo ve como una herramienta financiera que debe protegerse. |
+
+**Figura 20**
+
+*Dispositivo tecnológico de uso más frecuente*  
+**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Qué dispositivo usas con más frecuencia?. Número de respuestas: 21 respuestas.](https://i.imgur.com/1nAzR5L.png)**  
+*Nota.* Elaboración propia. Distribución de los dispositivos tecnológicos principales utilizados en el día a día por los encuestados (n=21).
+
+**Figura 21**
+
+*Aplicaciones y canales preferidos para la gestión de servicios*  
+**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Qué apps o navegadores prefieres usar para gestionar cosas importantes (como publicar o buscar servicios)? (  . Número de respuestas: 21 respuestas.](https://i.imgur.com/J3sk6dR.png)**  
+*Nota.* Elaboración propia. Principales aplicaciones y plataformas digitales que los proveedores prefieren utilizar para coordinar servicios y publicaciones (n=21).
+
+**Figura 22**
+
+*Incidencia de experiencias negativas en el alquiler informal de vehículos*  
+**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Has tenido o conoces de alguien cercano que haya tenido una experiencia negativa relacionada con el alquiler informal de vehículos?. Número de respuestas: 20 respuestas.](https://i.imgur.com/gm16sQ9.png)**  
+*Nota.* Elaboración propia. Porcentaje de encuestados que han experimentado directamente o conocen casos cercanos de malas experiencias al alquilar vehículos de manera informal (n=20).
+
+**Figura 23**
+
+*Principales problemas enfrentados durante el alquiler informal*  
+**![Gráfico de las respuestas de Formularios. Título de la pregunta: En caso de haber marcado "Sí", ¿cuál fue el principal problema? (Puedes marcar varias opciones). Número de respuestas: 18 respuestas.](https://i.imgur.com/CW1bTDm.png)**  
+*Nota.* Elaboración propia. Desglose de los inconvenientes más frecuentes reportados por aquellos encuestados que tuvieron experiencias negativas previas (n=18). Se permitieron respuestas múltiples.
+
+**Figura 24**
+
+*Nivel de confianza en marcas de vehículos para el alquiler*
+
+**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Qué marcas de autos confías más para alquilar (si tuvieras que elegir)?. Número de respuestas: 20 respuestas.](https://i.imgur.com/mUGsbsq.png)**  
+*Nota.* Elaboración propia. Marcas de automóviles que generan mayor percepción de seguridad y confianza entre los encuestados al momento de alquilar (n=20). Se permitieron respuestas múltiples.
+
+**Características Subjetivas**
+
+| Característica | Descripción | Relación con Entrevistas |
+| ----- | ----- | ----- |
+| **Confianza sujeta a Garantías** | El 52.4 %  solo confía en el alquiler si existe una garantía real de por medio. | **Gabriel Borja** tiene un enfoque puramente transaccional; sin garantía digital, no cede el activo. |
+| **Necesidad de Control Digital** | El 50 % considera "Indispensable" un Dashboard integrado en la App para su control diario. | **David Gallo** requiere métricas en tiempo real para evaluar el ROI de sus 3 vehículos. |
+| **Valoración del Seguro sobre el KYC** | El 45 % prioriza un seguro contra todo riesgo gestionado por la App sobre la biometría (10 %). | Los proveedores temen más al costo de reparación que a la identidad, asumiendo que el seguro cubre el riesgo mayor. |
+| **Búsqueda de Profesionalismo** | Los dueños de MYPE buscan una alternativa a la informalidad de los grupos de WhatsApp. | **Ana Monroy** busca migrar a una plataforma que actúe como un filtro legal formal. |
+
+**Figura 25**
+
+*Actitud y nivel de confianza al prestar un activo de alto valor*  
+**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Cómo describirías tu personalidad cuando se trata de prestar algo valioso (como tu auto)?. Número de respuestas: 21 respuestas.](https://i.imgur.com/VuXn1E4.png)**  
+*Nota.* Elaboración propia. Percepción de los encuestados sobre su disposición a prestar su vehículo y la necesidad estricta de contar con garantías (n=21).
+
+**Figura 26**
+
+*Valoración de un panel de control digital (Dashboard) integrado*  
+**![Gráfico de las respuestas de Formularios. Título de la pregunta:  ¿Qué tan valioso consideras contar con un panel digital (Dashboard) integrado en la App para gestionar tu calendario, reservas activas e historial de ingresos?  . Número de respuestas: 20 respuestas.](https://i.imgur.com/HuMTWu0.png)**  
+*Nota.* Elaboración propia. Nivel de importancia que los proveedores otorgan a contar con una herramienta digital centralizada para la gestión y control diario de sus vehículos (n=20).
+
+**Figura 27**
+
+*Funciones de seguridad prioritarias para motivar la publicación de vehículos*  
+**![Gráfico de las respuestas de Formularios. Título de la pregunta: De las siguientes funciones de seguridad, ¿cuál es la que más te motivaría a publicar tu vehículo hoy mismo? (Selecciona tu prioridad \#1)  . Número de respuestas: 20 respuestas.](https://i.imgur.com/wX6J8o2.png)**  
+*Nota.* Elaboración propia. Preferencia de los encuestados respecto a las medidas de seguridad, destacando la priorización del seguro contra todo riesgo (n=20).
+
+**Figura 28**
+
+*Canales digitales empleados para buscar información y resolver dudas*  
+**![Gráfico de las respuestas de Formularios. Título de la pregunta:  ¿Por qué canales digitales sueles informarte o resolver dudas sobre temas como alquiler de autos, seguros o plataformas?  . Número de respuestas: 21 respuestas.](https://i.imgur.com/WWSFbS3.png)**  
+*Nota.* Elaboración propia. Distribución de las plataformas y medios digitales que utilizan los encuestados, evidenciando la dependencia actual de canales informales que buscan reemplazar (n=21).
+
+**Hallazgos Clave del Segmento 1**
+
+* **Monetización Viable:** El 66.6 % de los proveedores tiene una disposición alta o muy alta a pagar comisión si se ofrece respaldo operativo.  
+* **Oportunidad SaaS:** Existe un vacío de herramientas profesionales; los proveedores usan Excel o cuadernos manuales (28.6 %  usa WhatsApp para "gestionar").  
+* **Foco en Seguridad Mecánica:** El sistema de "Checklist fotográfico" es la funcionalidad más demandada para mitigar el  72.2 %  de reportes de daños no informados.
+
+**Segmento \#2: Usuarios de Movilidad**
+
+Este segmento está dominado por la comunidad universitaria (50 %) y trabajadores dependientes (35 %). Su comportamiento está marcado por la búsqueda de ahorro y una desconfianza crítica hacia el transporte informal actual.
+
+**Estadísticas y Aspectos Comunes**
+
+| Característica | Valor Estadístico | Fuente |
+| ----- | ----- | ----- |
+| **Ocupación predominante** | Estudiante universitario (50 %) | Encuesta (n=20) |
+| **Ecosistema Móvil** | Empate técnico: Android (30 %) e iPhone (30 %) | Encuesta (n=20) |
+| **Navegador habitual** | Google Chrome (50 %) y Safari (25 %) | Encuesta (n=20) |
+| **Canal de búsqueda** | Grupos de Facebook (42.1 %) y YouTube (26.3 %) | Encuesta (n=19) |
+| **Perfil de consumidor** | Ahorrativo (55 %) e Investigador (25 %) | Encuesta (n=20) |
+| **Principal dificultad** | Falta de seguridad y perfiles verificados (50 %) | Encuesta (n=20) |
+| **Inseguridad percibida** | Nada seguro en viajes no validados (40 %) | Encuesta (n=20) |
+
+**Figura 29**
+
+*Ocupación profesional de los usuarios encuestados*  
+**![Gráfico de las respuestas de Formularios. Título de la pregunta:   ¿A qué te dedicas profesionalmente?  . Número de respuestas: 21 respuestas.][image37]**
+
+*Nota.* Elaboración propia. Distribución de la situación laboral o académica actual de los usuarios de movilidad encuestados (n=20).
+
+**Figura 30**
+
+*Dispositivo móvil principal utilizado en el día a día*  
+**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Qué dispositivo móvil utilizas principalmente en tu día a día?. Número de respuestas: 20 respuestas.][image38]**
+
+*Nota.* Elaboración propia. Proporción de los dispositivos y sistemas operativos (Android vs. iOS) más utilizados diariamente por los usuarios (n=20).
+
+**Figura 31**
+
+*Navegador web de preferencia para buscar servicios o rutas*  
+**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Cuál es tu navegador de preferencia al buscar servicios o rutas?. Número de respuestas: 20 respuestas.][image39]**
+
+*Nota.* Elaboración propia. Navegadores de internet preferidos por los encuestados para realizar búsquedas relacionadas con su movilidad (n=20).
+
+**Figura 32**
+
+*Canales digitales para explorar nuevas opciones de transporte*  
+**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Por qué canales digitales sueles informarte o resolver dudas sobre nuevas opciones de transporte?. Número de respuestas: 19 respuestas.][image40]**
+
+*Nota.* Elaboración propia. Medios y plataformas digitales a los que recurren los usuarios para informarse sobre alternativas de transporte compartido o alquiler (n=19).
+
+**Figura 33**
+
+*Perfil del usuario al elegir una opción de transporte o alquiler*  
+**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Cómo te definirías al momento de elegir una opción de transporte o alquiler?. Número de respuestas: 20 respuestas.][image41]**
+
+*Nota.* Elaboración propia. Autopercepción de los encuestados respecto a sus hábitos y prioridades de consumo al momento de seleccionar su medio de transporte (n=20).
+
+**Figura 34**
+
+*Principal obstáculo al buscar transporte rápido y económico*  
+**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Qué es lo que más te dificulta al intentar encontrar transporte rápido y económico hoy?. Número de respuestas: 20 respuestas.][image42]**
+
+*Nota.* Elaboración propia. Identificación de las barreras y problemas más críticos que enfrentan los usuarios al intentar coordinar sus trayectos diarios (n=20).
+
+**Figura 35**
+
+*Nivel de seguridad percibido al viajar con identidades no validadas*
+
+**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Qué tan seguro te sientes compartiendo un viaje con alguien cuya identidad no ha sido validada por una entidad formal?. Número de respuestas: 20 respuestas.][image43]**
+
+*Nota.* Elaboración propia. Grado de inseguridad que experimentan los pasajeros al compartir un viaje gestionado mediante canales informales sin verificación oficial (n=20).
+
+**Características Objetivas**
+
+| Característica | Descripción | Relación con Entrevistas |
+| ----- | ----- | ----- |
+| **Uso de Dispositivos de Gama Media/Alta** | El 30 %  usa iPhone y un 15 %  combina Android con Laptop, indicando un perfil tecnológico avanzado. | **Mathías Santiago** usa un Galaxy Z Fold 5 para trabajar durante sus trayectos. |
+| **Búsqueda de Ahorro Crítico** | El 55 % se define como "Ahorrativo", buscando la opción más barata disponible. | **Paul Espinoza** ve el alquiler individual como una ineficiencia y busca el carpooling para dividir gastos. |
+| **Fracaso de la Puntualidad** | El 40 % sufre cancelaciones frecuentes y el 50 % "pocas veces", pero el impacto es alto. | **Alisa Goicochea** mencionó haber llorado por cancelaciones antes de entregas de maquetas. |
+| **Dependencia de Grupos de Facebook** | El 42.1 % aún busca rutas en grupos de Facebook a pesar de la inseguridad. | **Daniela Gómez** usa estos grupos por necesidad económica, aunque le genera estrés constante. |
+| **Navegación Móvil Dominante** | El 50 % usa Chrome, lo que exige una aplicación web o móvil ligera y optimizada. | **Alisa** y **Mathías** sincronizan Chrome para sus estudios y trabajo de consultoría. |
+
+**Figura 36**
+
+*Dispositivo móvil principal utilizado en el día a día*  
+**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Qué dispositivo móvil utilizas principalmente en tu día a día?. Número de respuestas: 20 respuestas.][image44]**
+
+*Nota. Nota.* Elaboración propia. Proporción de los dispositivos y sistemas operativos (Android vs. iOS) más utilizados diariamente por los usuarios (n=20).
+
+**Figura 37**
+
+*Perfil del usuario al elegir una opción de transporte o alquiler*  
+**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Cómo te definirías al momento de elegir una opción de transporte o alquiler?. Número de respuestas: 20 respuestas.][image45]**
+
+*Nota.* Elaboración propia. Autopercepción de los encuestados respecto a sus hábitos y prioridades de consumo al momento de seleccionar su medio de transporte (n=20).
+
+**Figura 38**
+
+*Frecuencia de cancelaciones de viajes o reservas por parte de conductores informales*  
+**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Has tenido problemas con cancelaciones de último minuto que afectaron tus clases o trabajo?. Número de respuestas: 20 respuestas.][image46]***Nota.* Elaboración propia. Porcentaje de usuarios encuestados que experimentan cancelaciones de último minuto al utilizar opciones de transporte no reguladas, lo que representa una de las principales fricciones y causas de estrés para este segmento (n=20). 
+
+**Figura 39**
+
+*Canales digitales para explorar nuevas opciones de transporte*  
+**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Por qué canales digitales sueles informarte o resolver dudas sobre nuevas opciones de transporte?. Número de respuestas: 19 respuestas.][image47]**
+
+*Nota.* Elaboración propia. Medios y plataformas digitales a los que recurren los usuarios para informarse sobre alternativas de transporte compartido o alquiler (n=19).
+
+**Figura 40**
+
+*Navegador web de preferencia para buscar servicios o rutas*  
+**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Cuál es tu navegador de preferencia al buscar servicios o rutas?. Número de respuestas: 20 respuestas.][image48]**
+
+*Nota.* Elaboración propia. Navegadores de internet preferidos por los encuestados para realizar búsquedas relacionadas con su movilidad (n=20).
+
+**Características Subjetivas**
+
+| Característica | Descripción | Relación con Entrevistas |
+| ----- | ----- | ----- |
+| **Vulnerabilidad y Miedo** | El 75 % de los usuarios se siente "Nada seguro" o "Poco seguro" con conductores no validados. | **Alisa Goicochea** tiene protocolos defensivos como llamar a su madre apenas sube al auto. |
+| **Fidelidad Institucional** | El 50 % dejaría los grupos informales si la App garantiza una comunidad cerrada (ej. UPC). | **Daniela Gómez** confía más en el "uniforme invisible" de su misma casa de estudios. |
+| **Valoración de la Reputación** | El 35 % da mucha importancia a las reseñas, pero un 50 % la considera solo media. | Esto sugiere que la verificación oficial (DNI/Foto) es más valorada que la opinión de terceros. |
+| **Necesidad de Certeza Tecnológica** | El 45 % considera "Indispensable" la unión de Alquiler \+ Carpooling en una sola herramienta. | **Mathías Santiago** busca automatizar su rutina mediante suscripciones de viaje recurrentes. |
+
+**Figura 41**
+
+*Nivel de seguridad percibido al viajar con identidades no validadas*  
+**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Qué tan seguro te sientes compartiendo un viaje con alguien cuya identidad no ha sido validada por una entidad formal?. Número de respuestas: 20 respuestas.][image49]**  
+*Nota.* Elaboración propia. Grado de inseguridad que experimentan los pasajeros al compartir un viaje gestionado mediante canales informales sin verificación oficial (n=20).
+
+**Figura 42**
+
+*Disposición a abandonar canales informales por una comunidad verificada*  
+**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Estarías dispuesto a dejar de usar grupos informales si una App te garantiza que todos en el vehículo pertenecen a tu misma comunidad (ej. UPC)?. Número de respuestas: 20 respuestas.][image50]**  
+*Nota.* Elaboración propia. Nivel de disposición de los pasajeros encuestados para migrar de los grupos de redes sociales hacia una plataforma cerrada que garantice la validación institucional de sus miembros, reflejando el valor de la confianza comunitaria (n=20).
+
+**Figura 43**
+
+*Nivel de importancia asignado a las reseñas y calificaciones de terceros*  
+**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Qué importancia le das a poder visualizar reseñas y calificaciones de otros pasajeros antes de subir a un vehículo?. Número de respuestas: 20 respuestas.][image51]**  
+*Nota.* Elaboración propia. Nivel de importancia que los pasajeros otorgan a las reseñas. La mayoría (50%) le asigna un peso medio, evidenciando que priorizan la validación oficial de identidad frente a la opinión de terceros (n=20).
+
+**Figura 44**
+
+*Valoración de integrar alquileres y viajes compartidos en una sola aplicación*  
+**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Qué tan útil te parecería una aplicación que una el alquiler de vehículos verificados y la opción de compartir gastos mediante carpooling?. Número de respuestas: 20 respuestas.][image52]**  
+*Nota.* Elaboración propia. Nivel de importancia que los usuarios le otorgan a centralizar el alquiler y el carpooling en una única plataforma. El 45% lo considera indispensable para optimizar y automatizar su rutina de movilidad (n=20).
+
+**Hallazgos Clave del Segmento 2**
+
+* **Driver de Cambio:** El factor determinante para abandonar WhatsApp no es el precio, sino la **Validación Institucional** (50 % "Sí definitivamente").  
+* **Paz Mental vs. Lujo:** Los usuarios valoran el mapa en tiempo real y pagos digitales (75 % entre valioso y muy valioso) para evitar el riesgo del efectivo.  
+* **Nichos Específicos:** Existe una necesidad crítica de transporte seguro para objetos delicados (maquetas de **Alisa**) y entornos de networking profesional (**Mathías** y **Paul**).
 
 ## 2.3. Needfinding
 
