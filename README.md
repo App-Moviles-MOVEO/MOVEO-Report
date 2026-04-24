@@ -1,34 +1,40 @@
 # MOVEO-Report
 
 <p align="center">
-    <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
-    <strong>Ingeniería de Software</strong><br>
-    <strong>CICLO 2026-10</strong><br>
-    <strong>Aplicaciones para Dispositivos Móviles</strong><br>
-    <strong>3678</strong><br>
+    <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
+    <strong>Carrera: Ingeniería de Software</strong><br>
+    <strong>Periodo 202610</strong><br>
+    <strong>Curso: Aplicaciones para Dispositivos Móviles</strong><br>
+    <strong>Sección: 3678</strong><br>
     <strong>Profesor: David Gerardo Quevedo Velasco</strong><br>
-    <strong>Startup:</strong><br>
-    <strong>Producto: </strong><br>
     <strong>INFORME DE TRABAJO FINAL</strong><br>
-    <strong>AGOSTO 2026</strong><br>
+    <strong>Startup:MOVEO</strong><br>
+    <strong>Producto:WheeelsPe </strong><br>
+    
 </p>
 
 ## Relación de integrantes
-| Integrante                              | Código         |
-|-----------------------------------------|----------------|
-| Barba Estrada, Bryan Eduardo            | U202323479     |
-| Cotrina Siclla, Sofia Alessandra        | U20231B120     |
-| Encalada Salazar, Alexis                | U20211G491     |
-| Goñe Araccata, Esther Abigail           | U202318049     |
-| Salazar Caballero, Alvaro Fabrizzio     | U202321941     |
+| Código            | Integrante                          |
+|-------------------|-------------------------------------|
+| u202312031        | Arrieta Quispe, Alison Jimena       |
+| u20211g491        | Encalada Salazar, Alexi             |
+| u202318049        | Goñe Araccata, Esther Abigail       |
+| u202321941        | Salazar Caballero, Alvaro Fabrizzio |
+| u202317362        | Santiago Peña, Andreow Jomark       |
 
 
-
+## Abril 2026
 # Registro de Versiones del Informe
 
-| Versión | Fecha | Autor(es)  |  Descripción de Modificación |
-|---------|-------|------------|------------------------------|
+| Versión   | Fecha       | Autor(es)                                                                                                                                              | Descripción de Modificación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|-----------|-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1.0 (AV1) | 09/04/2026  | Arrieta Quispe, Alison JimenaEncalada Salazar, AlexisGoñe Araccata, Esther AbigailSalazar Caballero, Alvaro FabrizzioSantiago Peña, Andreow Jomark     | Capítulo I: Introducción 1.1 Startup Profile (Descripción de la Startup y perfiles del equipo).1.2 Solution Profile (Antecedentes y problemática).1.2.2.1 Lean UX Problem Statements (Definición de los problemas a resolver).1.2.2.2 Lean UX Assumptions (Identificación de suposiciones).1.2.2.3 Lean UX Hypothesis Statements (Formulación de hipótesis).1.3 Segmentos objetivo (Definición del público meta)                                                                                                                                                     |
+| 1.1 (AV1) | 13/04/2026  | Arrieta Quispe, Alison Jimena Encalada Salazar, Alexis Goñe Araccata, Esther Abigail Salazar Caballero, Alvaro Fabrizzio Santiago Peña, Andreow Jomark | Capítulo I: Introducción y Capítulo II: Requirements & Analysis 1.2.2.4 Lean UX Canvas (Creación del lienzo de Lean UX) 2.1.1 Análisis competitivo (Investigación de competidores) 2.1.2 Estrategias y tácticas frente a competidores (Definición de estrategias competitivas) 2.2.1.Diseño de entrevistas (Creación de guiones de entrevistas)                                                                                                                                                                                                                      |
+| 1.2 (AV1) | 17/04/2026  | Arrieta Quispe, Alison Jimena Encalada Salazar, Alexis Goñe Araccata, Esther Abigail Salazar Caballero, Alvaro Fabrizzio Santiago Peña, Andreow Jomark | Capítulo II: Requirements & Analysis 2.2.2 Registro de entrevistas (Documentación de entrevistas realizadas a los segmentos objetivo) 2.2.3 Análisis de entrevistas (Síntesis de hallazgos por segmento) 2.3.1 User Personas (Construcción de perfiles representativos de los usuarios) 2.3.2 User Task Matrix (Identificación de tareas por frecuencia e importancia)                                                                                                                                                                                               |
+| 1.3 (AV1) | 18./04/2026 | Arrieta Quispe, Alison Jimena Encalada Salazar, Alexis Goñe Araccata, Esther Abigail Salazar Caballero, Alvaro Fabrizzio Santiago Peña, Andreow Jomark | Capítulo II: Requirements & Analysis. 2.3.3 User Journey Mapping (Mapeo de la experiencia del usuario en los flujos principales).2.3.4 Empathy Mapping (Construcción de mapas de empatía por segmento objetivo).2.3.5 Big Picture Event Storming (Exploración colaborativa del dominio del negocio).2.3.6 Ubiquitous Language (Definición del glosario de términos del dominio)                                                                                                                                                                                      |
+| 1.4 (AV1) | 22/04/2026  | Arrieta Quispe, Alison Jimena Encalada Salazar, Alexis Goñe Araccata, Esther Abigail Salazar Caballero, Alvaro Fabrizzio Santiago Peña, Andreow Jomark | Capítulo II: Requirements & Analysis.2.4.1 User Stories (Especificación de historias de usuario por épica).2.4.2 Impact Mapping (Construcción del mapa de impacto del producto).2.4.3 Product Backlog (Priorización del backlog del producto) 2.5.1 Event Storming — Strategic Level (Sesión de diseño estratégico con DDD).2.5.1.1 Candidate Context Discovery (Identificación de bounded contexts candidatos)                                                                                                                                                      |
+| 1.5 (AV1) | 23/04/2026  | Arrieta Quispe, Alison Jimena Encalada Salazar, Alexis Goñe Araccata, Esther Abigail Salazar Caballero, Alvaro Fabrizzio Santiago Peña, Andreow Jomark | Capítulo II: Requirements & Analysis 2.5.1.2 Domain Message Flows Modeling (Modelado de flujos de mensajes entre contextos) 2.5.1.3 Bounded Context Canvases (Definición de los lienzos de cada bounded context).2.5.2 Context Mapping (Definición de relaciones entre bounded contexts) 2.5.3 Software Architecture (Diagramas de arquitectura a nivel de contexto, contenedor y despliegue) 2.6 Tactical-Level DDD (Domain Layer, Interface Layer, Application Layer e Infrastructure Layer de los bounded contexts IAM, Carpooling, Rental, Operations y Billing) |
 
 
 # Project Report Collaboration Insights 
@@ -167,6 +173,11 @@
 
 
 # Student Outcome
+
+El curso aporta al cumplimiento del criterio ABET: ABET – EAC - Student Outcome 7: Aprendizaje Continuo y Autónomo
+Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje apropiadas.
+En el cuadro siguiente se detallan las actividades llevadas a cabo y las conclusiones formuladas por el equipo, las cuales sirven como evidencia del logro alcanzado en el ABET – EAC - Student Outcome.
+
 
 <table>
   <tr>
@@ -314,12 +325,14 @@
 # 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
 
-Nuestro proyecto consiste en un servicio digital diseñado para conectar a personas que poseen un vehículo con quienes necesitan uno por un tiempo determinado. A diferencia de una compañía de alquiler tradicional, nuestra propuesta no requiere contar con un parque automotor propio, lo que reduce significativamente los costos iniciales. En lugar de ello, los autos registrados por los mismos usuarios son los que conforman la oferta disponible en la plataforma, generando así una red colaborativa similar a una flota virtual.
-El modelo se centra en la intermediación: los dueños obtienen ingresos únicamente cuando su vehículo es efectivamente arrendado, mientras que los arrendatarios acceden a precios más accesibles que en el mercado convencional. De esta manera, se construye un sistema rentable, flexible y equitativo para ambas partes.
+MOVEO se define como una organización de base tecnológica cuyo propósito fundamental es transformar la dinámica de la movilidad urbana en el Perú. El enfoque estratégico de la startup se centra en el desarrollo de soluciones digitales avanzadas que actúan como un puente eficiente entre personas con necesidades de transporte y propietarios de vehículos disponibles para alquiler, fomentando simultáneamente la integración del transporte compartido entre usuarios de una misma zona geográfica. A diferencia de los modelos corporativos tradicionales, la propuesta de valor de MOVEO no depende de la gestión de una flota de vehículos propia, sino que se sustenta íntegramente en una red colaborativa donde los mismos ciudadanos registran sus unidades en la plataforma y empresas de alquiler que no cuentan con el alcance suficiente para ofrecer sus autos en alquiler . Esta estructura permite ampliar la oferta de movilidad de manera orgánica y reducir los costos operativos, democratizando el acceso al servicio.
+El modelo de intermediación diseñado por la organización busca alcanzar la máxima eficiencia económica, permitiendo que los propietarios particulares moneticen sus vehículos únicamente cuando estos son efectivamente arrendados por terceros y que las empresas puedan contar con un canal seguro y práctico para poner en circulación sus vehículos a alquilar, mientras que los conductores finales acceden a tarifas de mercado significativamente más bajas que las de las empresas de alquiler convencionales. Como elemento diferencial y disruptivo, la plataforma integra una funcionalidad técnica de carpooling que permite a los conductores compartir sus trayectos cotidianos con otros usuarios de manera voluntaria. Esta integración no solo optimiza el uso individual de cada activo vehicular, sino que contribuye de forma directa y positiva a mitigar la congestión vehicular y el impacto ambiental en las zonas urbanas de alta densidad.
 
-Misión: Ofrecer una solución moderna y segura que simplifique el acceso a un vehículo de alquiler, generando confianza y beneficios tanto para el propietario como para el arrendatario. Buscamos que nuestra plataforma sea percibida como una alternativa práctica, clara y orientada a las necesidades reales de los usuarios.
+Misión
+Ofrecer una solución tecnológica moderna y robusta que simplifique radicalmente el acceso a vehículos de alquiler para los ciudadanos. La organización se compromete a integrar la movilidad compartida como una alternativa que sea percibida como accesible, segura y altamente eficiente por todos los usuarios urbanos en el contexto peruano.
 
-Visión: Aspiramos a consolidarnos como la plataforma más reconocida en el Perú para la renta de automóviles entre particulares. Queremos ser identificados por la innovación de nuestro modelo, la seguridad de nuestras operaciones y la facilidad de uso del sistema. Nuestra meta es que, al pensar en alquiler de autos sin trámites complicados, las personas recurran primero a nosotros.
+Visión
+Consolidarse como el referente más reconocido y confiable de movilidad colaborativa en el Perú. Liderar la innovación en los modelos de alquiler entre particulares y transporte compartido, construyendo un ecosistema digital sostenible que sea identificado por la seguridad de sus procesos y el valor generado para su comunidad de usuarios
 
 ### 1.1.2. Perfiles de integrantes del equipo
 | Integrantes                                                                                                            | Descripción                                                                                                                                                                                                                                                                                                                               | Conocimientos                                                                                                                                                                                                                                                                          |
@@ -333,142 +346,213 @@ Visión: Aspiramos a consolidarnos como la plataforma más reconocida en el Per�
 # 1.2. Solution Profile
 
 ## 1.2.1. Antecedentes y Problemática
-Para explicar los fundamentos de nuestra startup utilizaremos una adaptación de la técnica de análisis 5W + 2H, que permite organizar la información respondiendo a las preguntas clave de cualquier iniciativa.
-
-**Antecedentes**
-
-- En los últimos años la necesidad de soluciones de movilidad temporal ha crecido considerablemente, especialmente en zonas urbanas donde adquirir un vehículo propio no siempre es viable. Ante ello surge la oportunidad de una plataforma digital que facilite el contacto directo entre propietarios de automóviles y personas interesadas en alquilarlos, optimizando el proceso a través de un aplicativo accesible.
-
-**Problemática**
-
-- La ausencia de servicios que ofrezcan un alquiler directo entre dueños y arrendatarios dificulta satisfacer la demanda de transporte temporal. Esto genera dos consecuencias principales: los usuarios que requieren un vehículo de manera inmediata encuentran limitaciones, y los propietarios pierden la posibilidad de generar ingresos adicionales con sus autos.
+De acuerdo con Álvarez (2020), la metodología de las 5W's y 2H's permite estructurar y desarrollar un plan de acción o estrategia detallada, constituyendo una herramienta clave para comprender a fondo las necesidades de los usuarios. Por esta razón, se utilizó para recopilar y clasificar la información del mercado, la cual se presentará a continuación.
 
 Aplicación del método 5W + 2H
 
-**¿Qué?**
+**What?**
+#### ¿Cuál es el problema?
+El problema central radica en la profunda desconexión, ineficiencia e informalidad en el acceso a la movilidad temporal y compartida en el Perú. Por un lado, existe un gran sector de propietarios particulares con autos subutilizados que pierden la oportunidad de generar ingresos adicionales debido a la falta de canales seguros para alquilarlos. En paralelo, las empresas del rubro operan con procesos manuales e ineficientes, careciendo del impulso tecnológico necesario para captar nuevos clientes de forma escalable. Por otro lado, quienes alquilan un vehículo asumen la totalidad de los altos costos operativos al no existir una opción integrada de transporte compartido, mientras que los pasajeros sin vehículo, como estudiantes o trabajadores con rutas fijas, carecen de un directorio centralizado, viéndose obligados a coordinar viajes a través de grupos de mensajería informal, sin filtros de seguridad ni verificación de identidad
 
-El proyecto busca responder a la falta de un sistema eficiente que conecte a quienes desean rentabilizar sus vehículos con quienes necesitan arrendarlos. La iniciativa está directamente relacionada con dos tipos de clientes: propietarios con autos disponibles y arrendatarios que requieren alternativas accesibles y confiables.
-
+#### ¿Cuál es la relación con la persona en cuestión?
+El problema se manifiesta en múltiples momentos cotidianos según el actor involucrado. Para los propietarios particulares, la frustración aparece cada fin de semana o a fin de mes, cuando perciben que su vehículo se deprecia sin generar ingresos al no encontrar arrendatarios confiables. Para las empresas formales del rubro, el obstáculo es diario, ya que los procesos anticuados no les permiten captar clientes a la velocidad que exige el mercado. Para quienes alquilan un vehículo, la fricción económica surge en el momento exacto en que inician su viaje con asientos vacíos, asumiendo en solitario los costos de combustible y peajes. Finalmente, para estudiantes y trabajadores, la dificultad ocurre todos los días durante las horas pico, cuando intentan encontrar una ruta compartida y pierden tiempo valioso intercambiando mensajes de confirmación sin garantías de seguridad.
 **¿Cuándo?**
+#### ¿Cuándo sucede el problema?
+El problema se manifiesta en múltiples momentos cotidianos según el actor involucrado. Para los propietarios particulares, la frustración aparece cada fin de semana o a fin de mes, cuando perciben que su vehículo se deprecia sin generar ingresos al no encontrar arrendatarios confiables. Para las empresas formales del rubro, el obstáculo es diario, ya que los procesos anticuados no les permiten captar clientes a la velocidad que exige el mercado. Para quienes alquilan un vehículo, la fricción económica surge en el momento exacto en que inician su viaje con asientos vacíos, asumiendo en solitario los costos de combustible y peajes. Finalmente, para estudiantes y trabajadores, la dificultad ocurre todos los días durante las horas pico, cuando intentan encontrar una ruta compartida y pierden tiempo valioso intercambiando mensajes de confirmación sin garantías de seguridad.
 
-La problemática se presenta en el momento en que un propietario desea alquilar su vehículo, pero no cuenta con un canal formal ni seguro para hacerlo. A su vez, los arrendatarios se ven afectados cuando requieren un vehículo por un tiempo limitado —sea por un viaje, una urgencia o una necesidad puntual— y no encuentran opciones adecuadas.
-El uso de la plataforma se da justamente en esos escenarios: el dueño publica su vehículo y el arrendatario selecciona la opción que mejor se adapta a su situación.
-
+#### ¿Cuándo utiliza el cliente el servicio?
+El usuario se enfrenta a estas barreras de manera recurrente en momentos de alta necesidad de desplazamiento, especialmente cuando requiere una solución de movilidad rápida y no dispone de tiempo para negociar tarifas en empresas físicas ni para buscar publicaciones dispersas en grupos de mensajería informal.
 **¿Dónde?**
+#### ¿Dónde surge el problema?
+La problemática se concentra principalmente en entornos urbanos de alta densidad demográfica y congestión vehicular, siendo Lima Metropolitana el principal escenario del país donde la demanda de transporte temporal es masiva pero la oferta es ineficiente y fragmentada. Físicamente, el déficit se evidencia en los grandes corredores viales que conectan distritos residenciales con puntos fijos de alta concurrencia, como campus universitarios y centros empresariales. En el entorno digital, el problema se perpetúa en canales de comunicación informales, ya que las personas intentan resolver su necesidad de transporte migrando a aplicaciones de mensajería que no están diseñadas para la logística, careciendo de mapas integrados o verificación de perfiles.
 
-El servicio puede utilizarse en cualquier lugar con acceso a internet, ya sea desde casa, el trabajo o en desplazamiento.
-La propuesta está dirigida principalmente a contextos urbanos donde la demanda de movilidad es más alta y, paradójicamente, la oferta de plataformas colaborativas de alquiler es todavía reducida.
+#### ¿Dónde está el cliente cuando usa el producto?
+El usuario se encuentra inmerso en contextos de movilidad activa y decisiones sobre la marcha: planificando su día desde casa, intentando salir de la universidad tras clases, o coordinando el regreso desde su centro de trabajo. En todos estos escenarios, la falta de información centralizada sobre arrendamientos y rutas compartidas se convierte en un obstáculo paralizante
 
 **¿Quiénes?**
+#### ¿Quiénes son los actores y grupos de interés que sufren el impacto de esta problemática? 
+Los principales afectados por la deficiencia estructural en el transporte se dividen en dos grandes segmentos con necesidades insatisfechas. Por un lado, se encuentran los proveedores potenciales, compuestos por propietarios particulares con vehículos estacionados sin uso productivo y microempresas del rubro de alquiler que operan bajo esquemas tradicionales poco competitivos y manuales. Por otro lado, se ubican los usuarios de movilidad, que incluyen tanto a conductores que asumen cargas financieras excesivas por traslados individuales, como a pasajeros diarios principalmente estudiantes y trabajadores que se desplazan entre puntos fijos bajo un clima de incertidumbre y desorganización
 
-Participan dos grupos principales: los propietarios que desean ofrecer su auto en alquiler y los arrendatarios que buscan una solución práctica sin trámites extensos.
-El problema afecta sobre todo a los dueños que no logran monetizar sus vehículos y a las personas que necesitan movilidad temporal pero no encuentran opciones seguras y confiables.
-En consecuencia, el público objetivo que hará uso del servicio corresponde a ambos segmentos, integrados en una misma plataforma.
+#### ¿Cuál es el alcance del impacto en los diversos agentes que integran el ecosistema?
+El impacto de la informalidad y la falta de canales verificados afecta transversalmente a todos los actores del entorno urbano en Lima Metropolitana. Los propietarios de vehículos ven limitada su capacidad de generar ingresos adicionales y enfrentan la depreciación acelerada de sus activos sin retorno. Las pequeñas empresas del sector pierden competitividad frente a un mercado que exige agilidad tecnológica, mientras que los ciudadanos que requieren movilidad temporal asumen costos desproporcionados al no contar con herramientas para compartir trayectos. Finalmente, los pasajeros diarios quedan expuestos a riesgos de seguridad personal al verse forzados a coordinar viajes mediante canales informales.
 
+#### ¿Cuál es el perfil demográfico y geográfico de los ciudadanos directamente impactados?
+Esta situación de crisis impacta directamente a ciudadanos con un estilo de vida dinámico que requieren soluciones de transporte inmediatas para cumplir con sus responsabilidades académicas y laborales. Se trata primordialmente de adultos jóvenes, profesionales y estudiantes universitarios que transitan entre zonas residenciales y nodos críticos de concurrencia como campus universitarios y distritos empresariales en Lima. Estos agentes se ven obligados a navegar diariamente por un sistema fragmentado donde la ausencia de información centralizada y de rutas verificadas se convierte en un obstáculo recurrente que afecta su calidad de vida y economía personal
+
+#### ¿De qué manera influye el factor humano y sus habilidades en la persistencia del problema?
+La problemática está estrechamente ligada a la brecha de confianza interpersonal y a las limitaciones en las capacidades digitales de los involucrados. Muchos propietarios y gestores de pequeñas flotas carecen de acceso a herramientas que les permitan profesionalizar la oferta de sus activos, dependiendo de procesos manuales propensos al error. Asimismo, la falta de una cultura de economía colaborativa, agravada por la percepción de inseguridad ciudadana, impide que las personas aprovechen sus habilidades de coordinación para generar soluciones colectivas eficientes. Esta carencia de un entorno validado refuerza la dependencia hacia medios riesgosos, donde la verificación de la identidad del otro es casi imposible de realizar de manera autónoma
 **¿Por qué?**
 
-La raíz del problema se encuentra en la falta de un canal especializado y confiable que asegure la interacción entre dueños y arrendatarios. Esta ausencia limita la rentabilidad de los primeros y restringe la variedad de opciones para los segundos.
+#### ¿Cuál es la causa del problema?
+La situación se origina por la ausencia de un ecosistema tecnológico unificado que integre el alquiler de vehículos y la economía colaborativa de trayectos compartidos en un mismo entorno. Las empresas de alquiler mantienen procesos manuales debido a que el desarrollo de software a medida resulta técnica y financieramente inaccesible para la mayoría de ellas. Por el lado de los usuarios, la dependencia de aplicaciones de mensajería para coordinar rutas compartidas persiste porque no existe un directorio confiable que estandarice las publicaciones de viajes. Al no contar con un entorno formal que valide si un conductor realmente pertenece a una comunidad universitaria o laboral específica, impera un clima generalizado de desconfianza que frena el aprovechamiento de los vehículos disponibles en el mercado y consolida la informalidad como única alternativa viable.
 
 **¿Cómo?**
+#### ¿En qué condiciones los involucrados enfrentan la problemática?
+Los ciudadanos enfrentan las deficiencias del transporte en su entorno cotidiano, principalmente al planificar traslados desde el hogar, el centro de estudios o el lugar de trabajo. Ante la falta de un sistema integrado, los usuarios dependen de sus dispositivos móviles para consultar múltiples fuentes de información dispersas, intentando encontrar rutas o vehículos en sus momentos libres o durante desplazamientos activos. En general, el usuario debe adaptar su ritmo de vida a la escasa oferta existente, priorizando la seguridad y la economía, aunque esto signifique sacrificar la inmediatez y la sencillez en sus interacciones de transporte diarias.
 
-El servicio se utiliza cuando los dueños desean generar ingresos con su vehículo o cuando un arrendatario necesita resolver rápidamente una necesidad de transporte.
-Los usuarios llegan a la plataforma a través de campañas digitales, publicidad segmentada en redes sociales y recomendaciones de otros clientes.
-En general, el detonante es la búsqueda de una alternativa segura, flexible y accesible frente a los servicios tradicionales de alquiler.
+#### ¿Cómo se informan los ciudadanos sobre alternativas de transporte compartido? 
+Actualmente, los involucrados buscan alternativas a través de la observación de tendencias en redes sociales como TikTok e Instagram, donde se visualiza el descontento generalizado y se comparten consejos informales sobre los beneficios teóricos del transporte compartido. Asimismo, el "boca a boca" dentro de comunidades universitarias y centros de trabajo representa el canal de descubrimiento más utilizado, considerando que las personas suelen compartir experiencias negativas y recomendaciones de grupos cerrados con compañeros que enfrentan las mismas dificultades de movilidad y altos costos de desplazamiento diario.
+
+#### ¿Bajo qué criterios buscan los usuarios resolver su necesidad de movilidad?
+Los usuarios buscan resolver su necesidad de manera rápida, intuitiva y desde cualquier lugar, tratando de encontrar opciones de movilidad sin los pasos burocráticos de las agencias tradicionales. Valoran la posibilidad de visualizar opciones de transporte, intentar verificar la identidad de conductores en grupos de chat o coordinar trayectos en pocos pasos desde el mismo dispositivo que ya usan a diario. En ese sentido, la expectativa es que la gestión de sus traslados o el alquiler de una unidad resulte tan natural y ágil como cualquier otra acción cotidiana desde el celular, algo que la informalidad actual no logra ofrecer.
+
+#### ¿Qué factores determinantes originaron esta situación de crisis? 
+Lo que llevó a los ciudadanos a esta situación es una combinación de factores estructurales y tecnológicos consolidados con el tiempo. La ausencia de plataformas formales y confiables para el alquiler entre particulares obligó a propietarios y arrendatarios a operar en la informalidad o a depender de intermediarios ineficientes. Por otro lado, la falta de herramientas digitales accesibles para las pequeñas empresas de alquiler perpetuó procesos lentos que no responden a las expectativas de un mercado digitalizado. A esto se suma la inexistencia de un canal verificado para coordinar rutas compartidas, lo que forzó a estudiantes y trabajadores a gestionar sus desplazamientos diarios mediante grupos de mensajería sin filtros de seguridad, consolidando un ecosistema de movilidad fragmentado, costoso e inseguro.
 
 **¿Cuánto cuesta?**
 
-Para los propietarios no existen costos de inscripción ni inversión inicial; únicamente se descuenta una comisión en caso de concretarse el alquiler.
-Los arrendatarios, en cambio, acceden a tarifas variables y flexibles, con opciones que resultan más económicas en comparación con las agencias de renta tradicionales.
+#### Estadísticas que sustentan la problemática
+Figura 1
+El Banco Central de Reserva del Perú estimó que una persona pierde en promedio S/ 3,800 al año en Lima debido al tiempo adicional invertido en el tráfico (Banco Central de Reserva del Perú, 2024). Esta cifra se agrava según estimaciones más recientes: la Asociación para el Fomento de la Infraestructura Nacional reveló que la congestión vehicular en Lima y Callao genera pérdidas anuales superiores a los S/ 27,691 millones, equivalente al 2.6% del PBI del Perú (Infobae Perú, 2025).
+![Impacto.png](Assets/Impacto.png)
+Nota. Elaboración propia. Basado en BCRP (2024) e Infobae Perú / AFIN (2025).
+Respecto al crecimiento del parque automotor frente a la infraestructura vial, la brecha es estructural: entre 2015 y 2024, el parque automotor en Lima aumentó un 40% con el ingreso de más de 600,000 vehículos, mientras que la red vial departamental apenas creció un 7% (Instituto Peruano de Economía, 2024). Finalmente, según la asociación Lima Cómo Vamos, un auto en Lima transporta en promedio 1.2 personas, lo que significa que en la mayoría de casos el conductor viaja solo (citado en Gutiérrez, 2018). Esto evidencia el enorme potencial desaprovechado del transporte compartido en la ciudad y sustenta la necesidad urgente de conectar a conductores con pasajeros para optimizar los vehículos ya existentes.
+
+
+Figura 2
+Brecha estructural entre el parque automotor y la red vial frente a la ocupación vehicular
+![Brecha.png](Assets/Brecha.png)
+Nota. Elaboración propia. Basado en Instituto Peruano de Economía (2024) y Gutiérrez (2018).
+
+
+
 
 
 ## 1.2.2. Lean UX Process
 
 ### 1.2.2.1. Lean UX Problem Statement
 
-MOVEO tiene como objetivo ofrecer un servicio de alquiler de vehículos accesible, flexible y rentable, conectando de manera segura y eficiente a propietarios y arrendatarios a través de una plataforma digital. Sin embargo, el mercado actual se caracteriza por la falta de innovación, modelos de negocio rígidos, altos costos para los usuarios y una fuerte dependencia de flotas propias, lo que limita la escalabilidad y reduce la diversidad de la oferta. Ante esta situación, se plantea la necesidad de mejorar el modelo de servicio mediante un sistema más adaptable e inclusivo, que permita ampliar la participación de propietarios particulares y optimizar la experiencia de alquiler sin requerir una inversión directa en vehículos.
-
-Consideramos que habremos alcanzado un avance significativo cuando logremos que el número de propietarios inscritos crezca de forma constante y que la oferta de vehículos disponibles se adapte a la demanda real del mercado.
+La declaración del problema es un componente fundamental del proceso Lean UX, ya que permite al equipo enfocarse en los síntomas reales del dominio antes de proponer soluciones técnicas específicas. Para este proyecto, se ha identificado lo que delimita el alcance del trabajo.
+Actualmente, los ciudadanos de Lima que necesitan movilidad temporal no cuentan con una plataforma confiable que les permita alquilar vehículos de particulares o unirse a trayectos compartidos de forma segura y verificada. Los propietarios que desean rentabilizar sus vehículos subutilizados tampoco disponen de mecanismos que garanticen la validación del arrendatario ni el respaldo ante posibles incidencias, lo que genera desconfianza y mantiene esos activos fuera del mercado.
+Hemos observado que esta falta de formalidad y transparencia en los procesos de movilidad compartida es el factor crítico que impide tanto que los propietarios ofrezcan sus vehículos como que los usuarios adopten este modelo como alternativa real de transporte urbano.
+¿Cómo podemos crear un ecosistema digital que conecte a propietarios y usuarios de movilidad de manera segura, formal y eficiente, logrando que ambos perciban la plataforma como una solución confiable y de alto valor para sus necesidades de transporte en Lima?
 
 ### 1.2.2.2. Lean UX Assumptions
+En el marco de Lean UX, las suposiciones son declaraciones de lo que creemos que es cierto dentro del dominio del problema y la solución propuesta. El objetivo de este proceso es exponer las ideas de todos los miembros del equipo para identificar los riesgos potenciales antes de realizar inversiones significativas en desarrollo
+**User Assumptions (Necesidades y comportamientos)**
 
-**Segmento de Usuarios:**
+**Propietarios:**
 
-**¿Quién es el usuario?**
+Cuentan con vehículos subutilizados gran parte de la semana y están dispuestos a rentarlos de manera recurrente, siempre que dispongan de un canal que garantice seguridad jurídica, validación de identidad y protección contra daños.
 
-Nuestros principales usuarios son dos: los dueños de vehículos que desean generar ingresos pasivos sin tener que involucrarse en la gestión diaria de sus autos, y las personas que buscan alternativas de alquiler de vehiculos seguras, cómodas y accesibles.
+**Empresas (SMBs)**
 
-**¿Dónde se integra el servicio en su vida?**
+Las micro y pequeñas empresas del rubro necesitan digitalizar su inventario para ampliar su alcance comercial y reducir tiempos manuales de gestión, pero carecen de presupuesto y conocimiento técnico para software propio.
 
-Para los propietarios, el servicio se convierte en un medio para obtener ingresos extra sin esfuerzo operativo. Para los inquilinos, representa la posibilidad de acceder a un vehículo en el momento en que lo necesitan, sin asumir compromisos de propiedad ni altos costos.
+**Conductores**
 
-**¿Cuándo y cómo se utiliza el servicio?**
+Perciben el alquiler tradicional como un gasto excesivamente elevado para uso recurrente y buscan mecanismos integrados que les permitan publicar rutas para llevar pasajeros y amortizar costos
 
-Los dueños lo usan al registrar su vehículo y seguir sus ganancias, mientras que los inquilinos lo emplean cuando requieren transporte para viajes, mudanzas, diligencias o necesidades puntuales de movilidad.
+**Pasajeros**
 
-**¿Qué problemas enfrenta el servicio?**
+Dependen actualmente de grupos informales en redes sociales o WhatsApp; tienen la necesidad de migrar a una plataforma formal que ofrezca inmediatez, perfiles verificados y organización
+**User Outcome Assumptions (Beneficios esperados)**
 
-El mayor reto es garantizar la seguridad y confianza de los propietarios respecto al uso de sus vehículos, al mismo tiempo que se asegura que los inquilinos disfruten de una experiencia rápida, sencilla y sin complicaciones.
+- Los propietarios y empresas experimentarán un incremento directo en sus ingresos y un aumento en su tasa de ocupación mensual al reducir los "tiempos muertos" de su flota.
+- Los conductores que arrienden un vehículo y compartan trayectos lograrán reducir drásticamente su presupuesto de transporte, haciendo viable el alquiler recurrente.
+- Los pasajeros experimentarán una mejora significativa en su calidad de vida y seguridad al acceder a rutas puntuales y verificadas.
+- El sistema de perfiles y valoraciones fomentará la lealtad y confianza en toda la comunidad, asegurando una experiencia sin complicaciones.
 
-**Resultados de Negocio (Business Outcomes):**
+- **Business Assumptions (Modelo de negocio y mercado)**
+- Un modelo de monetización basado en comisiones por transacción exitosa es viable y escala con el volumen de uso sin representar riesgos fijos para los proveedores.
+- Existe un mercado desatendido en Lima Metropolitana de usuarios que requieren movilidad flexible que las empresas tradicionales no cubren por sus altas tarifas.
+- Las pequeñas agencias de alquiler adoptarán la plataforma como su herramienta principal de gestión operativa para competir con franquicias internacionales.
+- La integración nativa de carpooling será el factor disruptivo que genere un ciclo de retroalimentación positivo entre alquileres y viajes compartidos
 
-- Anticipamos que los propietarios valorarán una plataforma que les permita alquilar sin preocuparse de la gestión operativa.
-- Creemos que los arrendatarios encontrarán en nuestro servicio una alternativa más económica y variada que las opciones tradicionales.
-- Reconocemos que existen competidores en el sector, pero nuestro modelo —sin flota propia— nos permitirá mantener precios atractivos y una mejor experiencia de usuario.
-- Sabemos que para mantener la confianza, debemos reforzar la calidad del servicio con pruebas constantes, mejoras continuas y canales abiertos de comunicación con nuestros clientes.
+**Business Outcome Assumptions (Impactos positivos en el negocio)**
+- Se espera un incremento sostenido en el registro de vehículos por parte de empresas al comprobar la modernización de su captación de clientes.
+- El ecosistema logrará una tasa de retención de usuarios activos superior al 60% durante el primer año basada en la confianza generada.
+- La consolidación de funciones en una sola aplicación reducirá la tasa de abandono (churn rate) al encontrar valor continuo como conductor o pasajero.
+- La marca se consolidará como el referente en movilidad colaborativa y digitalización de flotas en el mercado peruano en los próximos 24 meses
+
+**Feature Assumptions (Funcionalidades y resolución)**
+- Un panel de administración intuitivo permitirá que el 80% de los proveedores configure su inventario sin requerir asistencia técnica.
+- Un sistema de filtros avanzado permitirá concretar una reserva vehicular en menos de cinco minutos.
+- Al menos el 40% de los conductores arrendatarios utilizará la opción de publicar rutas de carpool voluntariamente para dividir gastos.
+- La visualización clara de perfiles verificados será el factor determinante para concretar el 75% de las transacciones exitosas.
+
+**Priorización de Suposiciones (Assumptions Priority)**
+Una vez identificados los supuestos, es necesario determinar cuáles son los más riesgosos para trabajar en ellos prioritariamente. El equipo ha utilizado una matriz de priorización para evaluar cada ítem en función de su nivel de incertidumbre y riesgo potencial para el negocio.
+
+**La Suposición más Riesgosa (Riskiest Assumption)**
+Atendiendo a la retroalimentación docente de identificar el riesgo crítico, el equipo ha determinado que la suposición más importante que debemos aprender primero es:
+"Los propietarios de vehículos (particulares y microagencias) están dispuestos a confiar la seguridad y el estado físico de sus activos a conductores desconocidos, bajo la creencia de que un sistema de verificación digital de identidad y perfiles reputacionales es suficiente para mitigar el riesgo de daño o pérdida."
+Justificación: Esta declaración es el pilar de toda la solución. Si este supuesto se prueba falso, el modelo de negocio carecerá de oferta vehicular, lo que causaría que el proyecto completo falle independientemente de su implementación técnica. Por ello, este será el foco del primer experimento de validación.
+
+
 
 ### 1.2.2.3. Lean UX Hypothesis Statements
 
-1. Consideramos que los propietarios interesados en generar ingresos pasivos, sin realizar grandes inversiones ni dedicar demasiado tiempo a la gestión, verán en MOVEO una alternativa confiable para monetizar sus vehículos. Consideraremos que hemos alcanzado el éxito cuando estos propietarios incrementen el uso de la plataforma y obtengan ingresos recurrentes mediante el alquiler de sus autos, evidenciando confianza y satisfacción en el servicio.
+**Seguridad jurídica y confianza del proveedor**
+Creemos que la implementación de un proceso estricto de verificación de identidad y un sistema de valoraciones mutuas para los propietarios particulares logrará brindar la seguridad jurídica necesaria para rentar sus vehículos subutilizados sin temor a riesgos .
+Sabremos que esto es cierto cuando veamos un aumento del 25% en el registro de vehículos particulares activos y que el 80% de los propietarios exprese sentirse seguro al aceptar una reserva en sus encuestas de satisfacción posteriores al servicio.
 
-2. Creemos que los arrendatarios que buscan opciones de alquiler más flexibles, asequibles y seguras optarán por MOVEO gracias a su facilidad de uso, precios competitivos y garantías de protección. Consideraremos que hemos alcanzado el éxito cuando la frecuencia de alquiler y la tasa de retención de usuarios aumenten, junto con una mejora perceptible en los niveles de satisfacción reportados.
+**Digitalización y escalabilidad del sector de alquiler**
+Creemos que ofrecer un proceso de publicación de vehículos sencillo, digital y accesible para las micro y pequeñas empresas de alquiler logrará que estas encuentren en la plataforma su canal principal para captar nuevos clientes de forma escalable.
+Sabremos que esto es cierto cuando veamos que al menos el 30% de las nuevas publicaciones provengan de perfiles corporativos y estas registren un promedio de 10 reservas semanales a través de la aplicación.
 
-3. Suponemos que al implementar un modelo operativo sin una flota propia de vehículos, podremos destinar mayores recursos a la innovación tecnológica y a la optimización de la experiencia de usuario. Consideraremos que hemos alcanzado el éxito cuando los indicadores de eficiencia operativa y de experiencia del cliente reflejen una reducción de costos, estabilidad en las tarifas y un incremento sostenido en el número de transacciones exitosas.
+**Eficiencia operativa y amortización de costos**
+Creemos que la integración nativa de una opción para publicar rutas de carpool para los arrendatarios de vehículos logrará motivarlos a alquilar unidades de manera más frecuente al permitirles dividir el costo operativo de su viaje con otros pasajeros.
+Sabremos que esto es cierto cuando veamos que al menos el 40% de los usuarios que arriendan un vehículo utilizan la funcionalidad de carpool, logrando reducir sus costos de viaje y aumentando su tasa de retención mensual.
 
+**Seguridad y formalización del transporte compartido**
+Creemos que ofrecer un directorio centralizado con perfiles verificados de conductores para los pasajeros que actualmente coordinan viajes por medios informales logrará solucionar la inseguridad y desorganización que enfrentan en sus traslados diarios.
+Sabremos que esto es cierto cuando veamos una tasa de conversión donde el 60% de los pasajeros que buscan una ruta en la plataforma concreten la reserva de un asiento compartido en menos de 10 minutos.
+
+**Validación de reputación y filtro de comunidad**
+Creemos que implementar un sistema de reseñas bidireccional obligatorio para todos los usuarios logrará fomentar un ecosistema de autorregulación y alta confianza interpersonal dentro de la plataforma.
+Sabremos que esto es cierto cuando veamos que el 90% de las transacciones finalizadas reciben una calificación mutua de 4 estrellas o superior, consolidando la fiabilidad de los perfiles.
+
+**Estrategia de crecimiento en nodos académicos**
+Creemos que ofrecer incentivos de crédito por referidos verificados para los estudiantes universitarios logrará acelerar el crecimiento orgánico de la red en los campus de mayor densidad vehicular de Lima.
+Sabremos que esto es cierto cuando veamos que el 20% de los nuevos usuarios registrados provengan de invitaciones directas de la comunidad universitaria dentro de los primeros seis meses de operación.
+
+**Protección y soporte de activos de valor**
+Creemos que integrar un esquema de soporte ante incidencias mecánicas incluido en cada reserva para los proveedores logrará eliminar la resistencia al alquiler de unidades modernas o de gama media-alta.
+Sabremos que esto es cierto cuando veamos un incremento del 15% mensual en el registro de vehículos con una antigüedad menor a los 5 años, diversificando la oferta del catálogo
 ### 1.2.2.4. Lean UX Canvas.
-En el apartado de Lean UX Canvas se desarrolló una estructuración completa y académica de las principales hipótesis estratégicas que sustentan la propuesta de valor y la arquitectura de la plataforma Moveo
 
-Cada hipótesis fue traducida en un Lean UX Canvas formal, siguiendo un enfoque científico-experimental que articula: el problema de negocio detectado (Business Problem ), las soluciones propuestas a nivel funcional y técnico (Solutions ), los resultados esperados a nivel organizacional (Business Outcomes ), la caracterización de los usuarios objetivos (Users ), los beneficios esperados para estos usuarios (User Outcomes & Benefits ), la formulación de hipótesis de aprendizaje (Hypotheses ), y el diseño de experimentos estratégicos para validar o refutar dichas hipótesis (What's the most important thing we need to learn first? y What's the least amount of work we need to do to learn the next most important thing? ).
-
-Este trabajo metodológico permitió no solo establecer un marco claro de experimentación y validación temprana de las decisiones de diseño y tecnología, sino también alinear todos los esfuerzos de desarrollo a métricas de éxito específicas y medibles. Así, el apartado de Lean UX Canvas representa una pieza fundamental dentro del enfoque de construcción iterativa, ágil y centrada en el usuario de Moveo, asegurando que cada funcionalidad propuesta responde a necesidades reales, riesgos priorizados y oportunidades de negocio tangibles.
-
-![Lean ux Canva](Assets/Leanuxcanva.png)
+![LeanUxCanvas.png](Assets/LeanUxCanvas.png)
 
 <a id="segmentos-objetivo"></a>
 # 1.3. Segmentos objetivos 
-**Segmento 1: Proveedores de vehículos**
+Para garantizar que nuestra solución tecnológica responda de manera efectiva a las necesidades del mercado, se identificaron y analizaron los segmentos clave que enfrentan retos en el ecosistema de movilidad urbana en Lima. A continuación se detallan sus perfiles estratégicos, profundizando en las características demográficas, geográficas y psicográficas que sustentan su relevancia dentro del dominio del problema.
 
-Datos demográficos:
-- Género: hombres y mujeres.
-- Rango etario: de 18 a 70 años.
-- Condición socioeconómica: sectores A, B y C (clase media o clase alta).
+**Segmento Objetivo #1: Proveedores de Vehículos**
+Representa tanto a propietarios particulares con vehículos subutilizados como a micro y pequeñas empresas del rubro de alquiler que buscan digitalizar su operación y ampliar su alcance comercial mediante un canal tecnológico confiable.
 
-Datos geográficos:
-- Nacionalidad: peruana.
-- Área de residencia: zonas urbanas.
-- Ubicación principal: Lima Metropolitana.
+Aspectos demográficos:
+- Sexo: Masculino y femenino
+- Rango de edad: 25 a 65 años
+- Nivel socioeconómico: Sectores A, B y C (propietarios de vehículos particulares, emprendedores y pequeños empresarios del rubro)
 
-Datos psicográficos:
-- Individuos (naturales o jurídicos) que poseen un vehículo que permanece sin uso la mayor parte del tiempo.
-- Personas interesadas en generar ingresos adicionales a través de un recurso que ya poseen, sin necesidad de destinar grandes cantidades de tiempo a la gestión.
-- Propietarios que aún no cuentan con un mecanismo práctico, seguro y rápido para ofrecer sus autos en alquiler.
+ Aspectos geográficos:
+- Nacionalidad: Peruana
+- Zona geográfica: Áreas urbanas de alta densidad vehicular (Lima Metropolitana)
 
-**Segmento 2: Clientes**
+ Aspectos psicográficos:
+- Dolor principal: Poseen vehículos que permanecen sin uso durante gran parte de la semana, lo que representa una pérdida económica directa. Las micro y pequeñas empresas del rubro operan con procesos manuales que les impiden captar clientes a la velocidad que exige el mercado, sin presupuesto para desarrollar software propio.
+- Intereses: Generar ingresos adicionales a través de un activo que ya poseen sin invertir tiempo excesivo en la gestión. Digitalizar su operación y ampliar su alcance comercial mediante un canal tecnológico confiable y escalable.
+- Actitudes: Proactivos en la búsqueda de soluciones que rentabilicen sus recursos. Valoran la seguridad jurídica, la verificación de identidad del arrendatario y el respaldo ante posibles incidencias como condición indispensable para publicar sus vehículos en una plataforma.
+- Necesidades clave: Contar con un canal formal y seguro para ofrecer sus vehículos en alquiler, mecanismos de validación de identidad del arrendatario, protección ante daños o incidencias, y visibilidad ante una base de usuarios activos y verificados.
 
-Datos demográficos:
-- Género: tanto masculino como femenino.
-- Edad: entre 18 y 50 años.
-- Nivel socioeconómico: clases A, B y C (clase media, media alta y alta).
+**Segmento Objetivo #2: Usuarios de Movilidad**
+Representa tanto a propietarios particulares con vehículos subutilizados como a micro y pequeñas empresas del rubro de alquiler que buscan digitalizar su operación y ampliar su alcance comercial mediante un canal tecnológico confiable.
 
-Datos geográficos:
-- Nacionalidad: peruana.
-- Lugar de residencia: zonas urbanas.
-- Departamento: Lima Metropolitana.
+Aspectos demográficos:
+- Sexo: Masculino y femenino
+- Rango de edad: 18 a 50 años
+- Nivel socioeconómico: Sectores B y C (estudiantes universitarios, jóvenes profesionales y trabajadores con desplazamientos diarios fijos)
 
-Datos psicográficos:
-- Personas que pasan una cantidad considerable de horas en transporte público o en el tráfico y buscan alternativas más cómodas y flexibles.
-- Usuarios que no cuentan con los recursos para adquirir un auto propio (nuevo o de segunda mano), pero que requieren movilidad en situaciones específicas.
-- Personas que necesitan disponer de un vehículo particular por un período corto, ya sea para actividades puntuales, compromisos laborales o viajes.
+ Aspectos geográficos:
+- Nacionalidad: Peruana
+- Zona geográfica: Áreas urbanas con alta congestión vehicular y demanda de transporte flexible (Lima Metropolitana, con foco en corredores viales que conectan distritos residenciales con campus universitarios y centros empresariales)
 
+ Aspectos psicográficos:
+- Dolor principal: Los conductores arrendatarios asumen el costo total del alquiler de forma individual al no contar con herramientas integradas para compartir el trayecto. Los pasajeros, por su parte, se ven obligados a coordinar viajes a través de grupos de WhatsApp o redes sociales, exponiéndose a la informalidad, la falta de verificación de identidad y la desorganización.
+- Intereses: Acceder a soluciones de movilidad flexibles, económicas y seguras que se adapten a sus desplazamientos cotidianos. Encontrar rutas compartidas verificadas como alternativa real al transporte público informal.
+- Actitudes: Estilo de vida práctico y conectado digitalmente; toman decisiones de movilidad sobre la marcha y priorizan la inmediatez y la confianza por encima del precio absoluto. Están dispuestos a migrar hacia plataformas formales siempre que estas les ofrezcan perfiles verificados y una experiencia ágil.
+- Necesidades clave: Acceso rápido a vehículos disponibles, rutas compartidas desde el celular, perfiles verificados de conductores y a la vez propietarios, mecanismos para dividir bien los gastos de viaje, y un entorno organizado que sustituya la coordinación informal actual.
 # Capítulo II: Requirements Development and Software Solution Design
 ## 2.1. Competidores 
 
