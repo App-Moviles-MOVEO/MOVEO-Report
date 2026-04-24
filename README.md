@@ -1515,36 +1515,6 @@ Esta herramiente nos permitió elaborar una arquitectura de aplicación más rob
 
 ### 2.5.2. Context Mapping
 
-### 2.5.3. Software Architecture
-
-#### 2.5.3.1. Software Architecture Context Level Diagrams
-#### 2.5.3.2. Software Architecture Container Level Diagrams
-#### 2.5.3.3. Software Architecture Deployment Diagrams
-
-## 2.6. Tactical-Level Domain Driven Design
-
-### 2.6.x. Bounded Contexts: <Bounded Context Name>
-
-#### 2.6.1.1 Domain Layer
-#### 2.6.1.2 Interface Layer
-#### 2.6.1.3 Application Layer
-#### 2.6.1.4 Infrastructure Layer
-#### 2.6.1.5 Bounded Context Software Architecture Component Level Diagrams
-#### 2.6.1.6 Bounded Context Software Architecture Code Level Diagrams
-#### 2.6.1.7 Bounded Context Domain Layer Class Diagrams
-#### 2.6.1.8 Bounded Context Database Design Diagram
-
-## 2.4. Requirements specification
-### 2.4.1. User Stories
-### 2.4.2. Impact Mapping
-### 2.4.3. Product Backlog
-
-## 2.5. Strategic-Level Domain-Driven Design
-### 2.5.1. EventStorming
-#### 2.5.1.1. Candidate Context Discovery
-#### 2.5.1.2. Domain Message Flows Modeling
-#### 2.5.1.3. Bounded Context Canvases
-### 2.5.2. Context Mapping
 ### 2.5.3 Software Architecture
 
 #### 2.5.3.1 Software Architecture Context Level Diagrams
@@ -1552,10 +1522,10 @@ Esta herramiente nos permitió elaborar una arquitectura de aplicación más rob
 El **Diagrama de Contexto** constituye el primer nivel de abstracción del Modelo C4. Su propósito fundamental es delimitar el alcance del sistema a construir, en este caso **WheelsPe**, y definir con claridad sus fronteras mediante la interacción con actores humanos y sistemas externos de terceros. Este diagrama proporciona una visión de alto nivel que permite comprender el rol estratégico de WheelsPe en el ecosistema de movilidad compartida sin profundizar en su complejidad técnica interna, lo que lo convierte en una herramienta de comunicación esencial tanto para los desarrolladores como para los inversionistas y demás partes interesadas del proyecto.
 
 <p align="center">
-  <img src="WheelsPe System Context.jpg" alt="WheelsPe System Context Diagram" width="100%">
+  <img src="WheelsPe System Context.png" alt="WheelsPe System Context Diagram" width="100%">
 </p>
 <p align="center">
-  <b>Figura 1:</b> Diagrama de Contexto del Sistema WheelsPe.
+  <b>Figura:</b> Diagrama de Contexto del Sistema WheelsPe.
 </p>
 
 El diagrama de contexto de WheelsPe ilustra la dinámica entre los actores principales y las dependencias tecnológicas externas que hacen posible el servicio. Se identifican dos roles de usuario críticos:
@@ -1576,10 +1546,10 @@ En esta vista, se observa que la **WheelsPe Platform** está compuesta por tres 
 3.  **Database:** (MySQL) Donde se resguarda la *Bitácora de eventos*, el historial de *Pagos* y la persistencia de toda la información del sistema.
 
 <p align="center">
-  <img src="WheelsPe Containers.jpg" alt="WheelsPe Containers Diagram" width="100%">
+  <img src="WheelsPe Containers.png" alt="WheelsPe Containers Diagram" width="100%">
 </p>
 <p align="center">
-  <b>Figura 2:</b> Diagrama de Contenedores de la plataforma WheelsPe.
+  <b>Figura:</b> Diagrama de Contenedores de la plataforma WheelsPe.
 </p>
 
 Finalmente, la **API Application** es la encargada de consumir los sistemas externos, enviando peticiones para la *Verificación de identidad (KYC)*, consultando trayectos en la **API de Mapas** y gestionando la *Liquidación al proveedor* a través de la **Pasarela de Pagos**, asegurando un entorno operativo integrado y eficiente.
@@ -1595,10 +1565,10 @@ Dentro de la **API Application**, la arquitectura se organiza en tres capas clar
 * **Capa de Infraestructura:** Utiliza el *Data Repository* para centralizar el acceso a la *Database* mediante **Entity Framework Core**, mientras coordina las salidas hacia sistemas externos: el *Servicio de Verificación* para el proceso KYC, la *API de Mapas* para la navegación y la *Pasarela de Pagos* para ejecutar la *Liquidación al proveedor*.
 
 <p align="center">
-  <img src="WheelsPe Component.jpg" alt="WheelsPe Component Diagram" width="100%">
+  <img src="WheelsPe Component.png" alt="WheelsPe Component Diagram" width="100%">
 </p>
 <p align="center">
-  <b>Figura 3:</b> Diagrama de Componentes de la API Application.
+  <b>Figura:</b> Diagrama de Componentes de la API Application.
 </p>
 
 Esta estructura garantiza que la lógica central de WheelsPe permanezca aislada de los detalles de implementación tecnológica, facilitando la evolución independiente de cada componente.
@@ -1663,7 +1633,7 @@ Este diagrama representa la arquitectura del Bounded Context de **IAM** (Identit
   <img src="WheelsPe Bounded Context Iam.png" alt="IAM Component Diagram" width="100%">
 </p>
 <p align="center">
-  <b>Figura 5:</b> Diagrama de Componentes del Bounded Context IAM.
+  <b>Figura:</b> Diagrama de Componentes del Bounded Context IAM.
 </p>
 
 #### 2.6.1.6 Bounded Context Software Architecture Code Level Diagrams
@@ -1676,7 +1646,7 @@ Este diagrama representa la arquitectura de clases del dominio para IAM, detalla
   <img src="Bounded Context Domain Layer Class Diagrams IAM.jpeg" alt="IAM Domain Class Diagram" width="100%">
 </p>
 <p align="center">
-  <b>Figura 6:</b> Diagrama de Clases de la Capa de Dominio - IAM.
+  <b>Figura:</b> Diagrama de Clases de la Capa de Dominio - IAM.
 </p>
 
 ##### 2.6.1.6.2 Bounded Context Database Design Diagram
@@ -1687,7 +1657,7 @@ Este diagrama representa el modelo lógico de datos para el Bounded Context de I
   <img src="Bounded Context Database Design Diagram IAM.jpeg" alt="IAM Database Design" width="100%">
 </p>
 <p align="center">
-  <b>Figura 7:</b> Modelo Entidad-Relación para el Bounded Context IAM.
+  <b>Figura:</b> Modelo Entidad-Relación para el Bounded Context IAM.
 </p>
 
 ### 2.6.2. Bounded Context: Carpooling
