@@ -1521,12 +1521,7 @@ Esta herramiente nos permitió elaborar una arquitectura de aplicación más rob
 
 El **Diagrama de Contexto** constituye el primer nivel de abstracción del Modelo C4. Su propósito fundamental es delimitar el alcance del sistema a construir, en este caso **WheelsPe**, y definir con claridad sus fronteras mediante la interacción con actores humanos y sistemas externos de terceros. Este diagrama proporciona una visión de alto nivel que permite comprender el rol estratégico de WheelsPe en el ecosistema de movilidad compartida sin profundizar en su complejidad técnica interna, lo que lo convierte en una herramienta de comunicación esencial tanto para los desarrolladores como para los inversionistas y demás partes interesadas del proyecto.
 
-<p align="center">
-  <img src="[assets/WheelsPe System Context.png](https://i.imgur.com/nIdVgsy.png)" alt="WheelsPe System Context Diagram" width="100%">
-</p>
-<p align="center">
-  <b>Figura:</b> Diagrama de Contexto del Sistema WheelsPe.
-</p>
+**Figura 45** *Diagrama de Contenedores del Sistema WheelsPe (Arquitectura de Software)* **![WheelsPe System Context Diagram](https://i.imgur.com/d40PjFV.png)**
 
 El diagrama de contexto de WheelsPe ilustra la dinámica entre los actores principales y las dependencias tecnológicas externas que hacen posible el servicio. Se identifican dos roles de usuario críticos:
 
@@ -1545,12 +1540,8 @@ En esta vista, se observa que la **WheelsPe Platform** está compuesta por tres 
 2.  **API Application:** El núcleo de la plataforma construido sobre **C# y ASP.NET Core**. Este contenedor es el responsable de orquestar la lógica de negocio compleja, incluyendo la *Reserva de asiento*, el cálculo de *Precio dinámico* y la *Coincidencia de ruta*. Se comunica con el frontend mediante el protocolo **JSON/HTTPS**.
 3.  **Database:** (MySQL) Donde se resguarda la *Bitácora de eventos*, el historial de *Pagos* y la persistencia de toda la información del sistema.
 
-<p align="center">
-  <img src="[assets/WheelsPe Containers.png](https://i.imgur.com/kZrh4Ra.png)" alt="WheelsPe Containers Diagram" width="100%">
-</p>
-<p align="center">
-  <b>Figura:</b> Diagrama de Contenedores de la plataforma WheelsPe.
-</p>
+
+**Figura 46** *Diagrama de Contenedores* **![Diagrama de componentes de la Identity API y sus conexiones internas.](https://i.imgur.com/NSRfH3g.png)**
 
 Finalmente, la **API Application** es la encargada de consumir los sistemas externos, enviando peticiones para la *Verificación de identidad (KYC)*, consultando trayectos en la **API de Mapas** y gestionando la *Liquidación al proveedor* a través de la **Pasarela de Pagos**, asegurando un entorno operativo integrado y eficiente.
 
@@ -1564,12 +1555,7 @@ Dentro de la **API Application**, la arquitectura se organiza en tres capas clar
 * **Capa de Aplicación y Dominio:** Donde el *Identity Service* valida el estado de *Usuario verificado* mediante tokens **JWT** y la *WheelsPe Domain Logic* aplica las reglas críticas de *Reputación*, *Precio dinámico* y *Coincidencia de ruta*.
 * **Capa de Infraestructura:** Utiliza el *Data Repository* para centralizar el acceso a la *Database* mediante **Entity Framework Core**, mientras coordina las salidas hacia sistemas externos: el *Servicio de Verificación* para el proceso KYC, la *API de Mapas* para la navegación y la *Pasarela de Pagos* para ejecutar la *Liquidación al proveedor*.
 
-<p align="center">
-  <img src="[assets/WheelsPe Component.png](https://i.imgur.com/6qmkEXt.png)" alt="WheelsPe Component Diagram" width="100%">
-</p>
-<p align="center">
-  <b>Figura:</b> Diagrama de Componentes de la API Application.
-</p>
+**Figura 47** *Diagrama de Componentes - Fleet Management API* **![Diagrama de componentes de la Fleet Management API y sus conexiones internas.](https://i.imgur.com/89HBqvF.png)**
 
 Esta estructura garantiza que la lógica central de WheelsPe permanezca aislada de los detalles de implementación tecnológica, facilitando la evolución independiente de cada componente.
 
@@ -1629,12 +1615,7 @@ Esta estructura garantiza que la lógica central de WheelsPe permanezca aislada 
 
 Este diagrama representa la arquitectura del Bounded Context de **IAM** (Identity & Access Management) bajo el enfoque de Domain-Driven Design...
 
-<p align="center">
-  <img src="[assets/WheelsPe Bounded Context Iam.png](https://i.imgur.com/AAhAd4B.png)" alt="IAM Component Diagram" width="100%">
-</p>
-<p align="center">
-  <b>Figura:</b> Diagrama de Componentes del Bounded Context IAM.
-</p>
+**Figura 48** *Arquitectura del Bounded Context de IAM* **![Diagrama](https://i.imgur.com/zBu0tyI.png)**
 
 #### 2.6.1.6 Bounded Context Software Architecture Code Level Diagrams
 
@@ -1642,23 +1623,13 @@ Este diagrama representa la arquitectura del Bounded Context de **IAM** (Identit
 
 Este diagrama representa la arquitectura de clases del dominio para IAM, detallando la relación entre el Agregado de Usuario, sus Objetos de Valor y la Reputación...
 
-<p align="center">
-  <img src="[assets/Bounded Context Domain Layer Class Diagrams IAM.jpeg](https://i.imgur.com/ZoqEPLz.jpeg)" alt="IAM Domain Class Diagram" width="100%">
-</p>
-<p align="center">
-  <b>Figura:</b> Diagrama de Clases de la Capa de Dominio - IAM.
-</p>
+**Figura 49** *Arquitectura de clases del dominio para IAM* **![Diagrama de componentes de la Billing API y sus conexiones internas.](https://i.imgur.com/W6jmHg6.jpeg)**
 
 ##### 2.6.1.6.2 Bounded Context Database Design Diagram
 
 Este diagrama representa el modelo lógico de datos para el Bounded Context de IAM, diseñado bajo un enfoque relacional que prioriza la integridad de la identidad...
 
-<p align="center">
-  <img src="[assets/Bounded Context Database Design Diagram IAM.jpeg](https://i.imgur.com/nBqG2PK.jpeg)" alt="IAM Database Design" width="100%">
-</p>
-<p align="center">
-  <b>Figura:</b> Modelo Entidad-Relación para el Bounded Context IAM.
-</p>
+**Figura 50** *Modelo lógico de datos para el Bounded Context de IAM* **![Diagrama de componentes de la KYC API y sus conexiones internas.](https://i.imgur.com/y2OyiRq.jpeg)**
 
 ### 2.6.2. Bounded Context: Carpooling
 #### 2.6.2.1. Domain Layer
