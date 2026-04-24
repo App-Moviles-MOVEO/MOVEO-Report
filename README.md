@@ -837,57 +837,123 @@ Entidad:	Objeto del dominio que tiene identidad propia .
 
 Repositorio: Componente de software que gestiona la persistencia de
 
-# Capítulo III: Requirements Specification
+## 2.4. Requirements specification
+### 2.4.1. User Stories
+### 2.4.2. Impact Mapping
+### 2.4.3. Product Backlog
 
-En este capítulo se definen los requisitos del producto digital, basados en los hallazgos de investigación y los escenarios ideales de usuario.
+## 2.5. Strategic-Level Domain-Driven Design
+### 2.5.1. EventStorming
+#### 2.5.1.1. Candidate Context Discovery
+#### 2.5.1.2. Domain Message Flows Modeling
+#### 2.5.1.3. Bounded Context Canvases
+### 2.5.2. Context Mapping
+### 2.5.3 Software Architecture
 
-## 3.1. To-Be Scenario Mapping 
+#### 2.5.3.1 Software Architecture Context Level Diagrams
 
-## 3.2. User Stories
+El **Diagrama de Contexto** constituye el primer nivel de abstracción del Modelo C4. Su propósito fundamental es delimitar el alcance del sistema a construir, en este caso **WheelsPe**, y definir con claridad sus fronteras mediante la interacción con actores humanos y sistemas externos de terceros. Este diagrama proporciona una visión de alto nivel que permite comprender el rol estratégico de WheelsPe en el ecosistema de movilidad compartida sin profundizar en su complejidad técnica interna, lo que lo convierte en una herramienta de comunicación esencial tanto para los desarrolladores como para los inversionistas y demás partes interesadas del proyecto.
 
-## 3.3. Impact Mapping:
+<p align="center">
+  <img src="WheelsPe System Context.jpg" alt="WheelsPe System Context Diagram" width="100%">
+</p>
+<p align="center">
+  <b>Figura 1:</b> Diagrama de Contexto del Sistema WheelsPe.
+</p>
 
-## 3.4. Product Backlog.
+El diagrama de contexto de WheelsPe ilustra la dinámica entre los actores principales y las dependencias tecnológicas externas que hacen posible el servicio. Se identifican dos roles de usuario críticos:
 
-### 3.4. Product Backlog
+* **Arrendatario / Pasajero:** Utiliza la plataforma para consultar el *Catálogo*, realizar *Reservas* y efectuar el *Pago*.
+* **Proveedor / Conductor:** Responsable de registrar el *Vehículo*, publicar la *Ruta* y gestionar la *Liquidación* de sus ingresos.
 
+En el ámbito de las integraciones, WheelsPe delega funciones especializadas en sistemas externos para garantizar la robustez del servicio. Se utiliza una **Pasarela de Pagos** para procesar transacciones y gestionar la *Comisión de plataforma*, mientras que el **Servicio de Verificación** asegura que cada perfil alcance el estado de *Usuario verificado* mediante el proceso de *Verificación de identidad*. Asimismo, se integra el **Servicio de Notificaciones** para el envío de *Alertas de emergencia* y el cumplimiento del protocolo de seguridad, junto con una **API de Mapas** para optimizar la *Coincidencia de ruta* en los trayectos compartidos. Toda la comunicación entre estos componentes se realiza bajo protocolos seguros, garantizando la confidencialidad de la *Bitácora de eventos* y la integridad de la información del usuario.
 
-# Capítulo IV: Solutions Software Design
+---
 
-## 4.1. Strategic-Level Domain Driven Design
+#### 2.5.3.2 Software Architecture Container Level Diagrams
 
-### 4.1.1 EventStorming
+En esta vista, se observa que la **WheelsPe Platform** está compuesta por tres contenedores principales que interactúan de forma desacoplada:
 
-#### 4.1.1.1. Candidate Context Discovery 
-#### 4.1.1.2. Domain Message Flows Modeling 
-#### 4.1.1.3. Bounded Contexts Canvases
+1.  **Mobile Application:** (Desarrollada en Kotlin/Swift) Actúa como la interfaz de usuario donde el Arrendatario y el Proveedor gestionan el *Catálogo*, sus *Rutas* y su *Reputación*.
+2.  **API Application:** El núcleo de la plataforma construido sobre **C# y ASP.NET Core**. Este contenedor es el responsable de orquestar la lógica de negocio compleja, incluyendo la *Reserva de asiento*, el cálculo de *Precio dinámico* y la *Coincidencia de ruta*. Se comunica con el frontend mediante el protocolo **JSON/HTTPS**.
+3.  **Database:** (MySQL) Donde se resguarda la *Bitácora de eventos*, el historial de *Pagos* y la persistencia de toda la información del sistema.
 
-### 4.1.2. Context Mapping
+<p align="center">
+  <img src="WheelsPe Containers.jpg" alt="WheelsPe Containers Diagram" width="100%">
+</p>
+<p align="center">
+  <b>Figura 2:</b> Diagrama de Contenedores de la plataforma WheelsPe.
+</p>
 
-### 4.1.3. Software Architecture 
+Finalmente, la **API Application** es la encargada de consumir los sistemas externos, enviando peticiones para la *Verificación de identidad (KYC)*, consultando trayectos en la **API de Mapas** y gestionando la *Liquidación al proveedor* a través de la **Pasarela de Pagos**, asegurando un entorno operativo integrado y eficiente.
 
-#### 4.1.3.1. Software Architecture Context Level Diagrams
-#### 4.1.3.2. Software Architecture Container Level Diagrams
-#### 4.1.3.3. Software Architecture Deployment Diagrams
+---
 
-## 4.2. Tactical-Level Domain Driven Design
+#### 2.5.3.3 Software Architecture Deployment Diagrams
 
-### 4.2.1. Bounded Contexts: <Bounded Context Name>
+Dentro de la **API Application**, la arquitectura se organiza en tres capas claramente diferenciadas:
 
-#### 4.2.1.1 Domain Layer
-#### 4.2.1.2 Interface Layer
-#### 4.2.1.3 Application Layer
-#### 4.2.1.4 Infrastructure Layer
-#### 4.2.1.5 Bounded Context Software Architecture Component Level Diagrams
-#### 4.2.1.6 Bounded Context Software Architecture Code Level Diagrams
-#### 4.2.1.7 Bounded Context Domain Layer Class Diagrams
-#### 4.2.1.8 Bounded Context Database Design Diagram
+* **Capa de Interfaz:** Expone los controladores *User & Auth*, *Vehicle* y *Rental & Carpool*, los cuales gestionan los endpoints para procesos como la *Acreditación de vehículo* y la *Confirmación de reserva*.
+* **Capa de Aplicación y Dominio:** Donde el *Identity Service* valida el estado de *Usuario verificado* mediante tokens **JWT** y la *WheelsPe Domain Logic* aplica las reglas críticas de *Reputación*, *Precio dinámico* y *Coincidencia de ruta*.
+* **Capa de Infraestructura:** Utiliza el *Data Repository* para centralizar el acceso a la *Database* mediante **Entity Framework Core**, mientras coordina las salidas hacia sistemas externos: el *Servicio de Verificación* para el proceso KYC, la *API de Mapas* para la navegación y la *Pasarela de Pagos* para ejecutar la *Liquidación al proveedor*.
 
-## Conclusiones y Recomendaciones
+<p align="center">
+  <img src="WheelsPe Component.jpg" alt="WheelsPe Component Diagram" width="100%">
+</p>
+<p align="center">
+  <b>Figura 3:</b> Diagrama de Componentes de la API Application.
+</p>
 
-### Conclusiones
+Esta estructura garantiza que la lógica central de WheelsPe permanezca aislada de los detalles de implementación tecnológica, facilitando la evolución independiente de cada componente.
 
-### Bibliografía
+## 2.6. Tactical-Level Domain-Driven Design
 
-### Anexos
+### 2.6.1. Bounded Context: Identity & Access Management (IAM)
+#### 2.6.1.1. Domain Layer
+#### 2.6.1.2. Interface Layer
+#### 2.6.1.3. Application Layer
+#### 2.6.1.4. Infrastructure Layer
+#### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
+##### 2.6.1.6.2. Bounded Context Database Design Diagram
 
+### 2.6.2. Bounded Context: Carpooling
+#### 2.6.2.1. Domain Layer
+#### 2.6.2.2. Interface Layer
+#### 2.6.2.3. Application Layer
+#### 2.6.2.4. Infrastructure Layer
+#### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
+##### 2.6.2.6.2. Bounded Context Database Design Diagram
+
+### 2.6.3. Bounded Context: Rental
+#### 2.6.3.1. Domain Layer
+#### 2.6.3.2. Interface Layer
+#### 2.6.3.3. Application Layer
+#### 2.6.3.4. Infrastructure Layer
+#### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
+##### 2.6.3.6.2. Bounded Context Database Design Diagram
+
+### 2.6.4. Bounded Context: Billing
+#### 2.6.4.1. Domain Layer
+#### 2.6.4.2. Interface Layer
+#### 2.6.4.3. Application Layer
+#### 2.6.4.4. Infrastructure Layer
+#### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
+##### 2.6.4.6.2. Bounded Context Database Design Diagram
+
+### 2.6.5. Bounded Context: Operations
+#### 2.6.5.1. Domain Layer
+#### 2.6.5.2. Interface Layer
+#### 2.6.5.3. Application Layer
+#### 2.6.5.4. Infrastructure Layer
+#### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
+##### 2.6.5.6.2. Bounded Context Database Design Diagram
