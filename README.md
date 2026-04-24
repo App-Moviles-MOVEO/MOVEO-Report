@@ -39,7 +39,7 @@
 </p>
 
 <p align="center">
-    <strong>Producto: WheeelsPe</strong>
+    <strong>Producto: WheelsPe</strong>
 </p>
 
 
@@ -47,7 +47,7 @@
 | Código            | Integrante                          |
 |-------------------|-------------------------------------|
 | u202312031        | Arrieta Quispe, Alison Jimena       |
-| u20211g491        | Encalada Salazar, Alexi             |
+| u20211g491        | Encalada Salazar, Alexis            |
 | u202318049        | Goñe Araccata, Esther Abigail       |
 | u202321941        | Salazar Caballero, Alvaro Fabrizzio |
 | u202317362        | Santiago Peña, Andreow Jomark       |
@@ -384,13 +384,13 @@ Consolidarse como el referente más reconocido y confiable de movilidad colabora
 ### 1.1.2. Perfiles de integrantes del equipo
 En esta sección presentamos a los miembros de la startup, describiendo nuestros perfiles, nombrando nuestras habilidades y conocimientos.
 
-| Foto | Perfil |
-| :---: | ----- |
-| ![Allison.png](https://i.imgur.com/0BbgcTE.png) | **Arrieta Quispe, Alison Jimena**<br>Mi nombre es Alison, tengo 19 años y soy estudiante de Ingeniería de Software enfocada en el desarrollo de aplicaciones web modernas potenciadas con Inteligencia Artificial para entornos globales. |
-| ![Alexis.png](Assets/Alexis.png) | **Encalada Salazar, Alexis**<br>Soy Alexis Encalada Salazar, actualmente tengo 22 años, Curso el 5to ciclo de la carrera de ingeniería de software en la universidad peruana de ciencias aplicadas. Considero que soy alguien responsable, así cómo perseverante tanto en trabajos solitarios como en equipo. Pienso ayudar a mi equipo con mis conocimientos en los lenguajes de programación C++ y python y también en edición de videos |
-| ![Abi.png](https://i.imgur.com/zNcJvTe.png) | **Goñe Araccata, Esther Abigail**<br>Mi nombre es Abigail Goñe, tengo 20 años y actualmente me encuentro en el séptimo ciclo de la carrera de Ingeniería de Software. Soy una persona responsable, amigable y me gusta poder ayudar a los demás en todo lo que pueda. |
-| ![Alvaro.png](Assets/Alvaro.png) | **Salazar Caballero, Alvaro Fabrizzio**<br>Soy Alvaro Fabrizzio Salazar Caballero, estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Me interesa contribuir al equipo con mis conocimientos en desarrollo backend y gestión de proyectos. |
-| ![Andreow.png](Assets/Andreow.png) | **Santiago Peña, Andreow Jomark**<br>Soy estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas, con una gran pasión por el desarrollo de aplicaciones móviles y backend. |
+|                      Foto                       | Perfil                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|:-----------------------------------------------:|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![Allison.png](https://i.imgur.com/0BbgcTE.png) | **Arrieta Quispe, Alison Jimena**<br>Mi nombre es Alison, tengo 19 años y soy estudiante de Ingeniería de Software enfocada en el desarrollo de aplicaciones web modernas potenciadas con Inteligencia Artificial para entornos globales.                                                                                                                                                                                                  |
+|        ![Alexis.png](Assets/Alexis.png)         | **Encalada Salazar, Alexis**<br>Soy Alexis Encalada Salazar, actualmente tengo 22 años, Curso el 5to ciclo de la carrera de ingeniería de software en la universidad peruana de ciencias aplicadas. Considero que soy alguien responsable, así cómo perseverante tanto en trabajos solitarios como en equipo. Pienso ayudar a mi equipo con mis conocimientos en los lenguajes de programación C++ y python y también en edición de videos |
+|   ![Abi.png](https://i.imgur.com/zNcJvTe.png)   | **Goñe Araccata, Esther Abigail**<br>Mi nombre es Abigail Goñe, tengo 20 años y actualmente me encuentro en el séptimo ciclo de la carrera de Ingeniería de Software. Soy una persona responsable, amigable y me gusta poder ayudar a los demás en todo lo que pueda.                                                                                                                                                                      |
+|     ![Alvaro.png](Assets/Alvaro.png)            | **Salazar Caballero, Alvaro Fabrizzio**<br>Soy Alvaro Fabrizzio Salazar Caballero, estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Me interesa contribuir al equipo con mis conocimientos en desarrollo backend y gestión de proyectos.                                                                                                                                                              |
+|       ![Andreow.png](Assets/Andreow.png)        | **Santiago Peña, Andreow Jomark**<br>Soy estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas, con una gran pasión por el desarrollo de aplicaciones móviles y backend.                                                                                                                                                                                                                                    |
 
 # 1.2. Solution Profile
 
@@ -1312,15 +1312,15 @@ Este segmento está dominado por la comunidad universitaria (50 %) y trabajadore
 
 **Estadísticas y Aspectos Comunes**
 
-| Característica | Valor Estadístico | Fuente |
-| ----- | ----- | ----- |
-| **Ocupación predominante** | Estudiante universitario (50 %) | Encuesta (n=20) |
-| **Ecosistema Móvil** | Empate técnico: Android (30 %) e iPhone (30 %) | Encuesta (n=20) |
-| **Navegador habitual** | Google Chrome (50 %) y Safari (25 %) | Encuesta (n=20) |
-| **Canal de búsqueda** | Grupos de Facebook (42.1 %) y YouTube (26.3 %) | Encuesta (n=19) |
-| **Perfil de consumidor** | Ahorrativo (55 %) e Investigador (25 %) | Encuesta (n=20) |
-| **Principal dificultad** | Falta de seguridad y perfiles verificados (50 %) | Encuesta (n=20) |
-| **Inseguridad percibida** | Nada seguro en viajes no validados (40 %) | Encuesta (n=20) |
+| Característica             | Valor Estadístico                                | Fuente          |
+|----------------------------|--------------------------------------------------|-----------------|
+| **Ocupación predominante** | Estudiante universitario (50 %)                  | Encuesta (n=20) |
+| **Ecosistema Móvil**       | Empate técnico: Android (30 %) e iPhone (30 %)   | Encuesta (n=20) |
+| **Navegador habitual**     | Google Chrome (50 %) y Safari (25 %)             | Encuesta (n=20) |
+| **Canal de búsqueda**      | Grupos de Facebook (42.1 %) y YouTube (26.3 %)   | Encuesta (n=19) |
+| **Perfil de consumidor**   | Ahorrativo (55 %) e Investigador (25 %)          | Encuesta (n=20) |
+| **Principal dificultad**   | Falta de seguridad y perfiles verificados (50 %) | Encuesta (n=20) |
+| **Inseguridad percibida**  | Nada seguro en viajes no validados (40 %)        | Encuesta (n=20) |
 
 **Figura 29**
 
@@ -1374,13 +1374,13 @@ Este segmento está dominado por la comunidad universitaria (50 %) y trabajadore
 
 **Características Objetivas**
 
-| Característica | Descripción | Relación con Entrevistas |
-| ----- | ----- | ----- |
-| **Uso de Dispositivos de Gama Media/Alta** | El 30 %  usa iPhone y un 15 %  combina Android con Laptop, indicando un perfil tecnológico avanzado. | **Mathías Santiago** usa un Galaxy Z Fold 5 para trabajar durante sus trayectos. |
-| **Búsqueda de Ahorro Crítico** | El 55 % se define como "Ahorrativo", buscando la opción más barata disponible. | **Paul Espinoza** ve el alquiler individual como una ineficiencia y busca el carpooling para dividir gastos. |
-| **Fracaso de la Puntualidad** | El 40 % sufre cancelaciones frecuentes y el 50 % "pocas veces", pero el impacto es alto. | **Alisa Goicochea** mencionó haber llorado por cancelaciones antes de entregas de maquetas. |
-| **Dependencia de Grupos de Facebook** | El 42.1 % aún busca rutas en grupos de Facebook a pesar de la inseguridad. | **Daniela Gómez** usa estos grupos por necesidad económica, aunque le genera estrés constante. |
-| **Navegación Móvil Dominante** | El 50 % usa Chrome, lo que exige una aplicación web o móvil ligera y optimizada. | **Alisa** y **Mathías** sincronizan Chrome para sus estudios y trabajo de consultoría. |
+| Característica                             | Descripción                                                                                          | Relación con Entrevistas                                                                                     |
+|--------------------------------------------|------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| **Uso de Dispositivos de Gama Media/Alta** | El 30 %  usa iPhone y un 15 %  combina Android con Laptop, indicando un perfil tecnológico avanzado. | **Mathías Santiago** usa un Galaxy Z Fold 5 para trabajar durante sus trayectos.                             |
+| **Búsqueda de Ahorro Crítico**             | El 55 % se define como "Ahorrativo", buscando la opción más barata disponible.                       | **Paul Espinoza** ve el alquiler individual como una ineficiencia y busca el carpooling para dividir gastos. |
+| **Fracaso de la Puntualidad**              | El 40 % sufre cancelaciones frecuentes y el 50 % "pocas veces", pero el impacto es alto.             | **Alisa Goicochea** mencionó haber llorado por cancelaciones antes de entregas de maquetas.                  |
+| **Dependencia de Grupos de Facebook**      | El 42.1 % aún busca rutas en grupos de Facebook a pesar de la inseguridad.                           | **Daniela Gómez** usa estos grupos por necesidad económica, aunque le genera estrés constante.               |
+| **Navegación Móvil Dominante**             | El 50 % usa Chrome, lo que exige una aplicación web o móvil ligera y optimizada.                     | **Alisa** y **Mathías** sincronizan Chrome para sus estudios y trabajo de consultoría.                       |
 
 **Figura 36**
 
@@ -1418,12 +1418,12 @@ Este segmento está dominado por la comunidad universitaria (50 %) y trabajadore
 
 **Características Subjetivas**
 
-| Característica | Descripción | Relación con Entrevistas |
-| ----- | ----- | ----- |
-| **Vulnerabilidad y Miedo** | El 75 % de los usuarios se siente "Nada seguro" o "Poco seguro" con conductores no validados. | **Alisa Goicochea** tiene protocolos defensivos como llamar a su madre apenas sube al auto. |
-| **Fidelidad Institucional** | El 50 % dejaría los grupos informales si la App garantiza una comunidad cerrada (ej. UPC). | **Daniela Gómez** confía más en el "uniforme invisible" de su misma casa de estudios. |
-| **Valoración de la Reputación** | El 35 % da mucha importancia a las reseñas, pero un 50 % la considera solo media. | Esto sugiere que la verificación oficial (DNI/Foto) es más valorada que la opinión de terceros. |
-| **Necesidad de Certeza Tecnológica** | El 45 % considera "Indispensable" la unión de Alquiler \+ Carpooling en una sola herramienta. | **Mathías Santiago** busca automatizar su rutina mediante suscripciones de viaje recurrentes. |
+| Característica                       | Descripción                                                                                   | Relación con Entrevistas                                                                        |
+|--------------------------------------|-----------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
+| **Vulnerabilidad y Miedo**           | El 75 % de los usuarios se siente "Nada seguro" o "Poco seguro" con conductores no validados. | **Alisa Goicochea** tiene protocolos defensivos como llamar a su madre apenas sube al auto.     |
+| **Fidelidad Institucional**          | El 50 % dejaría los grupos informales si la App garantiza una comunidad cerrada (ej. UPC).    | **Daniela Gómez** confía más en el "uniforme invisible" de su misma casa de estudios.           |
+| **Valoración de la Reputación**      | El 35 % da mucha importancia a las reseñas, pero un 50 % la considera solo media.             | Esto sugiere que la verificación oficial (DNI/Foto) es más valorada que la opinión de terceros. |
+| **Necesidad de Certeza Tecnológica** | El 45 % considera "Indispensable" la unión de Alquiler \+ Carpooling en una sola herramienta. | **Mathías Santiago** busca automatizar su rutina mediante suscripciones de viaje recurrentes.   |
 
 **Figura 41**
 
@@ -1457,63 +1457,779 @@ Este segmento está dominado por la comunidad universitaria (50 %) y trabajadore
 
 ## 2.3. Needfinding
 
+Para identificar las necesidades reales y prioritarias tanto de los propietarios de vehículos como de los usuarios que buscan soluciones de movilidad, se realizaron entrevistas en profundidad a representantes clave de ambos segmentos. A través de estas conversaciones, surgieron patrones claros: los propietarios buscan seguridad, control y eficiencia en la gestión de sus activos financieros, mientras que los usuarios priorizan confianza, certeza logística y protección en sus traslados diarios.
+Este proceso de needfinding permitió comprender en profundidad las motivaciones, puntos de dolor y expectativas de los usuarios, sentando las bases para el diseño de una plataforma centrada en el usuario, capaz de responder eficazmente a las demandas reales del mercado de alquiler y transporte compartido en Lima.
 
+**Enlace para ver todas las imagenes de UXPressia:**
+
+https://drive.google.com/drive/folders/1gfPSZzYH1iOk98j_BjI5e1GNAR5Lxt6Q?usp=sharing
 ### 2.3.1. User Persona
 
+Como parte del análisis del proceso de needfinding, se desarrollaron user persona representativas de los dos segmentos principales: Proveedores de Vehículos e Inquilinos/Usuarios de Movilidad. Estas personas sintetizan características clave obtenidas del análisis cualitativo de las entrevistas y el análisis cuantitativo de las encuestas, tales como comportamientos recurrentes, motivaciones, frustraciones y objetivos personales.
+Estas herramientas ayudan a traducir datos reales en perfiles accionables, orientando decisiones estratégicas sobre funcionalidades y priorización técnica. Las personas creadas reflejan las necesidades emergentes de seguridad y formalización, facilitando un diseño más empático y efectivo de WheelsPe.
 
+**Persona 1: Propietario Pragmático**
+
+- Nombre: Carlos Peña
+- Edad: 28 años
+- Ocupación: Gestor de flota independiente / Ex-analista bancario
+- Distrito: Magdalena, Lima
+- Perfil: Administra una micro-flota de 3 unidades (Toyota y Kia) como inversión principal. Es analítico, pragmático y orientado a resultados. Actualmente sufre con la desorganización de procesos manuales y la vulnerabilidad de las redes sociales.
+- Background: Tras ahorrar capital en el sector bancario, Carlos invirtió en vehículos para generar flujo de caja. Su operación actual es un caos de hojas de Excel desincronizadas y grupos de WhatsApp saturados. Busca profesionalizar su gestión para escalar el negocio sin el temor constante a estafas de identidad o daños mecánicos no reportados.
+
+Motivaciones:
+- Construir un sistema de ingresos pasivos que no dependa de su supervisión física constante.
+- Proyectar una imagen tecnológica y corporativa que lo diferencie de los alquiladores informales.
+- Minimizar el riesgo de robo o fraude mediante filtros de identidad y biometría rigurosos.
+- Reducir las horas diarias perdidas en validación de documentos y cobranzas manuales.
+
+Frustraciones:
+- El temor constante a ser víctima de fraude mediante el uso de vouchers de pago falsificados.
+- Recibir el vehículo con daños mecánicos o estéticos ocultos no admitidos por el cliente.
+- Descubrir meses después papeletas por exceso de velocidad que el conductor nunca notificó.
+- La falta de una herramienta móvil profesional que lo obliga a depender de su laptop para gestionar calendarios.
+
+Objetivos:
+- Lograr una tasa de ocupación mensual superior al 85% para cada unidad de su flota.
+- Implementar contratos digitales con validez legal que se generen automáticamente en cada reserva.
+- Contar con telemetría en tiempo real para monitorear el trato mecánico y la ubicación exacta de sus autos.
+- Gestionar una flota de más de 10 vehículos desde una sola interfaz móvil centralizada.
+
+- ![Carlos Peña.png](Assets/Carlos%20Pe%C3%B1a.png)
+
+
+**Persona 2: Usuaria Universitaria Vigilante**
+- Nombre: Esther Ospina
+- Edad: 20 años
+- Ocupación: Estudiante de Arquitectura (7mo ciclo)
+- Distrito: Santiago de Surco, Lima
+- Perfil: Usuaria recurrente de transporte compartido. Es metódica, precavida y valora la seguridad por encima del costo. Debido a su carrera, traslada objetos delicados (maquetas) y requiere un entorno de confianza.
+- Background: Esther viaja diariamente al campus cargando proyectos frágiles. El transporte público tradicional es hostil para sus maquetas, por lo que depende de "jalones" en WhatsApp. Vive en un estado de estrés constante debido a la desorganización de los chats, conductores poco serios y la falta de garantías sobre con quién viaja.
+
+Motivaciones:
+- Poder aprovechar el tiempo de trayecto para avanzar lecturas sabiendo que la ruta es monitoreada por GPS.
+- Sentirse parte de una comunidad exclusiva y validada (UPC) que fomente la confianza interpersonal.
+- Lograr un ahorro mensual significativo frente a los precios elevados de los taxis por aplicación.
+- Contar con la opción de filtrar viajes compartidos exclusivos para mujeres para mayor comodidad.
+
+Frustraciones:
+- El agotamiento mental de tener que filtrar cientos de mensajes en grupos de WhatsApp para hallar una ruta.
+- La vulnerabilidad de subir al auto de un completo desconocido cuya identidad real no ha sido validada.
+- Llegar tarde a críticas de taller críticas porque un conductor compartido canceló sin previo aviso.
+- El temor constante a accidentes debido al manejo agresivo de conductores que no cuidan su reputación digital.
+
+- Objetivos:
+- Viajar en vehículos limpios y espaciosos donde sus maquetas de arquitectura no corran riesgo de rotura.
+- Asegurarse de que el conductor pertenezca a la comunidad universitaria verificada para reducir riesgos.
+- Contar con un sistema de reserva anticipada que elimine la incertidumbre de las cancelaciones de último minuto.
+- Dividir los gastos de traslado de forma justa mediante una tarifa fija y transparente sin regateos
+
+![Esther Ospina.png](Assets/Esther%20Ospina.png)
 ### 2.3.2. User Task Matrix
 
 
+La User Task Matrix nos permite priorizar las funcionalidades del sistema basándonos en la frecuencia e importancia de las tareas que realizan nuestros dos perfiles clave. Esto asegura que el desarrollo técnico se centre en lo que realmente genera valor para el usuario.
+
+| **Tarea**                                | **Frecuencia** (Carlos Peña) | **Importancia** (Carlos Peña) | **Frecuencia** (Esther Ospina) | **Importancia** (Esther Ospina) |
+|:-----------------------------------------|:----------------------------:|:-----------------------------:|:------------------------------:|:-------------------------------:|
+| Publicación y gestión de vehículos       |           Siempre            |             Alta              |             Nunca              |              Baja               |
+| Validación de identidad (KYC) del otro   |           Siempre            |             Alta              |            Siempre             |              Alta               |
+| Búsqueda y filtrado de rutas específicas |            Nunca             |             Baja              |            Siempre             |              Alta               |
+| Comunicación directa (Chat nativo)       |           Siempre            |             Alta              |            Siempre             |              Alta               |
+| Pago o cobro digital (Yape/Plin/Tarjeta) |           Siempre            |             Alta              |            Siempre             |              Alta               |
+| Monitoreo de ruta en tiempo real (GPS)   |           A menudo           |             Alta              |            A menudo            |              Alta               |
+| Revisión de reputación y reseñas         |           A menudo           |             Alta              |            A menudo            |              Alta               |
+| Reporte de daños o incidentes            |             Baja             |             Alta              |              Baja              |              Alta               |
+
+Tareas con mayor frecuencia e importancia
+Para Carlos Peña, las tareas críticas son la publicación de vehículos y la validación de identidad. Como gestor de flota, su prioridad es mantener sus unidades activas pero seguras. La comunicación y el cobro digital son procesos diarios que ejecutan su flujo de negocio.
+Para Esther Ospina, la búsqueda de rutas y el monitoreo GPS son las tareas de mayor relevancia. Su enfoque está en la logística (llegar a tiempo) y en la seguridad personal durante el trayecto, por lo que la validación del conductor es un paso innegociable.
+Diferencias principales
+Carlos nunca utiliza el panel de navegación de rutas, ya que su rol es de proveedor de oferta. Por el contrario, Esther no se involucra en la publicación de vehículos. Esta distinción marca el diseño de dos interfaces diferenciadas en la App: un Dashboard de Gestión para Carlos y un Buscador Inteligente para Esther.
+Coincidencias
+Ambos segmentos coinciden en la alta importancia de la validación de identidad y la seguridad en los pagos. Aunque la frecuencia de reporte de daños es baja, ambos consideran que tener esa funcionalidad es vital para la confianza en la plataforma.
+
 ### 2.3.3. User Journey Mapping
+Con el objetivo de comprender en profundidad las necesidades y puntos de fricción, se desarrolló un User Journey Mapping en UXPressia. Este proceso visualiza de manera empática el recorrido "As-Is" (situación actual) que cada usuario realiza hoy en día, enfrentando la desorganización de los canales informales.
+
+Segmento Objetivo #1: Proveedores de Vehículos (Carlos Peña)
+Se evidencia un flujo de trabajo manual y frustrante. Carlos debe lidiar con la incertidumbre de publicar en redes sociales y la falta de control sobre sus activos, lo que limita su crecimiento y le genera una carga administrativa agotadora.
+
+![JM Carlos.png](Assets/JM%20Carlos.png)
+
+Segmento Objetivo #2: Usuarios de Movilidad (Esther Ospina)
+Esther se siente vulnerable y estresada. Su viaje actual depende de la suerte en grupos de WhatsApp saturados; la falta de validación institucional y la impuntualidad son sus mayores obstáculos para cumplir con sus metas académicas
+
+![JM Esther.png](Assets/JM%20Esther.png)
 
 ### 2.3.4. Empathy Mapping 
+Como parte del diseño centrado en el usuario, se elaboraron mapas de empatía para explorar las dimensiones emocionales y cognitivas de nuestros protagonistas.
+Objetivo del Empathy Mapping en WheelsPe:
+Explorar los miedos, deseos y frustraciones no explícitos. Esta herramienta es fundamental para detectar que, más allá de un transporte, los usuarios buscan paz mental. Carlos teme perder su inversión por un fraude, mientras que Esther teme por su integridad física. WheelsPe nace para resolver no solo el traslado, sino la ansiedad que genera la informalidad actual.
+Segmento #1: Propietarios de vehículos (Carlos Peña)
+Su mapa de empatía revela a un hombre que "oye" historias de estafas en las noticias y "siente" la necesidad de profesionalizarse. Su mayor ganancia es el control total, y su mayor dolor es la opacidad del mercado informal.
 
+![EM Carlos.png](Assets/EM%20Carlos.png)
+
+Segmento Objetivo #2: Usuarios de Movilidad (Esther Ospina)
+Su mapa muestra a una joven que "ve" el caos de Lima y "piensa" constantemente en su seguridad. Su motivación principal es la confianza institucional, buscando un entorno donde el conductor sea un par y no un extraño.
+
+![EM Esther.png](Assets/EM%20Esther.png)
+
+Enlace para ver los diagramas completos en el Drive: https://drive.google.com/drive/folders/1gfPSZzYH1iOk98j_BjI5e1GNAR5Lxt6Q?usp=sharing
 
 ### 2.3.5. Big Picture EventStorming
 
+El Big Picture Event Storming es una técnica de exploración colaborativa del dominio del negocio. A diferencia de las sesiones de diseño técnico, su propósito es exclusivamente entender qué ocurre en el negocio: qué eventos suceden, quién los provoca y qué procesos se desencadenan a partir de ellos. El resultado no es un diagrama de arquitectura, sino una fotografía visual del dominio que permite al equipo construir una comprensión compartida antes de tomar decisiones de diseño.
+Para WheelsPe, esta sesión fue el punto de partida para explorar el ecosistema de movilidad colaborativa que la plataforma busca digitalizar: el alquiler de vehículos entre particulares y empresas, el carpooling entre usuarios con rutas compatibles, y todos los procesos que los rodean.
+Flujo General
+
+A continuación se presenta la vista general del tablero resultante de la sesión:
+![Flujos.png](Assets/Flujos.png)
+El tablero muestra seis agrupaciones de eventos que representan los flujos principales del dominio.
+
+Exploración de cada flujo 1: 
+Acceso e identidad del usuario
+El primer flujo descubierto fue el de acceso a la plataforma. Cualquier persona interesada debe registrar una cuenta y seleccionar obligatoriamente un rol: Proveedor o Arrendatario. Una vez registrado, el sistema exige una verificación de identidad (KYC) para habilitar la operación. Al completarse, el usuario obtiene un rol asignado y su reputación comienza a construirse con cada interacción.
+
+Los eventos identificados fueron: Cuenta registrada → Identidad verificada (KYC) → Rol asignado (Proveedor / Arrendatario) → Reputación actualizada.
+Un hot spot emergió aquí: ¿qué ocurre si el proceso KYC falla? La plataforma no tiene definida aún la política para ese escenario.
+
+Flujo 2: Publicación y gestión de vehículos
+El segundo flujo explorado fue el de la oferta. Un Proveedor (propietario particular o empresa de alquiler) publica un vehículo en la plataforma, configura su disponibilidad por fechas y como resultado el vehículo queda disponible para ser reservado. El ciclo de este flujo cierra cuando el vehículo es devuelto al finalizar una reserva
+![Flujo 2.png](Assets/Flujo%202.png)
+Los eventos identificados fueron: Vehículo publicado → Disponibilidad configurada → Oferta disponible → Vehículo devuelto
+
+Flujo 3: Reserva de vehículos
+El tercer flujo fue el más discutido por el equipo. Un Arrendatario solicita una reserva sobre un vehículo disponible. El sistema ejecuta automáticamente una verificación de disponibilidad (proceso en lila) y, si es exitosa, confirma la reserva y registra la entrega del vehículo
+![Flujo 3.png](Assets/Flujo%203.png)
+Los eventos identificados fueron: Reserva solicitada → (Verificación de disponibilidad) → Reserva confirmada → Vehículo entregado.
+Un hot spot importante quedó marcado: ¿qué ocurre si se intenta cancelar una reserva que ya está activa? Esta pregunta quedó pendiente de resolución para una iteración posterior.
+
+Flujo 4: Carpooling
+El flujo de movilidad compartida tiene su propia lógica y actores. Un Conductor (un Arrendatario que tiene un vehículo y va a realizar un trayecto) publica una ruta. El sistema ejecuta automáticamente una coincidencia de ruta (proceso en lila) para conectar al conductor con Pasajeros que tienen trayectos compatibles. Una vez que un Pasajero se une, el viaje puede iniciarse y completarse
+![Flujo 4.png](Assets/Flujo%204.png)
+Los eventos identificados fueron: Ruta publicada → (Coincidencia de ruta) → Viaje compartido iniciado → Viaje completado, con la línea paralela del Pasajero: Pasajero unido a ruta.
+
+Flujo 5: Facturación
+Al finalizar cualquier servicio, ya sea una reserva de vehículo o un viaje de carpooling, se activa el proceso de cobro. El flujo inicia con el evento Fin de servicio y desencadena la aplicación de descuentos si corresponde, el procesamiento del pago, el descuento de la comisión de la plataforma y finalmente la liquidación al proveedor.
+![Flujo 5.png](Assets/Flujo%205.png)
+Los eventos identificados fueron: Fin de servicio → Descuento aplicado → Pago procesado → Comisión de plataforma aplicada → Pago a proveedor liquidado.
+Un hot spot fue marcado aquí también: ¿cómo se maneja un pago fallido?
+
+Flujo 6: Operaciones y trazabilidad
+El último flujo descubierto fue de carácter transversal: ocurre en paralelo a todos los demás. El sistema registra automáticamente cada evento relevante en una bitácora, actualiza la localización básica de los activos en movimiento y mantiene el estado de cada servicio activo. Adicionalmente, cualquier actor puede reportar un incidente o registrar una calificación al finalizar una interacción.
+![Flujo 6.png](Assets/Flujo%206.png)
+Los eventos identificados fueron: Evento registrado → Localización básica registrada → Estado de servicio actualizado → Notificación enviada, con la línea paralela de actores: Incidente reportado → Calificación registrada.
+
 ### 2.3.6. Ubiquitous Language
 
-Arrendador:	Usuario que publica su vehículo para alquiler.
+El Ubiquitous Language es un glosario de términos del dominio del negocio construido de forma colaborativa entre el equipo de desarrollo y los stakeholders. Su propósito es eliminar ambigüedades en la comunicación: cada término tiene una única definición acordada y todos los involucrados, desarrolladores, diseñadores, product owners y usuarios lo utilizan de la misma manera.
+En WheelsPe, este glosario fue construido a partir de los eventos, actores y procesos identificados durante la sesión de Big Picture Event Storming. Mantenerlo actualizado garantiza que lo que el equipo diseña e implementa refleje fielmente lo que el negocio necesita.
 
-Arrendatario:	Usuario que alquila un vehículo disponible en la app.
-
-Vehículo:	Entidad principal registrada por un arrendador.
-
-Reserva:	Proceso mediante el cual un arrendatario aparta un vehículo en una fecha.
-
-Publicación:	Objeto que contiene los datos visibles de un vehículo (precio, fotos, reglas).
-
-Reseña:	Valoración escrita o numérica sobre el arrendador o vehículo.
-
-Framework:	Conjunto de herramientas y librerías que usamos para construir la aplicación .
-
-Entidad:	Objeto del dominio que tiene identidad propia .
-
-Repositorio: Componente de software que gestiona la persistencia de
 ## 2.4. Requirements Specification
 
 ### 2.4.1. User Stories
 
+2.4.1 User Stories
+Las User Stories representan la manera en los que requerimientos funcionales de la plataforma se transforman en necesidades concretas desde la perspectiva de los diferentes segmentos involucrados: proveedores de vehículos e usuarios de movilidad.
+Cada historia se redacta bajo el formato “Como [rol], quiero [objetivo] para [beneficio]”, acompañado por criterios de aceptación expresados en términos de Given-When-Then.
+De esta forma las historias nos ayudan a:
+Capturar las necesidades de negocio de manera simple y entendible.
+Facilitar la priorización y planificación de los sprints.
+Garantizar que cada funcionalidad se centra en generar valor real para los usuarios finales y responsables en cada operación
+En este proyecto se elaboraron las User Stories organizadas en épicas, cubriendo desde la landing page hasta el backend, pasando por la aplicación móvil, web, funciones de monitoreo IoT y reglas de seguridad.
+
+| **Epic Id** | **Tittle** |
+| :--- | :--- |
+| EP01 | Gestión de la identidad y acceso |
+| EP02 | Seguridad y control operacional |
+| EP03 | Inventario y ofertas de vehículos |
+| EP04 | Experiencia de alquiler y reserva |
+| EP05 | Movilidad compartida |
+| EP06 | Operaciones financieras |
+| EP07 | Reputación y núcleo de la plataforma |
+| EP08 | Información y Fidelización |
+
+| **Story ID**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | **User**                         | **Priority** | **Epic** |
+|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------| :--- | :--- |
+| 1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | US01                             | 3 | 1 |
+| **Title**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Registro de cuenta con rol único | | |
+| **Description**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                                  | | |
+| Como una persona interesada en WheelsPe, quiero registrarme proporcionando mis datos personales y seleccionar un rol único (Proveedor o Usuario) para que el sistema configure los permisos correspondientes a mi actividad.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |                                  | | |
+| **Acceptance Criteria**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |                                  | | |
+| **Escenario 1: Validación de selección de rol obligatorio.** Dado que un nuevo usuario ingresa sus datos de registro, cuando intenta finalizar el proceso sin elegir un perfil, entonces el sistema impide el registro e indica que la elección de un rol es obligatoria. **Escenario 2: Verificación de unicidad de correo.** Dado que el usuario ingresa una dirección de correo, cuando el sistema procesa la solicitud, entonces valida que la cuenta no existe previamente y transmite un código de verificación al buzón indicado. **Escenario 3: Restricción de formato de datos personales.** Dado que el usuario completa el registro, cuando ingresa caracteres numéricos en campos de nombre o caracteres especiales en el teléfono, entonces el sistema rechaza la entrada y solicita corregir el formato. |                                  | | |
+
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 2 | US02 | 5 | 1 |
+| **Title** | Verificación de identidad mediante KYC | | |
+| **Description** | | | |
+| Como usuario registrado, quiero completar la verificación de identidad mediante documentos oficiales y reconocimiento facial para obtener el estado de "Verificado" y operar con seguridad. | | | |
+| **Acceptance Criteria** | | | |
+| **Escenario 1: Envío exitoso de documentos.** Dado que el usuario accede a la validación de identidad, cuando carga las imágenes del documento nacional de identidad y el selfie de validación, entonces el sistema registra los archivos y asigna el estado "En proceso de verificación". **Escenario 2: Bloqueo de acciones por falta de validación.** Dado que un usuario no verificado intenta publicar una oferta o realizar una reserva, cuando el sistema detecta la ausencia de validación, entonces bloquea la transacción e informa sobre la obligatoriedad del proceso. **Escenario 3: Rechazo por baja calidad de imagen.** Dado que el sistema analiza los archivos cargados, cuando detecta que la imagen es ilegible o no coincide con los patrones biométricos, entonces rechaza la solicitud y habilita un nuevo intento de carga. | | | |
+
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 3 | US03 | 2 | 1 |
+| **Title** | Autenticación y persistencia de sesión | | |
+| **Description** | | | |
+| Como usuario registrado, quiero autenticarme con mis credenciales y mantener la sesión activa para acceder a los servicios de forma fluida sin re-autenticaciones constantes. | | | |
+| **Acceptance Criteria** | | | |
+| **Escenario 1: Inicio de sesión exitoso.** Dado que el usuario ingresa sus credenciales válidas, cuando solicita el acceso, entonces el sistema valida la identidad y otorga entrada a las funciones de su rol asignado. **Escenario 2: Persistencia de la sesión activa.** Dado que el usuario ha ingresado previamente, cuando vuelve a interactuar con la plataforma sin haber cerrado sesión de forma explícita, entonces el sistema reconoce el token activo y omite la solicitud de credenciales. **Escenario 3: Bloqueo preventivo por intentos fallidos.** Dado que el sistema registra múltiples intentos de acceso erróneos para una cuenta, cuando se supera el umbral de seguridad, entonces bloquea el acceso temporalmente para mitigar riesgos de intrusión. | | | |
+
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 4 | US04 | 2 | 1 |
+| **Title** | Recuperación de contraseña | | |
+| **Description** | | | |
+| Como usuario registrado, quiero restablecer mi clave de acceso ante un olvido para recuperar la disponibilidad de mi cuenta de manera autónoma. | | | |
+| **Acceptance Criteria** | | | |
+| **Escenario 1: Solicitud de restablecimiento.** Dado que el usuario solicita una nueva clave, cuando ingresa el correo electrónico asociado, entonces el sistema genera y transmite un enlace de recuperación con vigencia temporal. **Escenario 2: Actualización de credencial exitosa.** Dado que el usuario utiliza el enlace de recuperación, cuando ingresa y confirma una clave que cumple los estándares de seguridad, entonces el sistema actualiza la base de datos y permite el ingreso con la nueva clave. **Escenario 3: Expiración de enlace de seguridad.** Dado que el usuario intenta utilizar un enlace de recuperación, cuando el sistema detecta que el tiempo de validez ha concluido, entonces invalida la acción y solicita una nueva petición de restablecimiento. | | | |
+
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 5 | US05 | 5 | 1 |
+| **Title** | Acreditación de propiedad vehicular | | |
+| **Description** | | | |
+| Como Proveedor, quiero registrar la documentación oficial de mi vehículo para demostrar la legitimidad de la propiedad y habilitar el activo para ofertas de alquiler. | | | |
+| **Acceptance Criteria** | | | |
+| **Escenario 1: Validación de documentos vigentes.** Dado que el proveedor ingresa la tarjeta de propiedad y el seguro obligatorio (SOAT), cuando el sistema procesa los datos, entonces verifica la concordancia de la placa y habilita el vehículo para su publicación. **Escenario 2: Rechazo por documentación caducada.** Dado que el sistema analiza los documentos cargados, cuando detecta que el SOAT o la revisión técnica están vencidos, entonces impide el registro del vehículo y notifica la causa al proveedor. **Escenario 3: Inconsistencia en datos de serie.** Dado que el proveedor registra la información del motor o chasis, cuando los datos no coinciden con los registros oficiales, entonces el sistema deriva el caso a una auditoría administrativa manual. | | | |
+
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 6 | US06 | 2 | 8 |
+| **Title** | Monitoreo de ruta en tiempo real vía GPS | | |
+| **Description** | | | |
+| Como usuario con un viaje activo, quiero que el sistema rastree la ubicación GPS para supervisar el trayecto y garantizar la trazabilidad de la operación. | | | |
+| **Acceptance Criteria** | | | |
+| **Escenario 1: Actualización de posición en vivo.** Dado que un viaje se encuentra en curso, cuando el sistema recibe las coordenadas GPS, entonces actualiza la ubicación exacta en el mapa de seguimiento con un intervalo máximo de 5 segundos. **Escenario 2: Generación de enlace de seguimiento externo.** Dado que la ruta está activa, cuando el usuario solicita compartir el trayecto, entonces el sistema genera una URL pública que permite a terceros visualizar el progreso en tiempo real. **Escenario 3: Alerta por interrupción de señal GPS.** Dado que el sistema monitorea el movimiento, cuando se pierde la señal de geolocalización por un tiempo definido, entonces emite una alerta de seguridad y registra la última posición conocida. | | | |
+
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 7 | US07 | 8 | 2 |
+| **Title** | Seguimiento de viaje para pasajeros | | |
+| **Description** | | | |
+| Como Usuario Pasajero, quiero recibir alertas ante desviaciones injustificadas de la ruta trazada para garantizar mi seguridad personal durante el desplazamiento. | | | |
+| **Acceptance Criteria** | | | |
+| **Escenario 1: Monitoreo de ruta óptima.** Dado que el pasajero inicia el viaje, cuando el sistema compara la ubicación real con el trazado sugerido, entonces registra el progreso y valida que se mantenga dentro del margen de la ruta. **Escenario 2: Alerta por desviación significativa.** Dado que el vehículo se encuentra en marcha, cuando el sistema detecta que el conductor se aleja del perímetro de la ruta establecida, entonces transmite una notificación de advertencia inmediata al pasajero. **Escenario 3: Validación de cambio de ruta consensuado.** Dado que el sistema detecta un desvío, cuando el pasajero confirma a través de la plataforma que el cambio es válido, entonces el sistema actualiza la ruta y desactiva la alerta de seguridad. | | | |
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 8 | US08 | 5 | 2 |
+| **Title** | Botón de pánico para emergencias | | |
+| **Description** | | | |
+| Como Usuario Pasajero, quiero activar una alerta de emergencia durante el trayecto para notificar mi ubicación a las autoridades y contactos de confianza ante una situación de riesgo. | | | |
+| **Acceptance Criteria** | | | |
+| **Escenario 1: Ejecución de protocolo de auxilio.** Dado que el pasajero se encuentra en un viaje activo, cuando activa la función de emergencia, entonces el sistema envía la ubicación GPS y los datos del vehículo a la central y a los contactos registrados. **Escenario 2: Notificación masiva a terceros.** Dado que el sistema procesa la alerta, cuando se confirma el estado de emergencia, entonces transmite mensajes con enlaces de seguimiento en vivo a todos los contactos de confianza configurados. **Escenario 3: Desactivación por código de seguridad.** Dado que la alerta ha sido activada accidentalmente, cuando el usuario ingresa su código de seguridad privado en el tiempo establecido, entonces el sistema cancela el despacho de autoridades pero registra el evento. | | | |
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 9 | US09 | 3 | 2 |
+| **Title** | Validación de inicio de viaje mediante código PIN | | |
+| **Description** | | | |
+| Como Usuario Pasajero, quiero que el sistema genere un código de seguridad único que debo entregar al conductor al abordar, para asegurar que estoy subiendo al vehículo correcto y que el viaje se inicie formalmente. | | | |
+| **Acceptance Criteria** | | | |
+| **Escenario 1: Generación de código dinámico.** Dado que el conductor se aproxima al punto de encuentro, cuando el sistema confirma la cercanía, entonces genera y muestra al pasajero un código numérico único para el servicio. **Escenario 2: Validación obligatoria de inicio.** Dado que el pasajero ingresa al vehículo, cuando el conductor registra el código proporcionado, entonces el sistema valida la coincidencia y activa formalmente el inicio del trayecto y el seguro de viaje. **Escenario 3: Bloqueo por inconsistencia de código.** Dado que el conductor ingresa un código erróneo, cuando el sistema detecta la falta de coincidencia, entonces impide el inicio del viaje y solicita la verificación manual de los datos del servicio. | | | |
+
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 10 | US10 | 2 | 2 |
+| **Title** | Gestión de contactos de confianza | | |
+| **Description** | | | |
+| Como usuario, quiero registrar los datos de contacto de personas de confianza para que el sistema les informe automáticamente mi ubicación en casos de riesgo o emergencia. | | | |
+| **Acceptance Criteria** | | | |
+| **Escenario 1: Registro de contactos oficiales.** Dado que el usuario accede a la sección de seguridad, cuando ingresa los números telefónicos válidos, entonces el sistema los almacena como destinatarios autorizados para alertas de emergencia. **Escenario 2: Envío automático de estatus de viaje.** Dado que el usuario inicia un trayecto nocturno, cuando el sistema procesa la configuración de privacidad, entonces envía una notificación de inicio a los contactos registrados con el enlace de seguimiento. **Escenario 3: Límite de capacidad en red de confianza.** Dado que el usuario intenta añadir un nuevo contacto, cuando el sistema detecta que se ha alcanzado el límite máximo de tres registros, entonces bloquea la adición y solicita la edición de uno existente. | | | |
+
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 11 | US11 | 3 | 2 |
+| **Title** | Filtro de preferencia de género ("Solo Mujeres") | | |
+| **Description** | | | |
+| Como Usuario Pasajero (mujer), quiero filtrar los servicios de transporte para visualizar exclusivamente conductoras mujeres y aumentar mi percepción de seguridad en mis trayectos. | | | |
+| **Acceptance Criteria** | | | |
+| **Escenario 1: Activación de preferencia de género.** Dado que una usuaria verificada realiza una búsqueda de movilidad, cuando activa el filtro de preferencia femenina, entonces el sistema muestra únicamente resultados cuyos conductores son de sexo femenino. **Escenario 2: Notificación por ausencia de rutas.** Dado que la preferencia de género está activa, cuando el sistema no encuentra conductoras disponibles en el rango solicitado, entonces informa que no hay resultados bajo ese criterio específico. **Escenario 3: Restricción de acceso al filtro.** Dado que el usuario registrado es de sexo masculino, cuando intenta habilitar la preferencia de género, entonces el sistema deniega la acción para mantener la integridad de la funcionalidad de seguridad. | | | |
+
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 12 | US12 | 5 | 2 |
+| **Title** | Registro de estado vehicular (Checklist fotográfico) | | |
+| **Description** | | | |
+| Como Proveedor, quiero que el sistema registre el estado físico del vehículo antes y después de cada alquiler para contar con evidencia técnica ante posibles reclamaciones por daños. | | | |
+| **Acceptance Criteria** | | | |
+| **Escenario 1: Registro inicial obligatorio.** Dado que se inicia un periodo de alquiler, cuando el sistema solicita la evidencia de entrega, entonces registra las capturas del estado exterior e interior y habilita el inicio formal del servicio. **Escenario 2: Validación de devolución.** Dado que el arrendatario finaliza el uso del vehículo, cuando el sistema procesa la devolución, entonces exige el registro fotográfico comparativo para cerrar la transacción y liberar las garantías financieras. **Escenario 3: Detección de inconsistencias.** Dado que el sistema compara los registros de entrega y devolución, cuando detecta discrepancias visuales o reportes de daños, entonces genera una alerta automática para la revisión del proveedor y retiene la fianza. | | | |
+
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 13 | US13 | 5 | 5 |
+| **Title** | Publicación de rutas de movilidad compartida | | |
+| **Description** | | | |
+| Como Conductor verificado, quiero publicar una ruta con origen, destino y capacidad para que otros miembros de mi comunidad compartan el trayecto y los gastos operativos. | | | |
+| **Acceptance Criteria** | | | |
+| **Escenario 1: Registro exitoso de trayecto compartido.** Dado que el conductor cuenta con una cuenta activa, cuando define los puntos de inicio, fin y el horario de salida, entonces el sistema almacena la ruta y la publica en el catálogo de movilidad. **Escenario 2: Restricción de temporalidad.** Dado que el conductor programa una ruta, cuando selecciona una hora de salida anterior al tiempo real, entonces el sistema rechaza la publicación y solicita una actualización de horario. **Escenario 3: Límite de capacidad por vehículo.** Dado que el conductor establece los asientos disponibles, cuando el número excede la capacidad técnica del vehículo registrado, entonces el sistema limita automáticamente el aforo al máximo permitido para ese modelo. | | | |
+
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 14 | US14 | 5 | 5 |
+| **Title** | Búsqueda con segmentación institucional | | |
+| **Description** | | | |
+| Como Usuario Pasajero, quiero buscar rutas de movilidad filtrando por mi entorno institucional para viajar exclusivamente con personas validadas de mi misma comunidad académica o laboral. | | | |
+| **Acceptance Criteria** | | | |
+| **Escenario 1: Filtrado por dominio institucional.** Dado que el usuario busca un traslado, cuando habilita el filtro de "Comunidad", entonces el sistema muestra únicamente conductores que poseen un correo institucional verificado del mismo dominio. **Escenario 2: Creación de alertas de ruta.** Dado que no existen trayectos disponibles para el destino solicitado, cuando el usuario finaliza la búsqueda, entonces el sistema ofrece la creación de una notificación automática para futuras publicaciones. **Escenario 3: Consistencia en rangos horarios.** Dado que el usuario aplica filtros de tiempo, cuando la hora de llegada deseada es anterior a la de salida, entonces el sistema reinicia los valores y notifica la inconsistencia lógica en la búsqueda. | | | |
+
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 15 | US15 | 4 | 5 |
+| **Title** | Gestión de solicitudes de reserva de asiento | | |
+| **Description** | | | |
+| Como Usuario Pasajero, quiero solicitar la reserva de un cupo en una ruta publicada para asegurar mi traslado y coordinar el encuentro con el conductor. | | | |
+| **Acceptance Criteria** | | | |
+| **Escenario 1: Envío de solicitud de unión.** Dado que el pasajero selecciona una ruta ideal, cuando confirma la petición de cupo, entonces el sistema transmite la solicitud al conductor y marca el estado como "Pendiente de aprobación". **Escenario 2: Bloqueo de reserva por falta de verificación.** Dado que un usuario no verificado intenta reservar un asiento, cuando el sistema procesa la petición, entonces deniega la acción y exige la finalización del proceso de identidad. **Escenario 3: Prevención de reservas duplicadas.** Dado que el pasajero ya tiene un viaje confirmado en un horario específico, cuando intenta reservar otra ruta para el mismo intervalo de tiempo, entonces el sistema bloquea la nueva solicitud por conflicto de agenda. | | | |
+
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 16 | US16 | 4 | 5 |
+| **Title** | Aprobación y control de aforo en ruta | | |
+| **Description** | | | |
+| Como Conductor, quiero evaluar las solicitudes de los interesados y gestionar el aforo de mi vehículo para garantizar un grupo de viaje afín y seguro. | | | |
+| **Acceptance Criteria** | | | |
+| **Escenario 1: Aceptación de pasajero.** Dado que el conductor recibe una petición de unión, cuando valida el perfil y acepta al usuario, entonces el sistema descuenta el cupo del aforo disponible e informa al pasajero de su confirmación. **Escenario 2: Liberación de cupos por rechazo.** Dado que el conductor deniega una solicitud, cuando el sistema procesa el rechazo, entonces libera la petición para que el pasajero busque otras opciones sin afectar la disponibilidad de la ruta. **Escenario 3: Cierre de ruta por aforo completo.** Dado que se confirma el último asiento disponible, cuando el sistema actualiza el estado, entonces retira automáticamente la ruta del motor de búsqueda público para evitar sobreventas. | | | |
+
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 17 | US17 | 3 | 5 |
+| **Title** | Automatización de rutas recurrentes | | |
+| **Description** | | | |
+| Como Usuario, quiero programar traslados para toda la semana para automatizar mi logística de transporte y asegurar mi cupo en rutas institucionales de forma anticipada. | | | |
+| **Acceptance Criteria** | | | |
+| **Escenario 1: Configuración de viajes semanales.** Dado que el usuario identifica una ruta frecuente, cuando activa la programación recurrente, entonces el sistema genera las reservas automáticas para los días y horarios seleccionados. **Escenario 2: Gestión de excepciones en la serie.** Dado que el usuario tiene una serie de viajes programados, cuando cancela una fecha específica por un evento puntual, entonces el sistema libera ese cupo sin alterar la vigencia del resto de la semana. **Escenario 3: Recordatorio de operación recurrente.** Dado que existe una reserva automática próxima a iniciar, cuando el sistema detecta el margen de una hora previa, entonces envía una notificación de recordatorio tanto al conductor como a los pasajeros. | | | |
+
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 18 | US18 | 3 | 5 |
+| **Title** | Coordinación mediante mensajería por trayecto | | |
+| **Description** | | | |
+| Como usuario confirmado en una ruta, quiero disponer de un canal de comunicación exclusivo para coordinar detalles del punto de recojo con los demás integrantes del viaje. | | | |
+| **Acceptance Criteria** | | | |
+| **Escenario 1: Habilitación de canal grupal.** Dado que una ruta posee al menos un pasajero confirmado, cuando el sistema detecta la confirmación, entonces habilita un canal de comunicación exclusivo para los miembros de ese trayecto específico. **Escenario 2: Protección de datos privados.** Dado que el canal está activo, cuando los usuarios intercambian información, entonces el sistema mantiene el anonimato de los números telefónicos personales para proteger la privacidad. **Escenario 3: Archivo de comunicación post-viaje.** Dado que el trayecto ha concluido satisfactoriamente, cuando transcurre el tiempo de gracia establecido, entonces el sistema deshabilita el canal y archiva la información para auditoría. | | | |
+
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 19 | US19 | 2 | 5 |
+| **Title** | Consulta de reputación del usuario | | |
+| **Description** | | | |
+| Como usuario de una transacción, quiero visualizar la calificación y reseñas históricas de la otra parte involucrada para tomar decisiones basadas en la confianza comunitaria. | | | |
+| **Acceptance Criteria** | | | |
+| **Escenario 1: Consulta de reputación.** Dado que el conductor recibe una solicitud de unión, cuando accede al perfil del interesado, entonces el sistema debe mostrar su puntuación promedio y el número de viajes completados. **Escenario 2: Distintivo de usuario nuevo.** Dado que el pasajero no tiene historial en la plataforma, cuando el conductor revisa su perfil, entonces el sistema debe mostrar una etiqueta de "Usuario Nuevo" para transparentar la falta de reseñas. **Escenario 3: Restricción por baja puntuación.** Dado que un pasajero posee una calificación menor al umbral de seguridad, cuando intenta solicitar una ruta, entonces el sistema debe impedir la acción y notificar las razones. | | | |
+
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 20 | US20 | 3 | 5 |
+| **Title** | Formalización de llegada al destino | | |
+| **Description** | | | |
+| Como Usuario Pasajero, quiero confirmar la finalización del trayecto en el destino para cerrar el ciclo del servicio y habilitar la evaluación del mismo. | | | |
+| **Acceptance Criteria** | | | |
+| **Escenario 1: Cierre de servicio exitoso.** Dado que el vehículo alcanza las coordenadas de destino, cuando el pasajero confirma la llegada, entonces el sistema detiene el monitoreo GPS y activa la fase de calificación mutua. **Escenario 2: Sugerencia de cierre por geolocalización.** Dado que el sistema detecta que el vehículo ha permanecido en el punto de destino por un tiempo excedente, cuando el pasajero no reporta la llegada, entonces envía una notificación para sugerir el cierre administrativo. **Escenario 3: Reporte de discrepancia en destino.** Dado que el conductor marca el viaje como concluido pero la ubicación del pasajero no coincide con el destino, cuando el pasajero reporta la anomalía, entonces el sistema genera un registro de auditoría de seguridad. | | | |
+
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 21 | US21 | 5 | 6 |
+| **Title** | Vinculación de métodos de pago electrónicos | | |
+| **Description** | | | |
+| Como usuario registrado, quiero vincular mis tarjetas o billeteras digitales para automatizar los pagos y cobros de los servicios dentro de la plataforma. | | | |
+| **Acceptance Criteria** | | | |
+| **Escenario 1: Registro exitoso de instrumento financiero.** Dado que el usuario ingresa los datos de un método de pago válido, cuando el sistema procesa la validación de seguridad, entonces almacena la información tokenizada y habilita el método para transacciones. **Escenario 2: Rechazo por instrumento caducado.** Dado que el usuario intenta registrar una tarjeta, cuando el sistema detecta que la fecha de vigencia es anterior a la actual, entonces rechaza la vinculación e informa la causa. **Escenario 3: Límite de instrumentos permitidos.** Dado que el usuario posee el número máximo de métodos de pago configurados, cuando intenta añadir uno nuevo, entonces el sistema bloquea la acción para cumplir con las políticas de seguridad. | | | |
+
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 22 | US22 | 5 | 6 |
+| **Title** | Procesamiento de pago por alquiler de vehículo | | |
+| **Description** | | | |
+| Como Usuario Arrendatario, quiero liquidar el monto del alquiler mediante la pasarela integrada para confirmar la reserva del activo sin recurrir al efectivo. | | | |
+| **Acceptance Criteria** | | | |
+| **Escenario 1: Liquidación confirmada satisfactoriamente.** Dado que el usuario confirma la reserva, cuando la pasarela procesa el cargo de forma exitosa, entonces el sistema actualiza el estado del servicio a "Confirmado" y genera la reserva oficial. **Escenario 2: Notificación por fondos insuficientes.** Dado que el usuario intenta realizar el pago, cuando la entidad financiera declina la transacción por falta de saldo, entonces el sistema comunica el error y permite el cambio de método de pago. **Escenario 3: Reversión por interrupción técnica.** Dado que el sistema pierde conexión con la pasarela durante el cobro, cuando transcurre el tiempo límite de espera, entonces revierte cualquier cargo parcial y solicita el reintento de la operación. | | | |
+
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 23 | US23 | 5 | 6 |
+| **Title** | Pago de cuota por asiento compartido | | |
+| **Description** | | | |
+| Como Usuario Pasajero, quiero pagar mi cuota del viaje directamente al conductor a través del sistema para formalizar mi lugar y evitar el manejo de dinero físico. | | | |
+| **Acceptance Criteria** | | | |
+| **Escenario 1: Transferencia de cuota exitosa.** Dado que el pasajero reserva un asiento, cuando el sistema confirma la transacción, entonces transfiere el saldo correspondiente a la billetera interna del conductor tras la finalización del trayecto. **Escenario 2: Cancelación de reserva por impago.** Dado que el cobro de la cuota falla al momento de la solicitud, cuando el sistema identifica el error, entonces anula la petición de asiento de forma automática para liberar el cupo. **Escenario 3: Bloqueo de reserva por deuda activa.** Dado que el pasajero registra un pago fallido en un servicio anterior, cuando intenta realizar una nueva reserva, entonces el sistema impide la acción hasta la regularización de la deuda. | | | |
+
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 24 | US24 | 5 | 6 |
+| **Title** | Gestión de garantía mediante retención (Escrow) | | |
+| **Description** | | | |
+| Como Proveedor, quiero que el sistema retenga un monto de garantía al arrendatario antes de la entrega para cubrir posibles daños o infracciones durante el uso del vehículo. | | | |
+| **Acceptance Criteria** | | | |
+| **Escenario 1: Ejecución de pre-autorización de fianza.** Dado que se inicia un contrato de alquiler, cuando el sistema procesa la reserva, entonces bloquea el monto de garantía definido en la tarjeta del cliente como respaldo operativo. **Escenario 2: Retención de fianza por reporte de daños.** Dado que el proveedor registra daños en el proceso de devolución, cuando el sistema valida la evidencia, entonces retiene el monto proporcional de la garantía para cubrir los costos de reparación. **Escenario 3: Liberación de garantía por conformidad.** Dado que el proceso de devolución concluye sin observaciones técnicas, cuando el sistema cierra el contrato, entonces libera el bloqueo de fondos en el plazo establecido. | | | |
+
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 25 | US25 | 4 | 6 |
+| **Title** | Emisión de comprobantes y contratos digitales | | |
+| **Description** | | | |
+| Como usuario involucrado en una transacción, quiero recibir el comprobante y el contrato digitalizado para contar con un respaldo legal y contable de la operación. | | | |
+| **Acceptance Criteria** | | | |
+| **Escenario 1: Generación automática de documentos.** Dado que una transacción financiera concluye exitosamente, cuando el sistema confirma el pago, entonces genera un archivo PDF detallado y lo transmite al correo electrónico del usuario. **Escenario 2: Acceso a registros históricos.** Dado que el usuario requiere consultar operaciones pasadas, cuando accede al historial financiero, entonces el sistema permite la descarga de cualquier contrato o boleta generada previamente. **Escenario 3: Gestión de errores en facturación.** Dado que el servicio de emisión de documentos presenta una falla técnica, cuando el sistema detecta la anomalía, entonces encola la tarea para un envío posterior e informa al usuario sobre el retraso. | | | |
+
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 26 | US26 | 3 | 6 |
+| **Title** | Procesamiento de reembolsos automáticos | | |
+| **Description** | | | |
+| Como usuario afectado por una cancelación, quiero que el sistema procese el reembolso de mi dinero según las políticas vigentes para proteger mi patrimonio. | | | |
+| **Acceptance Criteria** | | | |
+| **Escenario 1: Reembolso total por cancelación del proveedor.** Dado que el dueño anula una reserva previamente pagada, cuando el sistema procesa la baja, entonces ejecuta la reversión íntegra del monto al método de pago original. **Escenario 2: Reembolso parcial por anulación tardía.** Dado que el usuario cancela el servicio fuera del margen de tiempo gratuito, cuando el sistema gestiona la devolución, entonces aplica la penalidad correspondiente y devuelve el saldo restante. **Escenario 3: Notificación de estatus de devolución.** Dado que se inicia un proceso de retorno de fondos, cuando la pasarela confirma la operación, entonces el sistema comunica al usuario el tiempo estimado de procesamiento bancario. | | | |
+
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 27 | US27 | 3 | 6 |
+| **Title** | Aplicación de beneficios y cupones promocionales | | |
+| **Description** | | | |
+| Como usuario, quiero validar códigos de descuento antes de realizar un pago para obtener beneficios económicos por mi fidelidad o convenios institucionales. | | | |
+| **Acceptance Criteria** | | | |
+| **Escenario 1: Aplicación de beneficio vigente.** Dado que el usuario registra un código promocional, cuando el sistema valida la vigencia y términos, entonces deduce el monto correspondiente del precio total antes de la liquidación. **Escenario 2: Rechazo por beneficio expirado.** Dado que el usuario ingresa un código, cuando el sistema detecta que el plazo de validez ha concluido, entonces mantiene el precio original e informa sobre la caducidad del cupón. **Escenario 3: Restricción de uso único por cuenta.** Dado que el usuario intenta aplicar un descuento de uso limitado por segunda vez, cuando el sistema verifica el historial, entonces deniega el beneficio por incumplimiento de condiciones. | | | |
+
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 28 | US28 | 5 | 7 |
+| **Title** | Sistema de evaluación bidireccional post-servicio | | |
+| **Description** | | | |
+| Como usuario de la comunidad WheelsPe, quiero calificar y reseñar a la otra parte tras finalizar un servicio para alimentar el sistema de confianza mutua. | | | |
+| **Acceptance Criteria** | | | |
+| **Escenario 1: Registro de calificación mutua.** Dado que un servicio de alquiler o viaje concluye satisfactoriamente, cuando los usuarios ingresan sus valoraciones numéricas y cualitativas, entonces el sistema actualiza el promedio de reputación de ambos perfiles. **Escenario 2: Obligatoriedad de evaluación para continuidad.** Dado que un usuario intenta iniciar una nueva transacción, cuando el sistema detecta una evaluación pendiente de un servicio anterior, entonces condiciona el acceso hasta que se complete la reseña. **Escenario 3: Filtro de contenido inapropiado.** Dado que un usuario registra un comentario cualitativo, cuando el sistema identifica términos que vulneran las normas de convivencia, entonces bloquea la publicación de la reseña para moderación manual. | | | |
+
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 29 | US29 | 3 | 7 |
+| **Title** | Programa de incentivos por reputación alta | | |
+| **Description** | | | |
+| Como usuario con comportamiento ejemplar, quiero recibir distintivos o beneficios para obtener mayor visibilidad y recompensas tangibles por mi buen historial. | | | |
+| **Acceptance Criteria** | | | |
+| **Escenario 1: Asignación de distintivo de excelencia.** Dado que un conductor mantiene una puntuación promedio sobresaliente tras un número mínimo de viajes, cuando el sistema actualiza su perfil, entonces le otorga una insignia de "Usuario Estrella". **Escenario 2: Canje de recompensas por actividad.** Dado que el usuario acumula puntos por calificaciones positivas, cuando solicita un beneficio, entonces el sistema valida el saldo disponible y aplica el crédito correspondiente en su siguiente transacción. **Escenario 3: Revocación de beneficios por caída de puntuación.** Dado que un usuario premiado desciende de la calificación mínima requerida, cuando el sistema procesa la nueva media aritmética, entonces retira el distintivo y los beneficios asociados. | | | |
+
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 30 | US30 | 4 | 7 |
+| **Title** | Configuración de umbrales de reputación | | |
+| **Description** | | | |
+| Como Proveedor, quiero establecer un nivel mínimo de calificación para los solicitantes para asegurar que mis activos sean utilizados solo por usuarios con antecedentes confiables. | | | |
+| **Acceptance Criteria** | | | |
+| **Escenario 1: Definición de requisito de entrada.** Dado que el proveedor configura sus preferencias de seguridad, cuando establece un puntaje mínimo para los arrendatarios, entonces el sistema almacena la regla para filtrar las solicitudes entrantes. **Escenario 2: Rechazo automático de solicitudes de bajo perfil.** Dado que un usuario con baja reputación intenta realizar una reserva, cuando el sistema identifica que no alcanza el umbral definido por el dueño, entonces deniega la petición automáticamente. **Escenario 3: Visualización de efectividad del filtro.** Dado que el proveedor consulta sus estadísticas, cuando el sistema genera el reporte, entonces muestra el número de solicitudes filtradas por no cumplir con los estándares de reputación establecidos. | | | |
+
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 31 | US31 | 5 | 6 |
+| **Title** | Procesamiento multicanal de pagos de alquiler | | |
+| **Description** | | | |
+| Como Usuario conductor, quiero pagar el alquiler del vehículo utilizando diversos métodos electrónicos para asegurar la reserva de forma rápida y confiable. | | | |
+| **Acceptance Criteria** | | | |
+| **Escenario 1: Procesamiento exitoso con diversos métodos.** Dado que el usuario selecciona una reserva, cuando proporciona los datos de su tarjeta o billetera digital, entonces el sistema procesa la transacción y confirma el alquiler en menos de 10 segundos. **Escenario 2: Rechazo por método de pago inválido.** Dado que el usuario ingresa una tarjeta no soportada o vencida, cuando el sistema intenta realizar el cobro, entonces rechaza la operación e informa sobre la incompatibilidad del método. **Escenario 3: Bloqueo por tiempo de espera excedido.** Dado que el usuario inicia el pago, cuando la transacción no concluye en el tiempo límite establecido, entonces el sistema cancela el proceso y libera el vehículo para otros interesados. | | | |
+
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 32 | US32 | 5 | 6 |
+| **Title** | Liquidación de cuota de carpooling | | |
+| **Description** | | | |
+| Como Usuario pasajero, quiero liquidar mi cuota del viaje al conductor de forma digital para formalizar mi lugar sin necesidad de manejar efectivo. | | | |
+| **Acceptance Criteria** | | | |
+| **Escenario 1: Transferencia de saldo exitosa.** Dado que el pasajero reserva un asiento, cuando confirma el pago desde su billetera interna, entonces el sistema transfiere el saldo al perfil del conductor tras finalizar el trayecto. **Escenario 2: Notificación de tarifa exacta.** Dado que se confirma el pago, cuando el sistema procesa la cuota, entonces envía una notificación de confirmación detallando el monto exacto cobrado a ambas partes. **Escenario 3: Reversión por cancelación de ruta.** Dado que el pasajero pagó su cuota y el conductor anula la ruta, cuando el sistema detecta la cancelación, entonces reintegra el saldo total al pasajero de forma inmediata. | | | |
+
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 33 | US33 | 8 | 6 |
+| **Title** | Ejecución de reembolsos automatizados | | |
+| **Description** | | | |
+| Como Usuario, quiero que el sistema ejecute reembolsos automáticos ante cancelaciones justificadas para proteger mi capital y mantener la confianza en la plataforma. | | | |
+| **Acceptance Criteria** | | | |
+| **Escenario 1: Cálculo según política de cancelación.** Dado que una reserva elegible se anula, cuando el sistema inicia el proceso de devolución, entonces aplica automáticamente las reglas de reembolso según el tiempo de anticipación. **Escenario 2: Plazo de ejecución técnica.** Dado que el reembolso es aprobado, cuando el sistema activa la reversión en la pasarela de pagos, entonces completa la instrucción de retorno en un plazo no mayor a 2 horas. **Escenario 3: Notificación de error en reembolso.** Dado que la pasarela de pago rechaza la reversión por problemas bancarios, cuando el sistema detecta el fallo, entonces genera un ticket de soporte y notifica al usuario sobre el retraso. | | | |
+
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 34 | US34 | 3 | 6 |
+| **Title** | Gestión de ofertas promocionales temporales | | |
+| **Description** | | | |
+| Como Proveedor empresarial, quiero aplicar descuentos a mi flota durante periodos específicos para incentivar la demanda y atraer nuevos clientes. | | | |
+| **Acceptance Criteria** | | | |
+| **Escenario 1: Configuración de rango de oferta.** Dado que el proveedor establece un periodo de descuento, cuando define el porcentaje entre el 5% y 50%, entonces el sistema actualiza los precios del catálogo para las fechas seleccionadas. **Escenario 2: Visibilidad de precios reducidos.** Dado que un usuario busca vehículos, cuando el sistema identifica unidades con oferta activa, entonces muestra el precio promocional destacado frente al precio regular. **Escenario 3: Límite de aplicación de descuentos.** Dado que el proveedor intenta aplicar un descuento fuera del rango permitido, cuando el sistema procesa la solicitud, entonces bloquea la configuración y solicita ajustar el porcentaje a las reglas de negocio. | | | |
+
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 35 | US35 | 5 | 7 |
+| **Title** | Sistema de evaluación bidireccional obligatoria | | |
+| **Description** | | | |
+| Como Proveedor, quiero calificar y reseñar al inquilino tras el alquiler para alimentar el sistema de reputación y seguridad de la comunidad. | | | |
+| **Acceptance Criteria** | | | |
+| **Escenario 1: Registro de reseña cualitativa.** Dado que el alquiler finaliza, cuando el proveedor proporciona la calificación (1-5 estrellas), entonces el sistema almacena el comentario y actualiza el promedio del inquilino. **Escenario 2: Bloqueo de actividad por pendiente.** Dado que el usuario intenta realizar una nueva reserva, cuando el sistema identifica una calificación pendiente del servicio anterior, entonces impide la acción hasta completar el feedback. **Escenario 3: Moderación de contenido ofensivo.** Dado que el usuario escribe una reseña, cuando el sistema detecta palabras prohibidas o lenguaje inapropiado, entonces bloquea la publicación e informa sobre la infracción a las normas de conducta. | | | |
+
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 36 | US36 | 8 | 7 |
+| **Title** | Reconocimiento por comportamiento positivo | | |
+| **Description** | | | |
+| Como Usuario conductor, quiero recibir distintivos por obtener calificaciones altas para mejorar mi visibilidad y obtener beneficios dentro de la red. | | | |
+| **Acceptance Criteria** | | | |
+| **Escenario 1: Asignación de insignia de excelencia.** Dado que el conductor supera los 10 viajes con un promedio de 4.8 o superior, cuando el sistema actualiza sus estadísticas, entonces le otorga automáticamente el distintivo de "Conductor Estrella". **Escenario 2: Canje de incentivos económicos.** Dado que el usuario acumula puntos por buena conducta, cuando solicita un canje, entonces el sistema aplica un crédito a su siguiente fianza según el saldo disponible. **Escenario 3: Revocación por descenso de reputación.** Dado que el promedio de un conductor estrella cae por debajo del umbral mínimo, cuando el sistema recalcula la puntuación, entonces retira el distintivo y los beneficios asociados. | | | |
+
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 37 | US37 | 3 | 7 |
+| **Title** | Consulta de transparencia en reputación | | |
+| **Description** | | | |
+| Como Usuario, quiero consultar el historial de reseñas de otros miembros antes de aceptar un trato para tomar una decisión basada en la confianza. | | | |
+| **Acceptance Criteria** | | | |
+| **Escenario 1: Exposición de métricas de confianza.** Dado que el usuario accede al perfil de un tercero, cuando el sistema genera la vista, entonces muestra de forma destacada la calificación promedio y el volumen de servicios completados. **Escenario 2: Acceso a reseñas detalladas.** Dado que el usuario solicita ver el detalle, cuando el sistema carga el historial, entonces muestra los comentarios cualitativos más recientes organizados por relevancia y fecha. **Escenario 3: Privacidad de datos sensibles en reseñas.** Dado que el sistema muestra el historial de feedback, cuando el usuario visualiza las reseñas, entonces oculta cualquier dato de contacto o información privada para proteger la seguridad de los involucrados. | | | |
+
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 38 | US38 | 3 | 7 |
+| **Title** | Filtrado por umbrales de confianza | | |
+| **Description** | | | |
+| Como Proveedor empresarial, quiero establecer requisitos mínimos de calificación para asegurar que mis vehículos sean operados por usuarios confiables. | | | |
+| **Acceptance Criteria** | | | |
+| **Escenario 1: Definición de umbral de seguridad.** Dado que el proveedor configura sus preferencias, cuando establece un puntaje mínimo requerido, entonces el sistema guarda la regla para filtrar automáticamente las solicitudes de alquiler. **Escenario 2: Rechazo de perfiles de baja reputación.** Dado que un usuario con baja calificación solicita una reserva, cuando el sistema detecta que no cumple con el umbral del dueño, entonces deniega la solicitud de forma inmediata. **Escenario 3: Excepción por perfil verificado.** Dado que el usuario tiene baja puntuación pero cuenta con una verificación institucional especial, cuando el sistema procesa la regla, entonces permite que la solicitud llegue al dueño para una revisión manual. | | | |
+
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 39 | US39 | 5 | 8 |
+| **Title** | Visualización de propuesta de valor y servicios | | |
+| **Description** | | | |
+| Como Visitante de la Landing Page, quiero conocer cómo funciona WheelsPe y sus beneficios para decidir registrarme en la plataforma. | | | |
+| **Acceptance Criteria** | | | |
+| **Escenario 1: Consulta de secciones informativas.** Dado que el visitante navega por el sitio web, cuando accede a la sección de "Cómo funciona", entonces el sistema muestra el flujo de alquiler y carpooling de forma clara y visual. **Escenario 2: Acceso a testimonios reales.** Dado que el visitante busca validación social, cuando llega a la sección de reseñas, entonces el sistema presenta testimonios de usuarios verificados de la comunidad universitaria y empresarial. **Escenario 3: Redirección al registro.** Dado que el visitante decide unirse, cuando selecciona la opción de "Unirse a WheelsPe", entonces el sistema lo dirige al formulario de registro correspondiente según el segmento elegido. | | | |
+
+
+| **Story ID**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | **User**                           | **Priority** | **Epic** |
+|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------|:-------------|:---------|
+| 40                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | US40                               | 5            | 7        |
+| **Title**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | Monitoreo de anomalías financieras |              |          |
+| **Description**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |                                    |              |          |
+| Como Administrador, quiero recibir alertas sobre pagos fallidos o posibles fraudes para actuar rápidamente y brindar soporte al usuario.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |                                    |              |          |
+| **Acceptance Criteria**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |                                    |              |          |
+| **Escenario 1: Detección de intentos de fraude.** Dado que se registra un pago rechazado por la pasarela por motivos de seguridad, cuando el sistema identifica la alerta, entonces notifica al administrador con el ID de transacción y el perfil del usuario. **Escenario 2: Alerta por depósitos inconsistentes.** Dado que un usuario reporta un depósito manual, cuando el sistema detecta discrepancias en los datos bancarios, entonces marca la operación como "En revisión" y alerta al equipo administrativo. **Escenario 3: Seguimiento de soluciones a fallos.** Dado que se genera una alerta de pago, cuando el administrador inicia el seguimiento, entonces el sistema registra cada paso de la resolución hasta que el problema queda marcado como "Solucionado". |
+
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 41 | US41 | 2 | 7 |
+| **Title** | Mediación automatizada de disputas de reputación | | |
+| **Description** | | | |
+| Como Administrador, quiero que el sistema gestione un flujo de trabajo para investigar y resolver conflictos de reseñas para mantener la integridad de la comunidad. | | | |
+| **Acceptance Criteria** | | | |
+| **Escenario 1: Apertura de ticket de mediación.** Dado que un usuario reporta una reseña por ser injusta o falsa, cuando el sistema procesa el reporte, entonces genera un ticket de incidencia e informa a ambas partes sobre el inicio del proceso de investigación. **Escenario 2: Registro de evidencia para resolución.** Dado que el ticket se encuentra activo, cuando el sistema solicita descargos a los involucrados, entonces permite la carga de pruebas fotográficas o registros de chat para sustentar la decisión administrativa. **Escenario 3: Cierre forzado por tiempo límite.** Dado que transcurren 48 horas sin una resolución manual, cuando el sistema detecta el vencimiento del plazo, entonces aplica una decisión por defecto (mantener calificación o suspender temporalmente) para evitar procesos estancados. | | | |
+
+
 ### 2.4.2. Impact Mapping
 
-### 2.4.3. Product Backlog
+En esta sección se presenta el Impact Mapping de WheelsPe, el cual permite alinear los objetivos estratégicos de negocio con las funcionalidades técnicas desarrolladas. A través de este mapa, se asegura que cada requerimiento responda a un cambio de comportamiento deseado en nuestros usuarios clave.
 
+Business Goal 1: Crecimiento de la red y adopción institucional
+Objetivo SMART: Alcanzar un total de 500 usuarios registrados activos (150 propietarios de flota y 350 usuarios de movilidad) en Lima Metropolitana en los primeros seis meses posteriores al lanzamiento oficial, para establecer una base crítica que valide el modelo de carpooling y alquiler entre pares.
+![Impact Mapping.png](Assets/Impact%20Mapping.png)
+
+Business Goal 2: Profesionalización y Rentabilidad de la Oferta
+Objetivo SMART: Lograr que el 80% de los propietarios registrados operen con una flota de al menos 3 vehículos, generando un ingreso neto promedio de S/ 3,500 mensuales por usuario durante el segundo trimestre de operación, asegurando la sostenibilidad de los proveedores
+![Impact Mapping 2.png](Assets/Impact%20Mapping%202.png)
+
+Business Goal 3: Seguridad, Retención y Confianza Comunitaria
+Objetivo SMART: Lograr que el 75% de las usuarias universitarias utilicen la plataforma al menos 4 veces por semana durante el ciclo académico 2026-I, manteniendo un índice de satisfacción de seguridad de 4.9/5 estrellas.
+![Impact Mapping 3.png](Assets/Impact%20Mapping%203.png)
+
+Link de los impact mapping: https://drive.google.com/drive/folders/1x7m4N6Fzopy-BGT2KrXojJkZjMNxtm7t?usp=sharing
+
+### 2.4.3. Product Backlog
+2.4.3 Product Backlog
+El trabajo pendiente del proyecto se ha estructurado consolidando el Product Backlog en la herramienta Trello. En este tablero se han registrado y ordenado las historias de usuario provenientes del análisis inicial y del Impact Mapping. Con el objetivo de facilitar la ejecución de sprints viables, a cada historia se le asignó una estimación de esfuerzo basada en story points (del 1 al 13), lo cual refleja de manera precisa la complejidad técnica de cada tarea.
+Figura
+Product Backlog de WheelsPe
+Nota. Elaboración propia en Trello:
 ## 2.5. Strategic-Level Domain Driven Design
 
 En esta sección se introduce el proceso de Domain-Driven Desing a nivel estratégico para MOVEO. Nuestro enfoque nos permitió conceptualizar el sistema a partir de la lógica de nuetro negocio, con el proposito de modelar una arquitectura de microservicios coherentes. Para conseguir eso identificamos subconjuntos del sistema con límites naturales y claros, conocidos como los Bounded Contexts. Las herramientas utilizadas para este propósito son el EventStorming, que nos ayudó a visualizar el flujo de eventos del negocio, y el Bounded Context Canvas, la cual nos ayuda a definir formalmente cada contexto y sus relaciones, garantizando así una base sólida para el desarrollo de nuestro proyecto.
 
 ### 2.5.1 EventStorming
 
-Event Storming es una técnica que consiste en la realización de un taller facilitado en el que los miembros del equipo identifican eventos claves del negocio y los requisitos para el bien funcionamiento de la plataforma, a lo largo de diferentes pasos que deber ser realizados colaborativamente.
+Esta herramienta es una técnica que consiste en la realización de una especie de taller facilitado donde los integrantes del equipo pudieron identificar eventos clave del negocio y los requisitos para su funcionamiento,  a lo largo de diferentes pasos deber ser realizados grupalmente.
+El EventStorming nos permite elaborar una arquitectura de aplicación más robusta, estructurada y acorde al enfoque de Domain-Driven Design, además de visualizar los posibles flujos del usuario y estructuras de código a aplicar. En nuestro negocio, por motivos de mejor visualización y facilidad al momento de graficar, se utilizó la plataforma Miro para la realización de los diferentes gráficos.
 
-Esta herramiente nos permitió elaborar una arquitectura de aplicación más robusta, estructurada y alineada con el enfoque de Domain-Driven Desing, además de visualizar posibles flujos de los usuarios y estructuras de código a utilizar. En nuestro negocio por temas de visualización y facilidad al momento de diseñar los diagramas hemos utilizado la plataforma de Miro para realizar el Event Storming.
+Paso 1: Unstructured Exploration
+![Paso 1.png](Assets/Paso%201.png)
+El primer paso del Event Storming, Unstructured Exploration (Exploración no Estructurada), consiste en escribir post-its los diferentes eventos del negocio que cada miembro del equipo pudo identificar, generando así una lluvia de ideas masiva con el proposito de detectar la mayor cantidad de eventos de dominio posibles, estimar el nivel de complejidad del proyecto y permitir que se forme una base de conocimiento compartido entre los integrantes.
 
+Paso 2: Timelines
+![Paso 2.png](Assets/Paso%202.png)
+El segundo paso del Event Storming, Timelines (Línes de tiempo), consta en organizar los post-its definidos en el paso anterior de izquierda a derecha a través de flechas y en orden cronológico, permitiendo así seguir diferentes flujos según los eventos de dominio involucrados. El proposito es permitir una mejor organización de los eventos de dominio que han sido identificados por el equipo.
 
+Paso 3: Pain Points
+![Paso 3.png](Assets/Paso%203.png)
+El tercer paso, los Pain Points (Puntos de Dolor), consiste en identificar los problemas y áreas de mejoro del flujo de los eventos de dominio. Esto se realiza con el objetivo de aclara los puntos críticos en los que concentrar esfuerzos de desarrollo y oportunidades de mejora y optimización a futuro
+
+Paso 4: Pivotal Points
+![Paso 4.png](Assets/Paso%204.png)
+El cuarto paso, Pivotal Points (Puntos Pivotes), consiste en identificar las causas y consecuencias de los eventos de dominio identificados, analizando por qué y cómo suceden los eventos. El propósito es obtener un mayor entendimiento de lo que sucede “antes” de un evento de dominio y descubrir las reglas de dominio previamente no identificados. En nuestro negocio, utilizamos los post-its en forma de rombo para simbolizar los Pivotal points.
+
+Paso 5: Commands
+![Paso 5.png](Assets/Paso%205.png)
+El quinto paso, Commands (Comandos), consta en identificar las solicitudes e intenciones que dan paso a los eventos de dominio, esto permite detectar las causas presentes justo antes de que se desencadene un evento determinado.
+
+Paso 6: Polices
+![Paso 6.png](Assets/Paso%206.png)
+El sexto paso, Policies (Polizas), nos ayuda al equipo a identificar la lógica reactiva de nuestro negocio, esto quiere decir, que lo que ocurre de forma autónoma después de un evento de dominio y la automatización dentro de la aplicación
+
+Paso 7: Read Models
+![Paso 7.png](Assets/Paso%207.png)
+El séptimo paso, Read Models (Modelos de Lectura), trata en realizar una revisión de todo el modelo de Event Storming y señalar los datos o información dentro del dominio, que están al alcance del usuario en determinado momento del flujo. Al momento de completar este paso nos ayudó a visualizar de una mejor manera cómo diseñar las vistas de usuario y tener en consideración la información a mostrar en las diferentes etapas del flujo del usuario.
+
+Paso 8: External Systems
+![Paso 7.png](Assets/Paso%207.png)
+El último paso del Event Storming, External System (Sistemas Externos), el equipo debe identificar y colocar los componentes que no van a formar parte de la aplicación cómo dependencias externas y APIs de terceros. Este paso nos ayudí a tener una mejor visión del funcionamientos de nuestra aplicación
 #### 2.5.1.1. Candidate Context Discovery
+Después de la sesión de Event Storming para modelar el dominio del negocio, el equipo se centró en Candidate Context Discovery con la finalidad de detectar los contextos delimitados iniciales. Para esto, empleamos un conjunto de técnicas: look-for-pivotal-events para encontrar eventos de dominio clave que señalan cambios significativos en el estado; start-with-simple para elaborar modelos con objetivos y dividir la línea temporal en etapas secuenciales; y start-with-value para dar prioridad a los contextos que constituyen el núcleo del negocio.  
+Inicialmente, mediante el Event Storming se definieron los bounded contexts al identificar los flujos de negocio fundamentales de la plataforma. Agrupar comandos, eventos y vistas vinculados para establecer modelos de dominio cohesivos y claramente definidos fue posible gracias a este proceso. Los contextos que surgieron de este primer análisis, enfocados en funciones como la gestión de comunidades, las reseñas, el inventario y el proceso de compra, son producto de la aplicación de técnicas exploratorias destinadas a identificar los componentes más importantes y críticos del negocio.
+El Bounded Context preeliminar de Operaciones se centra en el evento de “Crear, publicar y eliminar una publicación en la plataforma”. Esta acción es
+
+![Carpooling.png](Assets/Carpooling.png)
+El bounded Context de Carpooling se centra en el comando principal de “Buscar Rutas”. Esta acción es crucial para el usuario pasajero debido a que será su interacción más frecuenta y valiosa para este tipo de usuario, facilitando el acceso a los productos de negocio. Por esto, la funcionalidad fue identificada como un dominio de soporte fundamental para nuestro negocio. La cohesión de este comando y todas las funcionalidades asociadas como los filtros, ordenación y sugerencia, estos justifican la delimitación de un Bounded Context Independiente.
+
+![Perfil.png](Assets/Perfil.png)
+El Bounded Context de Profile se centra en el comando de “Crear Cuenta” e “Iniciar sesión”. Estas acciones son cruciales para el negocio ya que habilitan la interacción del usuario con la plataforma, siendo la puerta de entrada a todas las demas funcionalidades de la plataforma. Debido a esto este Bounded Context se identificó como un dominio de soporte fundamental para el negocio. La cohesión de estas acciones y todas las funcionalidades asociadas, como modificar perfil y validar credenciales, justifican la delimitación del Bounded Context independiente.
+
+![Rental.png](Assets/Rental.png)
+El Bounded Context de Alquiler de vehículo se centra en el comando de “Buscar vehículos”. Esta acción es importante, ya que da inicio al flujo de valor monetizado del apartado de alquiler de vehículos el cual es la interacción directa entre el cliente y los proveedores.
+Esta funcionalidad ha sido catalogada como un dominio de soporte fundamental para el negocio. La cohesión de este comando y todas las funcionalidades asociadas como filtros, ordenación y sugerencias, justifican la delimitación de un Bounded Context Independientes.
+
+![Pagos.png](Assets/Pagos.png)
+El Bounded Context de Pagos se centra en el comando de “Pagar servicio”. Esta acción es fundamental, ya que inicia el flujo de valor que monetiza el catálogo de vehículos y de rutas y del mismo modo gestiona la interacción directa entre el cliente y el producto.
+Esta funcionalidad se identifica como un dominio central debido a que la lógica de compra, la integración con la pasarela de pagos y gestión de transacción son importantes para el flujo de negocio. La cohesión de estas acciones, justifican su delimitación en un contexto independiente, asegurando que todo el proceso de compras y pagos se gestione de forma coherente y segura.
+
+
 #### 2.5.1.2. Domain Message Flows Modeling
+
+En esta sección se modelan los Domain Message Flows para representar cómo los bounded contexts de WheelsPe colaboran en la resolución de los casos de negocio. Se utiliza la técnica de Domain Storytelling para narrar las interacciones entre actores y contextos mediante diagramas que evidencian el intercambio de comandos y eventos en escenarios críticos.
+
+Escenario 1: Alquiler de vehículo P2P entre Carlos y Esther
+Este diagrama ilustra el flujo que sigue Esther para alquilar un vehículo del catálogo de Carlos. El proceso inicia cuando Esther busca un vehículo; al seleccionar uno, el sistema valida su estado de verificación en el Identity Context. Una vez confirmado, Esther solicita la reserva, lo que dispara un comando al Billing Context para ejecutar la pre-autorización de la fianza (Escrow) a través de la pasarela de pagos. Tras el éxito del pago, se notifica a Carlos en el Inventory Context, quien confirma la entrega. Finalmente, el sistema genera automáticamente el Contrato Digital y libera el código de acceso al vehículo.
+![Flow 1.png](Assets/Flow%201.png)
+
+Escenario 2: Publicación y reserva de asiento en ruta de Carpooling
+Este diagrama representa el flujo de movilidad compartida institucional. El proceso comienza cuando Carlos crea una ruta recurrente hacia el campus en el Carpooling Context. El sistema aplica automáticamente un filtro de comunidad universitaria validando el dominio del correo. Esther visualiza la ruta y solicita un asiento; en ese momento, el Safety Context genera un código PIN único de abordaje. Al confirmarse la unión, se dispara una notificación de viaje programado. Durante el trayecto, el sistema registra la trazabilidad GPS y, al llegar al destino, se habilita la Calificación Mutua en el Reputation Context.
+![Flow 2.png](Assets/Flow%202.png)
+
+Escenario 3: Activación de alerta de emergencia durante un viaje
+Este diagrama de flujo describe el protocolo de seguridad activa en la plataforma. La secuencia inicia cuando Esther, detectando una anomalía en la ruta, activa la función de emergencia en la aplicación móvil. Esta acción dispara un evento inmediato al Safety Context, el cual recupera la ubicación GPS en tiempo real y los datos del vehículo desde el Inventory Context. De forma simultánea, el sistema transmite una alerta SMS y notificación Push a los Contactos de Confianza previamente registrados por Esther. Finalmente, se abre un ticket de monitoreo en el panel del Administrador para la coordinación con autoridades externas.
+![Flow 3.png](Assets/Flow%203.png)
+
 #### 2.5.1.3. Bounded Contexts Canvases
 
+En esta sección se presentan los candidate bounded contexts identificados para el dominio de WheelsPe. Su elaboración se desarrolló mediante un proceso iterativo que incluyó la definición de cada contexto, la captura del lenguaje ubicuo, el análisis de reglas de negocio, capacidades y dependencias. Este abordaje permitió establecer límites claros y responsabilidades bien delimitadas, asegurando la independencia y escalabilidad del sistema.
+Link de los Miro: https://miro.com/app/board/uXjVHdRIpCM=/?share_link_id=448581763533
+Identity Bounded Context:
+Definición: Este contexto es el núcleo de la confianza y seguridad de la plataforma. Se encarga de la gestión de perfiles, la autenticación y, fundamentalmente, del proceso de Know Your Customer (KYC) mediante la validación de documentos de identidad y biometría para asegurar que Carlos y Esther sean quienes dicen ser.
+Lenguaje Ubicuo: Arrendador, Arrendatario, KYC, Perfil Verificado, Token de acceso.
+Reglas de Negocio:
+Un usuario no puede realizar transacciones financieras sin el distintivo de "Verificado".
+La validación facial debe coincidir con la fotografía del DNI registrado.
+Solo se permiten correos electrónicos con dominios institucionales para el modo comunidad.
+Capacidades: Autenticación multi-factor, validación de identidad biométrica, gestión de contactos de confianza.
+Dependencias: Provee el estado de verificación al Billing e Inventory Context.
+![Canvas 1.png](Assets/Canvas%201.png)
+
+Rental Bounded Context:
+Definición: Responsable de la gestión física y digital de la flota vehicular. Controla el ciclo de vida de los activos de Carlos, desde el registro de la tarjeta de propiedad hasta el estado de limpieza y mantenimiento reportado mediante checklists.
+Lenguaje Ubicuo: Vehículo, Flota, Checklist fotográfico, Disponibilidad, Tarjeta de Propiedad.
+Reglas de Negocio:
+No se puede publicar un vehículo sin acreditar la titularidad legal.
+La disponibilidad debe actualizarse automáticamente tras la confirmación de una reserva.
+Cada servicio debe iniciar y cerrar con un registro de estado físico (fotos).
+Capacidades: Registro de vehículos, gestión de calendarios dinámicos, control de inventario por proveedor.
+Dependencias: Recibe comandos de bloqueo de fechas del Billing Context
+![Canvas 2.png](Assets/Canvas%202.png)
+
+Billing Bounded Context:
+Definición: Gestiona el flujo de dinero y la formalización legal de las operaciones. Administra las pasarelas de pago, el sistema de retención de garantías (Escrow) y la generación automática de contratos para proteger a ambas partes.
+Lenguaje Ubicuo: Reserva, Pago, Escrow (Garantía), Contrato Digital, Liquidación, Comisión.
+Reglas de Negocio:
+La fianza debe ser retenida (no cobrada) antes de la entrega del vehículo.
+El pago al propietario se libera solo tras la confirmación de devolución sin incidentes.
+Cada transacción debe generar un contrato en PDF con validez de firma electrónica.
+Capacidades: Procesamiento de pagos, gestión de reembolsos, facturación electrónica, custodia de fondos.
+Dependencias: Colabora con el Rental Context para confirmar transacciones y con Identity para validar métodos de pago.
+![Canvas 3.png](Assets/Canvas%203.png)
+
+Carpooling Bounded Context:
+Definición: Orquestra la movilidad compartida entre usuarios de la misma comunidad. Gestiona la creación de rutas, la asignación de asientos y la validación de abordaje para optimizar los traslados diarios de usuarios como Esther.
+Lenguaje Ubicuo: Ruta, Trayecto, Asiento, Aforo, PIN de abordaje, Pasajero.
+Reglas de Negocio:
+El aforo máximo está limitado por la capacidad técnica del vehículo registrado.
+Solo los usuarios con el mismo dominio institucional pueden visualizar rutas comunitarias.
+La reserva de asiento se confirma únicamente mediante el PIN generado por el sistema.
+Capacidades: Creación de rutas recurrentes, búsqueda por geocodificación, gestión de cupos en tiempo real.
+Dependencias: Envía eventos de inicio de viaje al Safety Context.
+![Canvas 4.png](Assets/Canvas%204.png)
+
+
 ### 2.5.2. Context Mapping
+
+Después de reconocer y estructurar las funciones clave en los cinco bounded contexts, se definieron las conexiones y relaciones entre ellos. Este paso posibilita el tránsito de una visión individual de cada módulo a una óptica completa del sistema, demostrando cómo se comunican y qué datos comparten. A continuación, se establecieron las conexiones entre los contextos delimitados con anterioridad, mostrando los flujos de datos y los procedimientos que respaldarán tanto la operatividad de la plataforma como la experiencia del usuario.
+Perfil Bounded Context → Operaciones Bounded Context
+![Context Mapping 1.png](Assets/Context%20Mapping%201.png)
+El Bounded context de Perfil sirve como Upstream para el bounded context de operaciones, debido a que su función es la base de la plataforma, el hecho de publicar ofertas, ver publicaciones, elimnarlas, del mismo modo agregar stock al inventarios configurar las métricas del vehículo y todo lo escencial de nuestro negocio. Presenta un patrón Cliente/Servicio, debido a que el contexto de Perfil va a consultar y utilizar la información presentada por los diferentes usuarios de la plataforma.
+
+Perfil Bounded Context → Operaciones Bounded Context → Rental Bounded context
+![Context Mapping 2.png](Assets/Context%20Mapping%202.png)
+El bounded Context de operaciones sirve como un intermediario entre perfil y renta de vehículos. Operaciones provee la información y el flujo de trabajo a los usuarios registrados durante el proceso de buscar viajes, lo que limita la cantidad de pasajeros que el usuario puede encontrar según los filtros seleccionados. Estos bounded context presentan una relación de Cliente/Servicio, ya que el context “perfil” o cliente en este caso consulta sobre información de los vehículos  disponibles a “Operaciones” y este le notifica toda la información disponible para que el usuario pueda elegir
+
+Perfil Bounded Context → Operaciones Bounded Context → Carpooling Bounded context
+![Context Mapping 3.png](Assets/Context%20Mapping%203.png)
+El bounded Context de operaciones sirve como un intermediario entre perfil y carpooling. Operaciones provee la información y el flujo de trabajo a los usuarios registrados durante el proceso de buscar viajes, lo que limita la cantidad de pasajares que el usuario puede encontrar según los filtros seleccionados. Estos bounded context presentan una relación de Cliente/Servicio, ya que el context “perfil” o cliente en este caso consulta sobre infomación de las rutas disponibles a “Operaciones” y este le notifica toda la información disponible para que el usuario pueda elegir
+
+Perfil Bounded Context → Rental Bounded Context y Carpooling Bounded context
+![Context Mapping 4.png](Assets/Context%20Mapping%204.png)
+El Bounded Context de Perfil actúa como Upstream de los Bounded Context de carpooling y renta de vehículo, debido a que el cliente va a consumir la información detallada en las diferentes pantallas, permitiendo así elaborar una lista con información útil a la que el usuario pueda acceder en cualquier momento.
+
+Pagos Bounded Context → Rental Bounded Context y Carpooling Bounded context
+![Context Mapping 5.png](Assets/Context%20Mapping%205.png)
+El bounded context de pagos actúa como Upstream para los bounded contexts de carpooling y de renta, pero estos dos presentan una relación bidireccional con pagos, lo que quiere decir que ambos comparten información entre sí en diferentes momentos del funcionamiento del servicio de pagos. Pagos provee el flujo de trabajo al momento de realizar un pago para alquilar un vehículo o paga una cuota de viaje.
 
 ### 2.5.3 Software Architecture
 
@@ -1633,40 +2349,251 @@ Este diagrama representa el modelo lógico de datos para el Bounded Context de I
 
 ### 2.6.2. Bounded Context: Carpooling
 #### 2.6.2.1. Domain Layer
+Ruta (Entity): Representa el trayecto geográfico y temporal definido por un Conductor que ofrece movilidad.
+
+Atributos: id, idConductor, puntoOrigen, puntoDestino, puntosIntermedios, fechaSalida, horaSalida.
+
+Métodos: validarViabilidad(): Comprueba que la ruta sea lógicamente posible, estimarDuracion(): Calcula el tiempo aproximado del trayecto basado en la distancia.
+
+ViajeCompartido (Aggregate Root): La entidad principal que coordina la ejecución de una ruta con las plazas disponibles y los pasajeros asignados.
+
+Atributos: idViaje, idRuta, asientosTotales, asientosDisponibles, estado (Programado, Iniciado, Finalizado, Cancelado), montoSugerido.
+
+Métodos: admitirPasajero(idPasajero): Reduce la disponibilidad y vincula al pasajero al viaje, iniciarViaje(): Cambia el estado a "Iniciado" y genera el Código PIN de seguridad, completarViaje(codigoValidado): Transiciona al Fin de servicio tras la validación exitosa.
+
+CoincidenciaRuta (Value Object): Criterio técnico que determina si la búsqueda de un Pasajero es compatible con una Ruta existente en el Catálogo.
+
+Atributos: porcentajeSimilitud, desvioDistancia, diferenciaTiempo.
+
+Métodos: esAceptable(umbral): Valida si la coincidencia cumple los estándares del sistema para ser sugerida.
+
+ReservaAsiento (Entity): Documentación de la intención de viaje y compromiso de un pasajero en un trayecto específico.
+
+Atributos: idReserva, idPasajero, idViaje, estadoReserva (Solicitada, Confirmada, Rechazada).
+
+Métodos: confirmarAsiento(): Actualiza el estado y asegura la plaza en el agregado raíz.
+
+MatchingDomainService (Domain Service): Lógica encargada de comparar las solicitudes de los pasajeros con la oferta activa.
+
+Métodos: encontrarRutasOptimas(solicitudPasajero): Filtra y puntúa las mejores opciones según geolocalización y Coincidencia de ruta.
+
+CarpoolRepository (Repository): Contrato para persistir y recuperar objetos del dominio relacionados con Rutas y Viajes Compartidos.
+
 #### 2.6.2.2. Interface Layer
+
+CarpoolController (Controller): Expone los endpoints para la publicación y búsqueda de trayectos compartidos.
+
+Métodos: publicarRuta(RutaRequestDTO), buscarViajes(BusquedaRutaDTO), obtenerMisViajes(idUsuario).
+
+BookingController (Controller): Gestiona el flujo de las reservas de asientos y las interacciones de confirmación.
+
+Métodos: solicitarAsiento(ReservaRequestDTO), confirmarPasajero(ConfirmacionDTO), validarFinServicio(PinValidationDTO).
+
+BusquedaRutaDTO (DTO): Objeto para transferir criterios de búsqueda como origen, destino, radio de búsqueda y horario preferido.
+
+RutaRequestDTO (DTO): Datos necesarios para que un Conductor registre su oferta en el sistema.
+
 #### 2.6.2.3. Application Layer
+
+GestionCarpoolService (Application Service): Orquesta el flujo desde la publicación de la oferta hasta la finalización del servicio.
+
+Métodos: procesarPublicacionRuta(RutaRequestDTO): Valida los requisitos del proveedor y registra la oferta, finalizarViaje(idViaje, pin): Orquesta la validación del PIN y notifica el cierre para la Liquidación al proveedor.
+
+MatchNotificationHandler (Event Handler): Reacciona al evento NuevaRutaPublicada para notificar a los usuarios con búsquedas compatibles registradas.
+
+SafetyAlertHandler (Event Handler): Reacciona a anomalías durante el trayecto para activar la Alerta de emergencia hacia el Contacto de confianza.
+
 #### 2.6.2.4. Infrastructure Layer
+
+MySQLCarpoolRepository (Implementation): Implementación técnica para persistir la información utilizando Entity Framework Core en la base de datos MySQL de WheelsPe.
+
+GoogleMapsRouteAdapter (External Service): Integración con la API de Mapas para el cálculo real de trayectos, estimación de tiempos y geocodificación.
+
+PushNotificationAdapter (External Service): Implementación para el envío de notificaciones en tiempo real sobre el estado de la Reserva y el viaje.
+
+SafetyStorageAdapter (External Service): Gestión en la nube para el almacenamiento de la Bitácora de eventos y registros de seguridad generados durante el servicio.
+
 #### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
+![Carpooling BC.png](Assets/Carpooling%20BC.png)
+
 #### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
-##### 2.6.2.6.2. Bounded Context Database Design Diagram
 
+##### 2.6.2.6.2. Bounded Context Database Design Diagram
+![Carpooling BC 3.png](Assets/Carpooling%20BC%203.png) 
 ### 2.6.3. Bounded Context: Rental
 #### 2.6.3.1. Domain Layer
+Vehículo (Entity): Representa un vehículo dentro del sistema ingresado por un proveedor o empresa de alquiler.
+Atributos: id, proveedorId, descripción, año, fecha_publicacion,color,   placa,modelo.  
+Métodos: verificarDisponibilidad(PeriodoAlquiler): Valida si la unidad puede ser reservada, actualizarEstado(nuevoEstado): Cambia el estado operativo (Disponible, Alquilado, En mantenimiento)
+Alquiler (Aggregate Root): Es la raíz transaccional  que agrupa todos los elementos necesarios para una reserva única. Asegura la integridad del proceso de alquiler.
+Atributos: idAlquiler, idArrendatario, idVehiculo, periodoAlquiler, montoTotal, estado (Pendiente, Confirmado, EnCurso, Finalizado, Cancelado).
+Métodos: iniciarAlquiler(ChecklistFotografico): Transiciona el estado a "EnCurso", requiere la validación del checklist, finalizarAlquiler(ChecklistFotografico): Valida el checklist de devolución y calcula ajustes de fianza, calcularFianzas(reglasGarantia): Determina el monto de garantía requerido.
+ChecklistFotografico (Value Object): Contiene la información inmutable que valida el estado del vehículo al inicio y fin del alquiler.
+Atributos: fechaHoraRegistro, fotosUrl, nivelCombustible.
+Métodos: compararConChecklistAnterior(checklistPrevio): Servicio de dominio que detecta discrepancias visuales o mecánicas
+
+
+PeriodoAlquiler (Value Object): Define el rango exacto de tiempo que el vehículo estará arrendado.
+Atributos: fechaInicio, fechaFin, duracionDias.
+Métodos: calcularDuracion().
+ReglasAlquilerDomainService (Domain Service): Lógica que orquesta la validación cruzada de reglas complejas (ej. "Arrendatario debe tener un puntaje de reputación mínimo" - US38).
+Métodos: validarArrendatario(idUsuario, vehiculo): Utiliza datos de IAM para validar la reputación y la verificación KYC.
+AlquilerRepository (Repository): Contrato para persistir y recuperar objetos Alquiler y Vehiculo.
+
 #### 2.6.3.2. Interface Layer
+VehiculoController (Controller): Expone los endpoints de consulta del catálogo de vehículos.
+Métodos: buscarVehiculos(FiltroBusquedaDTO), obtenerDetalleVehiculo(idVehiculo).
+ReservaController (Controller): Gestiona las solicitudes de alquiler y las interacciones durante el servicio.
+Métodos: solicitarReserva(ReservaRequestDTO), registrarChecklistInicial(ChecklistDTO), registrarChecklistFinal(ChecklistDTO).
+FiltroBusquedaDTO (DTO): Objeto para transferir los criterios de búsqueda (ej. Ubicación, Rango de fechas, Tipo de vehículo, Calificación mínima).
+ReservaRequestDTO (DTO): Datos necesarios para crear un nuevo Alquiler (idArrendatario, idVehiculo, fechas).
+
 #### 2.6.3.3. Application Layer
+GestionAlquilerService (Application Service): Orquesta el flujo de reserva, desde la disponibilidad hasta la solicitud de pago.
+Métodos: procesarNuevaReserva(ReservaRequestDTO): Llama al ReglasAlquilerDomainService y al BillingContext para pre-autorizar la fianza, procesarDevolucion(idAlquiler, ChecklistDTO): Inicia la comparación del checklist y notifica al BillingContext para la liberación/ejecución de la fianza.
+ChecklistValidacionHandler (Event Handler): Reacciona al evento AlquilerEnCurso para verificar si el checklist inicial fue completado y, si no, envía recordatorios al arrendatario.
+NotificadorProveedorHandler (Event Handler): Reacciona al evento AlquilerConfirmado para notificar al Proveedor (via email/push) que debe preparar el vehículo.
+
 #### 2.6.3.4. Infrastructure Layer
+PostgresAlquilerRepository (Implementation): Implementación técnica del repositorio para persistir la información de los Alquileres y Vehiculos.
+GoogleMapsAdapter (External Service): Utilizado para geocodificar la ubicación de entrega/devolución y calcular distancias.
+BillingContextAdapter (External Service): Adaptador que permite solicitar al contexto de BILLING la retención de la fianza y el procesamiento del pago (referencia a US31).
+S3ChecklistAdapter (External Service): Implementación para gestionar el almacenamiento y la recuperación de las imágenes del ChecklistFotografico en la nube.
+
 #### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
+![Rental BC.png](Assets/Rental%20BC.png)
+Este diagrama representa la arquitectura simplificada del Bounded Context de Rental utilizando Domain-Driven Design. Muestra cómo el Arrendatario y el Dueño interactúan con el microservicio a través de controladores especializados para gestionar vehículos y reservas. El microservicio orquesta internamente el flujo de trabajo: el VehiculoController y el ReservaController reciben las peticiones y las delegan a los Handlers y Services de la Capa de Aplicación. El GestionAlquilerService coordina la lógica de negocio, interactuando con la Capa de Dominio y utilizando adaptadores de infraestructura para servicios externos como S3 (para el almacenamiento de fotos de checklists), Google Maps y el contexto de Billing. La arquitectura está diseñada para mantener una clara separación de responsabilidades y asegurar que la lógica central del alquiler sea independiente de los detalles técnicos externos.
 #### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
+![Rental BC 1.png](Assets/Rental%20BC%201.png)
+Este diagrama de clases UML detalla la capa de dominio del contexto de Rental. La clase Alquiler, definida como la raíz del agregado (Aggregate Root), asegura la coherencia y la integridad transaccional de cada reserva de vehículo. Se compone de una entidad Vehiculo (que gestiona su propio estado operativo) y un objeto de valor (Value Object) denominado ChecklistFotografico, el cual valida el estado estético y mecánico del auto de manera inmutable. El ReglasAlquilerDomainService es un servicio de dominio que encapsula la lógica compleja de cálculo de tarifas dinámicas y validación de elegibilidad, mientras que los Domain Events (como AlquilerEnCursoEvent) permiten que el dominio notifique cambios importantes a otros componentes del sistema, manteniendo el núcleo del negocio reactivo y desacoplado de la implementación técnica
+
 ##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
+![Rental BC 2.png](Assets/Rental%20BC%202.png)
+Este diagrama de clases UML detalla la capa de dominio del contexto de Rental. La clase Alquiler, definida como la raíz del agregado (Aggregate Root), asegura la coherencia y la integridad transaccional de cada reserva de vehículo. Se compone de una entidad Vehiculo (que gestiona su propio estado operativo) y un objeto de valor (Value Object) denominado ChecklistFotografico, el cual valida el estado estético y mecánico del auto de manera inmutable. El ReglasAlquilerDomainService es un servicio de dominio que encapsula la lógica compleja de cálculo de tarifas dinámicas y validación de elegibilidad, mientras que los Domain Events (como AlquilerEnCursoEvent) permiten que el dominio notifique cambios importantes a otros componentes del sistema, manteniendo el núcleo del negocio reactivo y desacoplado de la implementación técnica
+
 ##### 2.6.3.6.2. Bounded Context Database Design Diagram
+![Rental BC 3.png](Assets/Rental%20BC%203.png)
+Debido a la naturaleza transaccional del Bounded Context de Rental, es fundamental incluir una estructura de persistencia robusta que garantice la trazabilidad de cada operación. A diferencia de contextos puramente algorítmicos, el proceso de alquiler requiere el almacenamiento de estados críticos en la base de datos. Se han definido tablas como rentals, que actúa como el registro central de las transacciones; vehicles, para gestionar el inventario y disponibilidad de la flota; y checklists, la cual se vincula con checklist_photos para persistir las referencias a las evidencias fotográficas almacenadas en la nube. Este diseño de base de datos facilita la gestión de garantías, la resolución de disputas por daños y el descubrimiento de material histórico relevante para los usuarios de WheelsPe, asegurando que cada etapa del ciclo de vida del alquiler sea auditable y persistente
 
 ### 2.6.4. Bounded Context: Billing
+Transaccion (Aggregate Root): Es la raíz transaccional que orquesta el flujo de fondos (alquiler o carpooling). Controla los estados del dinero desde la retención inicial hasta la liquidación final (US31, US32).
+Atributos: idTransaccion, montoTotal, comisionPlataforma, estado (Pendiente, En Escrow, Liquidada, Reembolsada), tipo (Alquiler, Carpooling), fechaCreacion.
+Métodos: retenerFondos(): Pone el monto en estado de garantía. liquidarPropietario(): Descuenta la comisión (10%) y transfiere el neto al dueño. aplicarReembolso(porcentaje): Ejecuta la devolución al inquilino (US26, US33).
+ContratoDigital (Entity): Representa el respaldo jurídico vinculado a una transacción exitosa (US25).
+Atributos: idContrato, idTransaccion, terminosCondiciones, firmaDigitalEmisor, urlDocumento.
+Monto (Value Object): Asegura la integridad del manejo de divisas y precisión decimal.
+Atributos: valor, moneda (PEN).
+MetodoPago (Value Object): Información tokenizada del medio de pago vinculado por el usuario (US21).
+Atributos: tokenPasarela, tipoTarjeta, ultimosCuatroDigitos.
+CalculadoraComisionesService (Domain Service): Lógica que aplica la política comercial de WheelsPe (10% de comisión) y gestiona los cálculos de impuestos.
+BillingRepository (Repository): Contrato para persistir y recuperar objetos Transaccion y ContratoDigital.
+
 #### 2.6.4.1. Domain Layer
+Transaccion (Aggregate Root): Es la raíz transaccional que orquesta el flujo de fondos (alquiler o carpooling). Controla los estados del dinero desde la retención inicial hasta la liquidación final (US31, US32).
+Atributos: idTransaccion, montoTotal, comisionPlataforma, estado (Pendiente, En Escrow, Liquidada, Reembolsada), tipo (Alquiler, Carpooling), fechaCreacion.
+Métodos: retenerFondos(): Pone el monto en estado de garantía. liquidarPropietario(): Descuenta la comisión (10%) y transfiere el neto al dueño. aplicarReembolso(porcentaje): Ejecuta la devolución al inquilino (US26, US33).
+ContratoDigital (Entity): Representa el respaldo jurídico vinculado a una transacción exitosa (US25).
+Atributos: idContrato, idTransaccion, terminosCondiciones, firmaDigitalEmisor, urlDocumento.
+Monto (Value Object): Asegura la integridad del manejo de divisas y precisión decimal.
+Atributos: valor, moneda (PEN).
+MetodoPago (Value Object): Información tokenizada del medio de pago vinculado por el usuario (US21).
+Atributos: tokenPasarela, tipoTarjeta, ultimosCuatroDigitos.
+CalculadoraComisionesService (Domain Service): Lógica que aplica la política comercial de WheelsPe (10% de comisión) y gestiona los cálculos de impuestos.
+BillingRepository (Repository): Contrato para persistir y recuperar objetos Transaccion y ContratoDigital.
+
 #### 2.6.4.2. Interface Layer
+BillingController (Controller): Expone los endpoints para que los usuarios (Esther y Carlos) gestionen sus pagos y cobros.
+Métodos: vincularMetodoPago(MetodoPagoDTO), confirmarReserva(ReservaDTO), obtenerHistorialPagos(userId).
+ContractController (Controller): Permite la descarga y visualización de los contratos firmados electrónicamente (US25).
+TransaccionDTO (DTO): Objeto para transferir detalles del pago hacia el frontend.
+RespuestaPagoDTO (DTO): Información de retorno de la pasarela de pagos (éxito/fallo).
+
 #### 2.6.4.3. Application Layer
+PaymentApplicationService (Application Service): Orquesta el flujo financiero. Coordina con la pasarela de pagos, crea la transacción y dispara la generación del contrato (US31).
+Métodos: procesarPagoAlquiler(ReservaDTO), procesarCuotaCarpooling(CarpoolingDTO), ejecutarReembolso(idTransaccion).
+GeneradorContratoHandler (Event Handler): Reacciona al evento PagoConfirmadoEvent para invocar el servicio de firma digital y generar el PDF legal (US25, US50).
+EscrowManagerHandler (Event Handler): Reacciona al evento ServicioFinalizadoEvent para proceder con la liberación de fondos desde el estado de garantía al propietario (US14).
+
 #### 2.6.4.4. Infrastructure Layer
+IzipayAdapter (External Service): Adaptador técnico para la integración con la pasarela de pagos local, manejando tokens y pre-autorizaciones (US48).
+DigitalSignatureAdapter (External Service): Adaptador para servicios de firma electrónica certificada por INDECOPI, garantizando validez jurídica (US50).
+PostgresBillingRepository (Implementation): Implementación técnica de persistencia en una base de datos relacional para asegurar la consistencia ACID de las transacciones.
+S3DocumentStorageAdapter (External Service): Almacenamiento de los contratos digitales PDF en la nube
+
 #### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
+![Billing BC.png](Assets/Billing%20BC.png)
+Muestra la arquitectura interna de la capa financiera. Los componentes de pago y generación de contratos delegan al PaymentApplicationService, el cual interactúa con adaptadores externos (la pasarela Izipay y el servicio de Firma Digital de INDECOPI) para procesar las transacciones. El diseño prioriza la inmutabilidad de los registros financieros y la seguridad de los fondos en garantía (Escrow) entre Carlos y Esther
+
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
+
 ##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
+![Billing BC 1.png](Assets/Billing%20BC%201.png)
+Define la lógica transaccional y el blindaje legal de WheelsPe. La clase Transaccion (Aggregate Root) lidera el agregado para asegurar la integridad del flujo de caja, garantizando la correcta retención de fondos y liquidación. Al estar vinculada a la entidad ContratoDigital, se asegura que cada operación financiera tenga un respaldo jurídico inalterable. Los servicios de dominio encapsulan reglas críticas, como el cálculo automatizado de comisiones y reembolsos.
+
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
+![Billing BC 2.png](Assets/Billing%20BC%202.png)
+Organiza la persistencia financiera y legal del sistema. Emplea tablas principales como transactions para el seguimiento riguroso de los estados de pago, payment_methods para la tokenización segura de tarjetas y contracts para la auditoría de los documentos legales generados. Este diseño relacional está optimizado para garantizar la consistencia ACID, evitando discrepancias entre los fondos retenidos en el sistema y los liquidados a los propietarios.
 
 ### 2.6.5. Bounded Context: Operations
+
 #### 2.6.5.1. Domain Layer
+Disputa (Aggregate Root): Es la raíz transaccional que gestiona el ciclo de vida de cualquier conflicto reportado. Asegura la integridad del proceso de mediación (US41).
+Atributos: idDisputa, tipo, estado (Abierta, En Revisión, Resuelta), idTransaccionAfectada, partesInvolucradas, fechaCreacion.
+Métodos: iniciarMediacion(): Transiciona el estado a "En Revisión". registrarDecisión(Decisión): Cierra la disputa con un resultado final, registrando la justificación.
+LogEvento (Entity): Representa el registro inmutable y cronológico de cualquier acción crítica en el sistema. Es la base de la trazabilidad.
+Atributos: idLog, tipoEvento, fechaHora, idUsuarioAfectado, detallesJSON.
+Decisión (Value Object): Contiene la resolución final y la justificación de una disputa.
+Atributos: fechaDecisión, administradorID, resultado (ej. MantenerCalificación, RevertirPago).
+ReporteIncidente (Value Object): Información detallada proporcionada por el usuario al reportar un problema.
+Atributos: fechaReporte, descripcion, evidenciaURL.
+MediadorDisputasService (Domain Service): Lógica que orquesta y estandariza el flujo de resolución de disputas (US41), asegurando el cumplimiento del plazo de 48 horas.1
+Métodos: aplicarFlujoResolucion(disputa, evidencia): Asegura que el proceso de resolución cumpla con la política interna.
+OperacionesRepository (Repository): Contrato para persistir y recuperar objetos Disputa y LogEvento
 #### 2.6.5.2. Interface Layer
+AdminController (Controller): Expone los endpoints para la interfaz de administración, permitiendo a los operadores internos gestionar y resolver disputas (US41).
+Métodos: obtenerListaDisputas(filtro), obtenerDetalleDisputa(idDisputa), resolverDisputa(idDisputa, DecisiónDTO).
+SoporteController (Controller): Interfaz pública que permite a los usuarios reportar incidentes.
+Métodos: reportarIncidente(ReporteDTO).
+DecisiónDTO (DTO): Objeto para transferir la información de la resolución tomada por el administrador.
+AlertaFalloPagoDTO (DTO): Objeto para transferir la información de un pago fallido al administrador (US40).
 #### 2.6.5.3. Application Layer
+GestionOperacionesService (Application Service): Orquesta el flujo de creación y resolución de disputas (US41).
+Métodos: procesarReporte(ReporteDTO): Crea una nueva Disputa, procesarResolucion(DecisiónDTO): Llama al MediadorDisputasService e inicia la notificación a las partes.1
+AlertaFalloPagoHandler (Event Handler): Reacciona al evento PagoFallidoEvent proveniente del contexto BILLING para iniciar una alerta administrativa inmediata (US40).
+Métodos: manejarFalloPago(PagoFallidoEvent): Crea una nueva Disputa y notifica al administrador.1
+DisputaCreadaHandler (Event Handler): Reacciona al evento DisputaIniciadaEvent para notificar a las partes involucradas el inicio de la mediación.
+
 #### 2.6.5.4. Infrastructure Layer
+MongoLogRepository (Implementation): Implementación técnica del repositorio, utilizando una base de datos NoSQL (ej. MongoDB) para manejar el alto volumen de datos no estructurados de los LogEventos de manera eficiente.
+PostgresDisputaRepository (Implementation): Implementación técnica para la entidad Disputa, que requiere integridad transaccional (US41).
+IAMContextAdapter (External Service): Adaptador de solo lectura para consultar los detalles de contacto de los usuarios involucrados en una disputa.
+BillingContextAdapter (External Service): Adaptador de solo lectura para consultar el estado de una transacción en caso de una disputa relacionada con pagos (US40).
+NotificacionAlertasAdapter (External Service): Adaptador que permite enviar alertas de alta prioridad (SMS, Push o Email) a los administradores (US40) y a los usuarios.
 #### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
+![Operations BC.png](Assets/Operations%20BC.png)
+Muestra la arquitectura interna para la gestión administrativa y de soporte. Los controladores de Administración y Soporte delegan al GestionOperacionesService, el cual interactúa con los contextos de IAM y Billing para resolver incidencias. El diseño prioriza la segregación de funciones y la respuesta rápida ante fallos en el ecosistema.
 #### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
+![Operations BC 1.png](Assets/Operations%20BC%201.png)
+Define la lógica de mediación y trazabilidad. La clase Disputa (Aggregate Root) lidera el agregado para asegurar la integridad de los reclamos, integrando reportes de incidentes y decisiones finales de gestión. Los servicios de dominio y los logs de eventos garantizan una trazabilidad inmutable de todas las acciones administrativas realizadas.
 ##### 2.6.5.6.2. Bounded Context Database Design Diagram
+![Operations BC 2.png](Assets/Operations%20BC%202.png)
+Organiza la persistencia administrativa y de auditoría. Emplea tablas de disputes para el seguimiento de estados y event_logs para el registro masivo de eventos, permitiendo una supervisión histórica y segura. Este diseño facilita la resolución de conflictos basada en evidencias persistentes y estructuradas dentro de WheelsPe. 
+
+
+
+## Bibliografía
+- Alvarez, A. (2020). 5W2H: qué significa, para qué sirve, cómo aplicarla y algunos ejemplos. LeanConstructionMexico. https://www.leanconstructionmexico.com.mx/post/5w2h-qu%C3%A9-significa-para-qu%C3%A9-sirve-c%C3%B3mo-aplicarla-y-algunos-ejemplos
+- Banco Central de Reserva del Perú. (2024). Reporte de inflación: Diciembre 2024. Recuadro 3: La congestión del transporte urbano y sus efectos económicos. https://www.bcrp.gob.pe/docs/Publicaciones/Reporte-Inflacion/2024/diciembre/reporte-de-inflacion-diciembre-2024-recuadro-3.pdf
+- Gutiérrez, C. (2018). Carsharing y Carpooling: ¿el futuro de las vías?. Métrica - Agencia Peruana De Comunicación. https://metrica.pe/blog/carsharing-y-carpooling-el-futuro-de-las-vias/
+- Instituto Peruano de Economía (2025). En los últimos diez años, el parque automotor en Lima creció 40%, pero la red vial apenas 7%. https://ipe.org.pe/en-los-ultimos-diez-anos-el-parque-automotor-en-lima-crecio-40-pero-la-red-vial-apenas-7/
+- Solar, D. (2025). Caos vehicular en Lima cuesta más de S/ 27 mil millones al año y solo empeora, según AFIN. Infobae. https://www.infobae.com/peru/2025/06/06/caos-vehicular-en-lima-cuesta-mas-de-s-27-mil-millones-al-ano-y-solo-empeora-segun-afin/
+
+## Anexos 
+- Enlace Organización App Móviles - MOVEO: https://github.com/App-Moviles-MOVEO
+- Repositorios Github
+- Enlace Repositorio Project Report: https://github.com/App-Moviles-MOVEO/MOVEO-Report
+- Videos Entrevistas
+- Enlace Entrevistas Segmento Objetivo #1 y #2: https://goo.su/c7RNR
+- Link del Event Storming: https://miro.com/app/board/uXjVGjmy9g0=/?share_link_id=877504217546 
