@@ -2,13 +2,6 @@
 
 # MOVEO-Report
 
-<<<<<<< HEAD
-<strong>Universidad Peruana de Ciencias Aplicadas</strong>
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" width="150"></img>
-
-**Universidad Peruana de Ciencias Aplicadas**
-=======
 <p align="center">
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
@@ -31,16 +24,11 @@
 | u202318049        | Goñe Araccata, Esther Abigail       |
 | u202321941        | Salazar Caballero, Alvaro Fabrizzio |
 | u202317362        | Santiago Peña, Andreow Jomark       |
->>>>>>> 26043dbe8ee912413fd518b200ebf6c40c19a686
 
-**Carrera:** Ingeniería de Software
 
-<<<<<<< HEAD
-**Periodo:** 202610
-
-**Curso:** Aplicaciones para Dispositivos Móviles
 =======
 ## Abril 2026
+
 # Registro de Versiones del Informe
 
 | Versión   | Fecha       | Autor(es)                                                                                                                                              | Descripción de Modificación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
