@@ -81,7 +81,7 @@ Utilizamos Google Docs como herramienta colaborativa para redactar el informe y 
 
 # Contenido
 
-[Student Outcome (ver anexo A)](#student-outcome-ver-anexo-a)
+[Student Outcome](#student-outcome-ver-anexo-a)
 
 [Objetivos SMART](#objetivos-smart)
 
@@ -2581,7 +2581,17 @@ Define la lógica de mediación y trazabilidad. La clase Disputa (Aggregate Root
 ![Operations BC 2.png](Assets/Operations%20BC%202.png)
 Organiza la persistencia administrativa y de auditoría. Emplea tablas de disputes para el seguimiento de estados y event_logs para el registro masivo de eventos, permitiendo una supervisión histórica y segura. Este diseño facilita la resolución de conflictos basada en evidencias persistentes y estructuradas dentro de WheelsPe. 
 
+## Concluciones y recomnendaciones
 
+- En relación a los Problem Statements, se confirmó que la principal barrera en la movilidad urbana temporal en Lima no es la oferta económica, sino la desconfianza estructural. La propuesta de crear un ecosistema digital formal resuelve directamente el dolor principal identificado: la vulnerabilidad de los usuarios en grupos informales y el miedo de los propietarios a perder su inversión.
+
+- Al contrastar las Lean UX Assumptions con el comportamiento real de los segmentos, se validó la suposición más riesgosa: los propietarios están dispuestos a alquilar sus vehículos a terceros si existe un filtro digital. Sin embargo, el needfinding reveló un ajuste crucial: la verificación de identidad (KYC) no es suficiente por sí sola; los proveedores exigen controles mecánicos y financieros (Checklist fotográfico y retención de garantía/Escrow) como condición innegociable para operar. Por el lado de los usuarios, se confirmó que la "validación institucional" (pertenecer a la misma universidad o empresa) es el detonante principal para abandonar canales como WhatsApp.
+
+- Respecto a los Lean UX Hypothesis Statements, los resultados de la validación temprana respaldan firmemente las métricas de éxito proyectadas. Las encuestas demuestran que el 66.6% de los proveedores tiene una alta disposición a pagar comisiones a cambio de seguridad jurídica (validando la hipótesis de monetización), mientras que el 50% de los usuarios de movilidad migraría definitivamente a la plataforma si se garantiza la exclusividad institucional, lo que sustenta la viabilidad de la hipótesis de crecimiento orgánico en nodos académicos.
+
+- Como recomendación para los siguientes pasos en el Roadmap de los productos digitales, el equipo debe priorizar el desarrollo del Producto Mínimo Viable (MVP) enfocándose estrictamente en los Bounded Contexts de Identity & Access Management (IAM) y Carpooling/Rental. Se recomienda postergar funcionalidades administrativas complejas (como la mediación automatizada de disputas) para fases posteriores.
+
+- Estratégicamente, se sugiere que el primer despliegue del MVP (Release 1.0) se ejecute como un programa piloto cerrado exclusivo para la comunidad de la Universidad Peruana de Ciencias Aplicadas (UPC). Esto permitirá validar en un entorno real la adopción institucional, probar la carga de los microservicios en un ecosistema controlado y recolectar feedback directo antes de escalar la operación a todo Lima Metropolitana.
 
 ## Bibliografía
 - Alvarez, A. (2020). 5W2H: qué significa, para qué sirve, cómo aplicarla y algunos ejemplos. LeanConstructionMexico. https://www.leanconstructionmexico.com.mx/post/5w2h-qu%C3%A9-significa-para-qu%C3%A9-sirve-c%C3%B3mo-aplicarla-y-algunos-ejemplos
