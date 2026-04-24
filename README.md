@@ -16,6 +16,7 @@
     
 </p>
 
+
 ## Relación de integrantes
 | Código            | Integrante                          |
 |-------------------|-------------------------------------|
@@ -26,7 +27,7 @@
 | u202317362        | Santiago Peña, Andreow Jomark       |
 
 
-=======
+
 ## Abril 2026
 
 # Registro de Versiones del Informe
@@ -39,34 +40,7 @@
 | 1.3 (AV1) | 18./04/2026 | Arrieta Quispe, Alison Jimena Encalada Salazar, Alexis Goñe Araccata, Esther Abigail Salazar Caballero, Alvaro Fabrizzio Santiago Peña, Andreow Jomark | Capítulo II: Requirements & Analysis. 2.3.3 User Journey Mapping (Mapeo de la experiencia del usuario en los flujos principales).2.3.4 Empathy Mapping (Construcción de mapas de empatía por segmento objetivo).2.3.5 Big Picture Event Storming (Exploración colaborativa del dominio del negocio).2.3.6 Ubiquitous Language (Definición del glosario de términos del dominio)                                                                                                                                                                                      |
 | 1.4 (AV1) | 22/04/2026  | Arrieta Quispe, Alison Jimena Encalada Salazar, Alexis Goñe Araccata, Esther Abigail Salazar Caballero, Alvaro Fabrizzio Santiago Peña, Andreow Jomark | Capítulo II: Requirements & Analysis.2.4.1 User Stories (Especificación de historias de usuario por épica).2.4.2 Impact Mapping (Construcción del mapa de impacto del producto).2.4.3 Product Backlog (Priorización del backlog del producto) 2.5.1 Event Storming — Strategic Level (Sesión de diseño estratégico con DDD).2.5.1.1 Candidate Context Discovery (Identificación de bounded contexts candidatos)                                                                                                                                                      |
 | 1.5 (AV1) | 23/04/2026  | Arrieta Quispe, Alison Jimena Encalada Salazar, Alexis Goñe Araccata, Esther Abigail Salazar Caballero, Alvaro Fabrizzio Santiago Peña, Andreow Jomark | Capítulo II: Requirements & Analysis 2.5.1.2 Domain Message Flows Modeling (Modelado de flujos de mensajes entre contextos) 2.5.1.3 Bounded Context Canvases (Definición de los lienzos de cada bounded context).2.5.2 Context Mapping (Definición de relaciones entre bounded contexts) 2.5.3 Software Architecture (Diagramas de arquitectura a nivel de contexto, contenedor y despliegue) 2.6 Tactical-Level DDD (Domain Layer, Interface Layer, Application Layer e Infrastructure Layer de los bounded contexts IAM, Carpooling, Rental, Operations y Billing) |
->>>>>>> 26043dbe8ee912413fd518b200ebf6c40c19a686
 
-**Sección:** 3687
-
-**Profesor:** Quevedo Velasco, David Gerardo
-
-**Informe del Trabajo final**
-
-**Startup:** MOVEO
-
-**Producto:** WheelsPe
-
-</div>
-
-<div align="center">
-
-| Alumnos |  |
-| :---: | :---: |
-| **Código** | **Apellidos y Nombres** |
-| u202312031 | Arrieta Quispe, Alison Jimena |
-| u20211g491 | Encalada Salazar, Alexis |
-| u202318049 | Goñe Araccata, Esther Abigail |
-| u202321941 | Salazar Caballero, Alvaro Fabrizzio |
-| u202317362 | Santiago Peña, Andreow Jomark |
-
-**Abril, 2026**
-
-</div>
 
 # **Registro de Versiones del Informe**
 
@@ -217,26 +191,12 @@ Utilizamos Google Docs como herramienta colaborativa para redactar el informe y 
 [Anexos](#anexos)
 
 
-
-
-
 # Student Outcome
 
-<<<<<<< HEAD
-El curso aporta al cumplimiento del criterio ABET: **ABET – EAC \- Student Outcome 7:** **Aprendizaje Continuo y Autónomo**
-=======
 El curso aporta al cumplimiento del criterio ABET: ABET – EAC - Student Outcome 7: Aprendizaje Continuo y Autónomo
 Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje apropiadas.
 En el cuadro siguiente se detallan las actividades llevadas a cabo y las conclusiones formuladas por el equipo, las cuales sirven como evidencia del logro alcanzado en el ABET – EAC - Student Outcome.
 
-
-<table>
-  <tr>
-    <td><b>Criterio específico</b></td>
-    <td><b>Acciones realizadas</b></td>
-    <td><b>Conclusiones</b></td>
-  </tr>
->>>>>>> 26043dbe8ee912413fd518b200ebf6c40c19a686
 
 **Criterio:** *La capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje apropiadas.*
 
