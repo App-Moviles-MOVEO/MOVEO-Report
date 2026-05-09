@@ -2122,11 +2122,90 @@ Objetivo SMART: Lograr que el 75% de las usuarias universitarias utilicen la pla
 Link de los impact mapping: https://drive.google.com/drive/folders/1x7m4N6Fzopy-BGT2KrXojJkZjMNxtm7t?usp=sharing
 
 ### 2.4.3. Product Backlog
-2.4.3 Product Backlog
-El trabajo pendiente del proyecto se ha estructurado consolidando el Product Backlog en la herramienta Trello. En este tablero se han registrado y ordenado las historias de usuario provenientes del análisis inicial y del Impact Mapping. Con el objetivo de facilitar la ejecución de sprints viables, a cada historia se le asignó una estimación de esfuerzo basada en story points (del 1 al 13), lo cual refleja de manera precisa la complejidad técnica de cada tarea.
-Figura
-Product Backlog de WheelsPe
-Nota. Elaboración propia en Trello:
+
+**Priorización por Valor de Negocio (No por Precedencia Técnica)**
+
+El Product Backlog de WheelsPe se ordena estrictamente por VALOR DE NEGOCIO para los usuarios finales y stakeholders, no por precedencia técnica ni dependencias de implementación. Este enfoque ágil asegura que cada sprint entregue funcionalidades que los segmentos objetivo puedan percibir, utilizar y validar inmediatamente, comprobando las hipótesis de negocio establecidas en el Lean UX Process desde el primer momento del ciclo de desarrollo.
+
+Las primeras posiciones del backlog se asignan a User Stories que:
+- Generan conversión inicial de visitantes a usuarios registrados (Landing Page)
+- Materializan el core del modelo de negocio (búsqueda de vehículos/rutas, publicación de ofertas, transacciones)
+- Implementan diferenciadores competitivos clave (segmentación institucional, carpooling integrado con alquiler)
+- Garantizan seguridad y construcción de confianza (alertas de emergencia, sistema de reputación, checklist de protección)
+
+Las User Stories de infraestructura técnica (autenticación, registro, gestión de sesiones) se posicionan estratégicamente después del valor core del negocio, reconociendo que son habilitadores necesarios pero no constituyen la propuesta de valor diferencial que distingue a WheelsPe de la competencia tradicional de alquiler o las soluciones informales actuales.
+
+Esta priorización se validó mediante el Impact Mapping elaborado en la sección 2.4.2, donde se identificaron los Business Goals y los comportamientos de usuario que generan mayor impacto en el éxito de la plataforma.
+
+**NUEVA TABLA DE PRODUCT BACKLOG (Ordenada por Valor de Negocio):**
+
+| # Orden | Story ID | Título | Story Points | Épica | Justificación de Prioridad |
+|---------|----------|--------|--------------|-------|----------------------------|
+| 1 | US39 | Visualizar propuesta de valor en landing page | 5 | EP08 | Primera impresión de visitantes, comunicación de beneficios, generación de conversión inicial |
+| 2 | US22 | Consultar catálogo de vehículos disponibles | 5 | EP03 | Core business - permite a usuarios explorar inventario de vehículos |
+| 3 | US13 | Publicar ruta de movilidad compartida | 8 | EP05 | Core business - habilita oferta de carpooling por conductores |
+| 4 | US14 | Buscar rutas con segmentación institucional | 5 | EP05 | Diferenciador clave - comunidad verificada (UPC/empresas) genera confianza |
+| 5 | US31 | Procesar pago de alquiler multicanal | 8 | EP06 | Monetización directa del modelo de negocio de alquiler |
+| 6 | US32 | Liquidar cuota de carpooling digitalmente | 5 | EP06 | Monetización de movilidad compartida |
+| 7 | US08 | Activar alerta de emergencia durante viaje | 5 | EP02 | Propuesta de valor #1 - seguridad personal de pasajeros |
+| 8 | US28 | Evaluar servicio de forma bidireccional | 5 | EP07 | Construcción de confianza y reputación comunitaria |
+| 9 | US12 | Registrar checklist fotográfico del vehículo | 5 | EP02 | Protección de activos del proveedor - diferenciador vs competencia |
+| 10 | US21 | Vincular métodos de pago electrónicos | 5 | EP06 | Habilitador de transacciones financieras seguras |
+| 11 | US24 | Gestionar garantía mediante retención (Escrow) | 5 | EP06 | Protección financiera bilateral proveedor-arrendatario |
+| 12 | US01 | Registrar cuenta con rol único | 3 | EP01 | Habilitador necesario para acceso al sistema |
+| 13 | US02 | Verificar identidad mediante KYC | 5 | EP01 | Seguridad necesaria para construcción de confianza |
+| 14 | US03 | Iniciar sesión con credenciales | 2 | EP01 | Soporte técnico para persistencia de sesión |
+| 15 | US05 | Acreditar propiedad de vehículo | 5 | EP03 | Validación de oferta legítima y protección contra fraude |
+| 16 | US06 | Monitorear ruta en tiempo real vía GPS | 8 | EP02 | Trazabilidad y seguridad activa durante viajes |
+| 17 | US09 | Validar inicio de viaje con código PIN | 3 | EP02 | Confirmación de identidad correcta en momento de abordaje |
+| 18 | US15 | Reservar asiento en ruta compartida | 4 | EP05 | Funcionalidad core de carpooling |
+| 19 | US25 | Emitir comprobantes y contratos digitales | 4 | EP06 | Respaldo legal de transacciones |
+| 20 | US11 | Filtrar rutas por preferencia de género | 3 | EP02 | Seguridad percibida (target específico: mujeres universitarias) |
+| 21 | US16 | Aprobar solicitudes de pasajeros y controlar aforo | 4 | EP05 | Control de capacidad del conductor |
+| 22 | US19 | Consultar reputación de otros usuarios | 2 | EP07 | Transparencia pre-transacción |
+| 23 | US30 | Configurar umbrales de reputación mínimos | 3 | EP07 | Personalización de seguridad por proveedor |
+| 24 | US26 | Procesar reembolsos automáticos | 3 | EP06 | Gestión de cancelaciones y devoluciones |
+| 25 | US10 | Gestionar contactos de confianza | 2 | EP02 | Seguridad pasiva mediante red de protección |
+| 26 | US17 | Automatizar rutas recurrentes semanales | 3 | EP05 | Optimización de experiencia para usuarios frecuentes |
+| 27 | US18 | Coordinar detalles por mensajería integrada | 3 | EP05 | Comunicación directa entre usuarios del viaje |
+| 28 | US20 | Confirmar llegada al destino final | 3 | EP05 | Cierre formal de servicio |
+| 29 | US27 | Aplicar cupones y beneficios promocionales | 3 | EP08 | Incentivos comerciales para adopción |
+| 30 | US29 | Recompensar usuarios con alta reputación | 3 | EP07 | Gamificación de comportamiento positivo |
+| 31 | US34 | Gestionar ofertas promocionales temporales | 3 | EP08 | Promociones estacionales y feriados |
+| 32 | US36 | Reconocer comportamiento positivo con distintivos | 8 | EP07 | Sistema de incentivos y construcción de lealtad |
+| 33 | US37 | Consultar historial completo de reseñas | 3 | EP07 | Transparencia histórica de comportamiento |
+| 34 | US38 | Filtrar solicitudes por umbral de confianza | 3 | EP07 | Protección automática basada en reputación |
+| 35 | US42 | Explorar beneficios para propietarios (Landing) | 5 | EP08 | Conversión de segmento proveedores |
+| 36 | US43 | Conocer ventajas del carpooling (Landing) | 5 | EP08 | Conversión de segmento usuarios movilidad |
+| 37 | US44 | Acceder a centro de ayuda y FAQ | 3 | EP08 | Soporte autoservicio |
+| 38 | US04 | Recuperar contraseña olvidada | 2 | EP01 | Soporte técnico de acceso |
+| 39 | US07 | Rastrear viaje activo para seguridad de pasajero | 8 | EP02 | Monitoreo de anomalías en ruta |
+| 40 | US33 | Ejecutar reembolsos automatizados | 8 | EP06 | Automatización de procesos financieros |
+| 41 | US35 | Evaluar mutuamente tras finalizar servicio | 5 | EP07 | Sistema de reputación bilateral |
+| 42 | US40 | Monitorear anomalías financieras (Admin) | 5 | EP06 | Operaciones administrativas de vigilancia |
+| 43 | US41 | Mediar disputas de reputación (Admin) | 2 | EP07 | Gestión de conflictos y moderación |
+| 44 | US45 | Solicitar baja voluntaria y eliminación de datos | 2 | EP01 | Derecho al olvido (cumplimiento GDPR) |
+| 45 | US46 | Enviar solicitud de alianza corporativa | 3 | EP08 | Expansión del modelo B2B |
+| 46 | US47 | Optimizar latencia en geolocalización (Technical) | 3 | SP02 | Mejora de performance técnico |
+| 47 | SP01 | Investigar integraciones de pasarelas de pago | 5 | SP | Spike: Validar viabilidad técnica de Stripe, PayPal, Yape |
+| 48 | SP02 | Evaluar soluciones de GPS y mapas (Google Maps vs Mapbox) | 5 | SP | Spike: Comparar latencia, precisión y costos |
+| 49 | SP03 | Analizar opciones de KYC mediante IA (inteligencia facial) | 8 | SP | Spike: Validar providers como IDology, Jumio, Onfido |
+| 50 | SP04 | Investigar arquitectura de microservicios y contenedorización | 8 | SP | Spike: Evaluar Docker, Kubernetes, serverless options |
+
+**Actualizar también la captura de Trello con este nuevo orden**
+
+[INSERTAR IMAGEN: Captura del tablero de Trello con Product Backlog reordenado]
+
+**Leyenda de Épicas:**
+- EP01: Gestión de la identidad y acceso
+- EP02: Seguridad y control operacional
+- EP03: Inventario y ofertas de vehículos
+- EP04: Experiencia de alquiler y reserva
+- EP05: Movilidad compartida
+- EP06: Operaciones financieras
+- EP07: Reputación y núcleo de la plataforma
+- EP08: Información y Fidelización
+- SP: Spike Stories (Investigación técnica)
 ## 2.5. Strategic-Level Domain Driven Design
 
 En esta sección se introduce el proceso de Domain-Driven Desing a nivel estratégico para MOVEO. Nuestro enfoque nos permitió conceptualizar el sistema a partir de la lógica de nuetro negocio, con el proposito de modelar una arquitectura de microservicios coherentes. Para conseguir eso identificamos subconjuntos del sistema con límites naturales y claros, conocidos como los Bounded Contexts. Las herramientas utilizadas para este propósito son el EventStorming, que nos ayudó a visualizar el flujo de eventos del negocio, y el Bounded Context Canvas, la cual nos ayuda a definir formalmente cada contexto y sus relaciones, garantizando así una base sólida para el desarrollo de nuestro proyecto.
