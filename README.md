@@ -27,11 +27,11 @@
 </p>
 
 <p align="center">
-    <strong>Profesor: David Gerardo Quevedo Velasco</strong>
+    <strong>Profesor: Quevedo Velasco, David Gerardo</strong>
 </p>
 
 <p align="center">
-    <strong>Informe de Trabajo Final</strong>
+    <strong>Informe del Trabajo Final</strong>
 </p>
 
 <p align="center">
@@ -54,7 +54,7 @@
 
 
 
-### Abril 2026
+### Mayo 2026
 <br>
 
 </div>
@@ -593,53 +593,97 @@ Atendiendo a la retroalimentación docente de identificar el riesgo crítico, el
 *Nota.* Elaboración Propia
 
 <a id="segmentos-objetivo"></a>
-# 1.3. Segmentos objetivos 
+# 1.3. Segmentos Objetivo
 
-Para garantizar que nuestra solución tecnológica responda de manera efectiva a las necesidades del mercado, se identificaron y analizaron los segmentos clave que enfrentan retos en el ecosistema de movilidad urbana en Lima. A continuación se detallan sus perfiles estratégicos, profundizando en las características demográficas, geográficas y psicográficas que sustentan su relevancia dentro del dominio del problema.
+Para garantizar que la solución tecnológica de WheelsPe responda de manera efectiva a las necesidades reales del mercado de movilidad urbana en Lima Metropolitana, se han identificado y analizado **tres segmentos objetivo clave** que enfrentan problemáticas específicas en el ecosistema actual. A continuación se detallan sus perfiles estratégicos, profundizando en las características demográficas, geográficas y psicográficas que sustentan su relevancia dentro del dominio del problema.
 
-**Segmento Objetivo \#1: Proveedores de Vehículos**
+---
 
+#### Segmento Objetivo #1: Proveedores de Vehículos
+
+**Definición:**
 Representa tanto a propietarios particulares con vehículos subutilizados como a micro y pequeñas empresas del rubro de alquiler que buscan digitalizar su operación y ampliar su alcance comercial mediante un canal tecnológico confiable.
 
-Aspectos demográficos:
-
+**Aspectos demográficos:**
 * **Sexo:** Masculino y femenino  
 * **Rango de edad:** 25 a 65 años  
 * **Nivel socioeconómico:** Sectores A, B y C (propietarios de vehículos particulares, emprendedores y pequeños empresarios del rubro)
 
-Aspectos geográficos:
-
+**Aspectos geográficos:**
 * **Nacionalidad:** Peruana  
-*  **Zona geográfica:** Áreas urbanas de alta densidad vehicular (Lima Metropolitana)
+* **Zona geográfica:** Áreas urbanas de alta densidad vehicular (Lima Metropolitana)
 
-Aspectos psicográficos:
-
+**Aspectos psicográficos:**
 * **Dolor principal:** Poseen vehículos que permanecen sin uso durante gran parte de la semana, lo que representa una pérdida económica directa. Las micro y pequeñas empresas del rubro operan con procesos manuales que les impiden captar clientes a la velocidad que exige el mercado, sin presupuesto para desarrollar software propio.  
-*  **Intereses:** Generar ingresos adicionales a través de un activo que ya poseen sin invertir tiempo excesivo en la gestión. Digitalizar su operación y ampliar su alcance comercial mediante un canal tecnológico confiable y escalable.  
+* **Intereses:** Generar ingresos adicionales a través de un activo que ya poseen sin invertir tiempo excesivo en la gestión. Digitalizar su operación y ampliar su alcance comercial mediante un canal tecnológico confiable y escalable.  
 * **Actitudes:** Proactivos en la búsqueda de soluciones que rentabilicen sus recursos. Valoran la seguridad jurídica, la verificación de identidad del arrendatario y el respaldo ante posibles incidencias como condición indispensable para publicar sus vehículos en una plataforma.  
-*  **Necesidades clave:** Contar con un canal formal y seguro para ofrecer sus vehículos en alquiler, mecanismos de validación de identidad del arrendatario, protección ante daños o incidencias, y visibilidad ante una base de usuarios activos y verificados.  
-  
-**Segmento Objetivo \#2: Usuarios de Movilidad**
+* **Necesidades clave:** Contar con un canal formal y seguro para ofrecer sus vehículos en alquiler, mecanismos de validación de identidad del arrendatario, protección ante daños o incidencias, y visibilidad ante una base de usuarios activos y verificados.
 
-Representa tanto a propietarios particulares con vehículos subutilizados como a micro y pequeñas empresas del rubro de alquiler que buscan digitalizar su operación y ampliar su alcance comercial mediante un canal tecnológico confiable.
+---
 
-Aspectos demográficos:
+#### Segmento Objetivo #2: Conductores Arrendatarios
 
-* **Sexo:** Masculino y femenino  
-* **Rango de edad:** 18 a 50 años  
-* **Nivel socioeconómico:** Sectores B y C (estudiantes universitarios, jóvenes profesionales y trabajadores con desplazamientos diarios fijos)
+**Definición:**
+Representa a profesionales, emprendedores y estudiantes de posgrado que requieren acceso temporal a vehículos para desplazamientos recurrentes relacionados con actividades laborales, gestiones empresariales o estudios, y que buscan activamente reducir el costo individual del alquiler mediante la publicación de rutas de carpooling que les permitan compartir los gastos operativos del viaje con otros pasajeros de confianza.
 
-Aspectos geográficos:
+**Aspectos demográficos:**
+* **Sexo:** Masculino (65%), Femenino (35%)
+* **Rango de edad:** 25-45 años
+* **Nivel socioeconómico:** Sectores B y C
+* **Ocupación:** Profesionales independientes (consultores, ingenieros, arquitectos visitando obras), ejecutivos de empresas con reuniones externas frecuentes, emprendedores con gestiones comerciales, estudiantes de posgrado (MBA, maestrías) con proyectos de campo
+* **Ingresos promedio:** S/ 4,500 - S/ 8,000 mensuales
 
-* **Nacionalidad:** Peruana  
-*  **Zona geográfica:** Áreas urbanas con alta congestión vehicular y demanda de transporte flexible (Lima Metropolitana, con foco en corredores viales que conectan distritos residenciales con campus universitarios y centros empresariales)
+**Aspectos geográficos:**
+* **Nacionalidad:** Peruana
+* **Zona geográfica:** Áreas urbanas de Lima Metropolitana con alta concentración de centros empresariales y educativos. Distritos de residencia frecuentes: San Borja, Surco, La Molina, Miraflores. Destinos recurrentes: San Isidro (oficinas corporativas), Miraflores (reuniones comerciales), Campus universitarios de posgrado (UPC, ESAN, CENTRUM)
 
-Aspectos psicográficos:
+**Aspectos psicográficos:**
 
-* **Dolor principal:** Los conductores arrendatarios asumen el costo total del alquiler de forma individual al no contar con herramientas integradas para compartir el trayecto. Los pasajeros, por su parte, se ven obligados a coordinar viajes a través de grupos de WhatsApp o redes sociales, exponiéndose a la informalidad, la falta de verificación de identidad y la desorganización.  
-*  **Intereses:** Acceder a soluciones de movilidad flexibles, económicas y seguras que se adapten a sus desplazamientos cotidianos. Encontrar rutas compartidas verificadas como alternativa real al transporte público informal.  
-* **Actitudes:** Estilo de vida práctico y conectado digitalmente; toman decisiones de movilidad sobre la marcha y priorizan la inmediatez y la confianza por encima del precio absoluto. Están dispuestos a migrar hacia plataformas formales siempre que estas les ofrezcan perfiles verificados y una experiencia ágil.  
-*  **Necesidades clave:** Acceso rápido a vehículos disponibles, rutas compartidas desde el celular, perfiles verificados de conductores y a la vez propietarios, mecanismos para dividir bien los gastos de viaje, y un entorno organizado que sustituya la coordinación informal actual.
+**Dolor principal:** 
+Los conductores arrendatarios enfrentan una barrera económica significativa al requerir vehículos temporales de forma recurrente (2-4 veces por semana). El alquiler tradicional en empresas formales representa un gasto mensual de S/ 1,200 - S/ 2,000 que no es sostenible para uso frecuente. Al asumir el 100% del costo operativo (alquiler + combustible + peajes) de forma individual, el transporte se vuelve económicamente inviable, forzándolos a depender de taxis por aplicación que no proyectan la imagen profesional deseada en reuniones con clientes.
+
+**Intereses:** 
+Acceder a soluciones de movilidad temporal que sean financieramente sostenibles mediante la división de costos. Maximizar el retorno de inversión del alquiler al monetizar los asientos vacíos del vehículo. Construir una red profesional de contactos mediante el networking durante trayectos compartidos con ejecutivos o profesionales de su mismo nivel socioeconómico.
+
+**Actitudes:** 
+Poseen un estilo de vida orientado a la eficiencia y optimización de recursos. Son early adopters de tecnología que facilite procesos (usuarios activos de Uber, Rappi, apps de productividad). Priorizan la construcción de imagen profesional y valoran las oportunidades de networking como parte integral de su desarrollo de carrera. Buscan constantemente relaciones "win-win" donde ambas partes obtengan beneficio mutuo.
+
+**Necesidades clave:** 
+Plataformas que integren nativamente alquiler de vehículos con publicación de rutas de carpooling en un solo ecosistema. Sistemas de validación institucional que certifiquen que los pasajeros pertenecen a entornos corporativos o académicos verificados (validación de email empresarial, perfil de LinkedIn). Herramientas de división automática de costos que calculen de forma transparente la cuota proporcional por pasajero. Facturación electrónica que permita declarar gastos de movilidad a su empleador o como gasto deducible de impuestos. Flexibilidad para programar rutas recurrentes (lunes a viernes, mismo horario) sin necesidad de republicar manualmente cada día.
+
+---
+
+#### Segmento Objetivo #3: Pasajeros de Movilidad Compartida
+
+**Definición:**
+Representa a estudiantes universitarios de pregrado y trabajadores dependientes jóvenes que realizan desplazamientos diarios en rutas fijas entre su zona de residencia y sus centros de estudio o trabajo, y que actualmente dependen de opciones informales de transporte compartido (grupos de WhatsApp, Facebook) que no garantizan seguridad, puntualidad ni validación de identidad de los conductores.
+
+**Aspectos demográficos:**
+* **Sexo:** Femenino (60%), Masculino (40%)
+* **Rango de edad:** 18-30 años
+* **Nivel socioeconómico:** Sectores C y D
+* **Ocupación:** Estudiantes universitarios de pregrado (ciclos 3-10), trabajadores dependientes en posiciones de entrada (asistentes, practicantes, técnicos), personas con empleo a tiempo parcial combinado con estudios
+* **Ingresos/mesada promedio:** S/ 800 - S/ 2,500 mensuales
+
+**Aspectos geográficos:**
+* **Nacionalidad:** Peruana
+* **Zona geográfica:** Áreas urbanas de Lima Metropolitana con rutas fijas entre distritos periféricos de residencia y centros educativos/laborales. Rutas frecuentes identificadas en entrevistas: Los Olivos → UPC Villa, San Juan de Lurigancho → San Isidro (zona financiera), Ate → Miraflores, Comas → Cercado de Lima, Villa María del Triunfo → Surco
+
+**Aspectos psicográficos:**
+
+**Dolor principal:** 
+Los pasajeros de movilidad compartida enfrentan una problemática crítica de inseguridad y desorganización en sus traslados diarios. Actualmente dependen de grupos informales en WhatsApp y Facebook donde coordinan "jalones" con conductores desconocidos cuya identidad, antecedentes o confiabilidad no pueden verificar. Esta informalidad genera estados constantes de ansiedad, especialmente en mujeres que viajan en horarios nocturnos. Las cancelaciones de último minuto (reportadas en 40% de los casos según entrevistas) causan retrasos en sus obligaciones académicas o laborales. El transporte público tradicional (combis, buses) es percibido como inseguro y con alta exposición a delincuencia, además de ser hostil para el traslado de objetos delicados (laptops, proyectos universitarios, maquetas).
+
+**Intereses:** 
+Acceder a soluciones de movilidad que prioricen la seguridad personal mediante validación estricta de identidad de conductores. Viajar exclusivamente con miembros verificados de su misma comunidad institucional (compañeros de universidad, colegas de empresa) para reducir la percepción de riesgo. Encontrar rutas confiables y puntuales que se ajusten a sus horarios fijos de clases o trabajo. Ahorrar en costos de transporte diario frente a opciones como taxi por aplicación (S/ 15-20 por viaje) que no son sostenibles con sus ingresos limitados.
+
+**Actitudes:** 
+Poseen un estilo de vida digital-first, toman decisiones de movilidad sobre la marcha desde sus smartphones. Priorizan la seguridad y la confianza por encima del precio absoluto, mostrando disposición a pagar un 15-20% adicional frente a opciones informales si se garantiza validación de identidad. Han desarrollado mecanismos de protección personal como compartir ubicación en tiempo real con familiares o viajar siempre acompañados. Valoran la comunidad y sienten mayor confianza al interactuar con personas de su mismo entorno académico o laboral (sentido de pertenencia institucional).
+
+**Necesidades clave:** 
+Plataformas formales con directorio centralizado de rutas compartidas donde TODOS los conductores estén verificados mediante documentación oficial. Sistemas de filtrado por comunidad institucional que garanticen que el conductor estudia/trabaja en la misma universidad/empresa (validación de correo institucional @upc.edu.pe, @pucp.edu.pe, @empresaX.com). Funcionalidades de seguridad activa como botón de pánico conectado a contactos de confianza y autoridades, trazabilidad GPS compartible en tiempo real, sistema de calificaciones bidireccional obligatorio post-viaje. Interfaz intuitiva que permita reservar asientos en rutas recurrentes de forma anticipada para eliminar la incertidumbre diaria. Opción de filtrado por preferencia de género (viajes solo con conductoras mujeres) para aumentar la percepción de seguridad en usuarias femeninas.
+
+---
 
 # Capítulo II: Requirements Development and Software Solution Design
 ## 2.1. Competidores 
