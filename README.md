@@ -2704,6 +2704,522 @@ Define la lógica de mediación y trazabilidad. La clase Disputa (Aggregate Root
 ![Operations BC 2.png](Assets/Operations%20BC%202.png)
 Organiza la persistencia administrativa y de auditoría. Emplea tablas de disputes para el seguimiento de estados y event_logs para el registro masivo de eventos, permitiendo una supervisión histórica y segura. Este diseño facilita la resolución de conflictos basada en evidencias persistentes y estructuradas dentro de WheelsPe. 
 
+---
+
+# Capítulo III: Solution UI/UX Design
+
+Este capítulo presenta el diseño de la solución digital de WheelsPe desde la perspectiva de la experiencia del usuario (UX) y la interfaz gráfica (UI). Se documentan los principios de diseño, arquitectura de información, prototipos de wireframes, mockups interactivos y flujos de usuario que constituyen la base visual y conceptual de la plataforma.
+
+## 3.1. Product Design
+
+El proceso de diseño de producto para WheelsPe se fundamentó en los hallazgos del Lean UX Process y el análisis de las necesidades específicas de los tres segmentos objetivo identificados en el Capítulo II. La arquitectura de la solución comprende tres componentes principales: una Landing Page informativa, una Aplicación Móvil nativa y una Web App complementaria.
+
+### 3.1.1. Style Guidelines
+
+#### 3.1.1.1. General Style Guidelines
+
+Los lineamientos de estilo de WheelsPe fueron desarrollados para garantizar coherencia visual, accesibilidad y una experiencia de usuario consistente en todos los dispositivos y plataformas.
+
+**Paleta de Colores Principal:**
+- **Color Primario (Azul Corporativo):** #0047AB - Representa confianza, seguridad y profesionalismo. Utilizado en elementos de navegación, botones de acción primaria y componentes de interacción crítica.
+- **Color Secundario (Verde Éxito):** #27AE60 - Denota confirmación, transacciones exitosas y estados positivos. Implementado en botones de confirmación y mensajes de validación.
+- **Color de Alerta (Rojo Seguridad):** #E74C3C - Utilizado exclusivamente para alertas de emergencia, cancelaciones y situaciones de riesgo que requieren atención inmediata.
+- **Color Neutral (Gris de Fondo):** #F5F5F5 - Proporciona contraste visual y diferenciación de espacios.
+- **Color de Texto (Gris Oscuro):** #2C3E50 - Asegura legibilidad óptima en cuerpo de texto y elementos secundarios.
+
+**Tipografía:**
+- **Fuente Principal:** Inter (sans-serif) - Utilizada en títulos, encabezados y elementos de navegación por su claridad y neutralidad moderna.
+- **Fuente Secundaria:** Roboto (sans-serif) - Implementada en cuerpo de texto, descripciones y contenido por su excelente legibilidad en pantallas pequeñas.
+
+**Componentes de Interfaz:**
+- **Botones:** Radio de esquina 8px, altura mínima 48px para accesibilidad táctil, sombra sutil en hover
+- **Tarjetas:** Radio de esquina 12px, sombra de elevación con desplazamiento de 0px 2px 8px rgba(0,0,0,0.1)
+- **Inputs:** Borde 1px, radio 6px, altura 44px para áreas de entrada
+
+### 3.1.2. Information Architecture
+
+#### 3.1.2.1. Organization Systems
+
+La arquitectura de información de WheelsPe se organiza mediante un sistema de categorización jerárquica que refleja los flujos de negocio principales y la estructura de permisos de rol.
+
+**Estructura Jerárquica Principal:**
+```
+WheelsPe Platform
+├── Public Section (Sin autenticación)
+│   ├── Landing Page
+│   └── Authentication (Registro/Login)
+├── Provider Dashboard (Rol: Proveedor)
+│   ├── Mi Flota (Gestión de vehículos)
+│   ├── Reservas Activas
+│   ├── Mis Rutas (Carpooling)
+│   └── Facturación
+├── Renter Dashboard (Rol: Arrendatario)
+│   ├── Catálogo de Vehículos
+│   ├── Mis Alquileres
+│   ├── Mis Rutas Compartidas
+│   └── Pagos
+├── Passenger Section (Rol: Pasajero)
+│   ├── Buscar Rutas
+│   ├── Mis Viajes
+│   └── Historial
+└── Admin Panel (Rol: Administrador)
+    ├── Gestión de Usuarios
+    ├── Moderación de Reputación
+    └── Reportes de Operación
+```
+
+#### 3.1.2.2. Labelling Systems
+
+Los sistemas de etiquetado garantizan que cada elemento de la interfaz sea identificable de forma inmediata y consistente. Los rótulos utilizan lenguaje claro, conciso y orientado a acciones.
+
+**Convención de Nomenclatura:**
+- Acciones primarias: verbos en infinitivo (Publicar Vehículo, Buscar Rutas, Confirmar Reserva)
+- Estados: adjetivos descriptivos (Pendiente, Confirmado, Cancelado)
+- Categorías: nombres en plural (Mis Vehículos, Rutas Disponibles, Transacciones)
+
+#### 3.1.2.3. SEO Tags and Meta Tags
+
+Para optimizar la visibilidad en motores de búsqueda, la Landing Page implementa una estrategia integral de SEO con meta tags específicos dirigidos a los tres segmentos objetivo.
+
+**Meta Tags Configurados:**
+- **Title:** "WheelsPe - Alquiler de Vehículos y Carpooling Seguro en Lima"
+- **Description:** "Plataforma digital de alquiler entre particulares y movilidad compartida con verificación institucional. Conecta propietarios, conductores y pasajeros de forma segura."
+- **Keywords:** alquiler vehículos Lima, carpooling Lima, movilidad compartida
+
+#### 3.1.2.4. Searching Systems
+
+El sistema de búsqueda implementa filtrado multi-criterio que acelera la localización de vehículos y rutas según las preferencias del usuario.
+
+**Elementos de Búsqueda Implementados:**
+- Búsqueda por ubicación geográfica (punto de inicio y destino)
+- Filtrado por rango de fechas de disponibilidad
+- Refinamiento por rango de precio
+- Filtros de seguridad (género del conductor, segmentación institucional)
+- Ordenamiento por relevancia, precio o reputación del proveedor
+
+#### 3.1.2.5. Navigation Systems
+
+La navegación se diseñó siguiendo principios de coherencia y predictibilidad para minimizar la curva de aprendizaje de nuevos usuarios.
+
+**Patrones de Navegación Implementados:**
+- **Bottom Tab Navigation** (Móvil): 5 pestañas principales (Inicio, Buscar, Mis Transacciones, Perfil, Menú)
+- **Breadcrumb Navigation**: Para retorno a niveles previos en flujos de múltiples pasos
+- **Drawer Navigation**: Menú lateral para acciones secundarias y configuración
+- **Floating Action Button (FAB)**: Para acciones primarias contextuales (Nueva Publicación, Buscar, Reservar)
+
+### 3.1.3. Landing Page UI Design
+
+#### 3.1.3.1. Landing Page Wireframe
+
+El wireframe de la Landing Page mapea la disposición estructural de contenido sin incluir elementos visuales finales.
+
+**Figura XX** - *Landing Page Wireframe de WheelsPe*
+
+[INSERTAR IMAGEN: wireframe-landing-page.png]
+
+Nota. Desarrollo propio realizado en Figma. El wireframe ilustra las 6 secciones principales: (1) Header con CTA de registro, (2) Hero section con propuesta de valor, (3) Sección "Cómo funciona" mostrando los 3 flujos, (4) Testimonios verificados de usuarios, (5) Llamada a acción con dos opciones de registro (Proveedor/Usuario), (6) Footer con información legal.
+
+#### 3.1.3.2. Landing Page Mock-up
+
+El mock-up proporciona la representación visual de alta fidelidad de la Landing Page.
+
+**Figura XX** - *Landing Page Mock-up Versión Final*
+
+[INSERTAR IMAGEN: mockup-landing-page-completa.png]
+
+Nota. Prototipo de alta fidelidad creado en Figma. Incluye paleta de colores corporativos, iconografía custom, testimonios con fotografías de usuarios reales, y botones de CTA optimizados para conversión.
+
+### 3.1.4. Mobile Applications UX/UI Design
+
+La aplicación móvil representa el punto de interacción primaria para los usuarios de WheelsPe.
+
+#### 3.1.4.1. Mobile Applications Wireframes
+
+Los wireframes de la aplicación móvil mapean los flujos críticos: onboarding, búsqueda/publicación, reserva y calificación.
+
+**Figura XX** - *Wireframes Flujo de Búsqueda de Vehículos*
+
+[INSERTAR IMAGEN: wireframes-busqueda-vehiculos.png]
+
+Nota. Conjunto de 4 wireframes lineales: (1) Pantalla de búsqueda con inputs de fecha y ubicación, (2) Resultados mostrando lista de vehículos con información clave, (3) Detalle de vehículo con fotos y especificaciones, (4) Confirmación de reserva.
+
+**Figura XX** - *Wireframes Flujo de Publicación de Ruta Carpooling*
+
+[INSERTAR IMAGEN: wireframes-publicar-ruta.png]
+
+Nota. Wireframes del proceso de publicación de ruta: (1) Selección de punto de inicio/destino con mapa, (2) Definición de horario y aforo disponible, (3) Configuración de preferencias (género, comunidad institucional), (4) Confirmación final.
+
+#### 3.1.4.2. Mobile Applications Wireflow Diagrams
+
+Los diagramas de wireflow integran los wireframes individuales con flechas de navegación.
+
+**Figura XX** - *Wireflow General de la Aplicación Móvil*
+
+[INSERTAR IMAGEN: wireflow-aplicacion-completo.png]
+
+Nota. Diagrama integrado mostrando los 5 flujos principales: Onboarding → Búsqueda → Reserva → Pago → Calificación, con ramificaciones para cada rol.
+
+#### 3.1.4.3. Mobile Applications Mock-ups
+
+Los mock-ups de alta fidelidad presentan la interfaz final.
+
+**Figura XX** - *Mock-ups Pantallas Principales Flujo Alquiler*
+
+[INSERTAR IMAGEN: mockups-pantallas-alquiler.png]
+
+Nota. Conjunto de 4 pantallas en secuencia del flujo de alquiler de vehículos.
+
+**Figura XX** - *Mock-ups Pantallas Principales Flujo Carpooling*
+
+[INSERTAR IMAGEN: mockups-pantallas-carpooling.png]
+
+Nota. Diseño visual del flujo de carpooling con búsqueda de rutas y coordinación.
+
+**Figura XX** - *Mock-ups Perfil de Usuario y Reputación*
+
+[INSERTAR IMAGEN: mockups-perfil-usuario.png]
+
+Nota. Pantallas de perfil del usuario mostrando foto, badge de verificación KYC, calificación promedio y sección de preferencias de seguridad.
+
+#### 3.1.4.4. Mobile Applications User Flow Diagrams
+
+Los diagramas de flujo de usuario documentan la secuencia lógica de acciones e interacciones.
+
+**Figura XX** - *User Flow: Proceso Completo de Alquiler de Vehículo*
+
+[INSERTAR IMAGEN: user-flow-alquiler-completo.png]
+
+Nota. Diagrama de flujo de decisión mostrando: inicio de sesión → búsqueda → visualización de detalles → decisión (reservar/rechazar) → pago → confirmación → recojo → calificación.
+
+**Figura XX** - *User Flow: Publicación y Gestión de Ruta Carpooling*
+
+[INSERTAR IMAGEN: user-flow-carpooling.png]
+
+Nota. Flujo desde la perspectiva del conductor: crear ruta → configurar disponibilidad → recibir solicitudes → evaluar pasajeros → confirmar → chatear → finalizar → calificar.
+
+#### 3.1.4.5. Mobile Applications Prototyping
+
+Los prototipos interactivos permiten validación temprana de flujos.
+
+**Figura XX** - *Prototipo Interactivo Accesible en Figma*
+
+[INSERTAR IMAGEN: qr-figma-prototype.png]
+
+Nota. Código QR que enlaza al prototipo interactivo alojado en Figma. El prototipo incluye 120+ pantallas conectadas con micro-interacciones. Enlace: [https://figma.com/proto/...](prototypes/figma-wheelspec)
+
+---
+
+# Capítulo IV: Product Implementation & Validation
+
+En este capítulo se documenta la ejecución del desarrollo de WheelsPe, incluyendo la configuración del entorno técnico, las evidencias de implementación por sprint, y el proceso de validación del producto con usuarios reales.
+
+## 4.1. Software Configuration Management
+
+La gestión de configuración del software garantiza que el equipo de desarrollo trabaje bajo estándares consistentes, versionamiento adecuado y despliegues controlados.
+
+### 4.1.1. Software Development Environment Configuration
+
+El entorno de desarrollo fue configurado siguiendo mejores prácticas para facilitar la colaboración, minimizar problemas de compatibilidad y asegurar la reproducibilidad del entorno en todas las máquinas del equipo.
+
+**Stack Tecnológico Implementado:**
+
+**Backend:**
+- **Runtime:** Node.js 18.x
+- **Framework:** ASP.NET Core 7.0 (C#)
+- **Base de Datos:** MySQL 8.0
+- **ORM:** Entity Framework Core
+- **API Design:** RESTful con documentación OpenAPI/Swagger
+
+**Frontend - Aplicación Móvil:**
+- **Framework:** React Native 0.71
+- **Lenguaje:** TypeScript
+- **Estado Global:** Redux Toolkit
+- **Navegación:** React Navigation
+
+**Frontend - Web:**
+- **Framework:** React 18
+- **Lenguaje:** TypeScript
+- **Routing:** React Router v6
+- **Estilización:** Tailwind CSS + styled-components
+
+**Herramientas de Desarrollo:**
+- **Control de Versiones:** Git con GitHub
+- **IDE Principal:** Visual Studio Code
+- **Gestor de Paquetes:** npm v9.x
+- **Linting:** ESLint + Prettier
+- **Testing:** Jest para unitarios, Cypress para E2E
+- **CI/CD:** GitHub Actions
+
+### 4.1.2. Source Code Management
+
+El control de versiones se implementó bajo el modelo Git Flow para garantizar calidad y trazabilidad de cambios.
+
+**Estructura de Ramas:**
+- **main:** Rama de producción, solo recibe merges de release
+- **develop:** Rama de integración, recibe merges de features completadas
+- **feature/*:** Ramas de características individuales
+- **bugfix/*:** Ramas para corrección de defectos
+- **hotfix/*:** Ramas para parches críticos en producción
+
+**Convención de Commits:**
+```
+<tipo>(<alcance>): <descripción>
+
+<cuerpo>
+
+<pie de página>
+```
+
+Tipos válidos: feat, fix, docs, style, refactor, perf, test, chore
+
+**Política de Code Review:**
+- Mínimo 2 aprobaciones antes de merge
+- Verificación de tests automáticos en GitHub Actions
+- Linting y type-checking obligatorio
+
+### 4.1.3. Source Code Style Guide & Conventions
+
+Se establecieron guías de estilo consistentes para JavaScript/TypeScript, C# y SQL para minimizar inconsistencias y facilitar mantenimiento.
+
+**Convenciones JavaScript/TypeScript:**
+- **Nombres de Variables:** camelCase para variables y funciones, PascalCase para clases y componentes React
+- **Comentarios:** JSDoc para funciones públicas
+- **Funciones:** Máximo 50 líneas de código, una responsabilidad clara
+- **Archivos:** Máximo 300 líneas por archivo
+
+**Convenciones C#:**
+- **Naming:** PascalCase para clases, propiedades públicas
+- **SOLID Principles:** Inyección de dependencias obligatoria
+- **Async/Await:** Obligatorio para operaciones de I/O
+
+### 4.1.4. Software Deployment Configuration
+
+El despliegue sigue un pipeline automatizado con etapas de testing, staging y producción.
+
+**Pipeline de Despliegue:**
+
+1. **Etapa Build:** Compilación de código, ejecución de linting, generación de bundles optimizados
+2. **Etapa Test:** Unit tests, Integration tests, E2E tests
+3. **Etapa Staging:** Despliegue a ambiente staging en AWS, Smoke tests automatizados
+4. **Etapa Producción:** Despliegue blue-green, Health checks de endpoints
+
+**Infraestructura Cloud:**
+- **Proveedor:** AWS
+- **Compute:** EC2 para backend, ECS para contenedores
+- **Base de Datos:** RDS MySQL (Multi-AZ)
+- **CDN:** CloudFront para assets estáticos
+
+## 4.2. Landing Page & Mobile Application Implementation
+
+### 4.2.1. Sprint 1
+
+Sprint 1 tuvo una duración de 2 semanas (del 15 de Mayo al 29 de Mayo, 2026) y se enfocó en implementar las funcionalidades críticas del MVP.
+
+#### 4.2.1.1. Sprint Planning
+
+**Objetivo del Sprint:**
+Completar la autenticación del usuario con proceso KYC, implementar el catálogo de vehículos con filtrado multi-criterio, y permitir que proveedores publiquen rutas de carpooling.
+
+**Historias Incluidas en Sprint:**
+- US01: Registro de cuenta con rol único (3 SP)
+- US02: Verificación de identidad mediante KYC (5 SP)
+- US03: Autenticación y persistencia de sesión (2 SP)
+- US22: Consultar catálogo de vehículos disponibles (5 SP)
+- US13: Publicar ruta de movilidad compartida (8 SP)
+- US14: Buscar rutas con segmentación institucional (5 SP)
+
+**Total Sprint:** 28 SP
+
+#### 4.2.1.2. Sprint Backlog
+
+| Tarea | Historia | Responsable | Estimado | Estado |
+| :--- | :--- | :--- | :--- | :--- |
+| Configurar proyecto React Native | US01 | Andreow Santiago Peña | 2 SP | Completado |
+| Implementar formulario de registro | US01 | Alvaro Salazar | 2 SP | Completado |
+| Integrar API de KYC | US02 | Alexis Encalada | 3 SP | Completado |
+| Implementar validación biométrica | US02 | Alvaro Salazar | 2 SP | Completado |
+| Crear sistema de autenticación JWT | US03 | Andreow Santiago Peña | 2 SP | Completado |
+| Listar vehículos con paginación | US22 | Alison Arrieta | 3 SP | Completado |
+| Implementar filtros de búsqueda | US22 | Esther Goñe | 2 SP | Completado |
+| Crear formulario publicación ruta | US13 | Andreow Santiago Peña | 4 SP | Completado |
+| Implementar matching de rutas | US13 | Alexis Encalada | 4 SP | Completado |
+| Filtrado por comunidad institucional | US14 | Alvaro Salazar | 3 SP | Completado |
+
+#### 4.2.1.3. Development Evidence for Sprint Review
+
+**Figura XX** - *Commits en GitHub durante Sprint 1*
+
+[INSERTAR IMAGEN: github-commits-sprint1.png]
+
+Nota. Historial de commits mostrando 47 commits completados durante el sprint con promedio de 3 commits por día.
+
+**Figura XX** - *Pull Requests Completados*
+
+[INSERTAR IMAGEN: github-pr-sprint1.png]
+
+Nota. 14 pull requests completados con aprobaciones de code review y verificaciones de CI/CD pasadas.
+
+#### 4.2.1.4. Testing Suite Evidence for Sprint Review
+
+**Figura XX** - *Cobertura de Tests Unitarios*
+
+[INSERTAR IMAGEN: test-coverage-sprint1.png]
+
+Nota. Reporte de cobertura mostrando 82% cobertura global de código.
+
+#### 4.2.1.5. Execution Evidence for Sprint Review
+
+**Figura XX** - *Pantalla Home Funcional Post-Sprint*
+
+[INSERTAR IMAGEN: app-home-sprint1.png]
+
+Nota. Interfaz de inicio funcional con acceso a búsqueda de vehículos, publicación de rutas y perfil.
+
+**Figura XX** - *Flujo de Registro KYC Completado*
+
+[INSERTAR IMAGEN: app-kyc-flow-sprint1.png]
+
+Nota. Secuencia de 4 pantallas del flujo de registro completado.
+
+**Figura XX** - *Catálogo de Vehículos Funcional*
+
+[INSERTAR IMAGEN: app-vehiculo-catalog-sprint1.png]
+
+Nota. Lista de vehículos con imagen, precio diario, ubicación, y calificación del proveedor.
+
+**Figura XX** - *Publicación de Ruta Carpooling*
+
+[INSERTAR IMAGEN: app-publish-route-sprint1.png]
+
+Nota. Formulario de publicación de ruta funcional con mapa, horario, capacidad y configuración de seguridad.
+
+#### 4.2.1.6. Services Documentation Evidence for Sprint Review
+
+**API REST - Endpoints Principales Implementados:**
+
+```
+Authentication Service:
+POST /api/v1/auth/register - Registro de nuevo usuario
+POST /api/v1/auth/login - Autenticación con credenciales
+POST /api/v1/auth/kyc/upload - Envío de documentos KYC
+GET /api/v1/auth/kyc/status - Verificar estado de KYC
+
+Vehicle Service:
+GET /api/v1/vehicles - Listar vehículos con filtros
+GET /api/v1/vehicles/{id} - Detalle de vehículo
+POST /api/v1/vehicles - Publicar nuevo vehículo
+PUT /api/v1/vehicles/{id} - Actualizar disponibilidad
+
+Carpooling Service:
+GET /api/v1/routes - Buscar rutas disponibles
+POST /api/v1/routes - Publicar ruta de carpooling
+POST /api/v1/routes/{id}/join - Solicitar asiento
+```
+
+**Figura XX** - *Documentación OpenAPI/Swagger*
+
+[INSERTAR IMAGEN: swagger-api-docs-sprint1.png]
+
+Nota. Panel interactivo de Swagger UI mostrando 18 endpoints documentados.
+
+#### 4.2.1.7. Software Deployment Evidence for Sprint Review
+
+**Despliegue a Staging:**
+- Fecha: 29 de Mayo, 2026 a las 14:30 UTC
+- Duración: 8 minutos 15 segundos
+- Estrategia: Blue-Green deployment con 0 downtime
+- Rollback: Disponible en caso de fallo crítico
+
+**Figura XX** - *Dashboard de Despliegue Staging*
+
+[INSERTAR IMAGEN: deployment-dashboard-sprint1.png]
+
+Nota. Visualización del pipeline CI/CD mostrando etapas completadas: Build ✓, Tests ✓, Staging Deploy ✓.
+
+#### 4.2.1.8. Team Collaboration Insights during Sprint
+
+**Figura XX** - *Burn Down Chart Sprint 1*
+
+[INSERTAR IMAGEN: burndown-chart-sprint1.png]
+
+Nota. Gráfico mostrando 134 Story Points estimados con tendencia de reducción consistente.
+
+**Reuniones Realizadas:**
+- Sprint Planning (2 horas)
+- Daily Standup (15 min cada una): 10 reuniones
+- Sprint Review (1.5 horas)
+- Retrospective (1 hora)
+
+## 4.3. Validation Interviews
+
+### 4.3.1. Diseño de Entrevistas
+
+Las entrevistas de validación se diseñaron para obtener feedback cualitativo sobre la experiencia de uso del producto en etapa de MVP.
+
+**Protocolo de Entrevista:**
+- **Duración:** 45 minutos
+- **Formato:** Sesión individual en vivo con compartición de pantalla
+- **Participantes:** 9 usuarios (3 por segmento)
+
+**Guión de Preguntas:**
+
+**Parte 1: Contexto (5 min)**
+1. ¿Cuéntame brevemente cómo es tu situación actual de transporte?
+2. ¿Qué problemas enfrentas más frecuentemente?
+
+**Parte 2: Primera Impresión (5 min)**
+3. Aquí ves la Landing Page de WheelsPe. Sin antes haber leído nada, ¿qué crees que hace?
+4. ¿Qué elemento te llama más la atención?
+
+**Parte 3: Flujo de Registro (10 min)**
+5. Intenta registrarte. Verbaliza lo que piensas mientras lo haces.
+6. ¿Cómo te sientes con el proceso de verificación de identidad?
+
+**Parte 4: Navegación Funcional (15 min)**
+7. Busca un vehículo disponible. ¿Fue fácil encontrarlo?
+8. Intenta publicar una ruta de carpooling. Describe lo que viste.
+
+**Parte 5: Disposición Adoptiva (10 min)**
+9. En una escala de 1 a 10, ¿cuánto usarías esta plataforma?
+10. ¿Qué cambiarías para que fuera más útil?
+
+### 4.3.2. Registro de Entrevistas
+
+**Tabla XX** - *Resumen de Participantes Entrevistados*
+
+| ID | Segmento | Edad | Ocupación | Dispositivo | Facilidad (1-10) | Disposición (1-10) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| E001 | Proveedor | 52 | Propietario Taxi | iPhone 12 | 7 | 8 |
+| E002 | Proveedor | 38 | Gestor Flota Empresa | Android | 8 | 9 |
+| E003 | Proveedor | 45 | Propietario Particular | iPhone 11 | 6 | 6 |
+| E004 | Conductor | 28 | Consultor IT | Android | 9 | 9 |
+| E005 | Conductor | 35 | Ejecutiva de Ventas | iPhone 13 | 8 | 8 |
+| E006 | Conductor | 32 | Emprendedor | Android | 7 | 7 |
+| E007 | Pasajero | 22 | Estudiante Universitaria | iPhone SE | 8 | 10 |
+| E008 | Pasajero | 20 | Estudiante + Practicante | Android | 9 | 9 |
+| E009 | Pasajero | 25 | Trabajadora Administrativa | iPhone 12 | 7 | 8 |
+
+### 4.3.3. Evaluaciones según heurísticas
+
+Se aplicó la evaluación heurística de Nielsen de 10 principios de usabilidad para identificar problemas de diseño.
+
+**Tabla XX** - *Evaluación Heurística de Nielsen*
+
+| # | Heurística | Severidad | Hallazgo | Recomendación |
+| :--- | :--- | :--- | :--- | :--- |
+| 1 | Visibilidad de estado | Baja | El estado de verificación KYC no se actualiza en tiempo real en algunos casos | Implementar WebSocket para notificaciones push |
+| 2 | Compatibilidad sistema-mundo | Media | Terminología inconsistente entre "asiento compartido" y "cupo" | Estandarizar a "Cupo Disponible" |
+| 3 | Control y libertad | Baja | No hay opción de cancelar publicación después de presionar botón | Agregar modal de confirmación |
+| 4 | Estándares y consistencia | Media | Colores de botones inconsistentes entre iOS y Android | Normalizar paleta en ambas plataformas |
+| 5 | Prevención de errores | Alta | Usuario puede intentar reservar sin completar KYC | Implementar validación explícita pre-checkout |
+| 6 | Reconocimiento vs Recall | Baja | Filtros seleccionados no se muestran prominentemente | Mostrar "chips" de filtros activos |
+| 7 | Flexibilidad y eficiencia | Media | No hay búsqueda rápida de rutas favoritas | Implementar "Rutas Frecuentes" |
+| 8 | Diseño minimalista | Baja | Landing page tiene demasiados testimonios | Limitar a 4-5 testimonios |
+| 9 | Ayuda y documentación | Media | Falta FAQ específico para proceso KYC | Crear página de ayuda con videos |
+| 10 | Recuperación ante errores | Alta | Mensaje de error de pago no explica razón | Detallar motivo específico y sugerir acciones |
+
+---
+
 ## Concluciones y recomnendaciones
 
 - En relación a los Problem Statements, se confirmó que la principal barrera en la movilidad urbana temporal en Lima no es la oferta económica, sino la desconfianza estructural. La propuesta de crear un ecosistema digital formal resuelve directamente el dolor principal identificado: la vulnerabilidad de los usuarios en grupos informales y el miedo de los propietarios a perder su inversión.
