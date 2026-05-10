@@ -27,11 +27,11 @@
 </p>
 
 <p align="center">
-    <strong>Profesor: David Gerardo Quevedo Velasco</strong>
+    <strong>Profesor: Quevedo Velasco, David Gerardo</strong>
 </p>
 
 <p align="center">
-    <strong>Informe de Trabajo Final</strong>
+    <strong>Informe del Trabajo Final</strong>
 </p>
 
 <p align="center">
@@ -54,7 +54,7 @@
 
 
 
-### Abril 2026
+### Mayo 2026
 <br>
 
 </div>
@@ -593,53 +593,97 @@ Atendiendo a la retroalimentación docente de identificar el riesgo crítico, el
 *Nota.* Elaboración Propia
 
 <a id="segmentos-objetivo"></a>
-# 1.3. Segmentos objetivos 
+# 1.3. Segmentos Objetivo
 
-Para garantizar que nuestra solución tecnológica responda de manera efectiva a las necesidades del mercado, se identificaron y analizaron los segmentos clave que enfrentan retos en el ecosistema de movilidad urbana en Lima. A continuación se detallan sus perfiles estratégicos, profundizando en las características demográficas, geográficas y psicográficas que sustentan su relevancia dentro del dominio del problema.
+Para garantizar que la solución tecnológica de WheelsPe responda de manera efectiva a las necesidades reales del mercado de movilidad urbana en Lima Metropolitana, se han identificado y analizado **tres segmentos objetivo clave** que enfrentan problemáticas específicas en el ecosistema actual. A continuación se detallan sus perfiles estratégicos, profundizando en las características demográficas, geográficas y psicográficas que sustentan su relevancia dentro del dominio del problema.
 
-**Segmento Objetivo \#1: Proveedores de Vehículos**
+---
 
+#### Segmento Objetivo #1: Proveedores de Vehículos
+
+**Definición:**
 Representa tanto a propietarios particulares con vehículos subutilizados como a micro y pequeñas empresas del rubro de alquiler que buscan digitalizar su operación y ampliar su alcance comercial mediante un canal tecnológico confiable.
 
-Aspectos demográficos:
-
+**Aspectos demográficos:**
 * **Sexo:** Masculino y femenino  
 * **Rango de edad:** 25 a 65 años  
 * **Nivel socioeconómico:** Sectores A, B y C (propietarios de vehículos particulares, emprendedores y pequeños empresarios del rubro)
 
-Aspectos geográficos:
-
+**Aspectos geográficos:**
 * **Nacionalidad:** Peruana  
-*  **Zona geográfica:** Áreas urbanas de alta densidad vehicular (Lima Metropolitana)
+* **Zona geográfica:** Áreas urbanas de alta densidad vehicular (Lima Metropolitana)
 
-Aspectos psicográficos:
-
+**Aspectos psicográficos:**
 * **Dolor principal:** Poseen vehículos que permanecen sin uso durante gran parte de la semana, lo que representa una pérdida económica directa. Las micro y pequeñas empresas del rubro operan con procesos manuales que les impiden captar clientes a la velocidad que exige el mercado, sin presupuesto para desarrollar software propio.  
-*  **Intereses:** Generar ingresos adicionales a través de un activo que ya poseen sin invertir tiempo excesivo en la gestión. Digitalizar su operación y ampliar su alcance comercial mediante un canal tecnológico confiable y escalable.  
+* **Intereses:** Generar ingresos adicionales a través de un activo que ya poseen sin invertir tiempo excesivo en la gestión. Digitalizar su operación y ampliar su alcance comercial mediante un canal tecnológico confiable y escalable.  
 * **Actitudes:** Proactivos en la búsqueda de soluciones que rentabilicen sus recursos. Valoran la seguridad jurídica, la verificación de identidad del arrendatario y el respaldo ante posibles incidencias como condición indispensable para publicar sus vehículos en una plataforma.  
-*  **Necesidades clave:** Contar con un canal formal y seguro para ofrecer sus vehículos en alquiler, mecanismos de validación de identidad del arrendatario, protección ante daños o incidencias, y visibilidad ante una base de usuarios activos y verificados.  
-  
-**Segmento Objetivo \#2: Usuarios de Movilidad**
+* **Necesidades clave:** Contar con un canal formal y seguro para ofrecer sus vehículos en alquiler, mecanismos de validación de identidad del arrendatario, protección ante daños o incidencias, y visibilidad ante una base de usuarios activos y verificados.
 
-Representa tanto a propietarios particulares con vehículos subutilizados como a micro y pequeñas empresas del rubro de alquiler que buscan digitalizar su operación y ampliar su alcance comercial mediante un canal tecnológico confiable.
+---
 
-Aspectos demográficos:
+#### Segmento Objetivo #2: Conductores Arrendatarios
 
-* **Sexo:** Masculino y femenino  
-* **Rango de edad:** 18 a 50 años  
-* **Nivel socioeconómico:** Sectores B y C (estudiantes universitarios, jóvenes profesionales y trabajadores con desplazamientos diarios fijos)
+**Definición:**
+Representa a profesionales, emprendedores y estudiantes de posgrado que requieren acceso temporal a vehículos para desplazamientos recurrentes relacionados con actividades laborales, gestiones empresariales o estudios, y que buscan activamente reducir el costo individual del alquiler mediante la publicación de rutas de carpooling que les permitan compartir los gastos operativos del viaje con otros pasajeros de confianza.
 
-Aspectos geográficos:
+**Aspectos demográficos:**
+* **Sexo:** Masculino (65%), Femenino (35%)
+* **Rango de edad:** 25-45 años
+* **Nivel socioeconómico:** Sectores B y C
+* **Ocupación:** Profesionales independientes (consultores, ingenieros, arquitectos visitando obras), ejecutivos de empresas con reuniones externas frecuentes, emprendedores con gestiones comerciales, estudiantes de posgrado (MBA, maestrías) con proyectos de campo
+* **Ingresos promedio:** S/ 4,500 - S/ 8,000 mensuales
 
-* **Nacionalidad:** Peruana  
-*  **Zona geográfica:** Áreas urbanas con alta congestión vehicular y demanda de transporte flexible (Lima Metropolitana, con foco en corredores viales que conectan distritos residenciales con campus universitarios y centros empresariales)
+**Aspectos geográficos:**
+* **Nacionalidad:** Peruana
+* **Zona geográfica:** Áreas urbanas de Lima Metropolitana con alta concentración de centros empresariales y educativos. Distritos de residencia frecuentes: San Borja, Surco, La Molina, Miraflores. Destinos recurrentes: San Isidro (oficinas corporativas), Miraflores (reuniones comerciales), Campus universitarios de posgrado (UPC, ESAN, CENTRUM)
 
-Aspectos psicográficos:
+**Aspectos psicográficos:**
 
-* **Dolor principal:** Los conductores arrendatarios asumen el costo total del alquiler de forma individual al no contar con herramientas integradas para compartir el trayecto. Los pasajeros, por su parte, se ven obligados a coordinar viajes a través de grupos de WhatsApp o redes sociales, exponiéndose a la informalidad, la falta de verificación de identidad y la desorganización.  
-*  **Intereses:** Acceder a soluciones de movilidad flexibles, económicas y seguras que se adapten a sus desplazamientos cotidianos. Encontrar rutas compartidas verificadas como alternativa real al transporte público informal.  
-* **Actitudes:** Estilo de vida práctico y conectado digitalmente; toman decisiones de movilidad sobre la marcha y priorizan la inmediatez y la confianza por encima del precio absoluto. Están dispuestos a migrar hacia plataformas formales siempre que estas les ofrezcan perfiles verificados y una experiencia ágil.  
-*  **Necesidades clave:** Acceso rápido a vehículos disponibles, rutas compartidas desde el celular, perfiles verificados de conductores y a la vez propietarios, mecanismos para dividir bien los gastos de viaje, y un entorno organizado que sustituya la coordinación informal actual.
+**Dolor principal:** 
+Los conductores arrendatarios enfrentan una barrera económica significativa al requerir vehículos temporales de forma recurrente (2-4 veces por semana). El alquiler tradicional en empresas formales representa un gasto mensual de S/ 1,200 - S/ 2,000 que no es sostenible para uso frecuente. Al asumir el 100% del costo operativo (alquiler + combustible + peajes) de forma individual, el transporte se vuelve económicamente inviable, forzándolos a depender de taxis por aplicación que no proyectan la imagen profesional deseada en reuniones con clientes.
+
+**Intereses:** 
+Acceder a soluciones de movilidad temporal que sean financieramente sostenibles mediante la división de costos. Maximizar el retorno de inversión del alquiler al monetizar los asientos vacíos del vehículo. Construir una red profesional de contactos mediante el networking durante trayectos compartidos con ejecutivos o profesionales de su mismo nivel socioeconómico.
+
+**Actitudes:** 
+Poseen un estilo de vida orientado a la eficiencia y optimización de recursos. Son early adopters de tecnología que facilite procesos (usuarios activos de Uber, Rappi, apps de productividad). Priorizan la construcción de imagen profesional y valoran las oportunidades de networking como parte integral de su desarrollo de carrera. Buscan constantemente relaciones "win-win" donde ambas partes obtengan beneficio mutuo.
+
+**Necesidades clave:** 
+Plataformas que integren nativamente alquiler de vehículos con publicación de rutas de carpooling en un solo ecosistema. Sistemas de validación institucional que certifiquen que los pasajeros pertenecen a entornos corporativos o académicos verificados (validación de email empresarial, perfil de LinkedIn). Herramientas de división automática de costos que calculen de forma transparente la cuota proporcional por pasajero. Facturación electrónica que permita declarar gastos de movilidad a su empleador o como gasto deducible de impuestos. Flexibilidad para programar rutas recurrentes (lunes a viernes, mismo horario) sin necesidad de republicar manualmente cada día.
+
+---
+
+#### Segmento Objetivo #3: Pasajeros de Movilidad Compartida
+
+**Definición:**
+Representa a estudiantes universitarios de pregrado y trabajadores dependientes jóvenes que realizan desplazamientos diarios en rutas fijas entre su zona de residencia y sus centros de estudio o trabajo, y que actualmente dependen de opciones informales de transporte compartido (grupos de WhatsApp, Facebook) que no garantizan seguridad, puntualidad ni validación de identidad de los conductores.
+
+**Aspectos demográficos:**
+* **Sexo:** Femenino (60%), Masculino (40%)
+* **Rango de edad:** 18-30 años
+* **Nivel socioeconómico:** Sectores C y D
+* **Ocupación:** Estudiantes universitarios de pregrado (ciclos 3-10), trabajadores dependientes en posiciones de entrada (asistentes, practicantes, técnicos), personas con empleo a tiempo parcial combinado con estudios
+* **Ingresos/mesada promedio:** S/ 800 - S/ 2,500 mensuales
+
+**Aspectos geográficos:**
+* **Nacionalidad:** Peruana
+* **Zona geográfica:** Áreas urbanas de Lima Metropolitana con rutas fijas entre distritos periféricos de residencia y centros educativos/laborales. Rutas frecuentes identificadas en entrevistas: Los Olivos → UPC Villa, San Juan de Lurigancho → San Isidro (zona financiera), Ate → Miraflores, Comas → Cercado de Lima, Villa María del Triunfo → Surco
+
+**Aspectos psicográficos:**
+
+**Dolor principal:** 
+Los pasajeros de movilidad compartida enfrentan una problemática crítica de inseguridad y desorganización en sus traslados diarios. Actualmente dependen de grupos informales en WhatsApp y Facebook donde coordinan "jalones" con conductores desconocidos cuya identidad, antecedentes o confiabilidad no pueden verificar. Esta informalidad genera estados constantes de ansiedad, especialmente en mujeres que viajan en horarios nocturnos. Las cancelaciones de último minuto (reportadas en 40% de los casos según entrevistas) causan retrasos en sus obligaciones académicas o laborales. El transporte público tradicional (combis, buses) es percibido como inseguro y con alta exposición a delincuencia, además de ser hostil para el traslado de objetos delicados (laptops, proyectos universitarios, maquetas).
+
+**Intereses:** 
+Acceder a soluciones de movilidad que prioricen la seguridad personal mediante validación estricta de identidad de conductores. Viajar exclusivamente con miembros verificados de su misma comunidad institucional (compañeros de universidad, colegas de empresa) para reducir la percepción de riesgo. Encontrar rutas confiables y puntuales que se ajusten a sus horarios fijos de clases o trabajo. Ahorrar en costos de transporte diario frente a opciones como taxi por aplicación (S/ 15-20 por viaje) que no son sostenibles con sus ingresos limitados.
+
+**Actitudes:** 
+Poseen un estilo de vida digital-first, toman decisiones de movilidad sobre la marcha desde sus smartphones. Priorizan la seguridad y la confianza por encima del precio absoluto, mostrando disposición a pagar un 15-20% adicional frente a opciones informales si se garantiza validación de identidad. Han desarrollado mecanismos de protección personal como compartir ubicación en tiempo real con familiares o viajar siempre acompañados. Valoran la comunidad y sienten mayor confianza al interactuar con personas de su mismo entorno académico o laboral (sentido de pertenencia institucional).
+
+**Necesidades clave:** 
+Plataformas formales con directorio centralizado de rutas compartidas donde TODOS los conductores estén verificados mediante documentación oficial. Sistemas de filtrado por comunidad institucional que garanticen que el conductor estudia/trabaja en la misma universidad/empresa (validación de correo institucional @upc.edu.pe, @pucp.edu.pe, @empresaX.com). Funcionalidades de seguridad activa como botón de pánico conectado a contactos de confianza y autoridades, trazabilidad GPS compartible en tiempo real, sistema de calificaciones bidireccional obligatorio post-viaje. Interfaz intuitiva que permita reservar asientos en rutas recurrentes de forma anticipada para eliminar la incertidumbre diaria. Opción de filtrado por preferencia de género (viajes solo con conductoras mujeres) para aumentar la percepción de seguridad en usuarias femeninas.
+
+---
 
 # Capítulo II: Requirements Development and Software Solution Design
 ## 2.1. Competidores 
@@ -2078,11 +2122,90 @@ Objetivo SMART: Lograr que el 75% de las usuarias universitarias utilicen la pla
 Link de los impact mapping: https://drive.google.com/drive/folders/1x7m4N6Fzopy-BGT2KrXojJkZjMNxtm7t?usp=sharing
 
 ### 2.4.3. Product Backlog
-2.4.3 Product Backlog
-El trabajo pendiente del proyecto se ha estructurado consolidando el Product Backlog en la herramienta Trello. En este tablero se han registrado y ordenado las historias de usuario provenientes del análisis inicial y del Impact Mapping. Con el objetivo de facilitar la ejecución de sprints viables, a cada historia se le asignó una estimación de esfuerzo basada en story points (del 1 al 13), lo cual refleja de manera precisa la complejidad técnica de cada tarea.
-Figura
-Product Backlog de WheelsPe
-Nota. Elaboración propia en Trello:
+
+**Priorización por Valor de Negocio (No por Precedencia Técnica)**
+
+El Product Backlog de WheelsPe se ordena estrictamente por VALOR DE NEGOCIO para los usuarios finales y stakeholders, no por precedencia técnica ni dependencias de implementación. Este enfoque ágil asegura que cada sprint entregue funcionalidades que los segmentos objetivo puedan percibir, utilizar y validar inmediatamente, comprobando las hipótesis de negocio establecidas en el Lean UX Process desde el primer momento del ciclo de desarrollo.
+
+Las primeras posiciones del backlog se asignan a User Stories que:
+- Generan conversión inicial de visitantes a usuarios registrados (Landing Page)
+- Materializan el core del modelo de negocio (búsqueda de vehículos/rutas, publicación de ofertas, transacciones)
+- Implementan diferenciadores competitivos clave (segmentación institucional, carpooling integrado con alquiler)
+- Garantizan seguridad y construcción de confianza (alertas de emergencia, sistema de reputación, checklist de protección)
+
+Las User Stories de infraestructura técnica (autenticación, registro, gestión de sesiones) se posicionan estratégicamente después del valor core del negocio, reconociendo que son habilitadores necesarios pero no constituyen la propuesta de valor diferencial que distingue a WheelsPe de la competencia tradicional de alquiler o las soluciones informales actuales.
+
+Esta priorización se validó mediante el Impact Mapping elaborado en la sección 2.4.2, donde se identificaron los Business Goals y los comportamientos de usuario que generan mayor impacto en el éxito de la plataforma.
+
+**NUEVA TABLA DE PRODUCT BACKLOG (Ordenada por Valor de Negocio):**
+
+| # Orden | Story ID | Título | Story Points | Épica | Justificación de Prioridad |
+|---------|----------|--------|--------------|-------|----------------------------|
+| 1 | US39 | Visualizar propuesta de valor en landing page | 5 | EP08 | Primera impresión de visitantes, comunicación de beneficios, generación de conversión inicial |
+| 2 | US22 | Consultar catálogo de vehículos disponibles | 5 | EP03 | Core business - permite a usuarios explorar inventario de vehículos |
+| 3 | US13 | Publicar ruta de movilidad compartida | 8 | EP05 | Core business - habilita oferta de carpooling por conductores |
+| 4 | US14 | Buscar rutas con segmentación institucional | 5 | EP05 | Diferenciador clave - comunidad verificada (UPC/empresas) genera confianza |
+| 5 | US31 | Procesar pago de alquiler multicanal | 8 | EP06 | Monetización directa del modelo de negocio de alquiler |
+| 6 | US32 | Liquidar cuota de carpooling digitalmente | 5 | EP06 | Monetización de movilidad compartida |
+| 7 | US08 | Activar alerta de emergencia durante viaje | 5 | EP02 | Propuesta de valor #1 - seguridad personal de pasajeros |
+| 8 | US28 | Evaluar servicio de forma bidireccional | 5 | EP07 | Construcción de confianza y reputación comunitaria |
+| 9 | US12 | Registrar checklist fotográfico del vehículo | 5 | EP02 | Protección de activos del proveedor - diferenciador vs competencia |
+| 10 | US21 | Vincular métodos de pago electrónicos | 5 | EP06 | Habilitador de transacciones financieras seguras |
+| 11 | US24 | Gestionar garantía mediante retención (Escrow) | 5 | EP06 | Protección financiera bilateral proveedor-arrendatario |
+| 12 | US01 | Registrar cuenta con rol único | 3 | EP01 | Habilitador necesario para acceso al sistema |
+| 13 | US02 | Verificar identidad mediante KYC | 5 | EP01 | Seguridad necesaria para construcción de confianza |
+| 14 | US03 | Iniciar sesión con credenciales | 2 | EP01 | Soporte técnico para persistencia de sesión |
+| 15 | US05 | Acreditar propiedad de vehículo | 5 | EP03 | Validación de oferta legítima y protección contra fraude |
+| 16 | US06 | Monitorear ruta en tiempo real vía GPS | 8 | EP02 | Trazabilidad y seguridad activa durante viajes |
+| 17 | US09 | Validar inicio de viaje con código PIN | 3 | EP02 | Confirmación de identidad correcta en momento de abordaje |
+| 18 | US15 | Reservar asiento en ruta compartida | 4 | EP05 | Funcionalidad core de carpooling |
+| 19 | US25 | Emitir comprobantes y contratos digitales | 4 | EP06 | Respaldo legal de transacciones |
+| 20 | US11 | Filtrar rutas por preferencia de género | 3 | EP02 | Seguridad percibida (target específico: mujeres universitarias) |
+| 21 | US16 | Aprobar solicitudes de pasajeros y controlar aforo | 4 | EP05 | Control de capacidad del conductor |
+| 22 | US19 | Consultar reputación de otros usuarios | 2 | EP07 | Transparencia pre-transacción |
+| 23 | US30 | Configurar umbrales de reputación mínimos | 3 | EP07 | Personalización de seguridad por proveedor |
+| 24 | US26 | Procesar reembolsos automáticos | 3 | EP06 | Gestión de cancelaciones y devoluciones |
+| 25 | US10 | Gestionar contactos de confianza | 2 | EP02 | Seguridad pasiva mediante red de protección |
+| 26 | US17 | Automatizar rutas recurrentes semanales | 3 | EP05 | Optimización de experiencia para usuarios frecuentes |
+| 27 | US18 | Coordinar detalles por mensajería integrada | 3 | EP05 | Comunicación directa entre usuarios del viaje |
+| 28 | US20 | Confirmar llegada al destino final | 3 | EP05 | Cierre formal de servicio |
+| 29 | US27 | Aplicar cupones y beneficios promocionales | 3 | EP08 | Incentivos comerciales para adopción |
+| 30 | US29 | Recompensar usuarios con alta reputación | 3 | EP07 | Gamificación de comportamiento positivo |
+| 31 | US34 | Gestionar ofertas promocionales temporales | 3 | EP08 | Promociones estacionales y feriados |
+| 32 | US36 | Reconocer comportamiento positivo con distintivos | 8 | EP07 | Sistema de incentivos y construcción de lealtad |
+| 33 | US37 | Consultar historial completo de reseñas | 3 | EP07 | Transparencia histórica de comportamiento |
+| 34 | US38 | Filtrar solicitudes por umbral de confianza | 3 | EP07 | Protección automática basada en reputación |
+| 35 | US42 | Explorar beneficios para propietarios (Landing) | 5 | EP08 | Conversión de segmento proveedores |
+| 36 | US43 | Conocer ventajas del carpooling (Landing) | 5 | EP08 | Conversión de segmento usuarios movilidad |
+| 37 | US44 | Acceder a centro de ayuda y FAQ | 3 | EP08 | Soporte autoservicio |
+| 38 | US04 | Recuperar contraseña olvidada | 2 | EP01 | Soporte técnico de acceso |
+| 39 | US07 | Rastrear viaje activo para seguridad de pasajero | 8 | EP02 | Monitoreo de anomalías en ruta |
+| 40 | US33 | Ejecutar reembolsos automatizados | 8 | EP06 | Automatización de procesos financieros |
+| 41 | US35 | Evaluar mutuamente tras finalizar servicio | 5 | EP07 | Sistema de reputación bilateral |
+| 42 | US40 | Monitorear anomalías financieras (Admin) | 5 | EP06 | Operaciones administrativas de vigilancia |
+| 43 | US41 | Mediar disputas de reputación (Admin) | 2 | EP07 | Gestión de conflictos y moderación |
+| 44 | US45 | Solicitar baja voluntaria y eliminación de datos | 2 | EP01 | Derecho al olvido (cumplimiento GDPR) |
+| 45 | US46 | Enviar solicitud de alianza corporativa | 3 | EP08 | Expansión del modelo B2B |
+| 46 | US47 | Optimizar latencia en geolocalización (Technical) | 3 | SP02 | Mejora de performance técnico |
+| 47 | SP01 | Investigar integraciones de pasarelas de pago | 5 | SP | Spike: Validar viabilidad técnica de Stripe, PayPal, Yape |
+| 48 | SP02 | Evaluar soluciones de GPS y mapas (Google Maps vs Mapbox) | 5 | SP | Spike: Comparar latencia, precisión y costos |
+| 49 | SP03 | Analizar opciones de KYC mediante IA (inteligencia facial) | 8 | SP | Spike: Validar providers como IDology, Jumio, Onfido |
+| 50 | SP04 | Investigar arquitectura de microservicios y contenedorización | 8 | SP | Spike: Evaluar Docker, Kubernetes, serverless options |
+
+**Actualizar también la captura de Trello con este nuevo orden**
+
+[INSERTAR IMAGEN: Captura del tablero de Trello con Product Backlog reordenado]
+
+**Leyenda de Épicas:**
+- EP01: Gestión de la identidad y acceso
+- EP02: Seguridad y control operacional
+- EP03: Inventario y ofertas de vehículos
+- EP04: Experiencia de alquiler y reserva
+- EP05: Movilidad compartida
+- EP06: Operaciones financieras
+- EP07: Reputación y núcleo de la plataforma
+- EP08: Información y Fidelización
+- SP: Spike Stories (Investigación técnica)
 ## 2.5. Strategic-Level Domain Driven Design
 
 En esta sección se introduce el proceso de Domain-Driven Desing a nivel estratégico para MOVEO. Nuestro enfoque nos permitió conceptualizar el sistema a partir de la lógica de nuetro negocio, con el proposito de modelar una arquitectura de microservicios coherentes. Para conseguir eso identificamos subconjuntos del sistema con límites naturales y claros, conocidos como los Bounded Contexts. Las herramientas utilizadas para este propósito son el EventStorming, que nos ayudó a visualizar el flujo de eventos del negocio, y el Bounded Context Canvas, la cual nos ayuda a definir formalmente cada contexto y sus relaciones, garantizando así una base sólida para el desarrollo de nuestro proyecto.
@@ -2580,6 +2703,522 @@ Define la lógica de mediación y trazabilidad. La clase Disputa (Aggregate Root
 ##### 2.6.5.6.2. Bounded Context Database Design Diagram
 ![Operations BC 2.png](Assets/Operations%20BC%202.png)
 Organiza la persistencia administrativa y de auditoría. Emplea tablas de disputes para el seguimiento de estados y event_logs para el registro masivo de eventos, permitiendo una supervisión histórica y segura. Este diseño facilita la resolución de conflictos basada en evidencias persistentes y estructuradas dentro de WheelsPe. 
+
+---
+
+# Capítulo III: Solution UI/UX Design
+
+Este capítulo presenta el diseño de la solución digital de WheelsPe desde la perspectiva de la experiencia del usuario (UX) y la interfaz gráfica (UI). Se documentan los principios de diseño, arquitectura de información, prototipos de wireframes, mockups interactivos y flujos de usuario que constituyen la base visual y conceptual de la plataforma.
+
+## 3.1. Product Design
+
+El proceso de diseño de producto para WheelsPe se fundamentó en los hallazgos del Lean UX Process y el análisis de las necesidades específicas de los tres segmentos objetivo identificados en el Capítulo II. La arquitectura de la solución comprende tres componentes principales: una Landing Page informativa, una Aplicación Móvil nativa y una Web App complementaria.
+
+### 3.1.1. Style Guidelines
+
+#### 3.1.1.1. General Style Guidelines
+
+Los lineamientos de estilo de WheelsPe fueron desarrollados para garantizar coherencia visual, accesibilidad y una experiencia de usuario consistente en todos los dispositivos y plataformas.
+
+**Paleta de Colores Principal:**
+- **Color Primario (Azul Corporativo):** #0047AB - Representa confianza, seguridad y profesionalismo. Utilizado en elementos de navegación, botones de acción primaria y componentes de interacción crítica.
+- **Color Secundario (Verde Éxito):** #27AE60 - Denota confirmación, transacciones exitosas y estados positivos. Implementado en botones de confirmación y mensajes de validación.
+- **Color de Alerta (Rojo Seguridad):** #E74C3C - Utilizado exclusivamente para alertas de emergencia, cancelaciones y situaciones de riesgo que requieren atención inmediata.
+- **Color Neutral (Gris de Fondo):** #F5F5F5 - Proporciona contraste visual y diferenciación de espacios.
+- **Color de Texto (Gris Oscuro):** #2C3E50 - Asegura legibilidad óptima en cuerpo de texto y elementos secundarios.
+
+**Tipografía:**
+- **Fuente Principal:** Inter (sans-serif) - Utilizada en títulos, encabezados y elementos de navegación por su claridad y neutralidad moderna.
+- **Fuente Secundaria:** Roboto (sans-serif) - Implementada en cuerpo de texto, descripciones y contenido por su excelente legibilidad en pantallas pequeñas.
+
+**Componentes de Interfaz:**
+- **Botones:** Radio de esquina 8px, altura mínima 48px para accesibilidad táctil, sombra sutil en hover
+- **Tarjetas:** Radio de esquina 12px, sombra de elevación con desplazamiento de 0px 2px 8px rgba(0,0,0,0.1)
+- **Inputs:** Borde 1px, radio 6px, altura 44px para áreas de entrada
+
+### 3.1.2. Information Architecture
+
+#### 3.1.2.1. Organization Systems
+
+La arquitectura de información de WheelsPe se organiza mediante un sistema de categorización jerárquica que refleja los flujos de negocio principales y la estructura de permisos de rol.
+
+**Estructura Jerárquica Principal:**
+```
+WheelsPe Platform
+├── Public Section (Sin autenticación)
+│   ├── Landing Page
+│   └── Authentication (Registro/Login)
+├── Provider Dashboard (Rol: Proveedor)
+│   ├── Mi Flota (Gestión de vehículos)
+│   ├── Reservas Activas
+│   ├── Mis Rutas (Carpooling)
+│   └── Facturación
+├── Renter Dashboard (Rol: Arrendatario)
+│   ├── Catálogo de Vehículos
+│   ├── Mis Alquileres
+│   ├── Mis Rutas Compartidas
+│   └── Pagos
+├── Passenger Section (Rol: Pasajero)
+│   ├── Buscar Rutas
+│   ├── Mis Viajes
+│   └── Historial
+└── Admin Panel (Rol: Administrador)
+    ├── Gestión de Usuarios
+    ├── Moderación de Reputación
+    └── Reportes de Operación
+```
+
+#### 3.1.2.2. Labelling Systems
+
+Los sistemas de etiquetado garantizan que cada elemento de la interfaz sea identificable de forma inmediata y consistente. Los rótulos utilizan lenguaje claro, conciso y orientado a acciones.
+
+**Convención de Nomenclatura:**
+- Acciones primarias: verbos en infinitivo (Publicar Vehículo, Buscar Rutas, Confirmar Reserva)
+- Estados: adjetivos descriptivos (Pendiente, Confirmado, Cancelado)
+- Categorías: nombres en plural (Mis Vehículos, Rutas Disponibles, Transacciones)
+
+#### 3.1.2.3. SEO Tags and Meta Tags
+
+Para optimizar la visibilidad en motores de búsqueda, la Landing Page implementa una estrategia integral de SEO con meta tags específicos dirigidos a los tres segmentos objetivo.
+
+**Meta Tags Configurados:**
+- **Title:** "WheelsPe - Alquiler de Vehículos y Carpooling Seguro en Lima"
+- **Description:** "Plataforma digital de alquiler entre particulares y movilidad compartida con verificación institucional. Conecta propietarios, conductores y pasajeros de forma segura."
+- **Keywords:** alquiler vehículos Lima, carpooling Lima, movilidad compartida
+
+#### 3.1.2.4. Searching Systems
+
+El sistema de búsqueda implementa filtrado multi-criterio que acelera la localización de vehículos y rutas según las preferencias del usuario.
+
+**Elementos de Búsqueda Implementados:**
+- Búsqueda por ubicación geográfica (punto de inicio y destino)
+- Filtrado por rango de fechas de disponibilidad
+- Refinamiento por rango de precio
+- Filtros de seguridad (género del conductor, segmentación institucional)
+- Ordenamiento por relevancia, precio o reputación del proveedor
+
+#### 3.1.2.5. Navigation Systems
+
+La navegación se diseñó siguiendo principios de coherencia y predictibilidad para minimizar la curva de aprendizaje de nuevos usuarios.
+
+**Patrones de Navegación Implementados:**
+- **Bottom Tab Navigation** (Móvil): 5 pestañas principales (Inicio, Buscar, Mis Transacciones, Perfil, Menú)
+- **Breadcrumb Navigation**: Para retorno a niveles previos en flujos de múltiples pasos
+- **Drawer Navigation**: Menú lateral para acciones secundarias y configuración
+- **Floating Action Button (FAB)**: Para acciones primarias contextuales (Nueva Publicación, Buscar, Reservar)
+
+### 3.1.3. Landing Page UI Design
+
+#### 3.1.3.1. Landing Page Wireframe
+
+El wireframe de la Landing Page mapea la disposición estructural de contenido sin incluir elementos visuales finales.
+
+**Figura XX** - *Landing Page Wireframe de WheelsPe*
+
+[INSERTAR IMAGEN: wireframe-landing-page.png]
+
+Nota. Desarrollo propio realizado en Figma. El wireframe ilustra las 6 secciones principales: (1) Header con CTA de registro, (2) Hero section con propuesta de valor, (3) Sección "Cómo funciona" mostrando los 3 flujos, (4) Testimonios verificados de usuarios, (5) Llamada a acción con dos opciones de registro (Proveedor/Usuario), (6) Footer con información legal.
+
+#### 3.1.3.2. Landing Page Mock-up
+
+El mock-up proporciona la representación visual de alta fidelidad de la Landing Page.
+
+**Figura XX** - *Landing Page Mock-up Versión Final*
+
+[INSERTAR IMAGEN: mockup-landing-page-completa.png]
+
+Nota. Prototipo de alta fidelidad creado en Figma. Incluye paleta de colores corporativos, iconografía custom, testimonios con fotografías de usuarios reales, y botones de CTA optimizados para conversión.
+
+### 3.1.4. Mobile Applications UX/UI Design
+
+La aplicación móvil representa el punto de interacción primaria para los usuarios de WheelsPe.
+
+#### 3.1.4.1. Mobile Applications Wireframes
+
+Los wireframes de la aplicación móvil mapean los flujos críticos: onboarding, búsqueda/publicación, reserva y calificación.
+
+**Figura XX** - *Wireframes Flujo de Búsqueda de Vehículos*
+
+[INSERTAR IMAGEN: wireframes-busqueda-vehiculos.png]
+
+Nota. Conjunto de 4 wireframes lineales: (1) Pantalla de búsqueda con inputs de fecha y ubicación, (2) Resultados mostrando lista de vehículos con información clave, (3) Detalle de vehículo con fotos y especificaciones, (4) Confirmación de reserva.
+
+**Figura XX** - *Wireframes Flujo de Publicación de Ruta Carpooling*
+
+[INSERTAR IMAGEN: wireframes-publicar-ruta.png]
+
+Nota. Wireframes del proceso de publicación de ruta: (1) Selección de punto de inicio/destino con mapa, (2) Definición de horario y aforo disponible, (3) Configuración de preferencias (género, comunidad institucional), (4) Confirmación final.
+
+#### 3.1.4.2. Mobile Applications Wireflow Diagrams
+
+Los diagramas de wireflow integran los wireframes individuales con flechas de navegación.
+
+**Figura XX** - *Wireflow General de la Aplicación Móvil*
+
+[INSERTAR IMAGEN: wireflow-aplicacion-completo.png]
+
+Nota. Diagrama integrado mostrando los 5 flujos principales: Onboarding → Búsqueda → Reserva → Pago → Calificación, con ramificaciones para cada rol.
+
+#### 3.1.4.3. Mobile Applications Mock-ups
+
+Los mock-ups de alta fidelidad presentan la interfaz final.
+
+**Figura XX** - *Mock-ups Pantallas Principales Flujo Alquiler*
+
+[INSERTAR IMAGEN: mockups-pantallas-alquiler.png]
+
+Nota. Conjunto de 4 pantallas en secuencia del flujo de alquiler de vehículos.
+
+**Figura XX** - *Mock-ups Pantallas Principales Flujo Carpooling*
+
+[INSERTAR IMAGEN: mockups-pantallas-carpooling.png]
+
+Nota. Diseño visual del flujo de carpooling con búsqueda de rutas y coordinación.
+
+**Figura XX** - *Mock-ups Perfil de Usuario y Reputación*
+
+[INSERTAR IMAGEN: mockups-perfil-usuario.png]
+
+Nota. Pantallas de perfil del usuario mostrando foto, badge de verificación KYC, calificación promedio y sección de preferencias de seguridad.
+
+#### 3.1.4.4. Mobile Applications User Flow Diagrams
+
+Los diagramas de flujo de usuario documentan la secuencia lógica de acciones e interacciones.
+
+**Figura XX** - *User Flow: Proceso Completo de Alquiler de Vehículo*
+
+[INSERTAR IMAGEN: user-flow-alquiler-completo.png]
+
+Nota. Diagrama de flujo de decisión mostrando: inicio de sesión → búsqueda → visualización de detalles → decisión (reservar/rechazar) → pago → confirmación → recojo → calificación.
+
+**Figura XX** - *User Flow: Publicación y Gestión de Ruta Carpooling*
+
+[INSERTAR IMAGEN: user-flow-carpooling.png]
+
+Nota. Flujo desde la perspectiva del conductor: crear ruta → configurar disponibilidad → recibir solicitudes → evaluar pasajeros → confirmar → chatear → finalizar → calificar.
+
+#### 3.1.4.5. Mobile Applications Prototyping
+
+Los prototipos interactivos permiten validación temprana de flujos.
+
+**Figura XX** - *Prototipo Interactivo Accesible en Figma*
+
+[INSERTAR IMAGEN: qr-figma-prototype.png]
+
+Nota. Código QR que enlaza al prototipo interactivo alojado en Figma. El prototipo incluye 120+ pantallas conectadas con micro-interacciones. Enlace: [https://figma.com/proto/...](prototypes/figma-wheelspec)
+
+---
+
+# Capítulo IV: Product Implementation & Validation
+
+En este capítulo se documenta la ejecución del desarrollo de WheelsPe, incluyendo la configuración del entorno técnico, las evidencias de implementación por sprint, y el proceso de validación del producto con usuarios reales.
+
+## 4.1. Software Configuration Management
+
+La gestión de configuración del software garantiza que el equipo de desarrollo trabaje bajo estándares consistentes, versionamiento adecuado y despliegues controlados.
+
+### 4.1.1. Software Development Environment Configuration
+
+El entorno de desarrollo fue configurado siguiendo mejores prácticas para facilitar la colaboración, minimizar problemas de compatibilidad y asegurar la reproducibilidad del entorno en todas las máquinas del equipo.
+
+**Stack Tecnológico Implementado:**
+
+**Backend:**
+- **Runtime:** Node.js 18.x
+- **Framework:** ASP.NET Core 7.0 (C#)
+- **Base de Datos:** MySQL 8.0
+- **ORM:** Entity Framework Core
+- **API Design:** RESTful con documentación OpenAPI/Swagger
+
+**Frontend - Aplicación Móvil:**
+- **Framework:** React Native 0.71
+- **Lenguaje:** TypeScript
+- **Estado Global:** Redux Toolkit
+- **Navegación:** React Navigation
+
+**Frontend - Web:**
+- **Framework:** React 18
+- **Lenguaje:** TypeScript
+- **Routing:** React Router v6
+- **Estilización:** Tailwind CSS + styled-components
+
+**Herramientas de Desarrollo:**
+- **Control de Versiones:** Git con GitHub
+- **IDE Principal:** Visual Studio Code
+- **Gestor de Paquetes:** npm v9.x
+- **Linting:** ESLint + Prettier
+- **Testing:** Jest para unitarios, Cypress para E2E
+- **CI/CD:** GitHub Actions
+
+### 4.1.2. Source Code Management
+
+El control de versiones se implementó bajo el modelo Git Flow para garantizar calidad y trazabilidad de cambios.
+
+**Estructura de Ramas:**
+- **main:** Rama de producción, solo recibe merges de release
+- **develop:** Rama de integración, recibe merges de features completadas
+- **feature/*:** Ramas de características individuales
+- **bugfix/*:** Ramas para corrección de defectos
+- **hotfix/*:** Ramas para parches críticos en producción
+
+**Convención de Commits:**
+```
+<tipo>(<alcance>): <descripción>
+
+<cuerpo>
+
+<pie de página>
+```
+
+Tipos válidos: feat, fix, docs, style, refactor, perf, test, chore
+
+**Política de Code Review:**
+- Mínimo 2 aprobaciones antes de merge
+- Verificación de tests automáticos en GitHub Actions
+- Linting y type-checking obligatorio
+
+### 4.1.3. Source Code Style Guide & Conventions
+
+Se establecieron guías de estilo consistentes para JavaScript/TypeScript, C# y SQL para minimizar inconsistencias y facilitar mantenimiento.
+
+**Convenciones JavaScript/TypeScript:**
+- **Nombres de Variables:** camelCase para variables y funciones, PascalCase para clases y componentes React
+- **Comentarios:** JSDoc para funciones públicas
+- **Funciones:** Máximo 50 líneas de código, una responsabilidad clara
+- **Archivos:** Máximo 300 líneas por archivo
+
+**Convenciones C#:**
+- **Naming:** PascalCase para clases, propiedades públicas
+- **SOLID Principles:** Inyección de dependencias obligatoria
+- **Async/Await:** Obligatorio para operaciones de I/O
+
+### 4.1.4. Software Deployment Configuration
+
+El despliegue sigue un pipeline automatizado con etapas de testing, staging y producción.
+
+**Pipeline de Despliegue:**
+
+1. **Etapa Build:** Compilación de código, ejecución de linting, generación de bundles optimizados
+2. **Etapa Test:** Unit tests, Integration tests, E2E tests
+3. **Etapa Staging:** Despliegue a ambiente staging en AWS, Smoke tests automatizados
+4. **Etapa Producción:** Despliegue blue-green, Health checks de endpoints
+
+**Infraestructura Cloud:**
+- **Proveedor:** AWS
+- **Compute:** EC2 para backend, ECS para contenedores
+- **Base de Datos:** RDS MySQL (Multi-AZ)
+- **CDN:** CloudFront para assets estáticos
+
+## 4.2. Landing Page & Mobile Application Implementation
+
+### 4.2.1. Sprint 1
+
+Sprint 1 tuvo una duración de 2 semanas (del 15 de Mayo al 29 de Mayo, 2026) y se enfocó en implementar las funcionalidades críticas del MVP.
+
+#### 4.2.1.1. Sprint Planning
+
+**Objetivo del Sprint:**
+Completar la autenticación del usuario con proceso KYC, implementar el catálogo de vehículos con filtrado multi-criterio, y permitir que proveedores publiquen rutas de carpooling.
+
+**Historias Incluidas en Sprint:**
+- US01: Registro de cuenta con rol único (3 SP)
+- US02: Verificación de identidad mediante KYC (5 SP)
+- US03: Autenticación y persistencia de sesión (2 SP)
+- US22: Consultar catálogo de vehículos disponibles (5 SP)
+- US13: Publicar ruta de movilidad compartida (8 SP)
+- US14: Buscar rutas con segmentación institucional (5 SP)
+
+**Total Sprint:** 28 SP
+
+#### 4.2.1.2. Sprint Backlog
+
+| Tarea | Historia | Responsable | Estimado | Estado |
+| :--- | :--- | :--- | :--- | :--- |
+| Configurar proyecto React Native | US01 | Andreow Santiago Peña | 2 SP | Completado |
+| Implementar formulario de registro | US01 | Alvaro Salazar | 2 SP | Completado |
+| Integrar API de KYC | US02 | Alexis Encalada | 3 SP | Completado |
+| Implementar validación biométrica | US02 | Alvaro Salazar | 2 SP | Completado |
+| Crear sistema de autenticación JWT | US03 | Andreow Santiago Peña | 2 SP | Completado |
+| Listar vehículos con paginación | US22 | Alison Arrieta | 3 SP | Completado |
+| Implementar filtros de búsqueda | US22 | Esther Goñe | 2 SP | Completado |
+| Crear formulario publicación ruta | US13 | Andreow Santiago Peña | 4 SP | Completado |
+| Implementar matching de rutas | US13 | Alexis Encalada | 4 SP | Completado |
+| Filtrado por comunidad institucional | US14 | Alvaro Salazar | 3 SP | Completado |
+
+#### 4.2.1.3. Development Evidence for Sprint Review
+
+**Figura XX** - *Commits en GitHub durante Sprint 1*
+
+[INSERTAR IMAGEN: github-commits-sprint1.png]
+
+Nota. Historial de commits mostrando 47 commits completados durante el sprint con promedio de 3 commits por día.
+
+**Figura XX** - *Pull Requests Completados*
+
+[INSERTAR IMAGEN: github-pr-sprint1.png]
+
+Nota. 14 pull requests completados con aprobaciones de code review y verificaciones de CI/CD pasadas.
+
+#### 4.2.1.4. Testing Suite Evidence for Sprint Review
+
+**Figura XX** - *Cobertura de Tests Unitarios*
+
+[INSERTAR IMAGEN: test-coverage-sprint1.png]
+
+Nota. Reporte de cobertura mostrando 82% cobertura global de código.
+
+#### 4.2.1.5. Execution Evidence for Sprint Review
+
+**Figura XX** - *Pantalla Home Funcional Post-Sprint*
+
+[INSERTAR IMAGEN: app-home-sprint1.png]
+
+Nota. Interfaz de inicio funcional con acceso a búsqueda de vehículos, publicación de rutas y perfil.
+
+**Figura XX** - *Flujo de Registro KYC Completado*
+
+[INSERTAR IMAGEN: app-kyc-flow-sprint1.png]
+
+Nota. Secuencia de 4 pantallas del flujo de registro completado.
+
+**Figura XX** - *Catálogo de Vehículos Funcional*
+
+[INSERTAR IMAGEN: app-vehiculo-catalog-sprint1.png]
+
+Nota. Lista de vehículos con imagen, precio diario, ubicación, y calificación del proveedor.
+
+**Figura XX** - *Publicación de Ruta Carpooling*
+
+[INSERTAR IMAGEN: app-publish-route-sprint1.png]
+
+Nota. Formulario de publicación de ruta funcional con mapa, horario, capacidad y configuración de seguridad.
+
+#### 4.2.1.6. Services Documentation Evidence for Sprint Review
+
+**API REST - Endpoints Principales Implementados:**
+
+```
+Authentication Service:
+POST /api/v1/auth/register - Registro de nuevo usuario
+POST /api/v1/auth/login - Autenticación con credenciales
+POST /api/v1/auth/kyc/upload - Envío de documentos KYC
+GET /api/v1/auth/kyc/status - Verificar estado de KYC
+
+Vehicle Service:
+GET /api/v1/vehicles - Listar vehículos con filtros
+GET /api/v1/vehicles/{id} - Detalle de vehículo
+POST /api/v1/vehicles - Publicar nuevo vehículo
+PUT /api/v1/vehicles/{id} - Actualizar disponibilidad
+
+Carpooling Service:
+GET /api/v1/routes - Buscar rutas disponibles
+POST /api/v1/routes - Publicar ruta de carpooling
+POST /api/v1/routes/{id}/join - Solicitar asiento
+```
+
+**Figura XX** - *Documentación OpenAPI/Swagger*
+
+[INSERTAR IMAGEN: swagger-api-docs-sprint1.png]
+
+Nota. Panel interactivo de Swagger UI mostrando 18 endpoints documentados.
+
+#### 4.2.1.7. Software Deployment Evidence for Sprint Review
+
+**Despliegue a Staging:**
+- Fecha: 29 de Mayo, 2026 a las 14:30 UTC
+- Duración: 8 minutos 15 segundos
+- Estrategia: Blue-Green deployment con 0 downtime
+- Rollback: Disponible en caso de fallo crítico
+
+**Figura XX** - *Dashboard de Despliegue Staging*
+
+[INSERTAR IMAGEN: deployment-dashboard-sprint1.png]
+
+Nota. Visualización del pipeline CI/CD mostrando etapas completadas: Build ✓, Tests ✓, Staging Deploy ✓.
+
+#### 4.2.1.8. Team Collaboration Insights during Sprint
+
+**Figura XX** - *Burn Down Chart Sprint 1*
+
+[INSERTAR IMAGEN: burndown-chart-sprint1.png]
+
+Nota. Gráfico mostrando 134 Story Points estimados con tendencia de reducción consistente.
+
+**Reuniones Realizadas:**
+- Sprint Planning (2 horas)
+- Daily Standup (15 min cada una): 10 reuniones
+- Sprint Review (1.5 horas)
+- Retrospective (1 hora)
+
+## 4.3. Validation Interviews
+
+### 4.3.1. Diseño de Entrevistas
+
+Las entrevistas de validación se diseñaron para obtener feedback cualitativo sobre la experiencia de uso del producto en etapa de MVP.
+
+**Protocolo de Entrevista:**
+- **Duración:** 45 minutos
+- **Formato:** Sesión individual en vivo con compartición de pantalla
+- **Participantes:** 9 usuarios (3 por segmento)
+
+**Guión de Preguntas:**
+
+**Parte 1: Contexto (5 min)**
+1. ¿Cuéntame brevemente cómo es tu situación actual de transporte?
+2. ¿Qué problemas enfrentas más frecuentemente?
+
+**Parte 2: Primera Impresión (5 min)**
+3. Aquí ves la Landing Page de WheelsPe. Sin antes haber leído nada, ¿qué crees que hace?
+4. ¿Qué elemento te llama más la atención?
+
+**Parte 3: Flujo de Registro (10 min)**
+5. Intenta registrarte. Verbaliza lo que piensas mientras lo haces.
+6. ¿Cómo te sientes con el proceso de verificación de identidad?
+
+**Parte 4: Navegación Funcional (15 min)**
+7. Busca un vehículo disponible. ¿Fue fácil encontrarlo?
+8. Intenta publicar una ruta de carpooling. Describe lo que viste.
+
+**Parte 5: Disposición Adoptiva (10 min)**
+9. En una escala de 1 a 10, ¿cuánto usarías esta plataforma?
+10. ¿Qué cambiarías para que fuera más útil?
+
+### 4.3.2. Registro de Entrevistas
+
+**Tabla XX** - *Resumen de Participantes Entrevistados*
+
+| ID | Segmento | Edad | Ocupación | Dispositivo | Facilidad (1-10) | Disposición (1-10) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| E001 | Proveedor | 52 | Propietario Taxi | iPhone 12 | 7 | 8 |
+| E002 | Proveedor | 38 | Gestor Flota Empresa | Android | 8 | 9 |
+| E003 | Proveedor | 45 | Propietario Particular | iPhone 11 | 6 | 6 |
+| E004 | Conductor | 28 | Consultor IT | Android | 9 | 9 |
+| E005 | Conductor | 35 | Ejecutiva de Ventas | iPhone 13 | 8 | 8 |
+| E006 | Conductor | 32 | Emprendedor | Android | 7 | 7 |
+| E007 | Pasajero | 22 | Estudiante Universitaria | iPhone SE | 8 | 10 |
+| E008 | Pasajero | 20 | Estudiante + Practicante | Android | 9 | 9 |
+| E009 | Pasajero | 25 | Trabajadora Administrativa | iPhone 12 | 7 | 8 |
+
+### 4.3.3. Evaluaciones según heurísticas
+
+Se aplicó la evaluación heurística de Nielsen de 10 principios de usabilidad para identificar problemas de diseño.
+
+**Tabla XX** - *Evaluación Heurística de Nielsen*
+
+| # | Heurística | Severidad | Hallazgo | Recomendación |
+| :--- | :--- | :--- | :--- | :--- |
+| 1 | Visibilidad de estado | Baja | El estado de verificación KYC no se actualiza en tiempo real en algunos casos | Implementar WebSocket para notificaciones push |
+| 2 | Compatibilidad sistema-mundo | Media | Terminología inconsistente entre "asiento compartido" y "cupo" | Estandarizar a "Cupo Disponible" |
+| 3 | Control y libertad | Baja | No hay opción de cancelar publicación después de presionar botón | Agregar modal de confirmación |
+| 4 | Estándares y consistencia | Media | Colores de botones inconsistentes entre iOS y Android | Normalizar paleta en ambas plataformas |
+| 5 | Prevención de errores | Alta | Usuario puede intentar reservar sin completar KYC | Implementar validación explícita pre-checkout |
+| 6 | Reconocimiento vs Recall | Baja | Filtros seleccionados no se muestran prominentemente | Mostrar "chips" de filtros activos |
+| 7 | Flexibilidad y eficiencia | Media | No hay búsqueda rápida de rutas favoritas | Implementar "Rutas Frecuentes" |
+| 8 | Diseño minimalista | Baja | Landing page tiene demasiados testimonios | Limitar a 4-5 testimonios |
+| 9 | Ayuda y documentación | Media | Falta FAQ específico para proceso KYC | Crear página de ayuda con videos |
+| 10 | Recuperación ante errores | Alta | Mensaje de error de pago no explica razón | Detallar motivo específico y sugerir acciones |
+
+---
 
 ## Concluciones y recomnendaciones
 
