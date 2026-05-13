@@ -2462,16 +2462,23 @@ Este diagrama representa la arquitectura del Bounded Context de **IAM** (Identit
 
 Este diagrama representa la arquitectura de clases del dominio para IAM, detallando la relación entre el Agregado de Usuario, sus Objetos de Valor y la Reputación...
 
-**Figura 49** *Arquitectura de clases del dominio para IAM* **![Diagrama de componentes de la Billing API y sus conexiones internas.](https://i.imgur.com/W6jmHg6.jpeg)**
+**Figura 49**
+*Arquitectura de clases del dominio para IAM* 
+
+**![Diagrama de componentes de la Billing API y sus conexiones internas.](https://i.imgur.com/W6jmHg6.jpeg)**
 
 ##### 2.6.1.6.2 Bounded Context Database Design Diagram
 
 Este diagrama representa el modelo lógico de datos para el Bounded Context de IAM, diseñado bajo un enfoque relacional que prioriza la integridad de la identidad...
 
-**Figura 50** *Modelo lógico de datos para el Bounded Context de IAM* **![Diagrama de componentes de la KYC API y sus conexiones internas.](https://i.imgur.com/y2OyiRq.jpeg)**
+**Figura 50** *Modelo lógico de datos para el Bounded Context de IAM* 
+
+**![Diagrama de componentes de la KYC API y sus conexiones internas.](https://i.imgur.com/y2OyiRq.jpeg)**
 
 ### 2.6.2. Bounded Context: Carpooling
+
 #### 2.6.2.1. Domain Layer
+
 Ruta (Entity): Representa el trayecto geográfico y temporal definido por un Conductor que ofrece movilidad.
 
 Atributos: id, idConductor, puntoOrigen, puntoDestino, puntosIntermedios, fechaSalida, horaSalida.
@@ -2540,12 +2547,17 @@ SafetyStorageAdapter (External Service): Gestión en la nube para el almacenamie
 ![Carpooling BC.png](Assets/Carpooling%20BC.png)
 
 #### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
+
 ##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
 
 ##### 2.6.2.6.2. Bounded Context Database Design Diagram
+
 ![Carpooling BC 3.png](Assets/Carpooling%20BC%203.png) 
+
 ### 2.6.3. Bounded Context: Rental
+
 #### 2.6.3.1. Domain Layer
+
 Vehículo (Entity): Representa un vehículo dentro del sistema ingresado por un proveedor o empresa de alquiler.
 Atributos: id, proveedorId, descripción, año, fecha_publicacion,color,   placa,modelo.  
 Métodos: verificarDisponibilidad(PeriodoAlquiler): Valida si la unidad puede ser reservada, actualizarEstado(nuevoEstado): Cambia el estado operativo (Disponible, Alquilado, En mantenimiento)
@@ -2565,6 +2577,7 @@ Métodos: validarArrendatario(idUsuario, vehiculo): Utiliza datos de IAM para va
 AlquilerRepository (Repository): Contrato para persistir y recuperar objetos Alquiler y Vehiculo.
 
 #### 2.6.3.2. Interface Layer
+
 VehiculoController (Controller): Expone los endpoints de consulta del catálogo de vehículos.
 Métodos: buscarVehiculos(FiltroBusquedaDTO), obtenerDetalleVehiculo(idVehiculo).
 ReservaController (Controller): Gestiona las solicitudes de alquiler y las interacciones durante el servicio.
@@ -2573,26 +2586,34 @@ FiltroBusquedaDTO (DTO): Objeto para transferir los criterios de búsqueda (ej. 
 ReservaRequestDTO (DTO): Datos necesarios para crear un nuevo Alquiler (idArrendatario, idVehiculo, fechas).
 
 #### 2.6.3.3. Application Layer
+
 GestionAlquilerService (Application Service): Orquesta el flujo de reserva, desde la disponibilidad hasta la solicitud de pago.
 Métodos: procesarNuevaReserva(ReservaRequestDTO): Llama al ReglasAlquilerDomainService y al BillingContext para pre-autorizar la fianza, procesarDevolucion(idAlquiler, ChecklistDTO): Inicia la comparación del checklist y notifica al BillingContext para la liberación/ejecución de la fianza.
 ChecklistValidacionHandler (Event Handler): Reacciona al evento AlquilerEnCurso para verificar si el checklist inicial fue completado y, si no, envía recordatorios al arrendatario.
 NotificadorProveedorHandler (Event Handler): Reacciona al evento AlquilerConfirmado para notificar al Proveedor (via email/push) que debe preparar el vehículo.
 
 #### 2.6.3.4. Infrastructure Layer
+
 PostgresAlquilerRepository (Implementation): Implementación técnica del repositorio para persistir la información de los Alquileres y Vehiculos.
 GoogleMapsAdapter (External Service): Utilizado para geocodificar la ubicación de entrega/devolución y calcular distancias.
 BillingContextAdapter (External Service): Adaptador que permite solicitar al contexto de BILLING la retención de la fianza y el procesamiento del pago (referencia a US31).
 S3ChecklistAdapter (External Service): Implementación para gestionar el almacenamiento y la recuperación de las imágenes del ChecklistFotografico en la nube.
 
 #### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
+
 ![Rental BC.png](Assets/Rental%20BC.png)
+
 Este diagrama representa la arquitectura simplificada del Bounded Context de Rental utilizando Domain-Driven Design. Muestra cómo el Arrendatario y el Dueño interactúan con el microservicio a través de controladores especializados para gestionar vehículos y reservas. El microservicio orquesta internamente el flujo de trabajo: el VehiculoController y el ReservaController reciben las peticiones y las delegan a los Handlers y Services de la Capa de Aplicación. El GestionAlquilerService coordina la lógica de negocio, interactuando con la Capa de Dominio y utilizando adaptadores de infraestructura para servicios externos como S3 (para el almacenamiento de fotos de checklists), Google Maps y el contexto de Billing. La arquitectura está diseñada para mantener una clara separación de responsabilidades y asegurar que la lógica central del alquiler sea independiente de los detalles técnicos externos.
 #### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
+
 ![Rental BC 1.png](Assets/Rental%20BC%201.png)
+
 Este diagrama de clases UML detalla la capa de dominio del contexto de Rental. La clase Alquiler, definida como la raíz del agregado (Aggregate Root), asegura la coherencia y la integridad transaccional de cada reserva de vehículo. Se compone de una entidad Vehiculo (que gestiona su propio estado operativo) y un objeto de valor (Value Object) denominado ChecklistFotografico, el cual valida el estado estético y mecánico del auto de manera inmutable. El ReglasAlquilerDomainService es un servicio de dominio que encapsula la lógica compleja de cálculo de tarifas dinámicas y validación de elegibilidad, mientras que los Domain Events (como AlquilerEnCursoEvent) permiten que el dominio notifique cambios importantes a otros componentes del sistema, manteniendo el núcleo del negocio reactivo y desacoplado de la implementación técnica
 
 ##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
+
 ![Rental BC 2.png](Assets/Rental%20BC%202.png)
+
 Este diagrama de clases UML detalla la capa de dominio del contexto de Rental. La clase Alquiler, definida como la raíz del agregado (Aggregate Root), asegura la coherencia y la integridad transaccional de cada reserva de vehículo. Se compone de una entidad Vehiculo (que gestiona su propio estado operativo) y un objeto de valor (Value Object) denominado ChecklistFotografico, el cual valida el estado estético y mecánico del auto de manera inmutable. El ReglasAlquilerDomainService es un servicio de dominio que encapsula la lógica compleja de cálculo de tarifas dinámicas y validación de elegibilidad, mientras que los Domain Events (como AlquilerEnCursoEvent) permiten que el dominio notifique cambios importantes a otros componentes del sistema, manteniendo el núcleo del negocio reactivo y desacoplado de la implementación técnica
 
 ##### 2.6.3.6.2. Bounded Context Database Design Diagram
@@ -2811,23 +2832,43 @@ La navegación se diseñó siguiendo principios de coherencia y predictibilidad 
 
 #### 3.1.3.1. Landing Page Wireframe
 
-El wireframe de la Landing Page mapea la disposición estructural de contenido sin incluir elementos visuales finales.
+El wireframe de la Landing Page mapea la disposición estructural de contenido sin incluir elementos visuales finales. Se presentan dos versiones: desktop (1440px) y mobile (390px), dado que la landing debe ser accesible y funcional desde cualquier dispositivo, con especial énfasis en mobile al tratarse de un proyecto de aplicaciones móviles.
 
-**Figura XX** - *Landing Page Wireframe de WheelsPe*
+**Figura**
 
-[INSERTAR IMAGEN: wireframe-landing-page.png]
+*Landing Page Wireframe - Desktop (1440px)*
 
-Nota. Desarrollo propio realizado en Figma. El wireframe ilustra las 6 secciones principales: (1) Header con CTA de registro, (2) Hero section con propuesta de valor, (3) Sección "Cómo funciona" mostrando los 3 flujos, (4) Testimonios verificados de usuarios, (5) Llamada a acción con dos opciones de registro (Proveedor/Usuario), (6) Footer con información legal.
+![](https://i.imgur.com/ai8DfQQ.png)
+
+Nota. Desarrollo propio realizado en Figma. El wireframe desktop ilustra las 6 secciones principales: (1) Header con navegación de 5 nodos y CTAs de login/registro, (2) Hero section con propuesta de valor y placeholder de captura de app, (3) Sección "Cómo funciona" con tabs Alquiler/Carpooling y 4 pasos secuenciales, (4) Sección "Para quién" con 3 perfiles de usuario, (5) Testimonios verificados, (6) CTA final y Footer con columnas de navegación. Grid de 12 columnas con márgenes de 96px.
+
+**Figura**
+
+*Landing Page Wireframe - Mobile (390px)*
+
+![](https://i.imgur.com/xhA2aJz.png)
+
+Nota. Desarrollo propio realizado en Figma. Versión mobile-first con el mismo flujo de contenido reorganizado verticalmente: navegación colapsada en menú hamburguesa, imagen hero apilada sobre el texto, CTAs de ancho completo, y métricas en grid 2×2. Área táctil mínima de 44px. Grid de 4 columnas con márgenes de 20px.
 
 #### 3.1.3.2. Landing Page Mock-up
 
-El mock-up proporciona la representación visual de alta fidelidad de la Landing Page.
+El mock-up proporciona la representación visual de alta fidelidad de la Landing Page, aplicando el Design System de WheelsPe en sus dos versiones responsivas.
 
-**Figura XX** - *Landing Page Mock-up Versión Final*
+**Figura**
 
-[INSERTAR IMAGEN: mockup-landing-page-completa.png]
+*Landing Page Mock-up - Desktop (1440px)*
 
-Nota. Prototipo de alta fidelidad creado en Figma. Incluye paleta de colores corporativos, iconografía custom, testimonios con fotografías de usuarios reales, y botones de CTA optimizados para conversión.
+![](https://i.imgur.com/7YUde4i.png)
+
+Nota. Prototipo de alta fidelidad creado en Figma. Incluye paleta corporativa (#3B82F6 acento, #000 tinta, #F6F6F6 superficie), tipografía Helvetica con tracking negativo en titulares, botones pill para CTAs, mockup de dispositivo con bezel real en la sección hero, tabs interactivos Alquiler/Carpooling en "Cómo funciona", y footer con columnas de navegación jerárquica.
+
+**Figura**
+
+Landing Page Mock-up - Mobile (390px)*
+
+![](https://i.imgur.com/lXpeody.png)
+
+Nota. Versión mobile del mock-up aplicando los mismos tokens del Design System. Hero con imagen apilada sobre el titular, acento azul en palabra clave ("mejor."), CTAs de ancho completo (350px), métricas en grid 2×2, sección "Cómo funciona" con cards verticales, y navegación colapsada en hamburguesa. Diseñado como punto de entrada principal dado que los usuarios del curso de aplicaciones móviles acceden prioritariamente desde dispositivos móviles.
 
 ### 3.1.4. Mobile Applications UX/UI Design
 
@@ -2837,17 +2878,66 @@ La aplicación móvil representa el punto de interacción primaria para los usua
 
 Los wireframes de la aplicación móvil mapean los flujos críticos: onboarding, búsqueda/publicación, reserva y calificación.
 
-**Figura XX** - *Wireframes Flujo de Búsqueda de Vehículos*
+### Flujo 01 - Onboarding y acceso
 
-[INSERTAR IMAGEN: wireframes-busqueda-vehiculos.png]
+**Figura**
 
-Nota. Conjunto de 4 wireframes lineales: (1) Pantalla de búsqueda con inputs de fecha y ubicación, (2) Resultados mostrando lista de vehículos con información clave, (3) Detalle de vehículo con fotos y especificaciones, (4) Confirmación de reserva.
+*Wireframes Flujo de Onboarding y Acceso*
 
-**Figura XX** - *Wireframes Flujo de Publicación de Ruta Carpooling*
+![](https://i.imgur.com/WnJwZJ4.png)
 
-[INSERTAR IMAGEN: wireframes-publicar-ruta.png]
+Nota. Conjunto de 2 wireframes: (1) **Bienvenida** - Marca e ilustración hero con opciones "Crear cuenta" y "Ya tengo cuenta"; (2) **KYC con DNI** - Captura guiada en 4 pasos: anverso, reverso, selfie y confirmación OK.
 
-Nota. Wireframes del proceso de publicación de ruta: (1) Selección de punto de inicio/destino con mapa, (2) Definición de horario y aforo disponible, (3) Configuración de preferencias (género, comunidad institucional), (4) Confirmación final.
+### Flujo 02 - Inicio y descubrimiento
+
+**Figura**
+
+*Wireframes Flujo de Inicio y Descubrimiento*
+
+![](https://i.imgur.com/WkGz3ov.png)
+
+Nota. Pantalla de **Inicio** con buscador, accesos rápidos por tipo y servicios cercanos. Incluye gráfico de actividad reciente y accesos directos a las principales funciones de la app.
+
+### Flujo 03 - Alquiler de vehículo
+
+**Figura**
+
+*Wireframes Flujo de Alquiler de Vehículo*
+
+![](https://i.imgur.com/wloV5xp.png)
+
+Nota. Conjunto de 3 wireframes: (1) **Catálogo** — Búsqueda con filtros tipo chips, tarjetas con foto, datos y precio; (2) **Detalle del auto** - Galería, specs, dueño verificado, descripción, CTA fija y botón "Reservar"; (3) **Pago seguro** - Resumen de reserva con métodos de pago (Yape, Plin, Tarjeta) y nota de escrow.
+
+### Flujo 04 - Carpooling
+
+**Figura**
+
+*Wireframes Flujo de Carpooling*
+
+![](https://i.imgur.com/HWV7FOX.png)
+
+Nota. Conjunto de 4 wireframes del flujo carpooling: (1) **Buscar carpool** - Origen/destino, filtros, lista de conductores con rating y alertas; (2) **Publicar ruta** - Formulario con bloque, ruta, fecha, recurrencia, asientos y tarifa, con botón "Publicar ruta"; (3) **Viaje en curso** - Mapa full-screen con bottom sheet de conductor, ruta y estado en tiempo real; (4) **Chat conductor** - Mensajería con burbuja de comentario del viaje y llamada directa.
+
+### Flujo 05 - Vista del propietario
+
+**Figura**
+
+*Wireframes Vista del Propietario - Mi Flota*
+
+![](https://i.imgur.com/j4OB3YY.png)
+
+Nota. Panel **Mi flota** del propietario: ganancias del mes en tarjeta destacada, calendario de reservas con indicadores de estado (naranja = ocupado), lista de vehículos registrados con acceso rápido a cada uno.
+
+### Flujo 06 - Confianza y fidelización
+
+**Figura**
+
+*Wireframes Flujo de Confianza y Fidelización*
+
+![](https://i.imgur.com/brk5fs8.png)
+
+Nota. Conjunto de 3 wireframes del flujo de confianza y fidelización: (1) **Seguridad** - Preferencias, contactos de confianza y número de emergencias configurables; (2) **Recompensas** - Nivel actual, progreso de puntos, cómo ganar puntos y catálogo de premios canjeables con indicadores en naranja; (3) **Perfil + reseñas** - Datos del usuario, historial, badges de logros y feed de reseñas recibidas.
+
 
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
 
@@ -2861,25 +2951,58 @@ Nota. Diagrama integrado mostrando los 5 flujos principales: Onboarding → Bús
 
 #### 3.1.4.3. Mobile Applications Mock-ups
 
-Los mock-ups de alta fidelidad presentan la interfaz final.
+Los mock-ups de alta fidelidad presentan la interfaz final con la identidad visual de WheelsPe.
 
-**Figura XX** - *Mock-ups Pantallas Principales Flujo Alquiler*
+### Flujo 01 - Onboarding, KYC e Inicio
 
-[INSERTAR IMAGEN: mockups-pantallas-alquiler.png]
+**Figura**
 
-Nota. Conjunto de 4 pantallas en secuencia del flujo de alquiler de vehículos.
+*Mock-ups Flujo de Entrada: Bienvenida, KYC e Inicio*
 
-**Figura XX** - *Mock-ups Pantallas Principales Flujo Carpooling*
+![](https://i.imgur.com/5ZmbVWR.png)
 
-[INSERTAR IMAGEN: mockups-pantallas-carpooling.png]
+Nota. Conjunto de 3 pantallas: (1) **Bienvenida** - Logo WheelsPe, ilustración animada y botones "Crear cuenta" e "Ingresar"; (2) **KYC con DNI** - Paso 1 de 4 con encuadre guiado para escanear el frente del documento; (3) **Inicio** - Saludo personalizado, buscador de destino con ubicación actual, accesos rápidos a Alquilar auto, Buscar ruta, Contactos de confianza y Recompensas, y sección "Cerca de ti".
 
-Nota. Diseño visual del flujo de carpooling con búsqueda de rutas y coordinación.
+### Flujo 03 - Alquiler de vehículo
 
-**Figura XX** - *Mock-ups Perfil de Usuario y Reputación*
+**Figura**
 
-[INSERTAR IMAGEN: mockups-perfil-usuario.png]
+*Mock-ups Flujo de Alquiler: Catálogo, Detalle y Pago*
 
-Nota. Pantallas de perfil del usuario mostrando foto, badge de verificación KYC, calificación promedio y sección de preferencias de seguridad.
+![](https://i.imgur.com/Uy0eGii.png)
+
+Nota. Conjunto de 3 pantallas: (1) **Catálogo** - Buscador con fechas, filtros por tipo (todos, compactos, sedán, SUV) y listado con precio por día, rating, kilometraje y tipo de propietario; (2) **Detalle del auto** - Ficha del Hyundai i10 con specs, foto, propietaria verificada (Rosa M., 4.9★), descripción, garantía retenida en escrow y CTA "Reservar"; (3) **Pago seguro** - Resumen con desglose (alquiler + servicio WheelsPe 5% + garantía escrow) y métodos de pago Yape, Plin y Visa Crédito.
+
+### Flujo 04 - Carpooling
+
+**Figura**
+
+*Mock-ups Flujo de Carpooling: Búsqueda, Publicación, Viaje y Chat*
+
+![](https://i.imgur.com/bU8YAzt.png)
+
+Nota. Conjunto de 4 pantallas: (1) **Buscar ruta** - Filtros de hora, asientos y género, listado de rutas disponibles con conductor verificado, precio por asiento y horario; (2) **Publicar ruta** - Formulario con origen/destino, fecha (vie 9 may), hora (07:15), recurrencia L-V, asientos y precio sugerido S/6.00, con botón "Publicar ruta"; (3) **Viaje en curso** - Mapa oscuro con ruta activa, ETA "En camino · 12 min", datos del conductor Diego A. (Toyota Yaris, PIN 6729), punto de recogida y acciones Compartir viaje, Contactos de confianza y Cancelar; (4) **Chat conductor** - Conversación en tiempo real con confirmación de punto de encuentro y PIN del viaje.
+
+### Flujo 05 - Vista del propietario
+
+**Figura**
+
+*Mock-ups Vista del Propietario - Mis Autos*
+
+![](https://i.imgur.com/XvPPmvb.png)
+
+Nota. Pantalla **Mis autos** con resumen de ganancias del mes (S/1,840.50), métricas de reservas (12), ocupación (68%) y rating (4.9★), calendario de disponibilidad de mayo con días reservados marcados, y listado de flota con el Hyundai i10 activo en alquiler.
+
+### Flujo 06 - Confianza y comunidad
+
+**Figura**
+
+*Mock-ups Flujo de Confianza y Comunidad: Seguridad, Perfil y Recompensas*
+
+![](https://i.imgur.com/5NlLsMg.png)
+
+Nota. Conjunto de 3 pantallas: (1) **Seguridad** - Preferencias con toggles (Solo Mujeres, Compartir viaje en vivo, Solo verificados) y contactos de confianza (Mamá, Sofía R., Universidad UPC); (2) **Perfil + reseñas** -   Avatar, nombre verificado, rating 4.9★, 47 viajes, 38 kg CO₂ ahorrado, badges KYC/UPC/Plata y feed de reseñas; (3) **Recompensas** - Nivel Plata (450 pts), tabla de cómo ganar puntos por viaje/alquiler/reseña/referido, y catálogo de premios (S/5 off carpooling, 20% off fin de semana).
+
 
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
 
@@ -2901,11 +3024,13 @@ Nota. Flujo desde la perspectiva del conductor: crear ruta → configurar dispon
 
 Los prototipos interactivos permiten validación temprana de flujos.
 
-**Figura XX** - *Prototipo Interactivo Accesible en Figma*
+**Figura**
 
-[INSERTAR IMAGEN: qr-figma-prototype.png]
+*Prototipo Interactivo Accesible en Figma Make*
 
-Nota. Código QR que enlaza al prototipo interactivo alojado en Figma. El prototipo incluye 120+ pantallas conectadas con micro-interacciones. Enlace: [https://figma.com/proto/...](prototypes/figma-wheelspec)
+![](https://i.imgur.com/MbL7KrX.png)
+
+Nota. Elaboración propia. Disponible en: [https://chant-shout-48893704.figma.site](prototypes/figma-wheelspec)
 
 ---
 
