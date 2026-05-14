@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 # MOVEO-Report
 
@@ -1509,116 +1509,241 @@ Este proceso de needfinding permitió comprender en profundidad las motivaciones
 https://drive.google.com/drive/folders/1gfPSZzYH1iOk98j_BjI5e1GNAR5Lxt6Q?usp=sharing
 ### 2.3.1. User Persona
 
-Como parte del análisis del proceso de needfinding, se desarrollaron user persona representativas de los dos segmentos principales: Proveedores de Vehículos e Inquilinos/Usuarios de Movilidad. Estas personas sintetizan características clave obtenidas del análisis cualitativo de las entrevistas y el análisis cuantitativo de las encuestas, tales como comportamientos recurrentes, motivaciones, frustraciones y objetivos personales.
-Estas herramientas ayudan a traducir datos reales en perfiles accionables, orientando decisiones estratégicas sobre funcionalidades y priorización técnica. Las personas creadas reflejan las necesidades emergentes de seguridad y formalización, facilitando un diseño más empático y efectivo de WheelsPe.
+Como parte del análisis del proceso de needfinding, se desarrollaron user persona representativas de los tres segmentos principales: Proveedores de Vehículos, Inquilinos/Usuarios de Movilidad y Conductores Compartidos Emprendedores. Estas personas sintetizan características clave obtenidas del análisis cualitativo de las entrevistas y el análisis cuantitativo de las encuestas, tales como comportamientos recurrentes, motivaciones, frustraciones y objetivos personales.
+
+Estas herramientas ayudan a traducir datos reales en perfiles accionables, orientando decisiones estratégicas sobre funcionalidades y priorización técnica. Las personas creadas reflejan las necesidades emergentes de seguridad, formalización y optimización de recursos, facilitando un diseño más empático y efectivo de WheelsPe.
+
+---
 
 **Persona 1: Propietario Pragmático**
 
-- Nombre: Carlos Peña
-- Edad: 28 años
-- Ocupación: Gestor de flota independiente / Ex-analista bancario
-- Distrito: Magdalena, Lima
-- Perfil: Administra una micro-flota de 3 unidades (Toyota y Kia) como inversión principal. Es analítico, pragmático y orientado a resultados. Actualmente sufre con la desorganización de procesos manuales y la vulnerabilidad de las redes sociales.
-- Background: Tras ahorrar capital en el sector bancario, Carlos invirtió en vehículos para generar flujo de caja. Su operación actual es un caos de hojas de Excel desincronizadas y grupos de WhatsApp saturados. Busca profesionalizar su gestión para escalar el negocio sin el temor constante a estafas de identidad o daños mecánicos no reportados.
+- **Nombre**: Carlos Peña
+- **Edad**: 28 años
+- **Ocupación**: Gestor de flota independiente / Ex-analista bancario
+- **Distrito**: Magdalena, Lima
+- **Perfil**: Administra una micro-flota de 3 unidades (Toyota y Kia) como inversión principal. Es analítico, pragmático y orientado a resultados. Actualmente sufre con la desorganización de procesos manuales y la vulnerabilidad de las redes sociales.
+- **Background**: Tras ahorrar capital en el sector bancario, Carlos invirtió en vehículos para generar flujo de caja. Su operación actual es un caos de hojas de Excel desincronizadas y grupos de WhatsApp saturados. Busca profesionalizar su gestión para escalar el negocio sin el temor constante a estafas de identidad o daños mecánicos no reportados.
 
-Motivaciones:
+**Motivaciones:**
 - Construir un sistema de ingresos pasivos que no dependa de su supervisión física constante.
 - Proyectar una imagen tecnológica y corporativa que lo diferencie de los alquiladores informales.
 - Minimizar el riesgo de robo o fraude mediante filtros de identidad y biometría rigurosos.
 - Reducir las horas diarias perdidas en validación de documentos y cobranzas manuales.
 
-Frustraciones:
+**Frustraciones:**
 - El temor constante a ser víctima de fraude mediante el uso de vouchers de pago falsificados.
 - Recibir el vehículo con daños mecánicos o estéticos ocultos no admitidos por el cliente.
 - Descubrir meses después papeletas por exceso de velocidad que el conductor nunca notificó.
 - La falta de una herramienta móvil profesional que lo obliga a depender de su laptop para gestionar calendarios.
 
-Objetivos:
+**Objetivos:**
 - Lograr una tasa de ocupación mensual superior al 85% para cada unidad de su flota.
 - Implementar contratos digitales con validez legal que se generen automáticamente en cada reserva.
 - Contar con telemetría en tiempo real para monitorear el trato mecánico y la ubicación exacta de sus autos.
 - Gestionar una flota de más de 10 vehículos desde una sola interfaz móvil centralizada.
 
-- ![Carlos Peña.png](Assets/Carlos%20Pe%C3%B1a.png)
+![Carlos Peña.png](Assets/Carlos%20Peña.png)
 
+---
 
 **Persona 2: Usuaria Universitaria Vigilante**
-- Nombre: Esther Ospina
-- Edad: 20 años
-- Ocupación: Estudiante de Arquitectura (7mo ciclo)
-- Distrito: Santiago de Surco, Lima
-- Perfil: Usuaria recurrente de transporte compartido. Es metódica, precavida y valora la seguridad por encima del costo. Debido a su carrera, traslada objetos delicados (maquetas) y requiere un entorno de confianza.
-- Background: Esther viaja diariamente al campus cargando proyectos frágiles. El transporte público tradicional es hostil para sus maquetas, por lo que depende de "jalones" en WhatsApp. Vive en un estado de estrés constante debido a la desorganización de los chats, conductores poco serios y la falta de garantías sobre con quién viaja.
 
-Motivaciones:
+- **Nombre**: Esther Ospina
+- **Edad**: 20 años
+- **Ocupación**: Estudiante de Arquitectura (7mo ciclo)
+- **Distrito**: Santiago de Surco, Lima
+- **Perfil**: Usuaria recurrente de transporte compartido. Es metódica, precavida y valora la seguridad por encima del costo. Debido a su carrera, traslada objetos delicados (maquetas) y requiere un entorno de confianza.
+- **Background**: Esther viaja diariamente al campus cargando proyectos frágiles. El transporte público tradicional es hostil para sus maquetas, por lo que depende de "jalones" en WhatsApp. Vive en un estado de estrés constante debido a la desorganización de los chats, conductores poco serios y la falta de garantías sobre con quién viaja.
+
+**Motivaciones:**
 - Poder aprovechar el tiempo de trayecto para avanzar lecturas sabiendo que la ruta es monitoreada por GPS.
 - Sentirse parte de una comunidad exclusiva y validada (UPC) que fomente la confianza interpersonal.
 - Lograr un ahorro mensual significativo frente a los precios elevados de los taxis por aplicación.
 - Contar con la opción de filtrar viajes compartidos exclusivos para mujeres para mayor comodidad.
 
-Frustraciones:
+**Frustraciones:**
 - El agotamiento mental de tener que filtrar cientos de mensajes en grupos de WhatsApp para hallar una ruta.
 - La vulnerabilidad de subir al auto de un completo desconocido cuya identidad real no ha sido validada.
 - Llegar tarde a críticas de taller críticas porque un conductor compartido canceló sin previo aviso.
 - El temor constante a accidentes debido al manejo agresivo de conductores que no cuidan su reputación digital.
 
-- Objetivos:
+**Objetivos:**
 - Viajar en vehículos limpios y espaciosos donde sus maquetas de arquitectura no corran riesgo de rotura.
 - Asegurarse de que el conductor pertenezca a la comunidad universitaria verificada para reducir riesgos.
 - Contar con un sistema de reserva anticipada que elimine la incertidumbre de las cancelaciones de último minuto.
-- Dividir los gastos de traslado de forma justa mediante una tarifa fija y transparente sin regateos
+- Dividir los gastos de traslado de forma justa mediante una tarifa fija y transparente sin regateos.
 
 ![Esther Ospina.png](Assets/Esther%20Ospina.png)
-### 2.3.2. User Task Matrix
 
 
-La User Task Matrix nos permite priorizar las funcionalidades del sistema basándonos en la frecuencia e importancia de las tareas que realizan nuestros dos perfiles clave. Esto asegura que el desarrollo técnico se centre en lo que realmente genera valor para el usuario.
 
-| **Tarea**                                | **Frecuencia** (Carlos Peña) | **Importancia** (Carlos Peña) | **Frecuencia** (Esther Ospina) | **Importancia** (Esther Ospina) |
-|:-----------------------------------------|:----------------------------:|:-----------------------------:|:------------------------------:|:-------------------------------:|
-| Publicación y gestión de vehículos       |           Siempre            |             Alta              |             Nunca              |              Baja               |
-| Validación de identidad (KYC) del otro   |           Siempre            |             Alta              |            Siempre             |              Alta               |
-| Búsqueda y filtrado de rutas específicas |            Nunca             |             Baja              |            Siempre             |              Alta               |
-| Comunicación directa (Chat nativo)       |           Siempre            |             Alta              |            Siempre             |              Alta               |
-| Pago o cobro digital (Yape/Plin/Tarjeta) |           Siempre            |             Alta              |            Siempre             |              Alta               |
-| Monitoreo de ruta en tiempo real (GPS)   |           A menudo           |             Alta              |            A menudo            |              Alta               |
-| Revisión de reputación y reseñas         |           A menudo           |             Alta              |            A menudo            |              Alta               |
-| Reporte de daños o incidentes            |             Baja             |             Alta              |              Baja              |              Alta               |
+**Persona 3: Conductor Compartido Emprendedor**
 
-Tareas con mayor frecuencia e importancia
-Para Carlos Peña, las tareas críticas son la publicación de vehículos y la validación de identidad. Como gestor de flota, su prioridad es mantener sus unidades activas pero seguras. La comunicación y el cobro digital son procesos diarios que ejecutan su flujo de negocio.
-Para Esther Ospina, la búsqueda de rutas y el monitoreo GPS son las tareas de mayor relevancia. Su enfoque está en la logística (llegar a tiempo) y en la seguridad personal durante el trayecto, por lo que la validación del conductor es un paso innegociable.
-Diferencias principales
-Carlos nunca utiliza el panel de navegación de rutas, ya que su rol es de proveedor de oferta. Por el contrario, Esther no se involucra en la publicación de vehículos. Esta distinción marca el diseño de dos interfaces diferenciadas en la App: un Dashboard de Gestión para Carlos y un Buscador Inteligente para Esther.
-Coincidencias
-Ambos segmentos coinciden en la alta importancia de la validación de identidad y la seguridad en los pagos. Aunque la frecuencia de reporte de daños es baja, ambos consideran que tener esa funcionalidad es vital para la confianza en la plataforma.
+- **Nombre**: Javier Qui
+- **Edad**: 24 años
+- **Ocupación**: Estudiante de Ingeniería Industrial (9no ciclo) / Conductor compartido
+- **Distrito**: San Miguel, Lima
+- **Perfil**: Estudiante emprendedor que utiliza su vehículo personal (Hyundai Accent 2019) para generar ingresos extra ofreciendo transporte compartido a compañeros de universidad. Es sociable, responsable y busca optimizar sus rutas diarias para maximizar ganancias sin descuidar sus estudios.
+- **Background**: Javier heredó el auto de su padre y decidió rentabilizarlo transportando compañeros universitarios en sus mismas rutas. Actualmente opera de manera informal mediante grupos de Facebook y WhatsApp, lo que le genera incertidumbre sobre pagos, seguridad de pasajeros y falta de respaldo legal ante accidentes. Busca una plataforma que le permita profesionalizar su servicio sin comprometer su flexibilidad académica.
+
+**Motivaciones:**
+- Generar un ingreso mensual estable de S/800-1200 que cubra la cuota del seguro vehicular y gasolina.
+- Construir una reputación digital sólida basada en puntualidad, limpieza y trato cordial.
+- Optimizar rutas fijas (casa-universidad-trabajo) aprovechando asientos vacíos de manera eficiente.
+- Acceder a un sistema de cobro automatizado que elimine la incomodidad de pedir efectivo personalmente.
+
+**Frustraciones:**
+- La ansiedad de no saber si los pasajeros confirmarán su asistencia o cancelarán a último minuto.
+- Experimentar situaciones incómodas al cobrar en efectivo a conocidos de la universidad.
+- La falta de cobertura de seguro ante accidentes cuando transporta pasajeros de manera informal.
+- Perder oportunidades de viajes porque sus publicaciones en redes sociales se pierden entre spam.
+
+**Objetivos:**
+- Completar al menos 15 viajes compartidos semanales con una tasa de ocupación del 75%.
+- Obtener una calificación promedio superior a 4.5/5 estrellas que lo posicione como conductor confiable.
+- Automatizar la gestión de reservas, cobros y rutas desde una app móvil sin intervención manual.
+- Contar con un seguro integrado que cubra tanto al conductor como a los pasajeros durante el trayecto.
+
+![Javier Quispe.png](Assets/Javier.png)
+
+---
+## 2.3.2. User Task Matrix
+ 
+La User Task Matrix nos permite priorizar las funcionalidades del sistema basándonos en la frecuencia e importancia de las tareas que realizan nuestros tres perfiles clave: Propietario Pragmático, Usuaria Universitaria Vigilante y Conductor Compartido Emprendedor. Esto asegura que el desarrollo técnico se centre en lo que realmente genera valor para cada segmento de usuario.
+ 
+### Matriz Completa de Tareas por Segmento
+ 
+| **Tarea**                                      | **Frecuencia** (Carlos Peña) | **Importancia** (Carlos Peña) | **Frecuencia** (Esther Ospina) | **Importancia** (Esther Ospina) | **Frecuencia** (Javier Quispe) | **Importancia** (Javier Quispe) |
+|:-----------------------------------------------|:----------------------------:|:-----------------------------:|:------------------------------:|:-------------------------------:|:------------------------------:|:-------------------------------:|
+| Publicación y gestión de vehículos             |           Siempre            |             Alta              |             Nunca              |              Baja               |             Nunca              |              Baja               |
+| Publicación y gestión de rutas compartidas     |            Nunca             |             Baja              |             Nunca              |              Baja               |            Siempre             |              Alta               |
+| Validación de identidad (KYC) del contraparte  |           Siempre            |             Alta              |            Siempre             |              Alta               |            Siempre             |              Alta               |
+| Búsqueda y filtrado de vehículos disponibles   |            Nunca             |             Baja              |            A menudo            |             Media               |             Nunca              |              Baja               |
+| Búsqueda y filtrado de rutas compartidas       |            Nunca             |             Baja              |            Siempre             |              Alta               |             Nunca              |              Baja               |
+| Gestión de reservas y confirmaciones           |           Siempre            |             Alta              |            A menudo            |              Alta               |            Siempre             |              Alta               |
+| Comunicación directa (Chat nativo)             |           Siempre            |             Alta              |            Siempre             |              Alta               |            Siempre             |              Alta               |
+| Pago o cobro digital (Yape/Plin/Tarjeta)       |           Siempre            |             Alta              |            Siempre             |              Alta               |            Siempre             |              Alta               |
+| Monitoreo de ruta en tiempo real (GPS)         |           Siempre            |             Alta              |            A menudo            |              Alta               |            A menudo            |             Media               |
+| Generación de contratos digitales              |           Siempre            |             Alta              |            A menudo            |             Media               |             Nunca              |              Baja               |
+| Revisión de reputación y calificaciones        |           A menudo           |             Alta              |            Siempre             |              Alta               |            A menudo            |              Alta               |
+| Gestión de calendario de disponibilidad        |           Siempre            |             Alta              |             Nunca              |              Baja               |            Siempre             |              Alta               |
+| Reporte de daños o incidentes                  |             Baja             |             Alta              |              Baja              |              Alta               |              Baja              |              Alta               |
+| Inspección fotográfica pre/post servicio       |           Siempre            |             Alta              |             Baja               |             Media               |             Nunca              |              Baja               |
+| Consulta de historial de viajes/alquileres     |           A menudo           |            Media              |            A menudo            |             Media               |            A menudo            |             Media               |
+| Configuración de filtros de seguridad          |            A menudo          |             Alta              |            A menudo            |              Alta               |             Baja               |             Media               |
+ 
+---
+ 
+### Análisis por Segmento
+ 
+#### **Carlos Peña - Propietario Pragmático**
+ 
+**Tareas de mayor frecuencia e importancia:**
+- **Publicación y gestión de vehículos**: Actividad core de su modelo de negocio
+- **Validación de identidad (KYC)**: Protección contra fraude, su mayor temor
+- **Monitoreo GPS en tiempo real**: Control sobre el estado y ubicación de sus activos
+- **Generación de contratos digitales**: Respaldo legal y profesionalización
+- **Gestión de reservas**: Optimización de tasa de ocupación (meta: >85%)
+- **Inspección fotográfica**: Evidencia de daños mecánicos/estéticos
+**Tareas que nunca realiza:**
+- Búsqueda de vehículos o rutas (es proveedor, no consumidor)
+- Publicación de rutas compartidas (modelo de negocio diferente)
+---
+ 
+#### **Esther Ospina - Usuaria Universitaria Vigilante**
+ 
+**Tareas de mayor frecuencia e importancia:**
+- **Búsqueda y filtrado de rutas compartidas**: Necesidad diaria para traslado campus
+- **Validación de identidad del conductor**: Seguridad personal prioritaria
+- **Revisión de reputación**: Filtro de conductores confiables antes de reservar
+- **Comunicación directa**: Coordinación de puntos de recogida y horarios
+- **Configuración de filtros de seguridad**: Viajes exclusivos para mujeres
+**Tareas que nunca realiza:**
+- Publicación de vehículos o rutas (es consumidora pura)
+- Gestión de calendario de disponibilidad (no ofrece servicios)
+- Inspección fotográfica (responsabilidad del propietario)
+---
+ 
+#### **Javier Quispe - Conductor Compartido Emprendedor**
+ 
+**Tareas de mayor frecuencia e importancia:**
+- **Publicación y gestión de rutas compartidas**: Generación de ingresos base (meta: 15 viajes/semana)
+- **Gestión de calendario de disponibilidad**: Sincronización con horarios académicos
+- **Gestión de reservas y confirmaciones**: Control de ocupación (meta: 75%)
+- **Validación de identidad de pasajeros**: Reducción de riesgos de seguridad
+- **Cobro digital automatizado**: Elimina incomodidad de cobrar en efectivo
+**Tareas que nunca realiza:**
+- Publicación de vehículos en alquiler (usa auto personal, no lo renta)
+- Búsqueda de rutas (él las ofrece, no las consume)
+- Inspección fotográfica formal (mantenimiento personal, no contractual)
+---
+ 
+### Coincidencias Críticas Entre Segmentos
+ 
+**Tres tareas universales de alta prioridad:**
+ 
+1. **Validación de identidad (KYC)**: Los tres segmentos la ejecutan siempre y la consideran crucial. Es el pilar de confianza de la plataforma.
+2. **Comunicación directa nativa**: Frecuencia y importancia alta para todos. Reemplaza el caos de WhatsApp con un canal trazable y profesional.
+3. **Pago/Cobro digital**: Transversal a todos los flujos de negocio. Automatización crítica para eliminar fricciones de efectivo.
+4. **Reporte de daños/incidentes**: Baja frecuencia pero alta importancia. Aunque rara, esta funcionalidad es el respaldo esencial ante eventos críticos.
+---
+ 
+### Diferencias Arquitectónicas Clave
+ 
+La matriz revela la necesidad de **tres interfaces especializadas**:
+ 
+1. **Dashboard de Gestión de Flota** (Carlos): Centrado en publicación de activos, telemetría GPS, contratos y evidencia fotográfica.
+2. **Buscador Inteligente de Movilidad** (Esther): Optimizado para filtrado de rutas, validación de conductores, reseñas y seguridad personal.
+3. **Panel de Conductor Emprendedor** (Javier): Enfocado en gestión de rutas recurrentes, calendario académico, confirmaciones automáticas y reputación digital.
+Esta segmentación garantiza que cada usuario acceda solo a las funcionalidades relevantes para su rol, reduciendo complejidad cognitiva y mejorando la experiencia de uso.
+ 
 
 ### 2.3.3. User Journey Mapping
 Con el objetivo de comprender en profundidad las necesidades y puntos de fricción, se desarrolló un User Journey Mapping en UXPressia. Este proceso visualiza de manera empática el recorrido "As-Is" (situación actual) que cada usuario realiza hoy en día, enfrentando la desorganización de los canales informales.
 
-Segmento Objetivo #1: Proveedores de Vehículos (Carlos Peña)
+**Segmento Objetivo #1: Proveedores de Vehículos (Carlos Peña)**
+
 Se evidencia un flujo de trabajo manual y frustrante. Carlos debe lidiar con la incertidumbre de publicar en redes sociales y la falta de control sobre sus activos, lo que limita su crecimiento y le genera una carga administrativa agotadora.
 
 ![JM Carlos.png](Assets/JM%20Carlos.png)
 
-Segmento Objetivo #2: Usuarios de Movilidad (Esther Ospina)
-Esther se siente vulnerable y estresada. Su viaje actual depende de la suerte en grupos de WhatsApp saturados; la falta de validación institucional y la impuntualidad son sus mayores obstáculos para cumplir con sus metas académicas
+**Segmento Objetivo #2: Usuarios de Movilidad (Esther Ospina)**
+
+Esther se siente vulnerable y estresada. Su viaje actual depende de la suerte en grupos de WhatsApp saturados; la falta de validación institucional y la impuntualidad son sus mayores obstáculos para cumplir con sus metas académicas.
 
 ![JM Esther.png](Assets/JM%20Esther.png)
 
+**Segmento Objetivo #3: Conductores Compartidos Emprendedores (Javier Quispe)**
+
+Javier experimenta un ciclo agotador de coordinación manual y cobro incómodo. La falta de herramientas profesionales lo mantiene atrapado en la informalidad: cancelaciones de último minuto sin penalización, ausencia de validación de pasajeros y la fricción social de cobrar efectivo a compañeros de clase erosionan tanto su rentabilidad como su reputación digital. Su mayor frustración radica en no poder escalar profesionalmente un servicio que hoy depende completamente de su gestión manual y goodwill social.
+
+![JM Javier.png](Assets/CustomerJourneyMap3.png)
+
+
 ### 2.3.4. Empathy Mapping 
 Como parte del diseño centrado en el usuario, se elaboraron mapas de empatía para explorar las dimensiones emocionales y cognitivas de nuestros protagonistas.
-Objetivo del Empathy Mapping en WheelsPe:
-Explorar los miedos, deseos y frustraciones no explícitos. Esta herramienta es fundamental para detectar que, más allá de un transporte, los usuarios buscan paz mental. Carlos teme perder su inversión por un fraude, mientras que Esther teme por su integridad física. WheelsPe nace para resolver no solo el traslado, sino la ansiedad que genera la informalidad actual.
-Segmento #1: Propietarios de vehículos (Carlos Peña)
+
+**Objetivo del Empathy Mapping en WheelsPe:**
+
+Explorar los miedos, deseos y frustraciones no explícitos. Esta herramienta es fundamental para detectar que, más allá de un transporte, los usuarios buscan paz mental. Carlos teme perder su inversión por un fraude, mientras que Esther teme por su integridad física. Javier, por su parte, teme que un accidente sin cobertura destruya simultáneamente sus finanzas y su futuro académico. WheelsPe nace para resolver no solo el traslado, sino la ansiedad que genera la informalidad actual.
+
+**Segmento #1: Propietarios de vehículos (Carlos Peña)**
+
 Su mapa de empatía revela a un hombre que "oye" historias de estafas en las noticias y "siente" la necesidad de profesionalizarse. Su mayor ganancia es el control total, y su mayor dolor es la opacidad del mercado informal.
 
 ![EM Carlos.png](Assets/EM%20Carlos.png)
 
-Segmento Objetivo #2: Usuarios de Movilidad (Esther Ospina)
+**Segmento Objetivo #2: Usuarios de Movilidad (Esther Ospina)**
+
 Su mapa muestra a una joven que "ve" el caos de Lima y "piensa" constantemente en su seguridad. Su motivación principal es la confianza institucional, buscando un entorno donde el conductor sea un par y no un extraño.
 
 ![EM Esther.png](Assets/EM%20Esther.png)
+
+**Segmento Objetivo #3: Conductores Compartidos Emprendedores (Javier Quispe)**
+
+Su mapa de empatía expone a un emprendedor joven que "escucha" consejos sobre formalización pero "hace" todo manualmente por falta de herramientas. "Piensa" constantemente en optimizar sus ingresos sin descuidar sus estudios, mientras "siente" la incomodidad social de cobrar efectivo a compañeros de clase. Su mayor ganancia sería la automatización completa del cobro y las reservas; su mayor dolor es la vulnerabilidad legal al operar sin seguro comercial adecuado y la invisibilidad de sus publicaciones en redes saturadas.
+
+![EM Javier.png](Assets/EmpathySegmento3.png)
 
 Enlace para ver los diagramas completos en el Drive: https://drive.google.com/drive/folders/1gfPSZzYH1iOk98j_BjI5e1GNAR5Lxt6Q?usp=sharing
 
@@ -1646,7 +1771,6 @@ Los eventos identificados fueron: Vehículo publicado → Disponibilidad configu
 
 Flujo 3: Reserva de vehículos
 El tercer flujo fue el más discutido por el equipo. Un Arrendatario solicita una reserva sobre un vehículo disponible. El sistema ejecuta automáticamente una verificación de disponibilidad (proceso en lila) y, si es exitosa, confirma la reserva y registra la entrega del vehículo
-![Flujo 3.png](Assets/Flujo%203.png)
 Los eventos identificados fueron: Reserva solicitada → (Verificación de disponibilidad) → Reserva confirmada → Vehículo entregado.
 Un hot spot importante quedó marcado: ¿qué ocurre si se intenta cancelar una reserva que ya está activa? Esta pregunta quedó pendiente de resolución para una iteración posterior.
 
