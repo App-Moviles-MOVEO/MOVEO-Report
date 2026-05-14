@@ -4188,71 +4188,261 @@ Contribuciones por desarrollador
 
 ### 4.3.1. Diseño de Entrevistas
 
-Las entrevistas de validación se diseñaron para obtener feedback cualitativo sobre la experiencia de uso del producto en etapa de MVP.
+Las entrevistas de validación se diseñaron para obtener feedback cualitativo sobre la experiencia de uso del producto WheelsPe en etapa de MVP.
 
 **Protocolo de Entrevista:**
-- **Duración:** 45 minutos
-- **Formato:** Sesión individual en vivo con compartición de pantalla
-- **Participantes:** 9 usuarios (3 por segmento)
+
+- **Duración:** ~6 minutos
+- **Formato:** Sesión individual en vivo con demostración del producto
+- **Participantes:** 1 usuario (segmento Pasajero/Conductor)
 
 **Guión de Preguntas:**
 
-**Parte 1: Contexto (5 min)**
-1. ¿Cuéntame brevemente cómo es tu situación actual de transporte?
-2. ¿Qué problemas enfrentas más frecuentemente?
+**Parte 1: Presentación del producto**
 
-**Parte 2: Primera Impresión (5 min)**
-3. Aquí ves la Landing Page de WheelsPe. Sin antes haber leído nada, ¿qué crees que hace?
-4. ¿Qué elemento te llama más la atención?
+1. ¿Cuál es su nombre completo?
+2. Le presentamos WheelsPe: la página de bienvenida, el flujo de registro y el escáner de DNI, ¿qué le parece?
 
-**Parte 3: Flujo de Registro (10 min)**
-5. Intenta registrarte. Verbaliza lo que piensas mientras lo haces.
-6. ¿Cómo te sientes con el proceso de verificación de identidad?
+**Parte 2: Exploración de funcionalidades**
 
-**Parte 4: Navegación Funcional (15 min)**
-7. Busca un vehículo disponible. ¿Fue fácil encontrarlo?
-8. Intenta publicar una ruta de carpooling. Describe lo que viste.
+3. ¿Entiende para qué sirve cada sección: alquiler, catálogo, calificaciones y carpooling?
+4. ¿El flujo de selección de vehículo y pago le parece claro?
 
-**Parte 5: Disposición Adoptiva (10 min)**
-9. En una escala de 1 a 10, ¿cuánto usarías esta plataforma?
-10. ¿Qué cambiarías para que fuera más útil?
+**Parte 3: Carpooling**
+
+5. Al ver la funcionalidad de publicar rutas y compartir viaje, ¿lo usaría?
+6. ¿Tiene alguna duda sobre la legalidad o seguridad del modelo?
+
+**Parte 4: Disposición adoptiva**
+
+7. ¿Le agregaría alguna funcionalidad adicional?
+8. En una escala del 1 al 10, ¿cuánto usarías esta plataforma en tu día a día?
 
 ### 4.3.2. Registro de Entrevistas
 
-**Tabla XX** - *Resumen de Participantes Entrevistados*
+**Tabla**
 
-| ID | Segmento | Edad | Ocupación | Dispositivo | Facilidad (1-10) | Disposición (1-10) |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| E001 | Proveedor | 52 | Propietario Taxi | iPhone 12 | 7 | 8 |
-| E002 | Proveedor | 38 | Gestor Flota Empresa | Android | 8 | 9 |
-| E003 | Proveedor | 45 | Propietario Particular | iPhone 11 | 6 | 6 |
-| E004 | Conductor | 28 | Consultor IT | Android | 9 | 9 |
-| E005 | Conductor | 35 | Ejecutiva de Ventas | iPhone 13 | 8 | 8 |
-| E006 | Conductor | 32 | Emprendedor | Android | 7 | 7 |
-| E007 | Pasajero | 22 | Estudiante Universitaria | iPhone SE | 8 | 10 |
-| E008 | Pasajero | 20 | Estudiante + Practicante | Android | 9 | 9 |
-| E009 | Pasajero | 25 | Trabajadora Administrativa | iPhone 12 | 7 | 8 |
+Registro de Entrevistas de Validación
 
-### 4.3.3. Evaluaciones según heurísticas
+<table border="1" cellpadding="8" cellspacing="0">
+  <thead>
+    <tr>
+      <th width="5%">N°</th>
+      <th width="55%">Datos del Entrevistado</th>
+      <th width="40%">Captura</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>
+        <strong>Nombre:</strong> Daniel Pérez Rodríguez<br>
+        <strong>Duración de la entrevista:</strong> 5:48<br>
+        <strong>Enlace:</strong> https://drive.google.com/file/d/1An3rE_UiQEHhTI0mKGb10Hug2C2jv13E/view<br><br>
+        <strong>Resumen:</strong> Daniel Pérez Rodríguez participó en la sesión de validación donde se le presentó el MVP de WheelsPe. Durante la demostración, se le mostró el flujo completo: página de bienvenida, registro con escaneo de DNI, catálogo de vehículos disponibles con precio por día y modelo, detalle de vehículo, sistema de pago (Yape o tarjeta), y la funcionalidad de carpooling con publicación de rutas. Daniel mostró comprensión clara del producto, identificando el valor del carpooling como una alternativa económica similar a un colectivo pero digitalizada y verificada. Planteó una observación sobre la legalidad del modelo de carpooling, la cual fue aclarada por el equipo indicando que los vehículos deben contar con certificación. Valoró positivamente el sistema de recompensas por uso frecuente (descuentos del 10% o más). Su principal sugerencia fue implementar un sistema de score o puntuación bidireccional (tanto para el pasajero como para el conductor), ya que al tratarse de personas desconocidas que se recogen en paraderos, considera importante poder evaluar a ambas partes por seguridad. En la escala de disposición adoptiva, otorgó un puntaje de 6 sobre 10, justificando que la plataforma le sería útil principalmente para el ahorro en transporte, especialmente en situaciones donde necesita llegar a casa de forma más segura y no encuentra movilidad conveniente cerca.
+      </td>
+      <td>
+        <strong>Figura</strong><br>
+        Entrevista de Validación 1<br>
+        <img src="https://i.imgur.com/fz31gNo.png" width="100%"><br><br>
+        <em>Nota. Elaboración propia.</em>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-Se aplicó la evaluación heurística de Nielsen de 10 principios de usabilidad para identificar problemas de diseño.
+### 4.3.3. Evaluaciones según Heurísticas
 
-**Tabla XX** - *Evaluación Heurística de Nielsen*
+**UX Heuristics & Principles Evaluation**
+**Usability - Inclusive Design - Information Architecture**
 
-| # | Heurística | Severidad | Hallazgo | Recomendación |
-| :--- | :--- | :--- | :--- | :--- |
-| 1 | Visibilidad de estado | Baja | El estado de verificación KYC no se actualiza en tiempo real en algunos casos | Implementar WebSocket para notificaciones push |
-| 2 | Compatibilidad sistema-mundo | Media | Terminología inconsistente entre "asiento compartido" y "cupo" | Estandarizar a "Cupo Disponible" |
-| 3 | Control y libertad | Baja | No hay opción de cancelar publicación después de presionar botón | Agregar modal de confirmación |
-| 4 | Estándares y consistencia | Media | Colores de botones inconsistentes entre iOS y Android | Normalizar paleta en ambas plataformas |
-| 5 | Prevención de errores | Alta | Usuario puede intentar reservar sin completar KYC | Implementar validación explícita pre-checkout |
-| 6 | Reconocimiento vs Recall | Baja | Filtros seleccionados no se muestran prominentemente | Mostrar "chips" de filtros activos |
-| 7 | Flexibilidad y eficiencia | Media | No hay búsqueda rápida de rutas favoritas | Implementar "Rutas Frecuentes" |
-| 8 | Diseño minimalista | Baja | Landing page tiene demasiados testimonios | Limitar a 4-5 testimonios |
-| 9 | Ayuda y documentación | Media | Falta FAQ específico para proceso KYC | Crear página de ayuda con videos |
-| 10 | Recuperación ante errores | Alta | Mensaje de error de pago no explica razón | Detallar motivo específico y sugerir acciones |
+**Carrera:** Ingeniería de Software
 
----
+**Curso:** Aplicaciones para Dispositivos Móviles
+
+**Sección:** 3687
+
+**Profesores:** David Gerardo Quevedo Velasco
+
+**Auditor:** MOVEO Team
+
+**Clientes:** 
+- Sebastián Flores Quispe
+- Valentina Ramos Huanca
+- Diego Mendoza Paredes
+- Luciana Torres Vega
+- Andrés Castillo Romero
+
+**Site o App a evaluar:** WheelsPe (Mobile App)
+
+**Tareas a evaluar:** El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+- Navegación principal desde el inicio
+- Búsqueda y filtrado de vehículos por categoría
+- Visualización del mapa de ubicación
+- Flujo de alquiler de vehículo
+- Chat con conductor/arrendador
+- Visualización del perfil de usuario y reseñas
+- Sistema de badges y recompensas
+- Accesos rápidos desde el home
+
+**No están incluidas en esta versión de la evaluación las siguientes tareas:**
+
+- Proceso de pago completo
+- Sistema de notificaciones push (pendiente de integración)
+- Flujo completo de verificación KYC
+- Gestión avanzada de flota para propietarios
+- Optimización de rendimiento del mapa a gran escala
+
+**Tabla**
+
+Escala de Severidad para Evaluación Heurística
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Nivel</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja para resolverlo de cara al siguiente release.</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.</td>
+    </tr>
+  </tbody>
+</table>
+
+*Nota. Elaboración propia.*
+
+**Tabla**
+
+Resumen de Problemas Identificados - Evaluación Heurística
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Problema</th>
+      <th>Escala de severidad</th>
+      <th>Heurística/Principio violada(o)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Aparece una barra de scroll lateral derecha que no corresponde al diseño mobile nativo, generando ruido visual innecesario.</td>
+      <td>2</td>
+      <td>Diseño estético y minimalista</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Aparece una barra de scroll en la parte superior de la pantalla que no debería estar visible en una interfaz mobile, afectando la limpieza visual.</td>
+      <td>2</td>
+      <td>Diseño estético y minimalista</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>La barra de scroll lateral izquierda es visible y no corresponde al comportamiento esperado en apps móviles, donde el scroll debe ser transparente o nativo.</td>
+      <td>2</td>
+      <td>Consistencia y estándares</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Los badges del perfil de usuario (Verificado, Puntual, Top Arrendador) no se perciben claramente como insignias o logros; su diseño actual se asemeja más a etiquetas de texto que a medallas o reconocimientos.</td>
+      <td>2</td>
+      <td>Reconocimiento antes que recuerdo / Comunicación del sistema</td>
+    </tr>
+  </tbody>
+</table>
+
+*Nota. Elaboración propia.*
+
+### Descripción de Problemas
+
+**PROBLEMA #1**
+
+**Severidad:** 2
+
+**Heurística violada:** Diseño estético y minimalista
+
+**Problema:** En la pantalla de inicio (Home), se muestra una barra de scroll lateral derecha que no es propia del diseño mobile nativo. Su presencia genera ruido visual y rompe con la estética esperada en una aplicación móvil.
+
+**Figura**
+
+Barra de scroll lateral derecha visible en la pantalla de inicio
+
+![Barra lateral derecha](https://i.imgur.com/g9Uuf39.jpeg)
+
+*Nota. Elaboración propia.*
+
+**Recomendación:** Ocultar o eliminar la barra de scroll lateral para mantener una interfaz limpia y consistente con los estándares de diseño mobile.
+
+**PROBLEMA #2**
+
+**Severidad:** 2
+
+**Heurística violada:** Diseño estético y minimalista
+
+**Problema:** En la pantalla de catálogo de vehículos (Alquilar auto), aparece una barra de scroll en la parte superior de la pantalla que no debería ser visible, interrumpiendo la experiencia visual del usuario.
+
+**Figura**
+
+Barra de scroll superior visible en la pantalla de catálogo
+
+![Barra superior](https://i.imgur.com/WSxXlFe.jpeg)
+
+*Nota. Elaboración propia.*
+
+**Recomendación:** Aplicar `overflow: hidden` o el equivalente en el framework utilizado para suprimir scrollbars no deseadas en componentes horizontales.
+
+**PROBLEMA #3**
+
+**Severidad:** 2
+
+**Heurística violada:** Consistencia y estándares
+
+**Problema:** En la pantalla de chat, se observa una barra de scroll lateral inferior/izquierda visible que tampoco corresponde al comportamiento nativo esperado en aplicaciones móviles.
+
+**Figura**
+
+Barra de scroll lateral visible en la pantalla de chat
+
+![Barra lateral chat](https://i.imgur.com/s3NGG0t.jpeg)
+
+*Nota. Elaboración propia.*
+
+**Recomendación:** Revisar los contenedores con scroll horizontal en la sección de respuestas rápidas del chat y ocultar las scrollbars mediante estilos CSS o configuración del framework.
+
+**PROBLEMA #4**
+
+**Severidad:** 2
+
+**Heurística violada:** Reconocimiento antes que recuerdo / Comunicación del sistema
+
+**Problema:** Los badges del perfil de usuario (Verificado, Puntual, Top Arrendador) se presentan como simples etiquetas de texto con color de fondo, sin iconografía ni diseño que comunique claramente que se trata de logros o insignias ganadas. Esto reduce su impacto visual y su capacidad de transmitir confianza al resto de usuarios.
+
+**Figura**
+
+Badges del perfil sin diseño de medalla o insignia reconocible
+
+![Badges perfil](https://i.imgur.com/bkGIWNC.jpeg)
+
+*Nota. Elaboración propia.*
+
+**Recomendación:** Rediseñar los badges incorporando iconos representativos (escudo, estrella, trofeo) y una forma visual que comunique claramente que son logros o reconocimientos del sistema, diferenciándolos de simples etiquetas informativas.
 
 ## Concluciones y recomnendaciones
 
