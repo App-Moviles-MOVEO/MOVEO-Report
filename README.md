@@ -3321,8 +3321,6 @@ Comprende la construcción, diseño, codificación y mantenimiento de la landing
 
 ### 4.1.1. Software Development Environment Configuration
 
-### 4.1.1. Software Development Environment Configuration
-
 El entorno de desarrollo para esta etapa inicial se ha centrado en la construcción de la presencia web oficial de **WheelsPe**, asegurando un diseño responsivo, alto rendimiento y una arquitectura de componentes escalable.
 
 **Stack Tecnológico Implementado (Landing Page):**
