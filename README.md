@@ -3299,7 +3299,26 @@ Nota. Conjunto de 3 pantallas: (1) **Seguridad** - Preferencias con toggles (Sol
 
 
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
+Los diagramas de flujo de usuario documentan la secuencia lógica de acciones, decisiones e interacciones que realiza cada actor en los seis flujos críticos de WheelsPe. Para cada flujo se modelaron tanto el happy path como los unhappy paths más relevantes.
 
+
+User Flow 01 — Onboarding y acceso: El usuario abre la app, completa el registro seleccionando su rol y pasa por el proceso KYC (captura de DNI + selfie). Una decisión de aprobación biométrica bifurca el flujo: si es aprobado, accede al home con el rol asignado; si falla, se habilita un reintento con guías de mejora. Los usuarios con cuenta previa son detectados por el sistema y redirigidos directamente al login.
+
+
+User Flow 03 — Alquiler de vehículo: Desde el home, el usuario busca autos aplicando filtros, navega el catálogo, revisa el detalle de cada unidad y confirma la reserva. El proceso de pago incluye una decisión crítica: si la pasarela procesa correctamente, se activa el escrow y se confirma la reserva; si falla, el usuario puede cambiar de método de pago sin perder la selección. Una rama alternativa gestiona la falta de disponibilidad en las fechas elegidas.
+
+
+User Flow 04a — Buscar carpool: El pasajero ingresa origen y destino para obtener una lista de conductores disponibles. Si no hay resultados, puede crear una alerta de notificación. Si hay coincidencias, revisa perfiles, solicita un asiento y espera la aceptación del conductor. Una rama de seguridad adicional modela la activación del botón SOS durante el trayecto.
+
+
+User Flow 04b — Publicar ruta: El conductor completa el formulario de nueva ruta; los datos pasan por una validación antes de publicarse. Una vez publicada, el matching activa notificaciones a pasajeros compatibles. El conductor puede aceptar o rechazar solicitudes. Si nadie se une, puede cancelar sin penalización.
+
+
+
+User Flow 05 — Vista del propietario: El propietario accede a su dashboard, revisa el calendario de flota y gestiona las solicitudes entrantes. Al aceptar, se activa el escrow y se registra el checklist fotográfico de entrega. Al finalizar el alquiler, el sistema diferencia si hubo daños (retención de fianza) o devolución limpia (liquidación inmediata).
+
+
+User Flow 06 — Confianza y fidelización: El usuario accede a su perfil y tiene dos ramificaciones principales: configurar seguridad (añadir contactos de confianza con validación de formato telefónico y activar toggles de privacidad) y gestionar recompensas (canjear puntos si el saldo es suficiente, o recibir una sugerencia de continuar acumulando). Una rama adicional gestiona la recepción de reseñas negativas, permitiendo responder o reportar.
 
 #### 3.1.4.5. Mobile Applications Prototyping
 
