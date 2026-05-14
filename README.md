@@ -3068,10 +3068,17 @@ Nota. Conjunto de 3 wireframes del flujo de confianza y fidelización: (1) **Seg
 Los diagramas de flujo de usuario documentan la secuencia lógica de acciones e interacciones.
 
 **Task Flow — Onboarding y Access**
+
 user flow:
+
 ![Onboarding.PNG](Assets/Onboarding.PNG)
+
+
 wireflow:
+
 ![onb-flow.PNG](Assets/onb-flow.PNG) 
+
+
 Happy path :
 Abre WheelsPe y observa el splash screen. Se muestra pantalla de bienvenida con propuesta de valor y dos opciones de acceso. Toca el botón "CREAR CUENTA". Navega al formulario de registro.Registro , Ingresa email, contraseña y selecciona rol "Conductor Arrendatario". Datos guardados. App inicia el flujo KYC obligatorio.Centra su DNI en el marco y toca "CAPTURAR". Foto del anverso registrada. Indicador de Paso 1 Voltea el DNI, alinea y toca "CAPTURAR". Foto del reverso registrada.Mira a cámara frontal con buena iluminación y toca "CAPTURAR". Selfie capturada. Espera en pantalla de carga (1–3 min). Sistema consulta RENIEC y ejecuta biometría. Confianza: 94%.(pantalla automática de confirmación). Cuenta activada. Rol "Arrendatario" asignado. Reputación inicializada.Explora la pantalla principal por primera vez. Acceso total: catálogo de autos, carpooling, perfil y recompensas disponibles.
 UnHappypath:
@@ -3093,9 +3100,16 @@ El sistema compara selfie vs foto del DNI con motor biométrico de IA. El sistem
 **Task Flow — Alquiler de Vehículo**
 
 user flow:
+
 ![alquiler.PNG](Assets/alquiler.PNG)
+
+
 wireflow:
+
 ![alquiler-flow.PNG](Assets/alquiler-flow.PNG)
+
+
+
 Happy path:
 Abre la app, ve el home con autos cercanos disponibles. Accede a búsqueda rápida desde la barra superior.Aplica filtros: SUV, Lima Centro, del 15-17 Mayo, hasta S/150/día. Lista filtrada con 8 autos disponibles: fotos, specs, precios visibles.Selecciona el Toyota RAV4 a S/120/día con dueño 4.9. Navega al detalle completo del vehículo seleccionado. Revisa galería (6 fotos), specs (5 asientos, A/C, GPS) y reseñas del propietario. Ve disponibilidad: auto libre del 14 al 20 de Mayo.Toca "RESERVAR" y confirma fechas: 15-17 Mayo (3 días). App calcula: S/360 + seguro S/30 = Total S/390.Selecciona Yape como método y aprueba el cobro. Pago de S/390 procesado. Escrow activado, fondos retenidos hasta devolución.(pantalla automática). Reserva #2847 confirmada. Propietario Carlos P. notificado.Ve la reserva activa en su dashboard. Recibe instrucciones de recogida y datos de contacto del propietario.
 
@@ -3114,10 +3128,17 @@ Punto de fallo: Post-confirmación, antes de la fecha de recogida
 El usuario propietario cancela la reserva #2847 antes de la fecha de recogida del 15 de Mayo. El sistema sistema libera automáticamente los fondos retenidos en el escrow. Notificación push inmediata: "Tu reserva #2847 fue cancelada por el propietario". Reembolso total de S/390 procesado en 24-48h al método de pago original. App ofrece autos similares disponibles para las mismas fechas automáticamente.
 
 **Task Flow — Buscar Carpool**
+
 user flow:
+
 ![buscar.PNG](Assets/buscar.PNG)
+
+
 wireflow:
+
 ![buscar-flow.PNG](Assets/buscar-flow.PNG)
+
+
 
 Happy path:
 Navega a la sección de Carpooling desde el home. Accede a la pantalla de búsqueda de carpool disponible.Ingresa: Origen "UPC Monterrico" → Destino "Miraflores", hoy 8:00am. Sistema ejecuta búsqueda de rutas publicadas coincidentes.Aplica filtro "Solo mujeres", revisa lista de resultados. 3 conductoras verificadas: Andrea 4.9 (S/6), María 4.7 (S/5), Lucía 4.8 (S/7).Toca a Andrea Pacheco y revisa: 42 viajes, 4.9, Toyota Corolla blanco. Ve ruta en mapa: pasa por Av. Javier Prado → Óvalo Miraflores, 12 min.Toca "UNIRME A ESTE CARPOOL" y confirma el pago de S/6.00. Solicitud enviada a Andrea. Escrow de S/6.00 activado. Esperando respuesta…(respuesta de Andrea en < 2 minutos). Andrea aceptó el viaje. Chat habilitado. Punto de recogida: "Entrada principal UPC".Escribe a Andrea: "Estaré en la entrada principal puntual". Andrea: "Perfecto, llego en 3 minutos. Toyota Corolla blanco placa ABC-123".Sube al auto a las 8:02am. Viaje inicia automáticamente en la app. Mapa GPS activo, ruta Miraflores visible, ETA: 12 min. Botón SOS disponible.Llega a Miraflores a las 8:14am. Andrea finaliza el viaje en la app. Cobro de S/6.00 procesado. Pantalla de calificación aparece automáticamente.Califica a Andrea con 5★ y escribe: "Puntual, amable y manejo seguro ". Reputación de Andrea actualizada. Pasajera gana +15 puntos de fidelización.
@@ -3138,10 +3159,17 @@ El usuario pasajera busca conductores disponibles para su ruta. El sistema siste
 
 
 **Task Flow — Publicar Ruta (Carpooling)**
+
 user flow:
+
 ![publicar.PNG](Assets/publicar.PNG)
+
+
 wireflow:
+
 ![publicar-flow.PNG](Assets/publicar-flow.PNG)
+
+
 
 Happy path: 	
 Va a la sección Carpooling y toca "PUBLICAR RUTA". Se abre el formulario de nueva ruta paso a paso. Configura ruta: "UPC Monterrico → Miraflores", días Lunes-Viernes a las 7:30am. Origen y destino validados en el mapa con ruta calculada automáticamente.Define: 2 asientos disponibles, S/6.00 por asiento, sin recurrencia (solo hoy). Preview de la ruta completo: origen, destino, precio, asientos, hora de salida.Toca "PUBLICAR RUTA". Ruta publicada exitosamente. Algoritmo de matching activo. 3 pasajeros potenciales notificados.(push en < 5 minutos). Esther Ospina solicita unirse: UPC → Miraflores, 1 asiento, Rating 4.8★, 12 viajes.Revisa perfil de Esther: verificada UPC, 4.8★ en 12 viajes, sin incidencias. Perfil confiable. Conductor decide aceptar la solicitud.Toca "ACEPTAR" la solicitud de Esther. Esther recibe confirmación. Chat habilitado entre ambos.Escribe: "Hola Esther, te recojo en la entrada de la facultad". Esther: "Perfecto, ahí estaré puntual".Recoge a Esther a las 7:31am e inicia el viaje en la app. GPS activo, ruta a Miraflores calculada, ETA: 15 min. Esther puede ver el mapa en tiempo real.Deja a Esther en Miraflores y finaliza el viaje en la app. S/6.00 acreditado automáticamente. Esther calificada con 5★. +20 puntos de fidelización.
@@ -3159,10 +3187,17 @@ El usuario conductor tiene emergencia y cancela la ruta desde "Mis viajes public
 
 
 **Task Flow — Vista del Propietario**
+
 user flow:
+
 ![propietario.PNG](Assets/propietario.PNG)
+
+
 wireflow:
+
 ![propietario-flow.PNG](Assets/propietario-flow.PNG)
+
+
 Happy path:
 Abre la app y accede al dashboard de propietario. Ve resumen: S/1,840.50 ganados este mes, 3 vehículos activos, 11 reservas completadas.Revisa el calendario de reservas del Toyota RAV4. RAV4 disponible del 15-17 Mayo. Hyundai I35 reservado todo el mes.(push entrante). Nueva solicitud: Álvaro Salazar → RAV4, 15-17 Mayo, S/390 total.Revisa perfil de Álvaro: 8 alquileres previos, 4.7, KYC verificado, sin incidencias. Confianza alta, historial limpio y verificado. Propietario decide aceptar.Toca "ACEPTAR RESERVA". Reserva #2847 confirmada. Escrow de S/390 activado. Álvaro notificado.Fotografía el auto, registra kilometraje inicial: 45,230 km. Estado de entrega documentado en la app. Álvaro recoge el auto.Monitorea que el RAV4 figura como "En uso" en su dashboard. Estado activo visible. Alquiler en curso según lo acordado.Recibe el RAV4 el 17 de Mayo. Sin daños, kilometraje 45,680 km (450 km recorridos). Devolución registrada. S/358.02 liquidados (S/390 - 8.2% comisión de plataforma).
 
@@ -3180,10 +3215,17 @@ El usuario propietario recibe notificación de papeleta durante el período acti
 
 
 **Task Flow — Confianza y Fidelización**
+
 user flow:
+
 ![confianza.PNG](Assets/confianza.PNG)
+
+
 wireflow:
+
 ![confianza-flow.PNG](Assets/confianza-flow.PNG) 
+
+
 Happy path:
 Toca el ícono de perfil en el bottom navigation. Accede a su dashboard personal con resumen de cuenta y métricas.Abre la sección "Seguridad" desde su perfil. Ve sus configuraciones: 0 contactos de confianza, todos los toggles desactivados.Agrega a su mamá como contacto de confianza: +51 987654321. Contacto guardado exitosamente. Recibirá alertas SOS si se activan durante viajes.Activa el toggle "Compartir ubicación en tiempo real durante viajes". Toggle verde activado. Contactos de confianza verán su ubicación GPS durante cada viaje.Navega a la sección de Recompensas desde el menú de perfil. Ve: Nivel Plata , 850/1000 puntos acumulados, 8 premios canjeables.Selecciona "Descuento 20% en próximo alquiler" (requiere 500 pts). Recompensa canjeada con 500 puntos. Cupón generado automáticamente y guardado en cuenta.Navega a su perfil público con todas las reseñas. Ve: 4.9 promedio, 47 viajes, 3 badges activos: Verificada, Pasajera Puntual , Mujer Segura.Lee las reseñas que conductores dejaron sobre ella. 6 reseñas positivas de Andrea, Miguel y otros sobre su puntualidad y excelente actitud.
 
