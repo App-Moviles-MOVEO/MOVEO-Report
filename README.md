@@ -3508,8 +3508,13 @@ Completar la autenticación del usuario con proceso KYC, implementar el catálog
 - US22: Consultar catálogo de vehículos disponibles (5 SP)
 - US13: Publicar ruta de movilidad compartida (8 SP)
 - US14: Buscar rutas con segmentación institucional (5 SP)
+- US39: Visualizar propuesta de valor en landing page (5 SP)
+- US42: Explorar beneficios para propietarios (5 SP)
+- US43: Conocer ventajas del carpooling (5 SP)
+- US44: Acceder a centro de ayuda y FAQ (3 SP)
 
-**Total Sprint:** 28 SP
+**Total Sprint: 44 SP**
+
 
 #### 4.2.1.2. Sprint Backlog
 
@@ -3525,6 +3530,13 @@ Completar la autenticación del usuario con proceso KYC, implementar el catálog
 | Crear formulario publicación ruta | US13 | Andreow Santiago Peña | 4 SP | Completado |
 | Implementar matching de rutas | US13 | Alexis Encalada | 4 SP | Completado |
 | Filtrado por comunidad institucional | US14 | Alvaro Salazar | 3 SP | Completado |
+| Diseñar estructura y layout de Landing Page | US39 | Esther Goñe | 2 SP | Completado |
+| Implementar sección "Cómo funciona" | US39 | Alison Arrieta | 2 SP | Completado |
+| Implementar sección de testimonios | US39 | Alison Arrieta | 1 SP | Completado |
+| Implementar sección de beneficios para propietarios | US42 | Alexis Encalada | 3 SP | Completado |
+| Implementar sección de ventajas del carpooling | US43 | Andreow Santiago Peña | 2 SP | Completado |
+| Implementar sección de centro de ayuda y FAQ | US44 | Esther Goñe | 2 SP | Completado |
+| Implementar sección de preguntas frecuentes (FAQ) | US44 | Alvaro Salazar | 1 SP | Completado |
 
 #### 4.2.1.3. Development Evidence for Sprint Review
 
@@ -4260,7 +4272,6 @@ Landing page en producción
 
 #### 4.2.1.8. Team Collaboration Insights during Sprint
 
-## 5.2.1.8. Team Collaboration Insights during Sprint
 
 Durante el Sprint 1, el equipo colaboró utilizando GitHub como plataforma principal de desarrollo y control de versiones para la landing page de WheelsPe.
 
@@ -4363,6 +4374,8 @@ Registro de Entrevistas de Validación
 ### 4.3.3. Evaluaciones según Heurísticas
 
 **UX Heuristics & Principles Evaluation**
+<br>
+
 **Usability - Inclusive Design - Information Architecture**
 
 **Carrera:** Ingeniería de Software
