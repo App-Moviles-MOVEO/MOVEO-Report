@@ -3567,11 +3567,557 @@ POST /api/v1/routes - Publicar ruta de carpooling
 POST /api/v1/routes/{id}/join - Solicitar asiento
 ```
 
-**Figura XX** - *Documentación OpenAPI/Swagger*
+#### **Figura** - *Documentación OpenAPI/Swagger - Login*
 
-[INSERTAR IMAGEN: swagger-api-docs-sprint1.png]
+![Documentación OpenAPI/Swagger - Login](Assets/AUTH-LOGIN.PNG)
 
-Nota. Panel interactivo de Swagger UI mostrando 18 endpoints documentados.
+> [cite_start]**Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/auth/login` del `auth-controller`.
+
+***Descripción del endpoint***
+Esta solicitud POST inicia una nueva sesión de usuario en la plataforma. Para lograr esto, utiliza las credenciales enviadas en el cuerpo de la petición y, tras una validación exitosa, devuelve un JSON Web Token (JWT) que permite el acceso autorizado a las funcionalidades del sistema.
+
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Registro*
+
+![Documentación OpenAPI/Swagger - Registro](Assets/AUTH-REGISTER.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/auth/register` del `auth-controller`.
+
+***Descripción del endpoint***
+Esta solicitud POST permite registrar una nueva cuenta de usuario en el sistema. Para lograr esto, procesa los datos del perfil enviados en el cuerpo de la petición y, tras una validación exitosa, crea el nuevo registro devolviendo un JSON Web Token (JWT) junto con la información del usuario creado para iniciar su sesión automáticamente.
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Create User*
+
+![Documentación OpenAPI/Swagger - Create User](Assets/AUTH-POST-USERS.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/users` del `users-controller`.
+
+***Descripción del endpoint***
+Esta solicitud POST permite la creación de un nuevo perfil de usuario en el sistema. Al enviar los datos requeridos en el cuerpo de la petición, el sistema procesa la información y registra al nuevo integrante, devolviendo los detalles del usuario creado junto con su identificador único para confirmar que el proceso se completó correctamente.
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Get User by ID*
+
+![Documentación OpenAPI/Swagger - Get User by ID](Assets/AUTH-USERS-ID.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/users/{id}` del `users-controller`.
+
+***Descripción del endpoint***
+Esta solicitud GET permite obtener la información detallada de un usuario específico mediante su identificador único proporcionado en la URL. Al procesar la petición, el sistema busca en la base de datos y devuelve un objeto JSON con los datos del perfil correspondiente, permitiendo la visualización de la información del usuario de manera individualizada.
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Get All Users*
+
+![Documentación OpenAPI/Swagger - Get All Users](Assets/AUTH-USERS.PNG)
+
+>**Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/users` del `users-controller`.
+
+***Descripción del endpoint***
+Esta solicitud GET permite recuperar una lista completa de todos los usuarios registrados en el sistema.  Al ejecutar esta petición, el servidor procesa la consulta y devuelve una colección de objetos JSON con la información de los perfiles existentes, facilitando la gestión y visualización global de los integrantes de la plataforma.
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Get All Users*
+
+![Documentación OpenAPI/Swagger - Get All Users](Assets/AUTH-USERS.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/users` del `users-controller`.
+
+***Descripción del endpoint***
+Esta solicitud GET permite recuperar una lista completa de todos los usuarios registrados en el sistema. Al ejecutar esta petición, el servidor procesa la consulta y devuelve una colección de objetos JSON con la información de los perfiles existentes, facilitando la gestión y visualización global de los integrantes de la plataforma.
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Get All Incidents*
+
+![Documentación OpenAPI/Swagger - Get All Incidents](Assets/INCIDENTES.PNG)
+
+>**Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/incidents` del `incidents-controller`.
+
+***Descripción del endpoint***
+Esta solicitud GET permite recuperar una lista completa de todos los incidentes registrados en el sistema. Al procesar la petición, el servidor devuelve una colección de objetos JSON que contienen los detalles de cada reporte, permitiendo la visualización y el seguimiento global de los sucesos gestionados por la plataforma.
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Get Incidents by User ID*
+
+![Documentación OpenAPI/Swagger - Get Incidents by User ID](Assets/INCIDENTES-USER.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/incidents/user/{userId}` del `incidents-controller`.
+
+***Descripción del endpoint***
+Esta solicitud GET permite obtener la relación de incidentes reportados por un usuario específico utilizando su identificador único. Al realizar la consulta, el sistema filtra los registros y devuelve una colección con los detalles de los incidentes asociados exclusivamente a dicho usuario, facilitando el seguimiento personal de los reportes realizados.
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Get Incidents by Status*
+
+![Documentación OpenAPI/Swagger - Get Incidents by Status](Assets/INCIDENTES-STATUS.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/incidents/status/{status}` del `incidents-controller`. 
+
+***Descripción del endpoint***
+Esta solicitud GET permite filtrar y recuperar todos los incidentes que se encuentren en un estado específico proporcionado en la URL. Al procesar la petición, el servidor devuelve una lista detallada de los reportes que coinciden con dicho criterio, permitiendo gestionar de manera eficiente el flujo de trabajo según el progreso de cada incidente.}
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Get Incidents by Start Location*
+
+![Documentación OpenAPI/Swagger - Get Incidents by Start Location](Assets/INCIDENTES-START.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/incidents/start-location/{startLocation}` del `incidents-controller`.
+
+***Descripción del endpoint***
+Esta solicitud GET permite recuperar una lista de incidentes filtrados por su ubicación de inicio. Al proporcionar una ubicación específica en la URL, el servidor procesa la consulta y devuelve una colección de objetos JSON con los detalles de los incidentes que coinciden con dicho parámetro geográfico, facilitando la identificación de reportes por zonas.
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Get Incidents by Result*
+
+![Documentación OpenAPI/Swagger - Get Incidents by Result](Assets/INCIDENTES-RESULT.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/incidents/result/{result}` del `incidents-controller`.
+
+***Descripción del endpoint***
+Esta solicitud GET permite filtrar y recuperar incidentes basados en un resultado o desenlace específico. Al proporcionar el criterio de resultado en la URL, el sistema busca y devuelve una colección de objetos JSON con la información de los incidentes que finalizaron bajo esa condición, permitiendo realizar análisis sobre el cierre de los reportes.
+
+***Descripción del endpoint***
+Esta solicitud POST permite la creación y registro de un nuevo incidente en la plataforma. Al enviar los detalles del suceso a través del cuerpo de la petición (siguiendo el esquema `CreateIncidentDto`), el sistema procesa la información y almacena el reporte, devolviendo los datos del incidente creado junto con su identificador único para confirmar el registro exitoso.
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Create Incident*
+
+![Documentación OpenAPI/Swagger - Create Incident](Assets/INCIDENTES-POST.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/incidents` del `incidents-controller`.
+
+***Descripción del endpoint***
+Esta solicitud POST permite la creación y registro de un nuevo incidente en la plataforma. Al enviar los detalles del suceso a través del cuerpo de la petición (siguiendo el esquema `CreateIncidentDto`), el sistema procesa la información y almacena el reporte, devolviendo los datos del incidente creado junto con su identificador único para confirmar el registro exitoso.
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Get Incident by ID*
+
+![Documentación OpenAPI/Swagger - Get Incident by ID](Assets/INCIDENTES-ID.PNG)
+
+> [cite_start]**Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/incidents/{id}` del `incidents-controller`. 
+
+***Descripción del endpoint***
+Esta solicitud GET permite obtener la información detallada de un incidente específico mediante su identificador único proporcionado en la ruta de la URL.  Al procesar la petición, el sistema recupera y devuelve un objeto JSON con todos los datos registrados del incidente, facilitando la consulta de información de manera individualizada y precisa.
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Assign Incident*
+
+![Documentación OpenAPI/Swagger - Assign Incident](Assets/INCIDENTES-ASSIGN.PNG)
+
+> [cite_start]**Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/incidents/{id}/assign` del `incidents-controller`. 
+
+***Descripción del endpoint***
+Esta solicitud POST permite asignar un incidente específico a un responsable o recurso para su atención. [cite: 601, 705] Al proporcionar el identificador del incidente en la URL y los detalles de la asignación en el cuerpo de la petición, el sistema actualiza el estado del reporte para dar inicio a las labores de resolución.
+
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Close Incident*
+
+![Documentación OpenAPI/Swagger - Close Incident](Assets/INCIDENTES-CLOSE.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/incidents/{id}/close` del `incidents-controller`. 
+
+***Descripción del endpoint***
+Esta solicitud POST se utiliza para registrar el cierre definitivo de un incidente previamente reportado. Al ejecutar esta operación, el sistema valida que se hayan cumplido los criterios necesarios para finalizar el reporte, actualizando su estado a cerrado y almacenando el resultado final del proceso de atención.
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Verify KYC*
+
+![Documentación OpenAPI/Swagger - Verify KYC](Assets/KYC-VERIFY.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/users/{id}/kyc/verify` del `kyc-controller`.
+
+***Descripción del endpoint***
+Esta solicitud POST permite validar y verificar formalmente los documentos de identidad (KYC) cargados por un usuario específico. Al ejecutar esta operación utilizando el identificador del usuario, el sistema procesa la verificación de seguridad, actualizando el estado de validación del perfil para permitir el acceso a funcionalidades que requieren identidad confirmada.
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Verify KYC*
+
+![Documentación OpenAPI/Swagger - Verify KYC](Assets/KYC-VERIFY.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/users/{id}/kyc/verify` del `kyc-controller`.
+
+***Descripción del endpoint***
+Esta solicitud POST permite realizar la verificación formal del proceso Know Your Customer (KYC) para un usuario específico. Al proporcionar el identificador del usuario en la URL, el sistema procesa la validación de los documentos previamente cargados y actualiza el estado de identidad del perfil, devolviendo un código 204 (No Content) tras una ejecución exitosa para confirmar que el usuario ha sido verificado correctamente.
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Reject KYC*
+
+![Documentación OpenAPI/Swagger - Reject KYC](Assets/KYC-REJECT.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/users/{id}/kyc/reject` del `kyc-controller`.
+
+***Descripción del endpoint***
+Esta solicitud POST permite rechazar formalmente el proceso de verificación Know Your Customer (KYC) de un usuario. Al enviar el identificador del usuario en la URL, el sistema invalida los documentos previamente cargados y actualiza el estado del perfil a rechazado, notificando la inconsistencia y devolviendo un código 204 (No Content) para confirmar que la acción administrativa se realizó correctamente.
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Post User Rating*
+
+![Documentación OpenAPI/Swagger - Post User Rating](Assets/KYC-RATINGS.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/users/{id}/ratings` del `users-controller`.
+
+***Descripción del endpoint***
+Esta solicitud POST permite registrar una calificación para un usuario específico utilizando su identificador único en la URL. Al enviar una puntuación numérica (score) en el cuerpo de la petición, el sistema procesa la valoración y actualiza el promedio de reputación del perfil, devolviendo un código 204 (No Content) para confirmar que la calificación ha sido almacenada correctamente.
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Get All Vehicles*
+
+![Documentación OpenAPI/Swagger - Get All Vehicles](Assets/VEHICULOS.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/vehicles` del `vehicles-controller`.
+
+***Descripción del endpoint***
+Esta solicitud GET permite recuperar una lista completa de todos los vehículos registrados en la plataforma. Al ejecutar la petición, el servidor devuelve una colección de objetos JSON que incluyen detalles como marca, modelo, placa y precio de alquiler por día, facilitando la visualización del catálogo de movilidad disponible para los usuarios.
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Create Vehicle*
+
+![Documentación OpenAPI/Swagger - Create Vehicle](Assets/VEHICULOS-POST.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/vehicles` del `vehicles-controller`.
+
+***Descripción del endpoint***
+Esta solicitud POST permite registrar un nuevo vehículo en el sistema para su uso en la plataforma. Al enviar la información técnica y de alquiler en el cuerpo de la petición (siguiendo el esquema de creación), el sistema procesa los datos y crea el registro, devolviendo un código 201 (Created) junto con el objeto completo del vehículo y su identificador único generado.
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Create Vehicle*
+
+![Documentación OpenAPI/Swagger - Create Vehicle](Assets/VEHICULOS-POST.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/vehicles` del `vehicles-controller`.
+
+***Descripción del endpoint***
+Esta solicitud POST permite registrar un nuevo vehículo en el sistema para su uso en la plataforma. Al enviar la información técnica y de alquiler en el cuerpo de la petición (siguiendo el esquema de creación), el sistema procesa los datos y crea el registro, devolviendo un código 201 (Created) junto con el objeto completo del vehículo y su identificador único generado.
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Create Vehicle*
+
+![Documentación OpenAPI/Swagger - Create Vehicle](Assets/VEHICULOS-POST.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/vehicles` del `vehicles-controller`.
+
+***Descripción del endpoint***
+Esta solicitud POST permite registrar un nuevo vehículo en el sistema para su uso en la plataforma. Al enviar la información técnica y de alquiler en el cuerpo de la petición (siguiendo el esquema de creación), el sistema procesa los datos y crea el registro, devolviendo un código 201 (Created) junto con el objeto completo del vehículo y su identificador único generado.
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Get Vehicle by ID*
+
+![Documentación OpenAPI/Swagger - Get Vehicle by ID](Assets/VEHICULOS-GETID.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/vehicles/{id}` del `vehicles-controller`.
+
+***Descripción del endpoint***
+Esta solicitud GET permite obtener la información detallada de un vehículo específico mediante su identificador único proporcionado en la ruta de la URL. Al procesar la petición, el sistema recupera de la base de datos un objeto JSON que contiene las especificaciones técnicas, el estado actual y los costos de alquiler del vehículo solicitado, permitiendo una consulta precisa de cada unidad.
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Get Vehicle by ID*
+
+![Documentación OpenAPI/Swagger - Get Vehicle by ID](Assets/VEHICULOS-GETID.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/vehicles/{id}` del `vehicles-controller`.
+
+***Descripción del endpoint***
+Esta solicitud GET permite obtener la información detallada de un vehículo específico mediante su identificador único proporcionado en la ruta de la URL. Al procesar la petición, el sistema recupera de la base de datos un objeto JSON que contiene las especificaciones técnicas, el estado actual y los costos de alquiler del vehículo solicitado, permitiendo una consulta precisa de cada unidad.
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Update Vehicle Status*
+
+![Documentación OpenAPI/Swagger - Update Vehicle Status](Assets/VEHICULO-STATUS.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/vehicles/{id}/status` del `vehicles-controller`.
+
+***Descripción del endpoint***
+Esta solicitud PATCH permite actualizar el estado operativo de un vehículo específico identificado por su ID. Al enviar el nuevo valor del estado en el cuerpo de la petición (por ejemplo, para marcarlo como disponible, en mantenimiento o rentado), el sistema modifica el registro correspondiente y devuelve un código 204 (No Content), confirmando que el cambio se ha procesado correctamente sin necesidad de devolver datos adicionales.
+
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Get Transaction by ID*
+
+![Documentación OpenAPI/Swagger - Get Transaction by ID](Assets/TRANSACTIONS.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/transactions/{id}` del `transactions-controller`.
+
+***Descripción del endpoint***
+Esta solicitud GET permite obtener la información detallada de una transacción financiera específica mediante su identificador único. El servidor devuelve un objeto JSON que desglosa los montos brutos y netos, comisiones, monedas involucradas y el estado actual del movimiento, permitiendo una auditoría precisa de cada operación de pago realizada en la plataforma.
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Refund Transaction*
+
+![Documentación OpenAPI/Swagger - Refund Transaction](Assets/TRANSACTION-REFUND.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/transactions/{id}/refund` del `transactions-controller`.
+
+***Descripción del endpoint***
+Esta solicitud PATCH permite procesar el reembolso de una transacción específica identificada por su ID. Al ejecutar esta operación, el sistema revierte el movimiento financiero correspondiente y actualiza el estado de la transacción para reflejar la devolución de los fondos, retornando un código 204 (No Content) para confirmar que la acción se ha completado satisfactoriamente.
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Create Transaction*
+
+![Documentación OpenAPI/Swagger - Create Transaction](Assets/TRANSACTION-POST.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/transactions` del `transactions-controller`.
+
+***Descripción del endpoint***
+Esta solicitud POST permite registrar una nueva transacción financiera en el sistema. Al enviar los detalles del pago en el cuerpo de la petición (incluyendo identificadores de pagador, beneficiario y montos), el sistema procesa el movimiento y genera un registro contable, devolviendo un código 201 (Created) junto con el objeto de la transacción que incluye el desglose de comisiones y el estado final del procesamiento.
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Get Transactions by Payer ID*
+
+![Documentación OpenAPI/Swagger - Get Transactions by Payer ID](Assets/TRANSACTION-PLAYER.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/transactions/payer/{payerId}` del `transactions-controller`.
+
+***Descripción del endpoint***
+Esta solicitud GET permite recuperar el historial de transacciones financieras realizadas por un pagador específico. Al proporcionar el identificador del pagador en la URL, el servidor filtra los registros y devuelve una colección de objetos JSON que contienen el detalle de los montos, estados y marcas de tiempo de cada operación, facilitando el seguimiento de gastos y movimientos del usuario.
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Get Transactions by Payee ID*
+
+![Documentación OpenAPI/Swagger - Get Transactions by Payee ID](Assets/TRANSACTION-PAYEE.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/transactions/payee/{payeeId}` del `transactions-controller`.
+
+***Descripción del endpoint***
+Esta solicitud GET permite recuperar la relación de transacciones financieras en las que un usuario específico figura como beneficiario (payee). Al realizar la consulta con el identificador del destinatario de los fondos, el sistema devuelve una colección de objetos JSON que detallan los ingresos, el estado de cada operación y las comisiones aplicadas, facilitando la conciliación de cobros recibidos.
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Complete Transaction*
+
+![Documentación OpenAPI/Swagger - Complete Transaction](Assets/TRANSACTION-PATCH.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/transactions/{id}/complete` del `transactions-controller`.
+
+***Descripción del endpoint***
+Esta solicitud PATCH permite marcar una transacción financiera específica como completada exitosamente. Al proporcionar el identificador de la transacción en la ruta de la URL, el sistema actualiza el estado del registro para confirmar la finalización del proceso de pago, devolviendo un código 204 (No Content) como señal de que la operación se realizó correctamente.
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Fail Transaction*
+
+![Documentación OpenAPI/Swagger - Fail Transaction](Assets/TRANSACTION-PATCH-FAIL.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/transactions/{id}/fail` del `transactions-controller`.
+
+***Descripción del endpoint***
+Esta solicitud PATCH permite registrar formalmente el fallo de una transacción financiera específica. Al proporcionar el identificador de la transacción en la URL, el sistema actualiza su estado para indicar que la operación no pudo ser procesada correctamente, devolviendo un código 204 (No Content) para confirmar que el cambio de estado se ha registrado en la plataforma.
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Create Transaction Invoice*
+
+![Documentación OpenAPI/Swagger - Create Transaction Invoice](Assets/TRANSACTION-INVOICE.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/transactions/{id}/invoice/{userId}` del `transactions-controller`.
+
+***Descripción del endpoint***
+Esta solicitud POST permite generar un comprobante de pago o factura vinculada a una transacción específica para un usuario determinado. Al proporcionar los identificadores de la transacción y del usuario en la URL, el sistema procesa la emisión del documento, asignándole un número de factura único y devolviendo un código 201 (Created) junto con los detalles de la factura generada.
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Get Invoices by User ID*
+
+![Documentación OpenAPI/Swagger - Get Invoices by User ID](Assets/TRANSACTION-INVOICE-ID.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/transactions/invoices/user/{userId}` del `transactions-controller`.
+
+***Descripción del endpoint***
+Esta solicitud GET permite recuperar una lista de todos los comprobantes de pago o facturas asociados a un usuario específico. Al proporcionar el identificador del usuario en la URL, el sistema consulta los registros históricos de facturación y devuelve una colección de objetos JSON con los detalles de cada factura emitida, facilitando el acceso a los documentos financieros y la gestión contable del usuario.
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Get All Routes*
+
+![Documentación OpenAPI/Swagger - Get All Routes](Assets/ROUTES.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/routes` del `shared-mobility-controller`.
+
+***Descripción del endpoint***
+Esta solicitud GET permite recuperar una lista global de todas las rutas de movilidad compartida registradas en la plataforma. La respuesta incluye objetos detallados con información de origen, destino, coordenadas geográficas, horarios de salida, asientos disponibles y la lista de pasajeros actualmente integrados en cada trayecto.
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Create Route*
+
+![Documentación OpenAPI/Swagger - Create Route](Assets/ROUTES-POST.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/routes` (POST) del `shared-mobility-controller`.
+
+***Descripción del endpoint***
+Esta solicitud POST permite a un conductor crear una nueva oferta de ruta o viaje compartido. Al enviar los datos de geolocalización, capacidad de asientos y precio por pasajero, el sistema genera el registro del trayecto y devuelve un código 201 (Created) con el esquema completo de la ruta, quedando inmediatamente disponible para que otros usuarios se unan.
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Add Passenger to Route*
+
+![Documentación OpenAPI/Swagger - Add Passenger to Route](Assets/ROUTES-PASSENGERS.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/routes/{id}/passengers` del `shared-mobility-controller`.
+
+***Descripción del endpoint***
+Esta solicitud POST permite vincular a un usuario como pasajero en una ruta específica identificada por su ID. Al enviar el `passengerId` en el cuerpo de la petición, el sistema valida la disponibilidad de asientos y confirma la reserva, actualizando la lista de integrantes del viaje y retornando un código 204 (No Content) tras el éxito de la operación.
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Remove Passenger from Route*
+
+![Documentación OpenAPI/Swagger - Remove Passenger from Route](Assets/ROUTES-PASSENGERS-DELETE.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/routes/{id}/passengers/{passengerId}` del `shared-mobility-controller`.
+
+***Descripción del endpoint***
+Esta solicitud DELETE permite eliminar a un pasajero específico de una ruta determinada. Al proporcionar tanto el ID de la ruta como el del pasajero en la URL, el sistema cancela la participación del usuario en el viaje y libera el asiento correspondiente, devolviendo un código 204 (No Content) para confirmar que la desvinculación se procesó correctamente.
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Get Route by ID*
+
+![Documentación OpenAPI/Swagger - Get Route by ID](Assets/ROUTES-GETID.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/routes/{id}` del `shared-mobility-controller`.
+
+***Descripción del endpoint***
+Esta solicitud GET permite obtener la información pormenorizada de una sola ruta de movilidad mediante su identificador único. Es ideal para visualizar el estado en tiempo real de un viaje específico, incluyendo el detalle de los pasajeros confirmados, las coordenadas exactas de los puntos de control y el estado actual de la ruta (disponible, en progreso o cancelada).
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Get Routes by Driver ID*
+
+![Documentación OpenAPI/Swagger - Get Routes by Driver ID](Assets/ROUTES-DRIVER.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/routes/driver/{driverId}` del `shared-mobility-controller`.
+
+***Descripción del endpoint***
+Esta solicitud GET filtra y recupera todas las rutas creadas por un conductor específico. Al utilizar el identificador del conductor en la URL, el sistema devuelve un historial de los viajes ofrecidos por dicho usuario, facilitando la gestión personal de sus itinerarios y el seguimiento de sus pasajeros actuales y pasados.
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Complete Route*
+
+![Documentación OpenAPI/Swagger - Complete Route](Assets/ROUTES-COMPLETE.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/routes/{id}/complete` del `shared-mobility-controller`.
+
+***Descripción del endpoint***
+Esta solicitud PATCH permite finalizar formalmente una ruta de viaje una vez que el trayecto ha concluido. Al ejecutar esta operación sobre el ID de la ruta, el sistema actualiza el estado a "completado", lo que puede gatillar procesos posteriores como la liberación de pagos o la habilitación de calificaciones entre los participantes, confirmando la acción con un código 204 (No Content).
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Cancel Route*
+
+![Documentación OpenAPI/Swagger - Cancel Route](Assets/ROUTES-CANCEL.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/routes/{id}/cancel` del `shared-mobility-controller`.
+
+***Descripción del endpoint***
+Esta solicitud PATCH permite la cancelación de una ruta programada o en curso. Al invocar este endpoint con el ID correspondiente, el sistema invalida el viaje, notifica a los pasajeros vinculados y actualiza el estado de la ruta a "cancelada", devolviendo un código 204 (No Content) para confirmar que el itinerario ha sido suspendido.
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Get All Routes*
+
+![Documentación OpenAPI/Swagger - Get All Routes](Assets/ROUTES.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/routes` del `shared-mobility-controller`.
+
+***Descripción del endpoint***
+Esta solicitud GET permite recuperar una lista global de todas las rutas de movilidad compartida registradas en la plataforma. La respuesta incluye objetos detallados con información de origen, destino, coordenadas geográficas, horarios de salida, asientos disponibles y la lista de pasajeros actualmente integrados en cada trayecto.
+
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Create Route*
+
+![Documentación OpenAPI/Swagger - Create Route](Assets/ROUTES-POST.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/routes` (POST) del `shared-mobility-controller`.
+
+***Descripción del endpoint***
+Esta solicitud POST permite a un conductor crear una nueva oferta de ruta o viaje compartido. Al enviar los datos de geolocalización, capacidad de asientos y precio por pasajero, el sistema genera el registro del trayecto y devuelve un código 201 (Created) con el esquema completo de la ruta, quedando inmediatamente disponible para que otros usuarios se unan.
+
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Add Passenger to Route*
+
+![Documentación OpenAPI/Swagger - Add Passenger to Route](Assets/ROUTES-PASSENGERS.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/routes/{id}/passengers` del `shared-mobility-controller`.
+
+***Descripción del endpoint***
+Esta solicitud POST permite vincular a un usuario como pasajero en una ruta específica identificada por su ID. Al enviar el `passengerId` en el cuerpo de la petición, el sistema valida la disponibilidad de asientos y confirma la reserva, actualizando la lista de integrantes del viaje y retornando un código 204 (No Content) tras el éxito de la operación.
+
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Remove Passenger from Route*
+
+![Documentación OpenAPI/Swagger - Remove Passenger from Route](Assets/ROUTES-PASSENGERS-DELETE.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/routes/{id}/passengers/{passengerId}` del `shared-mobility-controller`.
+
+***Descripción del endpoint***
+Esta solicitud DELETE permite eliminar a un pasajero específico de una ruta determinada. Al proporcionar tanto el ID de la ruta como el del pasajero en la URL, el sistema cancela la participación del usuario en el viaje y libera el asiento correspondiente, devolviendo un código 204 (No Content) para confirmar que la desvinculación se procesó correctamente.
+
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Get Route by ID*
+
+![Documentación OpenAPI/Swagger - Get Route by ID](Assets/ROUTES-GETID.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/routes/{id}` del `shared-mobility-controller`.
+
+***Descripción del endpoint***
+Esta solicitud GET permite obtener la información pormenorizada de una sola ruta de movilidad mediante su identificador único. Es ideal para visualizar el estado en tiempo real de un viaje específico, incluyendo el detalle de los pasajeros confirmados, las coordenadas exactas de los puntos de control y el estado actual de la ruta (disponible, en progreso o cancelada).
+
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Get Routes by Driver ID*
+
+![Documentación OpenAPI/Swagger - Get Routes by Driver ID](Assets/ROUTES-DRIVER.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/routes/driver/{driverId}` del `shared-mobility-controller`.
+
+***Descripción del endpoint***
+Esta solicitud GET filtra y recupera todas las rutas creadas por un conductor específico. Al utilizar el identificador del conductor en la URL, el sistema devuelve un historial de los viajes ofrecidos por dicho usuario, facilitando la gestión personal de sus itinerarios y el seguimiento de sus pasajeros actuales y pasados.
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Complete Route*
+
+![Documentación OpenAPI/Swagger - Complete Route](Assets/ROUTES-COMPLETE.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/routes/{id}/complete` del `shared-mobility-controller`.
+
+***Descripción del endpoint***
+Esta solicitud PATCH permite finalizar formalmente una ruta de viaje una vez que el trayecto ha concluido. Al ejecutar esta operación sobre el ID de la ruta, el sistema actualiza el estado a "completado", lo que puede gatillar procesos posteriores como la liberación de pagos o la habilitación de calificaciones entre los participantes, confirmando la acción con un código 204 (No Content).
+
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Cancel Route*
+
+![Documentación OpenAPI/Swagger - Cancel Route](Assets/ROUTES-CANCEL.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/routes/{id}/cancel` del `shared-mobility-controller`.
+
+***Descripción del endpoint***
+Esta solicitud PATCH permite la cancelación de una ruta programada o en curso. Al invocar este endpoint con el ID correspondiente, el sistema invalida el viaje, notifica a los pasajeros vinculados y actualiza el estado de la ruta a "cancelada", devolviendo un código 204 (No Content) para confirmar que el itinerario ha sido suspendido.
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Create Reservation*
+
+![Documentación OpenAPI/Swagger - Create Reservation](Assets/RESERVATIONS.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/reservations` del `rental-controller`.
+
+***Descripción del endpoint***
+Esta solicitud POST permite iniciar una nueva reserva de vehículo en la plataforma. Al enviar el `vehicleId`, el `renterId` y el rango de fechas (`startDate` y `endDate`), el sistema calcula automáticamente el monto total y el depósito requerido, devolviendo un código 201 (Created) con el detalle de la reserva en estado pendiente.
+
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Start Reservation*
+
+![Documentación OpenAPI/Swagger - Start Reservation](Assets/RESERVATIONS-START.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/reservations/{id}/start` del `rental-controller`.
+
+***Descripción del endpoint***
+Esta solicitud PATCH permite marcar el inicio efectivo del periodo de alquiler. Al invocar este endpoint con el ID de la reserva, el sistema valida que las condiciones de tiempo se cumplan y cambia el estado a "en curso", notificando tanto al arrendador como al arrendatario que el vehículo ha sido entregado, confirmando la acción con un código 204 (No Content).
+
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Confirm Reservation*
+
+![Documentación OpenAPI/Swagger - Confirm Reservation](Assets/RESERVATIONS-CONFIRM.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/reservations/{id}/confirm` del `rental-controller`.
+
+***Descripción del endpoint***
+Esta solicitud PATCH es utilizada por el propietario del vehículo para confirmar la aceptación de una solicitud de reserva. Una vez confirmada, el sistema bloquea la disponibilidad del vehículo para las fechas seleccionadas y habilita los procesos de pago correspondientes, devolviendo un código 204 (No Content) tras una ejecución exitosa.
+
+
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Complete Reservation*
+
+![Documentación OpenAPI/Swagger - Complete Reservation](Assets/RESERVATIONS-COMPLETE.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/reservations/{id}/complete` del `rental-controller`.
+
+***Descripción del endpoint***
+Esta solicitud PATCH permite finalizar formalmente el ciclo de alquiler una vez que el vehículo ha sido devuelto. Al procesar el ID de la reserva, el sistema actualiza el estado a "completado", lo que libera el depósito de garantía y permite a ambas partes calificar la experiencia, retornando un código 204 (No Content).
+
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Cancel Reservation*
+
+![Documentación OpenAPI/Swagger - Cancel Reservation](Assets/RESERVATIONS-CANCEL.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/reservations/{id}/cancel` del `rental-controller`.
+
+***Descripción del endpoint***
+Esta solicitud PATCH permite la anulación de una reserva antes de que el viaje comience. Al ejecutar esta operación, el sistema libera las fechas en el calendario del vehículo y actualiza el estado de la reserva a "cancelada", gestionando internamente las políticas de reembolso si aplicaran, y confirmando con un código 204 (No Content).
+
+
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Get Reservations by Vehicle ID*
+
+![Documentación OpenAPI/Swagger - Get Reservations by Vehicle ID](Assets/RENTAL-VEHICULO.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/reservations/vehicle/{vehicleId}` del `rental-controller`.
+
+***Descripción del endpoint***
+Esta solicitud GET permite recuperar el historial completo de reservas asociadas a un vehículo específico. Es fundamental para que los propietarios puedan auditar el uso de su activo, devolviendo una colección de objetos JSON que detallan cada reserva, sus montos generados y los usuarios que lo alquilaron.
+
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Get Reservation by ID*
+
+![Documentación OpenAPI/Swagger - Get Reservation by ID](Assets/RENTAL-RESERVATIONS.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/reservations/{id}` del `rental-controller`.
+
+***Descripción del endpoint***
+Esta solicitud GET recupera la información detallada de una reserva individual mediante su identificador único. El objeto de respuesta incluye el desglose financiero (monto total, moneda y depósitos), los estados actuales de la transacción y las marcas de tiempo de creación, permitiendo un seguimiento puntual de cada contrato de alquiler.
+
+
+#### **Figura** - *Documentación OpenAPI/Swagger - Get Reservations by Renter ID*
+
+![Documentación OpenAPI/Swagger - Get Reservations by Renter ID](Assets/RENTAL-RENTER.PNG)
+
+> **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/reservations/renter/{renterId}` del `rental-controller`.
+
+***Descripción del endpoint***
+Esta solicitud GET permite a un usuario arrendatario consultar todas las reservas que ha realizado en la plataforma. Al filtrar por el ID del arrendatario, el sistema devuelve un listado cronológico de sus alquileres, facilitando la gestión de sus viajes activos y la revisión de sus consumos históricos.
 
 #### 4.2.1.7. Software Deployment Evidence for Sprint Review
 
