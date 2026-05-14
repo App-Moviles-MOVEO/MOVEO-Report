@@ -3164,40 +3164,84 @@ En este capítulo se documenta la ejecución del desarrollo de WheelsPe, incluye
 
 ## 4.1. Software Configuration Management
 
-La gestión de configuración del software garantiza que el equipo de desarrollo trabaje bajo estándares consistentes, versionamiento adecuado y despliegues controlados.
+# Product UX/UI Design
+
+Esta área abarca el desarrollo de la experiencia de usuario (UX) y el diseño de interfaz (UI) para **WheelsPe**. Para este proyecto, desarrollamos prototipos de landing page adaptados tanto para escritorio como para dispositivos móviles.
+
+## Herramientas y Tecnologías
+
+### Figma
+Plataforma de diseño colaborativo basada en la nube, utilizada para desarrollar mockups de la landing page para navegadores de escritorio y móviles.
+[Acceder a Figma](https://www.figma.com/design/)
+
+### UXPressia
+Solución digital para el mapeo del recorrido del usuario, utilizada para crear User Personas, Mapas de Empatía y Journey Maps.
+[Acceder a UXPressia](https://uxpressia.com/)
+
+### MIRO
+Espacio de trabajo visual colaborativo en línea, utilizada para lluvia de ideas, diagramas de flujo y actividades de colaboración en equipo.
+[Acceder a MIRO](https://miro.com/app/dashboard/)
+
+### Lucid Chart
+Plataforma de diagramación colaborativa para crear diagramas UML y arquitectura del sistema.
+[Acceder a Lucid Chart](https://lucid.app/documents#/dashboard/)
+
+# Software Development
+
+Comprende la construcción, diseño, codificación y mantenimiento de la landing page de **WheelsPe**, empleando los siguientes lenguajes y herramientas[cite: 1]:
+
+* **GitHub:** Plataforma de control de versiones y repositorio colaborativo para gestionar el progreso del proyecto[cite: 1]. https://github.com/App-Moviles-MOVEO
+* **Visual Studio Code:** Editor de código con extensiones personalizables que optimizan la productividad en el desarrollo[cite: 1]. https://code.visualstudio.com/
+* **HTML5:** Lenguaje de marcado utilizado para estructurar el contenido de la landing page, incluyendo secciones como hero, producto, cómo funciona, carpooling, testimonios, FAQ y contacto[cite: 1]. https://developer.mozilla.org/es/docs/Web/HTML
+* **CSS3:** Lenguaje de hojas de estilo utilizado para gestionar el diseño visual, animaciones, diseño responsivo y componentes de la landing page, incluyendo variables CSS, Flexbox y Grid Layout[cite: 1]. https://developer.mozilla.org/es/docs/Web/CSS
+* **JavaScript:** Lenguaje de programación utilizado para incorporar interactividad y comportamiento dinámico en la landing page: animaciones de count-up, acordeón FAQ, menú hamburguesa con animaciones escalonadas, modal de contacto, observer de secciones activas en el navbar, y páginas internas (blog, términos, privacidad, KYC)[cite: 1]. https://developer.mozilla.org/es/docs/Web/JavaScript
+
+## Software Deployment
+
+* **GitHub Pages:** Servicio de GitHub que facilita el alojamiento de la landing page de forma gratuita con HTTPS automático y deployment continuo desde el repositorio[cite: 1]. https://pages.github.com/
+
+## Software Documentation
+
+* **Markdown:** Lenguaje de marcado minimalista utilizado para la documentación del proyecto en GitHub[cite: 1]. https://www.markdownguide.org/getting-started/
 
 ### 4.1.1. Software Development Environment Configuration
 
-El entorno de desarrollo fue configurado siguiendo mejores prácticas para facilitar la colaboración, minimizar problemas de compatibilidad y asegurar la reproducibilidad del entorno en todas las máquinas del equipo.
+### 4.1.1. Software Development Environment Configuration
 
-**Stack Tecnológico Implementado:**
+El entorno de desarrollo para esta etapa inicial se ha centrado en la construcción de la presencia web oficial de **WheelsPe**, asegurando un diseño responsivo, alto rendimiento y una arquitectura de componentes escalable.
 
-**Backend:**
-- **Runtime:** Node.js 18.x
-- **Framework:** ASP.NET Core 7.0 (C#)
-- **Base de Datos:** MySQL 8.0
-- **ORM:** Entity Framework Core
-- **API Design:** RESTful con documentación OpenAPI/Swagger
+**Stack Tecnológico Implementado (Landing Page):**
 
-**Frontend - Aplicación Móvil:**
-- **Framework:** React Native 0.71
-- **Lenguaje:** TypeScript
-- **Estado Global:** Redux Toolkit
-- **Navegación:** React Navigation
+* **Lenguaje:** HTML5 y JavaScript (ES6+) para lógica interactiva[cite: 1].
+* **Estilización:** CSS3 utilizando metodologías modernas como Flexbox y Grid Layout para diseño responsivo[cite: 1].
+* **Arquitectura de Software:** Desarrollo basado en componentes modulares para secciones como FAQ, Testimonios y Hero[cite: 1].
+* **Interactividad:** Implementación de animaciones dinámicas mediante Intersection Observer API y scripts personalizados (CountUp, Menú Hamburguesa)[cite: 1].
 
-**Frontend - Web:**
-- **Framework:** React 18
-- **Lenguaje:** TypeScript
-- **Routing:** React Router v6
-- **Estilización:** Tailwind CSS + styled-components
+**Herramientas de Desarrollo y Deployment:**
 
-**Herramientas de Desarrollo:**
-- **Control de Versiones:** Git con GitHub
-- **IDE Principal:** Visual Studio Code
-- **Gestor de Paquetes:** npm v9.x
-- **Linting:** ESLint + Prettier
-- **Testing:** Jest para unitarios, Cypress para E2E
-- **CI/CD:** GitHub Actions
+* **Control de Versiones:** Git hospedado en GitHub para gestión colaborativa[cite: 1].
+* **IDE Principal:** Visual Studio Code con extensiones para optimización de flujo de trabajo[cite: 1].
+* **Alojamiento y CI/CD:** GitHub Pages con despliegue automático desde la rama principal[cite: 1].
+* **Documentación:** Markdown para especificaciones técnicas y manuales de usuario[cite: 1].
+
+## GitHub & GitFlow Workflow
+
+Para el proyecto **WheelsPe**, utilizamos **GitHub** como plataforma de control de versiones y colaboración.
+
+* **Organización GitHub:** https://github.com/App-Moviles-MOVEO
+
+## Repositorios del Proyecto
+
+* **Enlace Repositorio Landing Page (Activo):** https://github.com/App-Moviles-MOVEO/MOVEO-Landing-Page.git
+* **Enlace Repositorio Project Report:** https://github.com/App-Moviles-MOVEO/MOVEO-Report.git
+* **Enlace Repositorio Mobile App:** https://github.com/App-Moviles-MOVEO/MOVEO-Frontend.git
+* **Enlace Repositorio Backend:** https://github.com/App-Moviles-MOVEO/MOVEO-Backend.git
+
+## GitFlow Workflow
+
+Utilizamos **GitFlow** como nuestro modelo de ramificación para mantener un flujo de trabajo organizado durante el desarrollo de la Landing Page:
+
+* **main:** Contiene el código de la Landing Page actualmente desplegado en producción (GitHub Pages)
 
 ### 4.1.2. Source Code Management
 
@@ -3228,35 +3272,114 @@ Tipos válidos: feat, fix, docs, style, refactor, perf, test, chore
 
 ### 4.1.3. Source Code Style Guide & Conventions
 
-Se establecieron guías de estilo consistentes para JavaScript/TypeScript, C# y SQL para minimizar inconsistencias y facilitar mantenimiento.
+En esta sección se establecen las convenciones de estilo para la landing page de WheelsPe, desarrollada con HTML5, CSS3 y JavaScript vanilla.
 
-**Convenciones JavaScript/TypeScript:**
-- **Nombres de Variables:** camelCase para variables y funciones, PascalCase para clases y componentes React
-- **Comentarios:** JSDoc para funciones públicas
-- **Funciones:** Máximo 50 líneas de código, una responsabilidad clara
-- **Archivos:** Máximo 300 líneas por archivo
+### Nomenclatura y Convenciones Generales
 
-**Convenciones C#:**
-- **Naming:** PascalCase para clases, propiedades públicas
-- **SOLID Principles:** Inyección de dependencias obligatoria
-- **Async/Await:** Obligatorio para operaciones de I/O
+Se utiliza kebab-case para clases CSS y camelCase para variables y funciones JavaScript, con nombres descriptivos en inglés relacionados a cada sección.
+
+```css
+/* Convenciones CSS aplicadas en WheelsPe */
+.nav-links {}          /* Navegación principal */
+.hero-metric-num {}    /* Métricas del hero */
+.product-card {}       /* Tarjetas de producto */
+.carpool-section {}    /* Sección carpooling */
+.faq-item {}           /* Items del acordeón */
+.modal-overlay {}      /* Modal de contacto */
+```
+
+### Variables CSS para Consistencia
+
+```css
+:root {
+  --blue: #3B82F6;
+  --blue-dark: #2563EB;
+  --black: #0a0a0a;
+  --ink: #111827;
+  --gray: #6B7280;
+  --border: #E5E7EB;
+  --surface: #F9FAFB;
+  --white: #ffffff;
+  --radius: 16px;
+  --transition: 0.22s cubic-bezier(0.4,0,0.2,1);
+}
+```
+
+### Responsive Design
+
+```css
+/* Tablet y mobile */
+@media (max-width: 1024px) {
+  nav { padding: 0 32px; }
+  .hero { grid-template-columns: 1fr; }
+  .nav-hamburger { display: flex; }
+}
+
+@media (max-width: 768px) {
+  .hero h1 { font-size: 48px; }
+  .testi-grid { grid-template-columns: 1fr; }
+}
+```
+
+### JavaScript — Interactividad
+
+```javascript
+// Count-up animation con easing
+function animateCounter(el) {
+  const target = parseFloat(el.dataset.target);
+  const duration = 2800;
+  const start = performance.now();
+  function tick(now) {
+    const progress = Math.min((now - start) / duration, 1);
+    const eased = easeOutExpo(progress);
+    // actualiza el DOM...
+    if (progress < 1) requestAnimationFrame(tick);
+  }
+  requestAnimationFrame(tick);
+}
+
+// Active nav on scroll
+function updateActiveNav() {
+  const scrollY = window.scrollY + 120;
+  let current = navSectionIds[0];
+  for (const id of navSectionIds) {
+    const el = document.getElementById(id);
+    if (el && el.offsetTop <= scrollY) current = id;
+  }
+  navLinks.forEach(a => {
+    a.classList.toggle('active-nav', a.getAttribute('href') === '#' + current);
+  });
+}
+```
 
 ### 4.1.4. Software Deployment Configuration
 
-El despliegue sigue un pipeline automatizado con etapas de testing, staging y producción.
+El despliegue de la landing page de WheelsPe se realizó utilizando GitHub Pages.
 
-**Pipeline de Despliegue:**
+### Configuración de GitHub Pages
 
-1. **Etapa Build:** Compilación de código, ejecución de linting, generación de bundles optimizados
-2. **Etapa Test:** Unit tests, Integration tests, E2E tests
-3. **Etapa Staging:** Despliegue a ambiente staging en AWS, Smoke tests automatizados
-4. **Etapa Producción:** Despliegue blue-green, Health checks de endpoints
+- **Repositorio:** https://github.com/App-Moviles-MOVEO/MOVEO-Landing-Page
+- **Branch:** main
+- **Carpeta:** / (root)
+- **Source:** Deploy from a branch
+- **HTTPS:** Habilitado automáticamente
+- **URL de producción:** https://app-moviles-moveo.github.io/MOVEO-Landing-Page/
 
-**Infraestructura Cloud:**
-- **Proveedor:** AWS
-- **Compute:** EC2 para backend, ECS para contenedores
-- **Base de Datos:** RDS MySQL (Multi-AZ)
-- **CDN:** CloudFront para assets estáticos
+**Figura** 
+
+Configuración de GitHub Pages - WheelsPe
+
+![Configuración de GitHub Pages](https://i.imgur.com/zi7Cu04.png)
+
+*Nota. Elaboración propia.*
+
+**Figura**
+
+Landing Page desplegada en producción
+
+![Landing Page desplegada](https://i.imgur.com/5G078wH.png)
+
+*Nota. Elaboración propia.*
 
 ## 4.2. Landing Page & Mobile Application Implementation
 
@@ -3296,17 +3419,67 @@ Completar la autenticación del usuario con proceso KYC, implementar el catálog
 
 #### 4.2.1.3. Development Evidence for Sprint Review
 
-**Figura XX** - *Commits en GitHub durante Sprint 1*
+Enlace Repositorio Landing Page: https://github.com/App-Moviles-MOVEO/MOVEO-Landing-Page
 
-[INSERTAR IMAGEN: github-commits-sprint1.png]
+<table border="1" cellpadding="8" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MOVEO-Landing-Page</td>
+      <td>main</td>
+      <td>e28b6e9</td>
+      <td>feat: Add structure landing page</td>
+      <td>13/05/2026</td>
+    </tr>
+    <tr>
+      <td>MOVEO-Landing-Page</td>
+      <td>main</td>
+      <td>6dea4af</td>
+      <td>fix: remove README</td>
+      <td>13/05/2026</td>
+    </tr>
+    <tr>
+      <td>MOVEO-Landing-Page</td>
+      <td>main</td>
+      <td>935fb10</td>
+      <td>rename to index.html</td>
+      <td>13/05/2026</td>
+    </tr>
+  </tbody>
+</table>
 
-Nota. Historial de commits mostrando 47 commits completados durante el sprint con promedio de 3 commits por día.
+**Figura**
 
-**Figura XX** - *Pull Requests Completados*
+Historial de commits en GitHub - Sprint 1
 
-[INSERTAR IMAGEN: github-pr-sprint1.png]
+![Historial de commits en GitHub](https://i.imgur.com/mIDpM6W.png)
 
-Nota. 14 pull requests completados con aprobaciones de code review y verificaciones de CI/CD pasadas.
+*Nota. Elaboración propia.*
+
+### Estructura de archivos
+
+```
+MOVEO-Landing-Page/
+└── index.html
+```
+
+> `index.html` — Landing page completa (HTML + CSS + JS en un solo archivo)
+
+### Tecnologías utilizadas
+
+- **HTML5** - estructura semántica de todas las secciones
+- **CSS3** - estilos, animaciones, variables CSS, Flexbox, Grid, responsive design
+- **JavaScript (Vanilla)** - interactividad: count-up, scroll activo, FAQ acordeón, modal, menú hamburguesa, páginas internas overlay
+- **Google Fonts** - tipografía DM Sans y DM Serif Display
+- **GitHub Pages** - hosting y deployment
 
 #### 4.2.1.4. Testing Suite Evidence for Sprint Review
 
@@ -3318,29 +3491,58 @@ Nota. Reporte de cobertura mostrando 82% cobertura global de código.
 
 #### 4.2.1.5. Execution Evidence for Sprint Review
 
-**Figura XX** - *Pantalla Home Funcional Post-Sprint*
+A continuación se presentan las evidencias visuales de la landing page desplegada en producción.
 
-[INSERTAR IMAGEN: app-home-sprint1.png]
+URL de producción: https://app-moviles-moveo.github.io/MOVEO-Landing-Page/
 
-Nota. Interfaz de inicio funcional con acceso a búsqueda de vehículos, publicación de rutas y perfil.
+**Figura**
 
-**Figura XX** - *Flujo de Registro KYC Completado*
+Hero Section - WheelsPe Landing Page
 
-[INSERTAR IMAGEN: app-kyc-flow-sprint1.png]
+![Hero Section](https://i.imgur.com/tlZ1mh2.png)
 
-Nota. Secuencia de 4 pantallas del flujo de registro completado.
+*Nota. Sección principal con headline, mockup de app, métricas animadas (1.2K+ usuarios, 4.9★, 100% identidad verificada) y badge flotante de identidad verificada. Elaboración propia.*
 
-**Figura XX** - *Catálogo de Vehículos Funcional*
+**Figura**
 
-[INSERTAR IMAGEN: app-vehiculo-catalog-sprint1.png]
+Sección Producto - Una sola app, dos modos de moverte
 
-Nota. Lista de vehículos con imagen, precio diario, ubicación, y calificación del proveedor.
+![Sección Producto](https://i.imgur.com/nR3NmNO.png)
 
-**Figura XX** - *Publicación de Ruta Carpooling*
+*Nota. Cards de las tres propuestas de valor: Alquiler entre particulares, Carpooling integrado e Identidad verificada. Elaboración propia.*
 
-[INSERTAR IMAGEN: app-publish-route-sprint1.png]
+**Figura**
 
-Nota. Formulario de publicación de ruta funcional con mapa, horario, capacidad y configuración de seguridad.
+Sección Cómo funciona y Para ti
+
+![Sección Cómo funciona y Para ti](https://i.imgur.com/D1ybeSq.png)
+
+*Nota. Flujo de tres pasos (Verifica, Encuentra, Conduce) y cards diferenciadas por perfil: Propietarios, Conductores y Pasajeros. Elaboración propia.*
+
+**Figura**
+
+Sección Carpooling y Testimonios
+
+![Sección Carpooling y Testimonios](https://i.imgur.com/QmmoMMW.png)
+
+*Nota. Features de carpooling (Verificación Institucional, Rutas Inteligentes, Pagos Automáticos) y testimonios de la comunidad. Elaboración propia.*
+
+**Figura**
+
+Sección FAQ y Contacto
+
+![Sección FAQ y Contacto](https://i.imgur.com/MVEjcDZ.png)
+
+*Nota. Acordeón de preguntas frecuentes sobre seguridad y pagos, y formulario de contacto inline. Elaboración propia.*
+
+**Figura**
+
+CTA Final y Footer
+
+![CTA Final y Footer](https://i.imgur.com/tqsGNRv.png)
+
+*Nota. Banner CTA con fondo oscuro y glow azul, y footer con columnas de navegación (Producto, Seguridad, Comunidad, Legal). Elaboración propia.*
+
 
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -3373,31 +3575,68 @@ Nota. Panel interactivo de Swagger UI mostrando 18 endpoints documentados.
 
 #### 4.2.1.7. Software Deployment Evidence for Sprint Review
 
-**Despliegue a Staging:**
-- Fecha: 29 de Mayo, 2026 a las 14:30 UTC
-- Duración: 8 minutos 15 segundos
-- Estrategia: Blue-Green deployment con 0 downtime
-- Rollback: Disponible en caso de fallo crítico
+El deployment de la landing page de WheelsPe se realizó exitosamente en GitHub Pages durante el Sprint 1.
 
-**Figura XX** - *Dashboard de Despliegue Staging*
+### Proceso de deployment realizado
 
-[INSERTAR IMAGEN: deployment-dashboard-sprint1.png]
+1. Inicialización del repositorio local con `git init`
+2. Commit inicial con la landing page completa
+3. Vinculación al repositorio remoto en la organización App-Moviles-MOVEO
+4. Resolución del merge con el repositorio remoto (`git pull --allow-unrelated-histories`)
+5. Eliminación del README autogenerado y renombramiento del archivo a `index.html`
+6. Configuración de GitHub Pages desde Settings > Pages (branch: `main`, carpeta: root)
+7. Verificación del deployment exitoso en la URL de producción
 
-Nota. Visualización del pipeline CI/CD mostrando etapas completadas: Build ✓, Tests ✓, Staging Deploy ✓.
+**Figura**
+
+Configuración exitosa de GitHub Pages
+
+![Configuración de GitHub Pages](https://i.imgur.com/zi7Cu04.png)
+
+*Nota. Panel de GitHub Pages mostrando el sitio live con URL activa. Elaboración propia.*
+
+**Figurae**
+
+Landing page en producción
+
+![Landing page en producción](https://i.imgur.com/5G078wH.png)
+
+*Nota. Landing page de WheelsPe accesible públicamente en GitHub Pages. Elaboración propia.*
 
 #### 4.2.1.8. Team Collaboration Insights during Sprint
 
-**Figura XX** - *Burn Down Chart Sprint 1*
+## 5.2.1.8. Team Collaboration Insights during Sprint
 
-[INSERTAR IMAGEN: burndown-chart-sprint1.png]
+Durante el Sprint 1, el equipo colaboró utilizando GitHub como plataforma principal de desarrollo y control de versiones para la landing page de WheelsPe.
 
-Nota. Gráfico mostrando 134 Story Points estimados con tendencia de reducción consistente.
+**Figura**
 
-**Reuniones Realizadas:**
-- Sprint Planning (2 horas)
-- Daily Standup (15 min cada una): 10 reuniones
-- Sprint Review (1.5 horas)
-- Retrospective (1 hora)
+Historial de commits - Repositorio Landing Page
+
+![Historial de commits](https://i.imgur.com/mIDpM6W.png)
+
+*Nota. Historial de commits del repositorio MOVEO-Landing-Page durante el Sprint 1. Elaboración propia.*
+
+**Figura**
+
+Contribuciones por desarrollador
+
+![Contribuciones por desarrollador](https://i.imgur.com/iYayvvc.png)
+
+*Nota. Contribuciones registradas en la pestaña Insights del repositorio durante el Sprint 1. Elaboración propia.*
+
+### Herramientas de comunicación utilizadas
+
+- **Discord** — comunicación diaria y resolución de dudas técnicas
+- **GitHub** — gestión de código, commits y control de versiones
+- **Google Meet** — reuniones de planificación y revisión del sprint
+
+### Áreas de mejora para próximos sprints
+
+- Incorporar pull requests con code review entre pares
+- Implementar CI/CD para validación automática antes del merge
+- Separar CSS y JS en archivos independientes para mejor mantenibilidad
+- Agregar tests automatizados para componentes interactivos
 
 ## 4.3. Validation Interviews
 
