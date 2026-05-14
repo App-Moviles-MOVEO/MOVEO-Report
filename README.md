@@ -3132,17 +3132,126 @@ Nota. Conjunto de 3 pantallas: (1) **Seguridad** - Preferencias con toggles (Sol
 
 Los diagramas de flujo de usuario documentan la secuencia lógica de acciones e interacciones.
 
-**Figura XX** - *User Flow: Proceso Completo de Alquiler de Vehículo*
+**Task Flow — Onboarding y Access**
+user flow: 
 
-[INSERTAR IMAGEN: user-flow-alquiler-completo.png]
+Happy path : 
+Abre WheelsPe y observa el splash screen. Se muestra pantalla de bienvenida con propuesta de valor y dos opciones de acceso. Toca el botón "CREAR CUENTA". Navega al formulario de registro.Registro , Ingresa email, contraseña y selecciona rol "Conductor Arrendatario". Datos guardados. App inicia el flujo KYC obligatorio.Centra su DNI en el marco y toca "CAPTURAR". Foto del anverso registrada. Indicador de Paso 1 Voltea el DNI, alinea y toca "CAPTURAR". Foto del reverso registrada.Mira a cámara frontal con buena iluminación y toca "CAPTURAR". Selfie capturada. Espera en pantalla de carga (1–3 min). Sistema consulta RENIEC y ejecuta biometría. Confianza: 94%.(pantalla automática de confirmación). Cuenta activada. Rol "Arrendatario" asignado. Reputación inicializada.Explora la pantalla principal por primera vez. Acceso total: catálogo de autos, carpooling, perfil y recompensas disponibles.
+UnHappypath: 
 
-Nota. Diagrama de flujo de decisión mostrando: inicio de sesión → búsqueda → visualización de detalles → decisión (reservar/rechazar) → pago → confirmación → recojo → calificación.
+Foto del DNI borrosa o sin iluminaciónImpacto Medio
+Punto de fallo: KYC: Captura de anverso o reverso
+El usuario captura el DNI en entorno oscuro o con movimiento de mano. El sistema oCR del sistema no puede leer el texto del documento. Error: "Imagen no legible. Asegúrate de tener buena iluminación y mantener el teléfono quieto". El sistema app muestra 3 tips visuales para una buena captura (luz, ángulo, distancia). El usuario usuario sigue los tips, mejora la iluminación y vuelve a capturar. Imagen aceptada → flujo continúa normalmente al siguiente paso.
+02 DNI vencido o documento no reconocido por RENIECImpacto Alto
+Punto de fallo: Validación RENIEC post-captura de imágenes
+El sistema sistema consulta RENIEC y detecta el documento fuera de vigencia. Error: "Documento no vigente. No podemos verificar tu identidad con este DNI". El flujo KYC queda bloqueado, no puede avanzar con ese documento. App sugiere: "Renueva tu DNI en el RENIEC más cercano y vuelve a intentarlo". El sistema botón de contacto con soporte de WheelsPe disponible para casos especiales.
+03Email ya registrado en la plataformaImpacto Bajo
+Punto de fallo: Paso de registro: validación de email
+El usuario ingresa un email que ya existe en la base de datos de WheelsPe. El sistema sistema detecta el duplicado durante la creación de la cuenta. Error inline: "Este correo ya tiene una cuenta registrada en WheelsPe". App muestra enlace prominente: "¿Ya tienes cuenta? Inicia sesión aquí". Usuario es redirigido al login sin perder su selección de rol.
+04 Selfie no coincide biométricamente con la foto del DNIImpacto Alto
+Punto de fallo: Validación biométrica IA post-selfie
+El sistema compara selfie vs foto del DNI con motor biométrico de IA. El sistema nivel de confianza < 80% → no supera el umbral mínimo de WheelsPe. Error: "Verificación biométrica fallida. Tu selfie no coincide con la foto del DNI". El sistema app permite 1 reintento con instrucciones: "Quita gafas, mira de frente, buena luz". Si reintento también falla → cuenta en revisión manual por operadores (hasta 24h). Notificación push cuando la revisión manual concluya con resultado.
 
-**Figura XX** - *User Flow: Publicación y Gestión de Ruta Carpooling*
 
-[INSERTAR IMAGEN: user-flow-carpooling.png]
+**Task Flow — Alquiler de Vehículo**
 
-Nota. Flujo desde la perspectiva del conductor: crear ruta → configurar disponibilidad → recibir solicitudes → evaluar pasajeros → confirmar → chatear → finalizar → calificar.
+user flow: 
+
+Happy path: 
+Abre la app, ve el home con autos cercanos disponibles. Accede a búsqueda rápida desde la barra superior.Aplica filtros: SUV, Lima Centro, del 15-17 Mayo, hasta S/150/día. Lista filtrada con 8 autos disponibles: fotos, specs, precios visibles.Selecciona el Toyota RAV4 a S/120/día con dueño 4.9. Navega al detalle completo del vehículo seleccionado. Revisa galería (6 fotos), specs (5 asientos, A/C, GPS) y reseñas del propietario. Ve disponibilidad: auto libre del 14 al 20 de Mayo.Toca "RESERVAR" y confirma fechas: 15-17 Mayo (3 días). App calcula: S/360 + seguro S/30 = Total S/390.Selecciona Yape como método y aprueba el cobro. Pago de S/390 procesado. Escrow activado, fondos retenidos hasta devolución.(pantalla automática). Reserva #2847 confirmada. Propietario Carlos P. notificado.Ve la reserva activa en su dashboard. Recibe instrucciones de recogida y datos de contacto del propietario.
+
+UnHappypath: 
+Auto no disponible en las fechas seleccionadasImpacto Medio
+Punto de fallo: Selección de fechas en la pantalla de detalle
+El usuario usuario selecciona fechas 15-17 Mayo para el Toyota RAV4. El sistema sistema detecta reserva activa ya existente del 14 al 18 de Mayo. Alerta: "Este auto no está disponible del 14 al 18 de Mayo". El sistema app muestra calendario con días disponibles en verde y ocupados en rojo. Usuario puede elegir fechas alternativas o regresar al catálogo.
+02 Pago rechazado por la pasarela (Yape / Plin)Impacto Medio
+Punto de fallo: Confirmación de pago en pantalla B9
+El usuario usuario intenta pagar S/390 con Yape. El sistema pasarela de pago rechaza la transacción (saldo insuficiente o error técnico). Error: "Transacción rechazada. Verifica tu saldo o usa otro método de pago". Usuario puede reintentar con Yape, cambiar a Plin o usar Tarjeta. El sistema la reserva no se confirma hasta que el pago sea procesado exitosamente.
+03 Usuario intenta reservar sin KYC completoImpacto Alto
+Punto de fallo: Tap en "PAGAR" en la pantalla B9
+El usuario usuario llega al paso de pago sin haber completado la verificación de identidad. El sistema sistema verifica el estado del KYC y detecta que está pendiente o rechazado. Bloqueado: "Debes verificar tu identidad antes de realizar una reserva en WheelsPe". App redirige directamente al flujo KYC con sus datos de registro ya guardados. Una vez completado el KYC exitosamente, regresa automáticamente al pago pendiente.
+04 Propietario cancela la reserva confirmadaImpacto Alto
+Punto de fallo: Post-confirmación, antes de la fecha de recogida
+El usuario propietario cancela la reserva #2847 antes de la fecha de recogida del 15 de Mayo. El sistema sistema libera automáticamente los fondos retenidos en el escrow. Notificación push inmediata: "Tu reserva #2847 fue cancelada por el propietario". Reembolso total de S/390 procesado en 24-48h al método de pago original. App ofrece autos similares disponibles para las mismas fechas automáticamente.
+
+**Task Flow — Buscar Carpool**
+user flow: 
+
+Happy path: 
+Navega a la sección de Carpooling desde el home. Accede a la pantalla de búsqueda de carpool disponible.Ingresa: Origen "UPC Monterrico" → Destino "Miraflores", hoy 8:00am. Sistema ejecuta búsqueda de rutas publicadas coincidentes.Aplica filtro "Solo mujeres", revisa lista de resultados. 3 conductoras verificadas: Andrea 4.9 (S/6), María 4.7 (S/5), Lucía 4.8 (S/7).Toca a Andrea Pacheco y revisa: 42 viajes, 4.9, Toyota Corolla blanco. Ve ruta en mapa: pasa por Av. Javier Prado → Óvalo Miraflores, 12 min.Toca "UNIRME A ESTE CARPOOL" y confirma el pago de S/6.00. Solicitud enviada a Andrea. Escrow de S/6.00 activado. Esperando respuesta…(respuesta de Andrea en < 2 minutos). Andrea aceptó el viaje. Chat habilitado. Punto de recogida: "Entrada principal UPC".Escribe a Andrea: "Estaré en la entrada principal puntual". Andrea: "Perfecto, llego en 3 minutos. Toyota Corolla blanco placa ABC-123".Sube al auto a las 8:02am. Viaje inicia automáticamente en la app. Mapa GPS activo, ruta Miraflores visible, ETA: 12 min. Botón SOS disponible.Llega a Miraflores a las 8:14am. Andrea finaliza el viaje en la app. Cobro de S/6.00 procesado. Pantalla de calificación aparece automáticamente.Califica a Andrea con 5★ y escribe: "Puntual, amable y manejo seguro ". Reputación de Andrea actualizada. Pasajera gana +15 puntos de fidelización.
+
+UnHappypath: 
+Sin rutas disponibles para la ruta y horario buscadoImpacto Bajo
+Punto de fallo: Búsqueda de carpool sin resultados en la pantalla B6
+El usuario pasajera busca ruta "UPC Monterrico → Chorrillos" a las 10pm. El sistema sistema no encuentra rutas publicadas para ese destino y horario. "No encontramos viajes disponibles para esa ruta en este momento". App sugiere: ampliar horario ±1h, cambiar filtros, o crear alerta de disponibilidad. Pasajera activa alerta → recibirá push si alguien publica esa ruta.
+02 Conductor cancela el viaje ya confirmadoImpacto Alto
+Punto de fallo: Post-confirmación, antes del inicio del viaje
+El usuario andrea (conductora) cancela el viaje 20 min antes de la hora acordada. El sistema sistema libera inmediatamente el escrow de S/6.00 del pasajero. Notificación push: "Andrea canceló tu viaje. Reembolso de S/6.00 en proceso". Reembolso procesado en < 24h. Penalización de reputación registrada para Andrea. App redirige a buscar conductor alternativo con misma ruta/horario.
+03 Pasajera activa el botón SOS durante el viajeImpacto Alto
+Punto de fallo: Durante el viaje en curso (pantalla B8)
+El usuario pasajera siente inseguridad y presiona el botón SOS naranja en el mapa. El sistema sistema registra ubicación GPS exacta del vehículo en tiempo real. El sistema alerta silenciosa enviada a: contactos de confianza configurados en Seguridad (B11). El sistema notificación al equipo de seguridad de WheelsPe con datos: conductor, vehículo, placa, ubicación. Discado automático al 105 (PNP) en el teléfono de la pasajera. Conductor recibe aviso: "Un pasajero activó SOS en tu viaje".
+04 Conductor con rating bajo filtrado automáticamenteImpacto Medio
+Punto de fallo: Resultado de búsqueda de conductores disponibles
+El usuario pasajera busca conductores disponibles para su ruta. El sistema sistema aplica filtro de reputación automático: oculta conductores con rating < 3.5★. El sistema conductores con historial negativo no aparecen en la lista de resultados. Pasajera solo ve opciones con 3.5★ o más → mayor nivel de seguridad garantizado.
+
+
+**Task Flow — Publicar Ruta (Carpooling)**
+user flow: 
+
+
+Happy path: 	
+Va a la sección Carpooling y toca "PUBLICAR RUTA". Se abre el formulario de nueva ruta paso a paso. Configura ruta: "UPC Monterrico → Miraflores", días Lunes-Viernes a las 7:30am. Origen y destino validados en el mapa con ruta calculada automáticamente.Define: 2 asientos disponibles, S/6.00 por asiento, sin recurrencia (solo hoy). Preview de la ruta completo: origen, destino, precio, asientos, hora de salida.Toca "PUBLICAR RUTA". Ruta publicada exitosamente. Algoritmo de matching activo. 3 pasajeros potenciales notificados.(push en < 5 minutos). Esther Ospina solicita unirse: UPC → Miraflores, 1 asiento, Rating 4.8★, 12 viajes.Revisa perfil de Esther: verificada UPC, 4.8★ en 12 viajes, sin incidencias. Perfil confiable. Conductor decide aceptar la solicitud.Toca "ACEPTAR" la solicitud de Esther. Esther recibe confirmación. Chat habilitado entre ambos.Escribe: "Hola Esther, te recojo en la entrada de la facultad". Esther: "Perfecto, ahí estaré puntual".Recoge a Esther a las 7:31am e inicia el viaje en la app. GPS activo, ruta a Miraflores calculada, ETA: 15 min. Esther puede ver el mapa en tiempo real.Deja a Esther en Miraflores y finaliza el viaje en la app. S/6.00 acreditado automáticamente. Esther calificada con 5★. +20 puntos de fidelización.
+
+UnHappypath: 
+01 Ruta publicada sin solicitudes de pasajerosImpacto Bajo
+Punto de fallo: Post-publicación, sin respuesta de pasajeros
+El usuario conductor publica ruta a las 11pm en un horario de baja demanda. El sistema sistema no encuentra pasajeros registrados con destinos compatibles para ese horario. "Tu ruta está activa pero no hay pasajeros disponibles por ahora". Conductor puede cancelar la publicación sin penalización ni cargos. App enviará notificación al conductor si alguien publica búsqueda coincidente.
+02 Pasajero confirmado no se presenta al punto de recogidaImpacto Medio
+Punto de fallo: Hora de inicio del viaje: pasajero ausente
+El usuario conductor llega al punto de recogida a la hora acordada. El usuario pasajero no responde mensajes y no aparece transcurridos 10 minutos. El usuario conductor toca "Pasajero no se presentó" en el bottom sheet del mapa (B8). El sistema sistema registra el no-show: penalización de 1 amonestación al pasajero. Conductor puede iniciar el viaje solo. El slot no se cobra al pasajero ausente.
+03 Conductor necesita cancelar la ruta publicadaImpacto Medio
+Punto de fallo: Pre-inicio del viaje con pasajero ya confirmado
+El usuario conductor tiene emergencia y cancela la ruta desde "Mis viajes publicados". El sistema sistema evalúa tiempo de anticipación: < 1h = penalización leve, > 2h = sin penalización. Pasajeros confirmados reciben notificación inmediata de cancelación. Reembolso automático a cada pasajero en < 24h a su método de pago original. App ofrece a los pasajeros rutas alternativas similares disponibles.
+
+
+**Task Flow — Vista del Propietario**
+user flow: 
+
+Happy path: 
+Abre la app y accede al dashboard de propietario. Ve resumen: S/1,840.50 ganados este mes, 3 vehículos activos, 11 reservas completadas.Revisa el calendario de reservas del Toyota RAV4. RAV4 disponible del 15-17 Mayo. Hyundai I35 reservado todo el mes.(push entrante). Nueva solicitud: Álvaro Salazar → RAV4, 15-17 Mayo, S/390 total.Revisa perfil de Álvaro: 8 alquileres previos, 4.7, KYC verificado, sin incidencias. Confianza alta, historial limpio y verificado. Propietario decide aceptar.Toca "ACEPTAR RESERVA". Reserva #2847 confirmada. Escrow de S/390 activado. Álvaro notificado.Fotografía el auto, registra kilometraje inicial: 45,230 km. Estado de entrega documentado en la app. Álvaro recoge el auto.Monitorea que el RAV4 figura como "En uso" en su dashboard. Estado activo visible. Alquiler en curso según lo acordado.Recibe el RAV4 el 17 de Mayo. Sin daños, kilometraje 45,680 km (450 km recorridos). Devolución registrada. S/358.02 liquidados (S/390 - 8.2% comisión de plataforma).
+
+
+UnHappypath: 
+01 Daño mecánico o estético detectado al recibir el vehículoImpacto Alto
+Punto de fallo: Inspección post-devolución del arrendatario
+El usuario propietario recibe el RAV4 y detecta un golpe en el parachoques trasero. El usuario documenta el daño: toma 5 fotos y describe el incidente en detalle en la app. El sistema reporte enviado. El escrow queda retenido durante el período de disputa. El sistema wheelsPe media entre propietario y arrendatario con un árbitro interno (hasta 72h). Si daño comprobado: cargo por reparación al arrendatario → fondos liberados al propietario.
+02 Arrendatario no devuelve el vehículo en la fecha/hora acordadaImpacto Alto
+Punto de fallo: Vencimiento del plazo de devolución de la reserva
+Hora de devolución pasa y Álvaro no ha devuelto el vehículo ni reportado novedad. El sistema sistema envía alertas automáticas al arrendatario a los -30 min y en el momento exacto. El sistema propietario recibe notificación de tardanza y puede contactar al arrendatario. El sistema cargo automático de penalización por hora adicional activado desde el escrow. Si tardanza > 3h sin respuesta: se escala a equipo de operaciones de WheelsPe.
+03 Papeleta de tránsito cometida por el arrendatarioImpacto Medio
+Punto de fallo: Notificación de multa recibida durante el período de alquiler
+El usuario propietario recibe notificación de papeleta durante el período activo de la reserva #2847. El sistema sistema cruza la fecha/hora de la infracción con el registro de reservas activas. Notificación al arrendatario: "Papeleta de tránsito detectada durante tu alquiler del RAV4". Arrendatario tiene 7 días para apelar si no fue el responsable directo de la infracción. Si infracción confirmada: monto de la multa descontado de la garantía retenida del arrendatario.
+
+
+**Task Flow — Confianza y Fidelización**
+user flow: 
+
+Happy path: 
+Toca el ícono de perfil en el bottom navigation. Accede a su dashboard personal con resumen de cuenta y métricas.Abre la sección "Seguridad" desde su perfil. Ve sus configuraciones: 0 contactos de confianza, todos los toggles desactivados.Agrega a su mamá como contacto de confianza: +51 987654321. Contacto guardado exitosamente. Recibirá alertas SOS si se activan durante viajes.Activa el toggle "Compartir ubicación en tiempo real durante viajes". Toggle verde activado. Contactos de confianza verán su ubicación GPS durante cada viaje.Navega a la sección de Recompensas desde el menú de perfil. Ve: Nivel Plata , 850/1000 puntos acumulados, 8 premios canjeables.Selecciona "Descuento 20% en próximo alquiler" (requiere 500 pts). Recompensa canjeada con 500 puntos. Cupón generado automáticamente y guardado en cuenta.Navega a su perfil público con todas las reseñas. Ve: 4.9 promedio, 47 viajes, 3 badges activos: Verificada, Pasajera Puntual , Mujer Segura.Lee las reseñas que conductores dejaron sobre ella. 6 reseñas positivas de Andrea, Miguel y otros sobre su puntualidad y excelente actitud.
+
+
+UnHappypath: 
+01 Puntos insuficientes para canjear la recompensa deseadaImpacto Bajo
+Punto de fallo: Catálogo de recompensas: tap en un premio fuera de alcance
+El usuario usuario intenta canjear "1 viaje de carpool gratis" que requiere 2000 puntos. El sistema solo tiene 850 puntos disponibles en su cuenta. "Necesitas 1,150 puntos más para este premio. ¡Sigue viajando!". App muestra: cuántos viajes o alquileres necesita para alcanzar esa cantidad. Sugiere los 3 premios alcanzables con sus 850 puntos actuales en el catálogo.
+02 Número de contacto de confianza con formato inválidoImpacto Bajo
+Punto de fallo: Pantalla B11 de Seguridad: agregar contacto de emergencia
+El usuario usuario ingresa número de contacto con formato incorrecto o incompleto. El sistema valida el campo y detecta que no cumple el formato peruano (+51 + 9 dígitos). Error inline: "Número inválido. Formato requerido: +51 9XXXXXXXX". El sistema campo resaltado con borde rojo y ejemplo de formato correcto visible. Usuario corrige el número con el formato adecuado y lo guarda exitosamente.
+03 Usuario recibe una reseña negativa inesperada en su perfilImpacto Medio
+Punto de fallo: Notificación push de nueva reseña recibida
+El sistema app notifica: "Tienes una nueva reseña de 2★ en tu perfil". Usuario abre su perfil y ve la reseña: "Llegó 30 min tarde sin avisar al conductor". El sistema app ofrece dos opciones: "Responder públicamente" o "Reportar como inapropiada". Si reporta: equipo de WheelsPe revisa la reseña en < 48h y notifica el resultado. Si responde: su respuesta aparece públicamente bajo la reseña, visible para otros usuarios.
+
+
 
 #### 3.1.4.5. Mobile Applications Prototyping
 
