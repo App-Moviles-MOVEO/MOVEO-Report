@@ -1,7 +1,5 @@
 ﻿<div align="center">
 
-# MOVEO-Report
-
 <p align="center">
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img>
 </p>
@@ -23,7 +21,7 @@
 </p>
 
 <p align="center">
-    <strong>Sección: 3678</strong>
+    <strong>NRC: 3678</strong>
 </p>
 
 <p align="center">
@@ -54,21 +52,31 @@
 
 
 
-### Mayo 2026
+### Junio 2026
 <br>
 
 </div>
 
 # Registro de Versiones del Informe
 
-| Versión   | Fecha       | Autor(es)                                                                                                                                              | Descripción de Modificación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-|-----------|-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1.0 (AV1) | 09/04/2026  | Arrieta Quispe, Alison JimenaEncalada Salazar, AlexisGoñe Araccata, Esther AbigailSalazar Caballero, Alvaro FabrizzioSantiago Peña, Andreow Jomark     | Capítulo I: Introducción 1.1 Startup Profile (Descripción de la Startup y perfiles del equipo).1.2 Solution Profile (Antecedentes y problemática).1.2.2.1 Lean UX Problem Statements (Definición de los problemas a resolver).1.2.2.2 Lean UX Assumptions (Identificación de suposiciones).1.2.2.3 Lean UX Hypothesis Statements (Formulación de hipótesis).1.3 Segmentos objetivo (Definición del público meta)                                                                                                                                                     |
-| 1.1 (AV1) | 13/04/2026  | Arrieta Quispe, Alison Jimena Encalada Salazar, Alexis Goñe Araccata, Esther Abigail Salazar Caballero, Alvaro Fabrizzio Santiago Peña, Andreow Jomark | Capítulo I: Introducción y Capítulo II: Requirements & Analysis 1.2.2.4 Lean UX Canvas (Creación del lienzo de Lean UX) 2.1.1 Análisis competitivo (Investigación de competidores) 2.1.2 Estrategias y tácticas frente a competidores (Definición de estrategias competitivas) 2.2.1.Diseño de entrevistas (Creación de guiones de entrevistas)                                                                                                                                                                                                                      |
-| 1.2 (AV1) | 17/04/2026  | Arrieta Quispe, Alison Jimena Encalada Salazar, Alexis Goñe Araccata, Esther Abigail Salazar Caballero, Alvaro Fabrizzio Santiago Peña, Andreow Jomark | Capítulo II: Requirements & Analysis 2.2.2 Registro de entrevistas (Documentación de entrevistas realizadas a los segmentos objetivo) 2.2.3 Análisis de entrevistas (Síntesis de hallazgos por segmento) 2.3.1 User Personas (Construcción de perfiles representativos de los usuarios) 2.3.2 User Task Matrix (Identificación de tareas por frecuencia e importancia)                                                                                                                                                                                               |
-| 1.3 (AV1) | 18./04/2026 | Arrieta Quispe, Alison Jimena Encalada Salazar, Alexis Goñe Araccata, Esther Abigail Salazar Caballero, Alvaro Fabrizzio Santiago Peña, Andreow Jomark | Capítulo II: Requirements & Analysis. 2.3.3 User Journey Mapping (Mapeo de la experiencia del usuario en los flujos principales).2.3.4 Empathy Mapping (Construcción de mapas de empatía por segmento objetivo).2.3.5 Big Picture Event Storming (Exploración colaborativa del dominio del negocio).2.3.6 Ubiquitous Language (Definición del glosario de términos del dominio)                                                                                                                                                                                      |
-| 1.4 (AV1) | 22/04/2026  | Arrieta Quispe, Alison Jimena Encalada Salazar, Alexis Goñe Araccata, Esther Abigail Salazar Caballero, Alvaro Fabrizzio Santiago Peña, Andreow Jomark | Capítulo II: Requirements & Analysis.2.4.1 User Stories (Especificación de historias de usuario por épica).2.4.2 Impact Mapping (Construcción del mapa de impacto del producto).2.4.3 Product Backlog (Priorización del backlog del producto) 2.5.1 Event Storming — Strategic Level (Sesión de diseño estratégico con DDD).2.5.1.1 Candidate Context Discovery (Identificación de bounded contexts candidatos)                                                                                                                                                      |
-| 1.5 (AV1) | 23/04/2026  | Arrieta Quispe, Alison Jimena Encalada Salazar, Alexis Goñe Araccata, Esther Abigail Salazar Caballero, Alvaro Fabrizzio Santiago Peña, Andreow Jomark | Capítulo II: Requirements & Analysis 2.5.1.2 Domain Message Flows Modeling (Modelado de flujos de mensajes entre contextos) 2.5.1.3 Bounded Context Canvases (Definición de los lienzos de cada bounded context).2.5.2 Context Mapping (Definición de relaciones entre bounded contexts) 2.5.3 Software Architecture (Diagramas de arquitectura a nivel de contexto, contenedor y despliegue) 2.6 Tactical-Level DDD (Domain Layer, Interface Layer, Application Layer e Infrastructure Layer de los bounded contexts IAM, Carpooling, Rental, Operations y Billing) |
+| Versión | Fecha | Autor | Descripción de Modificación |
+|---|---|---|---|
+| 1.0 (AV1) | 09/04/2026 | Arrieta Quispe, Alison Jimena | Capítulo I: Introducción. Adición de Startup Profile, Solution Profile (Lean UX Problem Statements, Assumptions, Hypothesis). |
+| 1.1 (AV1) | 13/04/2026 | Encalada Salazar, Alexis | Capítulo I y II: Adición de Lean UX Canvas, Segmentos Objetivo, Análisis Competitivo y Estrategias frente a competidores. |
+| 1.2 (AV1) | 16/04/2026 | Goñe Araccata, Esther Abigail | Capítulo II: Adición de Diseño, Registro y Análisis de Entrevistas. Creación de User Personas y User Task Matrix. |
+| 1.3 (AV1) | 18/04/2026 | Salazar Caballero, Alvaro Fabrizzio | Capítulo II: Adición de User Journey Mapping, Empathy Mapping y consolidación del Ubiquitous Language. |
+| 1.4 (AV1) | 20/04/2026 | Santiago Peña, Andreow Jomark | Capítulo II: Especificación de Requisitos. Adición de User Stories, Impact Mapping, Product Backlog y sesión de Big Picture Event Storming. |
+| 1.5 (AV1) | 22/04/2026 | Santiago Peña, Andreow Jomark | Capítulo II: Strategic-Level DDD. Identificación de Bounded Contexts, Domain Message Flows, Context Mapping y diagramas de Arquitectura (Context, Container, Deployment). |
+| 1.6 (AV1) | 23/04/2026 | Arrieta Quispe, Alison Jimena | Capítulo II: Tactical-Level DDD. Documentación de capas (Domain, Interface, Application, Infrastructure) y diagramas de base de datos. Revisión final AV1. |
+| 2.0 (TB1) | 05/05/2026 | Goñe Araccata, Esther Abigail | Capítulo III: Solution UI/UX Design. Definición de Style Guidelines, Information Architecture y diseño del Landing Page (Wireframes y Mock-ups). |
+| 2.1 (TB1) | 09/05/2026 | Encalada Salazar, Alexis | Capítulo III: Adición de Mobile Applications UX/UI Design (Wireframes, Wireflows, Mock-ups y Prototyping). |
+| 2.2 (TB1) | 13/05/2026 | Salazar Caballero, Alvaro Fabrizzio | Capítulo IV: Product Implementation. Configuración de SCM (GitFlow, Conventional Commits) y entornos de desarrollo. |
+| 2.3 (TB1) | 16/05/2026 | Santiago Peña, Andreow Jomark | Capítulo IV: Documentación del Sprint 1 (Planning, Backlog, Development Evidence, Testing inicial y Deployment). |
+| 2.4 (TB1) | 18/05/2026 | Arrieta Quispe, Alison Jimena | Correcciones TB1: Aplicación de normas APA 7, corrección de viudas/huérfanas y actualización de URLs de GitHub. |
+| 3.0 (AV2) | 02/06/2026 | Goñe Araccata, Esther Abigail | Capítulo IV: Inicio de documentación del Sprint 2 (Sprint Planning 2, actualización del Sprint Backlog 2). |
+| 3.1 (AV2) | 08/06/2026 | Santiago Peña, Andreow Jomark | Capítulo IV: Adición de Development Evidence, Testing Suite (Unit/Integration Tests) y Services Documentation (OpenAPI/Swagger) para el Sprint 2. |
+| 3.2 (AV2) | 12/06/2026 | Encalada Salazar, Alexis | Adición de enlaces y resúmenes de videos: Video App Validation, Video About the Product y Video About the Team. |
+| 3.3 (AV2) | 14/06/2026 | Salazar Caballero, Alvaro Fabrizzio | Revisión general AV2: Actualización de la Tabla de Contenidos, ajuste de conclusiones preliminares y formato final del documento Markdown. |
 
 
 # Project Report Collaboration Insights 
@@ -313,7 +321,7 @@ Utilizamos Google Docs como herramienta colaborativa para redactar el informe y 
 
 [4.2. Landing Page & Mobile Application Implementation](#42-landing-page--mobile-application-implementation)
 
-[4.2.1. Sprint n](#421-sprint-n)
+[4.2.1. Sprint 1](#421-sprint-1)
 
 [4.2.1.1. Sprint Planning n](#4211-sprint-planning-n)
 
@@ -330,6 +338,10 @@ Utilizamos Google Docs como herramienta colaborativa para redactar el informe y 
 [4.2.1.7. Software Deployment Evidence for Sprint Review](#4217-software-deployment-evidence-for-sprint-review)
 
 [4.2.1.8. Team Collaboration Insights during Sprint](#4218-team-collaboration-insights-during-sprint)
+
+[4.2.2. Sprint 2](#422-sprint-2)
+
+[4.2.3. Sprint 3 (en curso)](#423-sprint-3-en-curso)
 
 [4.3. Validation Interviews](#43-validation-interviews)
 
@@ -355,6 +367,8 @@ Utilizamos Google Docs como herramienta colaborativa para redactar el informe y 
 
 [Anexos](#anexos)
 
+# Student Outcome
+
 **Criterio:** *La capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje apropiadas.*
 
 En el cuadro siguiente se detallan las actividades llevadas a cabo y las conclusiones formuladas por el equipo, las cuales sirven como evidencia del logro alcanzado en el ABET – EAC \- Student Outcome.
@@ -362,8 +376,8 @@ En el cuadro siguiente se detallan las actividades llevadas a cabo y las conclus
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 | ----- | ----- | ----- |
-| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software. | **Arrieta Quispe, Alison Jimena**<br>*TB1*<br>Investigó y aplicó principios de diseño de interfaces móviles para desarrollar los wireframes y mockups del flujo de alquiler de vehículos (Flujo 03), profundizando en patrones de UX para transacciones de pago y sistemas de escrow en aplicaciones móviles.<br><br>**Encalada Salazar, Alexis**<br>*TB1*<br>Estudió los fundamentos de arquitectura de información y sistemas de navegación para construir la Organization Systems (3.1.2.1) y Navigation Systems (3.1.2.5), aplicando principios de jerarquía visual y accesibilidad táctil en interfaces móviles.<br><br>**Goñe Araccata, Esther Abigail**<br>*TB1*<br>Investigó metodologías de diseño responsivo y mobile-first para desarrollar los wireframes y mockups de la Landing Page en versiones desktop (1440px) y mobile (390px), aplicando técnicas de Grid Layout y variables CSS para consistencia visual.<br><br>**Salazar Caballero, Alvaro Fabrizzio**<br>*TB1*<br>Investigó patrones de autenticación y verificación de identidad para desarrollar los wireframes y mockups del flujo de Onboarding y KYC (Flujo 01), adquiriendo conocimientos sobre validación biométrica y procesos de verificación documental en plataformas digitales.<br><br>**Santiago Peña, Andreow Jomark**<br>*TB1*<br>Aplicó conceptos de desarrollo web con HTML5, CSS3 y JavaScript vanilla para implementar la Landing Page completa con interactividad (count-up animations, FAQ accordion, hamburger menu), configurando el deployment en GitHub Pages y documentando el proceso de CI/CD. | **TB1:**<br>Durante la elaboración del primer entregable, el equipo adquirió conocimientos especializados en diseño UX/UI para aplicaciones móviles, arquitectura de información, desarrollo web frontend y deployment, demostrando capacidad para actualizar su formación técnica según las necesidades específicas de cada componente del producto digital. |
-| Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software. | **Arrieta Quispe, Alison Jimena**<br>*TB1*<br>Al diseñar el flujo de pago seguro con múltiples métodos (Yape, Plin, Tarjeta) y sistema de escrow, reconoció que las soluciones de pagos digitales requieren actualización continua sobre regulaciones financieras y estándares de seguridad en constante evolución.<br><br>**Encalada Salazar, Alexis**<br>*TB1*<br>Al estructurar los sistemas de búsqueda y navegación con filtrado multi-criterio, reconoció que la experiencia del usuario en aplicaciones móviles es un campo en constante investigación que requiere estudio permanente de patrones emergentes y mejores prácticas.<br><br>**Goñe Araccata, Esther Abigail**<br>*TB1*<br>Al desarrollar la Landing Page responsiva aplicando mobile-first design, reconoció que las tecnologías web frontend evolucionan constantemente (nuevas versiones de CSS, frameworks, herramientas de optimización), requiriendo aprendizaje continuo para mantener competitividad profesional.<br><br>**Salazar Caballero, Alvaro Fabrizzio**<br>*TB1*<br>Al implementar el proceso de verificación KYC con validación biométrica, reconoció que la seguridad de identidad digital y la protección de datos personales son áreas críticas que exigen formación permanente debido a las regulaciones cambiantes y amenazas emergentes.<br><br>**Santiago Peña, Andreow Jomark**<br>*TB1*<br>Al configurar el entorno de desarrollo con GitHub Pages, Git Flow y herramientas de deployment, reconoció que las prácticas de DevOps y CI/CD son competencias profesionales fundamentales que requieren actualización constante ante nuevas herramientas y metodologías de la industria. | **TB1:**<br>Durante esta primera entrega del proyecto, el equipo demostró consciencia sobre la necesidad del aprendizaje permanente al enfrentar responsabilidades técnicas que van más allá del contenido tradicional del curso (validación biométrica, sistemas de pago, deployment automatizado), respondiendo con investigación autónoma y aplicación práctica de conocimientos actualizados en cada entregable. |
+| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software. | **Arrieta Quispe, Alison Jimena**<br>*AV1*<br>Investigó y aplicó conceptos de Lean UX y Strategic Domain-Driven Design para definir los Problem Statements y el modelado inicial del dominio.<br><br>*TB1*<br>Investigó y aplicó principios de diseño de interfaces móviles para desarrollar los wireframes y mockups del flujo de alquiler de vehículos (Flujo 03), profundizando en patrones de UX para transacciones de pago y sistemas de escrow en aplicaciones móviles.<br><br>*AV2*<br>Estudió e implementó el desarrollo de APIs RESTful usando frameworks backend (Spring Boot/NestJS) para el Bounded Context de Rental, aplicando la especificación OpenAPI/Swagger para su correcta documentación.<br><br>**Encalada Salazar, Alexis**<br>*AV1*<br>Estudió los fundamentos de análisis competitivo y Lean UX Canvas para estructurar la propuesta de valor y las estrategias del negocio digital.<br><br>*TB1*<br>Estudió los fundamentos de arquitectura de información y sistemas de navegación para construir la Organization Systems (3.1.2.1) y Navigation Systems (3.1.2.5), aplicando principios de jerarquía visual y accesibilidad táctil en interfaces móviles.<br><br>*AV2*<br>Investigó métodos de evaluación heurística de usabilidad y aplicó herramientas de edición audiovisual para producir y estructurar los entregables de Video About-the-Product y Video About-the-Team.<br><br>**Goñe Araccata, Esther Abigail**<br>*AV1*<br>Investigó metodologías de Needfinding para diseñar y registrar entrevistas, construyendo los arquetipos de User Personas y la matriz de tareas.<br><br>*TB1*<br>Investigó metodologías de diseño responsivo y mobile-first para desarrollar los wireframes y mockups de la Landing Page en versiones desktop (1440px) y mobile (390px), aplicando técnicas de Grid Layout y variables CSS para consistencia visual.<br><br>*AV2*<br>Actualizó sus conocimientos en aseguramiento de calidad de software investigando e implementando Unit Tests e Integration Tests automatizados para validar los endpoints construidos en el Sprint 2.<br><br>**Salazar Caballero, Alvaro Fabrizzio**<br>*AV1*<br>Profundizó en técnicas de mapeo de experiencia y modelado de dominio colaborativo elaborando los User Journey Maps, Empathy Maps y el Big Picture EventStorming.<br><br>*TB1*<br>Investigó patrones de autenticación y verificación de identidad para desarrollar los wireframes y mockups del flujo de Onboarding y KYC (Flujo 01), adquiriendo conocimientos sobre validación biométrica y procesos de verificación documental en plataformas digitales.<br><br>*AV2*<br>Adquirió conocimientos sobre plataformas de distribución de software al investigar y utilizar Firebase App Distribution para desplegar la app móvil y ejecutar las sesiones de Validación con usuarios reales.<br><br>**Santiago Peña, Andreow Jomark**<br>*AV1*<br>Aplicó el modelo C4 y técnicas de Tactical DDD para el diseño de la arquitectura de software (Context, Container, Deployment) y el modelado de las capas de dominio e infraestructura.<br><br>*TB1*<br>Aplicó conceptos de desarrollo web con HTML5, CSS3 y JavaScript vanilla para implementar la Landing Page completa con interactividad (count-up animations, FAQ accordion, hamburger menu), configurando el deployment en GitHub Pages y documentando el proceso de CI/CD.<br><br>*AV2*<br>Investigó estrategias de Cloud Computing y bases de datos en la nube para lograr el despliegue del 100% del backend en un servidor público, asegurando la conexión exitosa con la base de datos de producción. | **AV1:**<br>El equipo logró actualizar sus conocimientos técnicos adoptando enfoques modernos de la industria, como Lean UX y Domain-Driven Design, lo cual fue fundamental para alinear los requisitos del negocio con una arquitectura de software escalable y bien estructurada.<br><br>**TB1:**<br>Durante la elaboración del segundo entregable, el equipo adquirió conocimientos especializados en diseño UX/UI para aplicaciones móviles, arquitectura de información, desarrollo web frontend y deployment, demostrando capacidad para actualizar su formación técnica según las necesidades específicas de cada componente del producto digital.<br><br>**AV2:**<br>En esta fase, el equipo consolidó su formación técnica backend y de validación, adquiriendo dominio en despliegue en la nube, pruebas automatizadas, documentación de APIs con Swagger y distribución de apps con Firebase. |
+| Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software. | **Arrieta Quispe, Alison Jimena**<br>*AV1*<br>Al modelar el dominio de negocio bajo el enfoque DDD, reconoció que las metodologías de arquitectura de software evolucionan constantemente para manejar la complejidad.<br><br>*TB1*<br>Al diseñar el flujo de pago seguro con múltiples métodos (Yape, Plin, Tarjeta) y sistema de escrow, reconoció que las soluciones de pagos digitales requieren actualización continua sobre regulaciones financieras y estándares de seguridad en constante evolución.<br><br>*AV2*<br>Al construir los Web Services, reconoció que los estándares de desarrollo backend y documentación de APIs cambian rápidamente, por lo que es vital dominar especificaciones como OpenAPI para garantizar la interoperabilidad.<br><br>**Encalada Salazar, Alexis**<br>*AV1*<br>Al analizar el mercado y competidores, comprendió que los modelos de negocio digitales deben adaptarse continuamente a nuevas tecnologías para sobrevivir.<br><br>*TB1*<br>Al estructurar los sistemas de búsqueda y navegación con filtrado multi-criterio, reconoció que la experiencia del usuario en aplicaciones móviles es un campo en constante investigación que requiere estudio permanente de patrones emergentes y mejores prácticas.<br><br>*AV2*<br>Al realizar la evaluación heurística, comprobó que los estándares de accesibilidad e inclusión digital exigen una revisión y actualización profesional constante para no dejar fuera a ningún usuario.<br><br>**Goñe Araccata, Esther Abigail**<br>*AV1*<br>Al conducir el Needfinding, reconoció la importancia de mejorar continuamente las habilidades blandas y técnicas de entrevista para descubrir dolores reales de los usuarios.<br><br>*TB1*<br>Al desarrollar la Landing Page responsiva aplicando mobile-first design, reconoció que las tecnologías web frontend evolucionan constantemente (nuevas versiones de CSS, frameworks, herramientas de optimización), requiriendo aprendizaje continuo para mantener competitividad profesional.<br><br>*AV2*<br>Al implementar las suites de Testing, reconoció que la automatización de pruebas y la ingeniería de calidad son disciplinas críticas que requieren formación constante para evitar regresiones de código.<br><br>**Salazar Caballero, Alvaro Fabrizzio**<br>*AV1*<br>Al facilitar las sesiones de EventStorming, comprendió la necesidad de explorar continuamente nuevas dinámicas de colaboración entre expertos del dominio y desarrolladores.<br><br>*TB1*<br>Al implementar el proceso de verificación KYC con validación biométrica, reconoció que la seguridad de identidad digital y la protección de datos personales son áreas críticas que exigen formación permanente debido a las regulaciones cambiantes y amenazas emergentes.<br><br>*AV2*<br>Al organizar las entrevistas de validación a través de Firebase, reconoció que las herramientas de beta testing y feedback de usuarios se actualizan año tras año, exigiendo adaptabilidad.<br><br>**Santiago Peña, Andreow Jomark**<br>*AV1*<br>Al documentar la arquitectura con el Modelo C4, reconoció que la forma de visualizar e instruir sobre sistemas de software se moderniza constantemente, dejando atrás diagramas obsoletos.<br><br>*TB1*<br>Al configurar el entorno de desarrollo con GitHub Pages, Git Flow y herramientas de deployment, reconoció que las prácticas de DevOps y CI/CD son competencias profesionales fundamentales que requieren actualización constante ante nuevas herramientas y metodologías de la industria.<br><br>*AV2*<br>Al lidiar con el despliegue del backend en la nube, reconoció que la infraestructura como código (IaC) y los servicios Cloud son ecosistemas dinámicos que demandan certificación y estudio ininterrumpido. | **AV1:**<br>El equipo interiorizó que comprender el problema antes de programar requiere dominar técnicas que están en constante evolución, reconociendo que la ingeniería de software es tanto descubrir necesidades como escribir código.<br><br>**TB1:**<br>Durante esta entrega, el equipo demostró consciencia sobre la necesidad del aprendizaje permanente al enfrentar responsabilidades técnicas que van más allá del contenido tradicional del curso (validación biométrica, sistemas de pago, deployment automatizado), respondiendo con investigación autónoma y aplicación práctica.<br><br>**AV2:**<br>El equipo concluyó que el pase a producción de un software y la validación con usuarios es un terreno complejo que evidencia cómo las tecnologías cloud y de aseguramiento de calidad evolucionan a gran velocidad, exigiendo una postura de aprendizaje continuo. |
 
 # Capítulo I: Introducción
 # 1.1. Startup Profile
@@ -586,18 +600,17 @@ Atendiendo a la retroalimentación docente de identificar el riesgo crítico, el
 
 **Figura 3**
 
-*Lean UX Canvas de WheelsPe*
+*Lean UX Canvas de Moveo*
 
 ![LeanUxCanvas.png](Assets/LeanUxCanvas.png)
 
 *Nota.* Elaboración Propia
 
 <a id="segmentos-objetivo"></a>
+
 # 1.3. Segmentos Objetivo
 
 Para garantizar que la solución tecnológica de WheelsPe responda de manera efectiva a las necesidades reales del mercado de movilidad urbana en Lima Metropolitana, se han identificado y analizado **tres segmentos objetivo clave** que enfrentan problemáticas específicas en el ecosistema actual. A continuación se detallan sus perfiles estratégicos, profundizando en las características demográficas, geográficas y psicográficas que sustentan su relevancia dentro del dominio del problema.
-
----
 
 #### Segmento Objetivo #1: Proveedores de Vehículos
 
@@ -618,8 +631,6 @@ Representa tanto a propietarios particulares con vehículos subutilizados como a
 * **Intereses:** Generar ingresos adicionales a través de un activo que ya poseen sin invertir tiempo excesivo en la gestión. Digitalizar su operación y ampliar su alcance comercial mediante un canal tecnológico confiable y escalable.  
 * **Actitudes:** Proactivos en la búsqueda de soluciones que rentabilicen sus recursos. Valoran la seguridad jurídica, la verificación de identidad del arrendatario y el respaldo ante posibles incidencias como condición indispensable para publicar sus vehículos en una plataforma.  
 * **Necesidades clave:** Contar con un canal formal y seguro para ofrecer sus vehículos en alquiler, mecanismos de validación de identidad del arrendatario, protección ante daños o incidencias, y visibilidad ante una base de usuarios activos y verificados.
-
----
 
 #### Segmento Objetivo #2: Conductores Arrendatarios
 
@@ -683,7 +694,6 @@ Poseen un estilo de vida digital-first, toman decisiones de movilidad sobre la m
 **Necesidades clave:** 
 Plataformas formales con directorio centralizado de rutas compartidas donde TODOS los conductores estén verificados mediante documentación oficial. Sistemas de filtrado por comunidad institucional que garanticen que el conductor estudia/trabaja en la misma universidad/empresa (validación de correo institucional @upc.edu.pe, @pucp.edu.pe, @empresaX.com). Funcionalidades de seguridad activa como botón de pánico conectado a contactos de confianza y autoridades, trazabilidad GPS compartible en tiempo real, sistema de calificaciones bidireccional obligatorio post-viaje. Interfaz intuitiva que permita reservar asientos en rutas recurrentes de forma anticipada para eliminar la incertidumbre diaria. Opción de filtrado por preferencia de género (viajes solo con conductoras mujeres) para aumentar la percepción de seguridad en usuarias femeninas.
 
----
 
 # Capítulo II: Requirements Development and Software Solution Design
 ## 2.1. Competidores 
@@ -743,118 +753,116 @@ Finalmente, para mitigar la resistencia cultural a formalizar el alquiler entre 
 
 ## 2.2. Entrevistas
 
-### 2.2.1. Diseño de entrevista 
+### 2.2.1. Diseño de entrevistas
 
-El diseño de las entrevistas a profundidad se fundamenta en un enfoque experimental que busca recolectar retroalimentación cualitativa para determinar si las hipótesis planteadas en el **Lean UX Canvas** son válidas o requieren un pivot comercial . El objetivo principal es profundizar en los "dolores" y frustraciones de los usuarios para confirmar que el problema identificado es real y lo suficientemente crítico como para justificar el desarrollo de la solución.
+El diseño de las entrevistas a profundidad se fundamenta en un enfoque experimental cualitativo que busca recolectar evidencia directa de los usuarios para determinar si las hipótesis planteadas en el **Lean UX Canvas** son válidas o requieren un pivot comercial. El objetivo principal es profundizar en los "dolores", frustraciones y comportamientos actuales de los usuarios para confirmar que el problema identificado es lo suficientemente crítico como para justificar la adopción de nuestra plataforma digital.
 
-* **Segmento \#1:** Propietarios particulares de vehículos y gestores de micro-agencias de alquiler.  
-* **Segmento \#2:** Conductores que requieren vehículos para movilidad y pasajeros que utilizan rutas fijas.
+Para garantizar una cobertura total del ecosistema de la plataforma, el guion de entrevistas se ha estructurado específicamente para abordar los **tres segmentos objetivo** identificados:
+*   **Segmento #1:** Proveedores de Vehículos (Propietarios particulares y micro-empresas de alquiler).
+*   **Segmento #2:** Conductores Arrendatarios (Usuarios que alquilan y buscan dividir gastos mediante carpooling).
+*   **Segmento #3:** Pasajeros de Movilidad Compartida (Usuarios que buscan "jalones" seguros y verificados).
 
-**Segmento objetivo \#1: Proveedores de Vehículos**
+---
 
-**Perfil 1: Propietarios Particulares (Individual Car Owners)**
+#### Segmento Objetivo #1: Proveedores de Vehículos
 
-**Objetivo de la entrevista:** Realizar una inmersión profunda en las barreras psicológicas y financieras que impiden que un propietario ponga su activo de alto valor en circulación. Se busca validar si la percepción de "riesgo de robo o daño" puede ser mitigada mediante un sistema de identidad digital (KYC) y un esquema de reputación mutua. Asimismo, se busca cuantificar el interés económico real frente al esfuerzo de gestión que implica el alquiler entre pares (P2P).
+Debido a la naturaleza dual de la oferta, este segmento se ha dividido en dos perfiles de entrevista para capturar tanto la realidad del ciudadano común como la del pequeño empresario.
 
-**Características demográficas e introductorias:**
+**Perfil 1: Propietarios Particulares (Sectores A, B y C)**
 
-* ¿Cuál es tu nombre completo y edad?  
-* ¿En qué distrito resides actualmente y qué modelo de vehículo posees?  
-* ¿A qué te dedicas profesionalmente? (Dependiente, independiente o dueño de negocio).  
-* ¿Cuál es el uso real que le das a tu vehículo durante la semana? ¿Cuántas horas o días permanece estacionado sin ser utilizado?  
-* ¿Consideras que tu vehículo es actualmente una herramienta que te genera ingresos o es puramente un gasto mensual en tu economía (mantenimiento, seguro, cochera)?
-
-**Preguntas sobre la problemática:**
-
-* ¿Alguna vez has considerado alquilar tu auto para generar ingresos extra? Si la respuesta es negativa, ¿cuál es el miedo o preocupación específica que más te detiene?  
-* ¿Qué nivel de confianza te generan los canales actuales (redes sociales, recomendaciones) para verificar la honestidad de una persona antes de entregarle tus llaves?  
-* ¿Qué tan expuesto te sientes ante posibles infracciones de tránsito o daños mecánicos causados por terceros?  
-* ¿Has escuchado o vivido alguna mala experiencia relacionada con el préstamo o alquiler informal de vehículos? ¿Cómo influye eso en tu decisión actual?
-
-**Preguntas sobre la solución:**
-
-* Si una aplicación móvil realizará una validación estricta de identidad conectada a antecedentes policiales y perfiles sociales, ¿cambiaría tu disposición a alquilar?  
-* ¿Qué importancia le das a contar con un historial de reseñas donde otros propietarios califiquen el comportamiento del conductor?  
-* ¿Estarías dispuesto a pagar una comisión por cada reserva si la plataforma te asegura un filtrado riguroso de clientes y soporte ante incidencias?  
-* ¿Te resultaría útil contar con un panel digital en tu celular para gestionar los pagos y la disponibilidad de tu auto sin complicaciones manuales?
-
-**Perfil 2: Micro y Pequeñas Agencias (Rental SMBs)**
-
-**Objetivo de la entrevista:** Identificar los puntos de fricción operativa en las pequeñas empresas de alquiler que aún operan bajo modelos tradicionales. Se busca validar la necesidad de una herramienta tipo **SaaS (Software as a Service)** que les permita digitalizar su inventario y expandir su alcance comercial hacia nuevos segmentos (como la comunidad universitaria) que actualmente no logran captar por su limitación geográfica o falta de presencia digital.
+**Objetivo de la entrevista:** Realizar una inmersión profunda en las barreras psicológicas y financieras que impiden que un propietario ponga su vehículo (que pasa gran parte de la semana sin uso) en circulación. Se busca validar si el temor a daños o robos puede ser mitigado mediante un sistema de validación de identidad estricto y un respaldo institucional.
 
 **Características demográficas e introductorias:**
+*   ¿Cuál es tu nombre completo y edad?
+*   ¿En qué distrito resides actualmente y qué modelo o marca de vehículo posees?
+*   ¿A qué te dedicas profesionalmente?
+*   De los 7 días de la semana, ¿cuánto tiempo real utilizas tu vehículo y cuánto tiempo permanece estacionado en casa o el trabajo sin generar valor?
+*   Haciendo un cálculo rápido, ¿consideras que tu vehículo te genera más gastos (mantenimiento, seguro, depreciación) que beneficios económicos hoy en día?
 
-* ¿Cuál es tu nombre y cuál es el nombre comercial de tu agencia de alquiler?  
-* ¿En qué zona de Lima se ubica tu local principal y qué tan difícil es captar clientes fuera de ese radio?  
-* ¿Cuántos vehículos conforman tu flota actual y qué porcentaje de ellos suele estar alquilado de manera constante?  
-* ¿A qué tipo de público te diriges principalmente hoy en día y bajo qué requisitos de seguridad trabajas?  
-* ¿Cómo llevas hoy el control de tus reservas, contratos y el estado de tus vehículos (cuadernos, Excel, sistema propio)?
+**Preguntas sobre la problemática (Dolores y Barreras):**
+*   ¿Alguna vez has pensado en alquilar tu auto a un tercero para generar un ingreso extra? Si no lo has hecho, ¿cuál es la preocupación exacta o el "miedo" que te detiene?
+*   Si tuvieras que alquilarlo hoy por tu cuenta, ¿qué nivel de confianza te darían las redes sociales (Marketplace, grupos de Facebook) para verificar que la persona a la que le entregas la llave es honesta?
+*   ¿Qué tan expuesto o vulnerable te sientes, desde un punto de vista legal, ante posibles fotopapeletas, accidentes o daños mecánicos causados por un tercero mientras conduce tu auto?
+*   ¿Has sabido de casos cercanos o noticias sobre estafas en el alquiler informal de vehículos? ¿Cómo ha condicionado eso tu perspectiva?
 
-**Preguntas sobre la problemática:**
+**Preguntas sobre la solución (Validación de Hipótesis):**
+*   Si una aplicación realizara una validación estricta de identidad (conectada a RENIEC o antecedentes) antes de aprobar a un usuario, ¿cambiaría tu disposición a ofrecer tu auto?
+*   ¿Qué importancia le das a que la plataforma maneje un sistema de "garantía digital" o seguro contra daños mecánicos o incidencias durante el periodo de reserva?
+*   ¿Estarías dispuesto a pagar una comisión a la plataforma si esta te asegura la visibilidad ante clientes verificados, la gestión del cobro y el respaldo legal mediante contratos digitales?
+*   ¿Te resultaría útil gestionar la disponibilidad de tu auto (qué días se alquila y cuáles no) desde un panel en tu celular, sin necesidad de interactuar directamente en la negociación?
 
-* ¿Qué procesos administrativos (contratos, verificación de documentos) te consumen más tiempo y resultan más propensos a errores humanos?  
-* ¿Consideras que el proceso de validación de clientes que realizas hoy es suficiente para proteger tu flota de posibles fraudes o mal uso?  
-* ¿Has tenido que rechazar alquileres por no tener una forma rápida de verificar la solvencia o identidad de un interesado?  
-* ¿Cómo compites actualmente con las grandes franquicias internacionales en términos de visibilidad y tecnología?
+**Perfil 2: Micro y Pequeñas Empresas de Alquiler (Rental SMBs)**
 
-**Preguntas sobre la solución:**
-
-* ¿Qué tan valioso sería para tu empresa contar con un panel administrativo que te brinde reportes de rentabilidad y alertas de mantenimiento por cada unidad?  
-* ¿Estarías dispuesto a migrar toda tu gestión manual a una herramienta digital si esta te garantiza exposición ante una comunidad de usuarios ya verificados?  
-* ¿Qué importancia le das a que la plataforma automatice los contratos y el cobro de garantías para reducir tu carga legal?  
-* ¿Qué funcionalidad técnica es indispensable para ti para considerar que una aplicación es "profesional" para gestionar tu flota?
-
-**Segmento objetivo \#2: Usuarios de Movilidad**
-
-**Perfil 3: Conductores Arrendatarios (Drivers / Estudiantes)**
-
-**Objetivo de la entrevista:** Explorar la elasticidad de la demanda y la disposición de los conductores a adoptar el **carpooling** como una estrategia de ahorro directo. Se busca validar si el costo del alquiler actual es una barrera para la recurrencia y si la integración de una funcionalidad para "vender asientos vacíos" dentro del mismo alquiler es un incentivo suficiente para preferir **WheelsPe** frente a la competencia.
+**Objetivo de la entrevista:** Identificar los cuellos de botella operativos en agencias pequeñas que operan de forma manual. Se busca validar si estarían dispuestas a usar la plataforma como un canal tecnológico para modernizar su gestión y ampliar su alcance de clientes sin invertir en software propio.
 
 **Características demográficas e introductorias:**
+*   ¿Cuál es tu nombre y el nombre comercial de tu agencia de alquiler?
+*   ¿En qué distrito operas principalmente y cómo haces actualmente para conseguir nuevos clientes?
+*   ¿De cuántos vehículos se compone tu flota y qué porcentaje suele estar "parado" sin alquilarse en un mes regular?
+*   ¿Cómo llevas el registro de tus reservas, fechas de entrega, pagos y contratos en el día a día (cuadernos, Excel, WhatsApp)?
 
-* ¿Cuál es tu nombre completo, edad y ocupación principal? (Estudiante o trabajador).  
-* ¿En qué distrito vives y realizas tus actividades principales? (Ruta habitual).  
-* ¿Con qué frecuencia necesitas alquilar un vehículo y cuáles son los motivos principales (traslados universitarios, trabajo puntual)?  
-* Aproximadamente, ¿cuánto dinero destinas mensualmente a tus gastos de movilidad y qué porcentaje representa de tus ingresos?
+**Preguntas sobre la problemática (Dolores y Barreras):**
+*   De todo tu proceso de alquiler, ¿qué tarea administrativa te consume más tiempo o te genera más estrés y errores?
+*   ¿Sientes que tus procesos manuales te limitan para captar clientes a la misma velocidad que las franquicias grandes?
+*   ¿Cómo verificas hoy en día que un cliente nuevo es confiable? ¿Has tenido que rechazar alquileres por no poder validar rápidamente su identidad o solvencia?
+*   ¿Qué impacto económico tiene para tu negocio cuando un auto se queda estacionado todo un fin de semana porque no lograste cerrar una reserva a tiempo?
 
-**Preguntas sobre la problemática:**
+**Preguntas sobre la solución (Validación de Hipótesis):**
+*   ¿Qué tan valioso sería para tu empresa contar con una plataforma que te brinde un panel digital para ver el estado de toda tu flota en tiempo real?
+*   ¿Estarías dispuesto a publicar tus autos en nuestra app si te garantizamos acceso a una base de conductores recurrentes (como estudiantes de posgrado o ejecutivos) que ya pasaron filtros de seguridad?
+*   ¿Qué característica técnica es indispensable para ti (ej. reportes de ingresos, bloqueo de fechas, cobro automático de garantías) para confiar tu operación diaria a una aplicación de terceros?
 
-* ¿Has alquilado un auto antes? ¿Qué fue lo que más te disgustó o dificultó del proceso (precios, trámites, depósitos)?  
-* ¿Cuál es el gasto que más te duele pagar al moverte por la ciudad: la tarifa de alquiler, el combustible o los peajes?  
-* ¿Sueles realizar tus trayectos solo o con asientos vacíos en el vehículo que has alquilado?  
-* ¿Qué tan seguro te sientes llevando a una persona que contactaste por un grupo de WhatsApp informal para "dividir gastos"?
+---
 
-**Preguntas sobre la solución:**
+#### Segmento Objetivo #2: Conductores Arrendatarios
 
-* Si al alquilar el auto la app te permitiera publicar tus asientos disponibles de forma automática, ¿lo harías para que otros pasajeros te ayuden a pagar el costo del viaje?  
-* ¿Qué tan importante es para ti ver el perfil verificado y la calificación de los pasajeros que subirías a tu auto?  
-* ¿Estarías dispuesto a pasar por un filtro de identidad estricto si esto te da acceso a vehículos de particulares a precios mucho más bajos que una agencia tradicional?  
-* ¿Qué funcionalidad te motivaría a alquilar vehículos de forma más seguida a través de una aplicación?
+**Perfil 3: Profesionales, Emprendedores y Estudiantes de Posgrado**
 
-**Perfil 4: Pasajeros Recurrentes (Passengers)**
-
-**Objetivo de la entrevista:** Identificar las brechas de seguridad, puntualidad y comodidad en los pasajeros que hoy utilizan "jalones" informales. El fin es validar si la propuesta de **trazabilidad GPS, botones de auxilio y perfiles universitarios/corporativos verificados** es el factor determinante para que abandonen los grupos de redes sociales y migren a nuestra plataforma formal.
+**Objetivo de la entrevista:** Explorar la elasticidad de la demanda de alquiler temporal y validar la hipótesis central del modelo: ¿Están dispuestos estos usuarios a alquilar vehículos más seguido si la plataforma les integra una herramienta de *carpooling* para dividir los altísimos costos operativos con otros pasajeros?
 
 **Características demográficas e introductorias:**
+*   ¿Cuál es tu nombre, edad y a qué te dedicas exactamente (ej. ingeniero de campo, estudiante de MBA)?
+*   ¿Qué rutas sueles hacer con mayor frecuencia y por qué motivos (reuniones con clientes, visitas a obras, clases de posgrado)?
+*   ¿Cuánto gastas en promedio al mes moviéndote en taxis por aplicación (Uber/Cabify) para mantener una imagen profesional en tus gestiones?
+*   ¿Con qué frecuencia sientes la necesidad de tener un auto a tu disposición exclusiva, pero decides no alquilarlo en una agencia tradicional?
 
-* ¿Cuál es tu nombre, edad y qué ruta de transporte realizas con más frecuencia diariamente?  
-* ¿Cuál es tu principal medio de transporte hoy y cuánto tiempo promedio pierdes en el tráfico de Lima cada día?  
-* ¿Qué tan satisfecho estás con tus opciones actuales de transporte del 1 al 10 y por qué?  
-* ¿Por qué medios coordinas actualmente tus viajes compartidos cuando no deseas usar el transporte público masivo?
+**Preguntas sobre la problemática (Dolores y Barreras):**
+*   ¿Cuál es la barrera económica más fuerte que te impide alquilar un auto de forma recurrente (2 a 4 veces por semana)? ¿Es la tarifa base, los depósitos de garantía o tener que asumir la gasolina y peajes tú solo?
+*   Si alquilas un auto para ir desde tu casa (ej. La Molina) hasta tu centro de labores/estudios (ej. San Isidro), ¿cómo te hace sentir económicamente hacer ese trayecto largo asumiendo el 100% del costo con 3 o 4 asientos vacíos?
+*   ¿Por qué prefieres gastar en taxis por aplicativo en lugar de alquilar un auto tradicional cuando tienes varias reuniones en un mismo día?
 
-**Preguntas sobre la problemática:**
+**Preguntas sobre la solución (Validación de Hipótesis):**
+*   Si alquilas un vehículo en nuestra app y esta te permite, en un par de clics, publicar tu ruta para llevar pasajeros y dividir los gastos (gasolina/peaje/alquiler), ¿usarías esta función?
+*   ¿Qué tan importante es para ti, por un tema de *networking* e imagen, que los pasajeros que subas a tu auto validado sean de un entorno corporativo o académico similar al tuyo (validación por LinkedIn o correo empresarial)?
+*   ¿Valorarías que la plataforma haga el cálculo matemático y el cobro automático a los pasajeros para que no tengas que pedirles efectivo o transferencias manuales?
+*   ¿Te resultaría útil que la plataforma te emita facturas electrónicas para que puedas deducir estos gastos de movilidad con tu empleador o en tus impuestos?
 
-* Si usas grupos de Facebook o WhatsApp para viajar: ¿Cuál ha sido tu peor experiencia en términos de seguridad, puntualidad o trato del conductor?  
-* ¿Qué tan seguro te sientes subiéndote al auto de alguien cuya identidad no conoces realmente y que no tiene reseñas de otros pasajeros?  
-* ¿Has tenido problemas con cancelaciones de último minuto que te han perjudicado en tus horarios de estudio o trabajo?  
-* ¿Por qué sigues usando esos grupos informales a pesar de los riesgos e inconvenientes mencionados?
+---
 
-**Preguntas sobre la solución:**
+#### Segmento Objetivo #3: Pasajeros de Movilidad Compartida
 
-* ¿Qué tan valioso sería para ti poder ver el centro de estudios/trabajo y la identidad validada del conductor antes de subirte al auto?  
-* ¿Estarías dispuesto a pagar una tarifa ligeramente mayor que la de un "jalón" informal a cambio de viajar en un auto con monitoreo GPS en tiempo real?  
-* ¿Qué tan importante es para ti poder dejar una calificación sobre la experiencia de viaje y ver las reseñas de otros pasajeros sobre el conductor?  
-* ¿Qué característica mínima debería tener WheelsPe para que borres definitivamente tus grupos informales de transporte y uses solo nuestra aplicación?
+**Perfil 4: Estudiantes Universitarios y Trabajadores Jóvenes**
+
+**Objetivo de la entrevista:** Identificar a profundidad la crisis de inseguridad, informalidad y ansiedad que viven los usuarios que dependen de "jalones" en redes sociales. El objetivo es validar si los filtros institucionales, la trazabilidad y la seguridad activa son incentivos suficientes para que migren hacia un entorno digital formal, incluso si implica un ligero aumento en el precio.
+
+**Características demográficas e introductorias:**
+*   ¿Cuál es tu nombre, edad y ocupación (ciclo universitario o puesto de trabajo)?
+*   ¿Cuál es la ruta fija exacta que realizas casi todos los días (ej. San Juan de Lurigancho a San Isidro, Los Olivos a UPC)?
+*   ¿Cuánto es tu presupuesto o mesada mensual y qué porcentaje de eso se te va en transporte?
+*   Actualmente, ¿cómo coordinas tus traslados diarios cuando buscas alternativas al transporte público tradicional (combis/buses)?
+
+**Preguntas sobre la problemática (Dolores y Barreras):**
+*   Si utilizas grupos de WhatsApp, Telegram o Facebook para buscar "jalones": ¿Qué es lo que más te frustra o te genera ansiedad de este método informal?
+*   ¿Alguna vez te han cancelado un viaje a último minuto por un grupo de WhatsApp? ¿Qué impacto tuvo eso en tu puntualidad para una clase importante o en el trabajo?
+*   Siendo totalmente sincero(a), ¿qué tan seguro(a) te sientes subiéndote al auto de alguien que solo conoces por un número de celular y del cual no tienes historial ni antecedentes? (Especialmente en horarios nocturnos).
+*   ¿Por qué descartas el uso de transporte masivo (Metropolitano, corredores) para llevar tus pertenencias de valor (laptops, maquetas) y prefieres buscar estos viajes compartidos?
+
+**Preguntas sobre la solución (Validación de Hipótesis):**
+*   Si nuestra aplicación te garantizara un directorio donde TODOS los conductores han pasado por validación de identidad oficial (DNI/Reniec), ¿dejarías de usar los grupos de WhatsApp?
+*   ¿Qué tan valioso sería para ti un filtro de "Comunidad Institucional", donde la app te asegure que el conductor estudia en tu misma universidad (validado por su correo @upc.edu.pe) o trabaja en tu misma zona corporativa?
+*   ¿Estarías dispuesto(a) a pagar un 15% o 20% más frente a lo que pagas en un grupo informal, a cambio de viajar con trazabilidad GPS en tiempo real y un botón de pánico integrado?
+*   (En caso de usuarias femeninas) ¿Utilizarías de manera frecuente un filtro de preferencia de género que te permita ver y reservar viajes exclusivamente con conductoras mujeres?
+*   ¿Qué importancia le das a la función de calificar al conductor post-viaje y poder leer las reseñas de otros estudiantes antes de reservar tu asiento de forma anticipada?
 
 ### 2.2.2. Registro de entrevistas
 
@@ -1204,9 +1212,11 @@ El diseño de las entrevistas a profundidad se fundamenta en un enfoque experime
 
 ### 2.2.3. Análisis de Entrevistas 
 
-Esta sección presenta un análisis sistemático y detallado de los hallazgos obtenidos mediante las técnicas de recolección de datos (entrevistas a profundidad y encuestas digitales). El objetivo es triangular la información cualitativa de los 8 entrevistados con la data cuantitativa de las 41 respuestas totales (n=21 para proveedores y n=20 para usuarios), estableciendo una base sólida de evidencia empírica para el diseño de la solución WheelsPe.
+Esta sección presenta un análisis sistemático y detallado de los hallazgos obtenidos mediante las técnicas de recolección de datos (entrevistas a profundidad y encuestas digitales). El objetivo es triangular la información cualitativa de los entrevistados con la data cuantitativa de las respuestas totales, estableciendo una base sólida de evidencia empírica para el diseño de la solución tecnológica de MOVEO.
 
-**Segmento \#1: Proveedores de Vehículos**
+---
+
+#### Segmento #1: Proveedores de Vehículos
 
 Este segmento está compuesto por propietarios particulares y gestores de micro-flotas que buscan rentabilizar sus activos. Los datos revelan un perfil con alta aversión al riesgo pero con una fuerte inclinación hacia la digitalización si se garantiza la seguridad mecánica y legal.
 
@@ -1219,140 +1229,135 @@ Este segmento está compuesto por propietarios particulares y gestores de micro-
 | **Marcas de confianza** | Toyota (60%) y Kia (40%) | Encuesta (n=20) |
 | **Canal de información** | Grupos de Facebook (28.6%) y YouTube (19%) | Encuesta (n=21) |
 | **Mayor temor** | Daños mecánicos ocultos (50%) | Encuesta (n=20) |
-| **Disposición al pago** | Muy alta \- Nivel 5 de 5 (44.4%) | Encuesta (n=18) |
+| **Disposición al pago** | Muy alta - Nivel 5 de 5 (44.4%) | Encuesta (n=18) |
 
 **Figura 12**  
 *Ocupación profesional de los proveedores encuestados*  
-**![Gráfico de las respuestas de Formularios. Título de la pregunta:   ¿A qué te dedicas profesionalmente?  . Número de respuestas: 21 respuestas.](https://i.imgur.com/goeqpDb.png)**  
+**![Gráfico de las respuestas](https://i.imgur.com/goeqpDb.png)**  
 *Nota.* Elaboración propia. Resultados de la encuesta realizada al segmento de proveedores de vehículos (n=21) sobre su situación laboral actual.
 
-**Figura 13**
-
+**Figura 13**  
 *Dispositivo tecnológico de uso más frecuente*  
-**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Qué dispositivo usas con más frecuencia?. Número de respuestas: 21 respuestas.](https://i.imgur.com/4N9dTpM.png)**  
+**![Gráfico de las respuestas](https://i.imgur.com/4N9dTpM.png)**  
 *Nota.* Elaboración propia. Distribución de los dispositivos tecnológicos principales utilizados en el día a día por los encuestados (n=21).
 
-**Figura 14**
-
-*Navegador web de preferencia para la búsqueda de servicios*  
-**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Cuál es tu navegador de preferencia al buscar servicios o rutas?. Número de respuestas: 16 respuestas.](https://i.imgur.com/7aCQdsL.png)**  
-*Nota.* Elaboración propia. Preferencia de navegadores web utilizados por la muestra encuestada para gestionar información o rutas (n=16).
-
-**Figura 15**
-
-*Aplicaciones y canales preferidos para la gestión de servicios*
-
-**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Qué apps o navegadores prefieres usar para gestionar cosas importantes (como publicar o buscar servicios)? (  . Número de respuestas: 21 respuestas.](https://i.imgur.com/zudPaWl.png)**  
+**Figura 14**  
+*Aplicaciones y canales preferidos para la gestión de servicios*  
+**![Gráfico de las respuestas](https://i.imgur.com/zudPaWl.png)**  
 *Nota.* Elaboración propia. Principales aplicaciones y plataformas digitales que los proveedores prefieren utilizar para coordinar servicios y publicaciones (n=21).
 
-**Figura 16**
-
-*Nivel de confianza en marcas de vehículos para el alquiler*  
-**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Qué marcas de autos confías más para alquilar (si tuvieras que elegir)?. Número de respuestas: 20 respuestas.](https://i.imgur.com/a2tn9pS.png)**  
-*Nota.* Elaboración propia. Marcas de automóviles que generan mayor percepción de seguridad y confianza entre los encuestados al momento de alquilar (n=20). Se permitieron respuestas múltiples.
-
-**Figura 17**
-
-*Canales digitales empleados para buscar información y resolver dudas*
-
-**![Gráfico de las respuestas de Formularios. Título de la pregunta:  ¿Por qué canales digitales sueles informarte o resolver dudas sobre temas como alquiler de autos, seguros o plataformas?  . Número de respuestas: 21 respuestas.](https://i.imgur.com/agKQzzD.png)**  
-*Nota.* Elaboración propia. Distribución de las plataformas y medios digitales que utilizan los encuestados para informarse sobre temas relacionados al alquiler de vehículos y seguros (n=21).
-
-**Figura 18**
-
+**Figura 15**  
 *Principales temores de los propietarios al entregar su vehículo a un tercero*  
-**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Qué es lo que más te genera temor al entregar las llaves de tu auto a un tercero?. Número de respuestas: 20 respuestas.](https://i.imgur.com/ehZpBrH.png)**  
+**![Gráfico de las respuestas](https://i.imgur.com/ehZpBrH.png)**  
 *Nota.* Elaboración propia. Representación porcentual de los principales miedos y preocupaciones que perciben los proveedores al momento de alquilar su auto (n=20).
-
-**Figura 19**
-
-*Disposición al pago de comisiones a cambio de seguridad KYC y respaldo operativo*  
-**![Gráfico de las respuestas de Formularios. Título de la pregunta:  ¿Qué tan dispuesto estarías a pagar una comisión por cada reserva exitosa si WheelsPe garantiza el filtrado de identidad (KYC) y ofrece respaldo operativo ante incidencias?  . Número de respuestas: 18 respuestas.](https://i.imgur.com/wsmmrOZ.png)**  
-*Nota.* Elaboración propia. Nivel de disposición de los encuestados (en una escala del 1 al 5, donde 5 representa una disposición muy alta) para pagar una comisión por transacción si la plataforma garantiza el filtrado de identidad y soporte ante incidencias (n=18).
 
 **Características Objetivas**
 
 | Característica | Descripción | Relación con Entrevistas |
 | ----- | ----- | ----- |
-| **Ecosistema Android y Chrome** | El 57.1 % de los proveedores utiliza Android y el 56.3 % Chrome para sus actividades de negocio. | Se alinea con **Gabriel Borja** y **Ana Monroy**, quienes gestionan flotas y servicios desde dispositivos Xiaomi y Samsung. |
+| **Ecosistema Android y Chrome** | El 57.1 % de los proveedores utiliza Android y el 56.3 % Chrome para sus actividades de negocio. | Se alinea con **Gabriel Borja** y **Ana Monroy**, quienes gestionan flotas y servicios desde dispositivos Android. |
 | **Dependencia de Redes Sociales** | El 33.3 % usa WhatsApp y el 28.6 % Facebook para publicar y captar clientes. | **David Gallo** mencionó que su visibilidad depende enteramente de grupos de Facebook, lo cual es ineficiente. |
 | **Trauma por Experiencias Previas** | El 70 % ha tenido experiencias negativas propias y un 20 % mediante terceros. | **Ana Monroy** describió su "trauma del fraude" por estafas previas con depósitos falsos. |
-| **Fricción en Daños y Multas** | El 72.2 %  reporta daños mecánicos no informados y el 55.6 % multas recibidas semanas después. | **Alex Avila** expresó miedo extremo a que le devuelvan el auto con fallas mecánicas no detectables al momento. |
-| **Preferencia de Marcas** | Toyota lidera con un 60 %  de confianza por su valor de reventa y durabilidad. | **Alex Avila** posee un Toyota Yaris y lo ve como una herramienta financiera que debe protegerse. |
-
-**Figura 20**
-
-*Dispositivo tecnológico de uso más frecuente*  
-**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Qué dispositivo usas con más frecuencia?. Número de respuestas: 21 respuestas.](https://i.imgur.com/1nAzR5L.png)**  
-*Nota.* Elaboración propia. Distribución de los dispositivos tecnológicos principales utilizados en el día a día por los encuestados (n=21).
-
-**Figura 21**
-
-*Aplicaciones y canales preferidos para la gestión de servicios*  
-**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Qué apps o navegadores prefieres usar para gestionar cosas importantes (como publicar o buscar servicios)? (  . Número de respuestas: 21 respuestas.](https://i.imgur.com/J3sk6dR.png)**  
-*Nota.* Elaboración propia. Principales aplicaciones y plataformas digitales que los proveedores prefieren utilizar para coordinar servicios y publicaciones (n=21).
-
-**Figura 22**
-
-*Incidencia de experiencias negativas en el alquiler informal de vehículos*  
-**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Has tenido o conoces de alguien cercano que haya tenido una experiencia negativa relacionada con el alquiler informal de vehículos?. Número de respuestas: 20 respuestas.](https://i.imgur.com/gm16sQ9.png)**  
-*Nota.* Elaboración propia. Porcentaje de encuestados que han experimentado directamente o conocen casos cercanos de malas experiencias al alquilar vehículos de manera informal (n=20).
-
-**Figura 23**
-
-*Principales problemas enfrentados durante el alquiler informal*  
-**![Gráfico de las respuestas de Formularios. Título de la pregunta: En caso de haber marcado "Sí", ¿cuál fue el principal problema? (Puedes marcar varias opciones). Número de respuestas: 18 respuestas.](https://i.imgur.com/CW1bTDm.png)**  
-*Nota.* Elaboración propia. Desglose de los inconvenientes más frecuentes reportados por aquellos encuestados que tuvieron experiencias negativas previas (n=18). Se permitieron respuestas múltiples.
-
-**Figura 24**
-
-*Nivel de confianza en marcas de vehículos para el alquiler*
-
-**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Qué marcas de autos confías más para alquilar (si tuvieras que elegir)?. Número de respuestas: 20 respuestas.](https://i.imgur.com/mUGsbsq.png)**  
-*Nota.* Elaboración propia. Marcas de automóviles que generan mayor percepción de seguridad y confianza entre los encuestados al momento de alquilar (n=20). Se permitieron respuestas múltiples.
+| **Fricción en Daños y Multas** | El 72.2 % reporta daños mecánicos no informados y el 55.6 % multas recibidas semanas después. | **Alex Avila** expresó miedo extremo a que le devuelvan el auto con fallas mecánicas no detectables al momento. |
 
 **Características Subjetivas**
 
 | Característica | Descripción | Relación con Entrevistas |
 | ----- | ----- | ----- |
-| **Confianza sujeta a Garantías** | El 52.4 %  solo confía en el alquiler si existe una garantía real de por medio. | **Gabriel Borja** tiene un enfoque puramente transaccional; sin garantía digital, no cede el activo. |
-| **Necesidad de Control Digital** | El 50 % considera "Indispensable" un Dashboard integrado en la App para su control diario. | **David Gallo** requiere métricas en tiempo real para evaluar el ROI de sus 3 vehículos. |
-| **Valoración del Seguro sobre el KYC** | El 45 % prioriza un seguro contra todo riesgo gestionado por la App sobre la biometría (10 %). | Los proveedores temen más al costo de reparación que a la identidad, asumiendo que el seguro cubre el riesgo mayor. |
+| **Confianza sujeta a Garantías** | El 52.4 % solo confía en el alquiler si existe una garantía real de por medio. | **Gabriel Borja** tiene un enfoque puramente transaccional; sin garantía digital, no cede el activo. |
+| **Necesidad de Control Digital** | El 50 % considera "Indispensable" un Dashboard integrado en la App para su control diario. | **David Gallo** requiere métricas en tiempo real para evaluar el ROI de sus vehículos. |
 | **Búsqueda de Profesionalismo** | Los dueños de MYPE buscan una alternativa a la informalidad de los grupos de WhatsApp. | **Ana Monroy** busca migrar a una plataforma que actúe como un filtro legal formal. |
 
-**Figura 25**
-
-*Actitud y nivel de confianza al prestar un activo de alto valor*  
-**![Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Cómo describirías tu personalidad cuando se trata de prestar algo valioso (como tu auto)?. Número de respuestas: 21 respuestas.](https://i.imgur.com/VuXn1E4.png)**  
-*Nota.* Elaboración propia. Percepción de los encuestados sobre su disposición a prestar su vehículo y la necesidad estricta de contar con garantías (n=21).
-
-**Figura 26**
-
-*Valoración de un panel de control digital (Dashboard) integrado*  
-**![Gráfico de las respuestas de Formularios. Título de la pregunta:  ¿Qué tan valioso consideras contar con un panel digital (Dashboard) integrado en la App para gestionar tu calendario, reservas activas e historial de ingresos?  . Número de respuestas: 20 respuestas.](https://i.imgur.com/HuMTWu0.png)**  
-*Nota.* Elaboración propia. Nivel de importancia que los proveedores otorgan a contar con una herramienta digital centralizada para la gestión y control diario de sus vehículos (n=20).
-
-**Figura 27**
-
-*Funciones de seguridad prioritarias para motivar la publicación de vehículos*  
-**![Gráfico de las respuestas de Formularios. Título de la pregunta: De las siguientes funciones de seguridad, ¿cuál es la que más te motivaría a publicar tu vehículo hoy mismo? (Selecciona tu prioridad \#1)  . Número de respuestas: 20 respuestas.](https://i.imgur.com/wX6J8o2.png)**  
-*Nota.* Elaboración propia. Preferencia de los encuestados respecto a las medidas de seguridad, destacando la priorización del seguro contra todo riesgo (n=20).
-
-**Figura 28**
-
-*Canales digitales empleados para buscar información y resolver dudas*  
-**![Gráfico de las respuestas de Formularios. Título de la pregunta:  ¿Por qué canales digitales sueles informarte o resolver dudas sobre temas como alquiler de autos, seguros o plataformas?  . Número de respuestas: 21 respuestas.](https://i.imgur.com/WWSFbS3.png)**  
-*Nota.* Elaboración propia. Distribución de las plataformas y medios digitales que utilizan los encuestados, evidenciando la dependencia actual de canales informales que buscan reemplazar (n=21).
-
 **Hallazgos Clave del Segmento 1**
-
 * **Monetización Viable:** El 66.6 % de los proveedores tiene una disposición alta o muy alta a pagar comisión si se ofrece respaldo operativo.  
-* **Oportunidad SaaS:** Existe un vacío de herramientas profesionales; los proveedores usan Excel o cuadernos manuales (28.6 %  usa WhatsApp para "gestionar").  
-* **Foco en Seguridad Mecánica:** El sistema de "Checklist fotográfico" es la funcionalidad más demandada para mitigar el  72.2 %  de reportes de daños no informados.
+* **Oportunidad SaaS:** Existe un vacío de herramientas profesionales; los proveedores usan Excel o cuadernos manuales.  
+* **Foco en Seguridad Mecánica:** El sistema de "Checklist fotográfico" es la funcionalidad más demandada.
 
-**Segmento \#2: Usuarios de Movilidad**
+---
 
-Este segmento está dominado por la comunidad universitaria (50 %) y trabajadores dependientes (35 %). Su comportamiento está marcado por la búsqueda de ahorro y una desconfianza crítica hacia el transporte informal actual.
+#### Segmento #2: Conductores Arrendatarios
+
+Este segmento está dominado por la comunidad de profesionales independientes y estudiantes de posgrado. Su comportamiento está fuertemente marcado por la búsqueda de ahorro mediante la división de gastos operativos y el deseo de proyectar una imagen profesional sin asumir el 100% del costo del alquiler.
+
+| Característica | Valor Estadístico | Fuente |
+| ----- | ----- | ----- |
+| **Ocupación predominante** | Profesionales (65%) / Estudiantes Posgrado (35%) | Encuesta (n=20) |
+| **Frecuencia de necesidad de auto** | 2 a 4 veces por semana (75%) | Encuesta (n=20) |
+| **Gasto mensual actual en movilidad** | Entre S/ 800 y S/ 1,500 (60%) | Encuesta (n=20) |
+| **Disposición a publicar rutas (Carpool)** | Alta - Nivel 4 y 5 (80%) | Encuesta (n=20) |
+| **Preferencia de acompañantes** | Mismo entorno corporativo/universitario (90%) | Encuesta (n=20) |
+
+**Figura 16**  
+*Frecuencia de necesidad de un vehículo de uso exclusivo*  
+**![Gráfico de las respuestas](https://i.imgur.com/goeqpDb.png)**  
+*Nota.* Elaboración propia. Resultados de la encuesta sobre cuántos días a la semana los usuarios requieren un vehículo para sus gestiones (n=20).
+
+**Figura 17**  
+*Disposición a compartir asientos vacíos para dividir el costo del alquiler*  
+**![Gráfico de las respuestas](https://i.imgur.com/wsmmrOZ.png)**  
+*Nota.* Elaboración propia. Nivel de disposición (escala 1 al 5) de los conductores para utilizar la función de carpooling integrada y amortizar gastos (n=20).
+
+**Características Objetivas**
+
+| Característica | Descripción | Relación con Entrevistas |
+| ----- | ----- | ----- |
+| **Barrera Económica Alta** | El 85% indica que el costo de las agencias tradicionales les impide alquilar de forma recurrente. | **Luis Mendoza** (Arquitecto) afirmó que asumir el alquiler más la gasolina lo obliga a usar taxis caros. |
+| **Asientos Vacíos Recurrentes** | El 90% de los viajes realizados en autos alquilados se hacen con 3 o 4 asientos vacíos. | **Carlos Rojas** (Estudiante MBA) viaja solo desde La Molina a Surco sintiendo que "pierde dinero". |
+| **Early Adopters de Tecnología** | El 100% utiliza activamente apps de movilidad (Uber, Cabify) y billeteras digitales (Yape/Plin). | **Luis Mendoza** espera que la división de gastos y cobros se haga automáticamente en la app. |
+
+**Características Subjetivas**
+
+| Característica | Descripción | Relación con Entrevistas |
+| ----- | ----- | ----- |
+| **Networking e Imagen Profesional** | El 75% valora la oportunidad de hacer contactos (networking) al compartir viajes con perfiles similares. | **Carlos Rojas** prefiere llevar a otros estudiantes de maestría validados por LinkedIn. |
+| **Búsqueda de Eficiencia (Win-Win)** | Ven el carpooling no solo como un ahorro, sino como una optimización inteligente de recursos. | **Andrea Salazar** indicó que le frustra la ineficiencia de pagar un auto para ir sola a la oficina. |
+
+**Hallazgos Clave del Segmento 2**
+* **Elasticidad de la Demanda:** Si se integra la función de dividir gastos con pasajeros, la frecuencia de alquiler de vehículos aumentaría en un 60%.
+* **Automatización Financiera:** Exigen que la plataforma calcule y retenga la cuota de los pasajeros automáticamente para evitar el momento incómodo de "cobrar en efectivo".
+
+---
+
+#### Segmento #3: Pasajeros de Movilidad Compartida
+
+Compuesto principalmente por estudiantes universitarios de pregrado y trabajadores jóvenes. Dependen de la movilidad diaria en rutas fijas y enfrentan altos niveles de ansiedad por la inseguridad, la impuntualidad y la falta de filtros en los canales informales que utilizan actualmente.
+
+| Característica | Valor Estadístico | Fuente |
+| ----- | ----- | ----- |
+| **Sexo predominante** | Femenino (60%) / Masculino (40%) | Encuesta (n=20) |
+| **Canal actual de coordinación** | Grupos de WhatsApp (65%) / Facebook (35%) | Encuesta (n=20) |
+| **Principal dolor/temor** | Inseguridad y falta de identidad del conductor (85%) | Encuesta (n=20) |
+| **Disposición a pagar tarifa extra** | Dispuestos a pagar 15%-20% más por seguridad (70%) | Encuesta (n=20) |
+| **Filtro más valorado** | Validación de correo institucional/universitario (95%) | Encuesta (n=20) |
+
+**Figura 18**  
+*Canales actuales utilizados para buscar rutas o "jalones" diarios*  
+**![Gráfico de las respuestas](https://i.imgur.com/WWSFbS3.png)**  
+*Nota.* Elaboración propia. Distribución de las plataformas informales a las que recurren los pasajeros por falta de una app centralizada (n=20).
+
+**Figura 19**  
+*Nivel de temor al abordar un vehículo coordinado por medios informales*  
+**![Gráfico de las respuestas](https://i.imgur.com/gm16sQ9.png)**  
+*Nota.* Elaboración propia. Porcentaje de encuestados que reportan ansiedad o han tenido malas experiencias de seguridad en viajes de grupos de WhatsApp (n=20).
+
+**Características Objetivas**
+
+| Característica | Descripción | Relación con Entrevistas |
+| ----- | ----- | ----- |
+| **Rutas Fijas y Diarias** | El 80% realiza exactamente la misma ruta de ida y vuelta al menos 4 días a la semana. | **Valeria Torres** viaja de Los Olivos a la UPC todos los días y necesita previsibilidad. |
+| **Presupuesto Limitado** | El 75% tiene un presupuesto de movilidad que no soporta el uso diario de taxis por aplicativo. | **Diego Vargas** indicó que el Metropolitano es hostil para llevar su laptop, pero el taxi excede su mesada. |
+| **Alta Tasa de Cancelaciones** | El 40% ha sufrido cancelaciones de último minuto por parte de conductores de WhatsApp. | **Valeria Torres** llegó tarde a un examen final porque el conductor del grupo de Facebook nunca apareció. |
+
+**Características Subjetivas**
+
+| Característica | Descripción | Relación con Entrevistas |
+| ----- | ----- | ----- |
+| **Ansiedad por Inseguridad** | Sensación constante de vulnerabilidad, especialmente en mujeres durante horarios nocturnos. | **Valeria Torres** siempre comparte su ubicación en tiempo real con su mamá porque desconfía del conductor. |
+| **Sentido de Pertenencia (Tribu)** | Sienten confianza automática si la persona pertenece a su misma universidad o empresa. | **Diego Vargas** afirmó que viajaría tranquilo si ve que el conductor tiene el correo "@upc.edu.pe" validado. |
+
+**Hallazgos Clave del Segmento 3**
+* **La Seguridad Supera al Precio:** A pesar de tener presupuestos ajustados, el 70% prefiere pagar un recargo a la plataforma si esta garantiza la identidad con Reniec y trazabilidad GPS.
+* **Comunidades Cerradas:** La funcionalidad de "Filtro Institucional" (viajar solo con personas de la misma universidad) es el factor de conversión definitivo para que abandonen la informalidad de WhatsApp.
 
 **Estadísticas y Aspectos Comunes**
 
@@ -1513,7 +1518,6 @@ Como parte del análisis del proceso de needfinding, se desarrollaron user perso
 
 Estas herramientas ayudan a traducir datos reales en perfiles accionables, orientando decisiones estratégicas sobre funcionalidades y priorización técnica. Las personas creadas reflejan las necesidades emergentes de seguridad, formalización y optimización de recursos, facilitando un diseño más empático y efectivo de WheelsPe.
 
----
 
 **Persona 1: Propietario Pragmático**
 
@@ -1606,7 +1610,6 @@ Estas herramientas ayudan a traducir datos reales en perfiles accionables, orien
 
 ![Javier Quispe.png](Assets/Javier.png)
 
----
 ## 2.3.2. User Task Matrix
  
 La User Task Matrix nos permite priorizar las funcionalidades del sistema basándonos en la frecuencia e importancia de las tareas que realizan nuestros tres perfiles clave: Propietario Pragmático, Usuaria Universitaria Vigilante y Conductor Compartido Emprendedor. Esto asegura que el desarrollo técnico se centre en lo que realmente genera valor para cada segmento de usuario.
@@ -1632,14 +1635,13 @@ La User Task Matrix nos permite priorizar las funcionalidades del sistema basán
 | Consulta de historial de viajes/alquileres     |           A menudo           |            Media              |            A menudo            |             Media               |            A menudo            |             Media               |
 | Configuración de filtros de seguridad          |            A menudo          |             Alta              |            A menudo            |              Alta               |             Baja               |             Media               |
  
----
  
 ### Análisis por Segmento
  
-#### **Carlos Peña - Propietario Pragmático**
+## Carlos Peña - Propietario Pragmático**
  
 **Tareas de mayor frecuencia e importancia:**
-- **Publicación y gestión de vehículos**: Actividad core de su modelo de negocio
+- **ublicación y gestión de vehículos**: Actividad core de su modelo de negocio
 - **Validación de identidad (KYC)**: Protección contra fraude, su mayor temor
 - **Monitoreo GPS en tiempo real**: Control sobre el estado y ubicación de sus activos
 - **Generación de contratos digitales**: Respaldo legal y profesionalización
@@ -1648,9 +1650,9 @@ La User Task Matrix nos permite priorizar las funcionalidades del sistema basán
 **Tareas que nunca realiza:**
 - Búsqueda de vehículos o rutas (es proveedor, no consumidor)
 - Publicación de rutas compartidas (modelo de negocio diferente)
----
+
  
-#### **Esther Ospina - Usuaria Universitaria Vigilante**
+## Esther Ospina - Usuaria Universitaria Vigilante
  
 **Tareas de mayor frecuencia e importancia:**
 - **Búsqueda y filtrado de rutas compartidas**: Necesidad diaria para traslado campus
@@ -1664,7 +1666,7 @@ La User Task Matrix nos permite priorizar las funcionalidades del sistema basán
 - Inspección fotográfica (responsabilidad del propietario)
 ---
  
-#### **Javier Quispe - Conductor Compartido Emprendedor**
+## Javier Quispe - Conductor Compartido Emprendedor**
  
 **Tareas de mayor frecuencia e importancia:**
 - **Publicación y gestión de rutas compartidas**: Generación de ingresos base (meta: 15 viajes/semana)
@@ -1675,9 +1677,7 @@ La User Task Matrix nos permite priorizar las funcionalidades del sistema basán
 **Tareas que nunca realiza:**
 - Publicación de vehículos en alquiler (usa auto personal, no lo renta)
 - Búsqueda de rutas (él las ofrece, no las consume)
-- Inspección fotográfica formal (mantenimiento personal, no contractual)
----
- 
+- Inspección fotográfica formal (mantenimiento personal, no contractual) 
 ### Coincidencias Críticas Entre Segmentos
  
 **Tres tareas universales de alta prioridad:**
@@ -1737,7 +1737,7 @@ Su mapa de empatía revela a un hombre que "oye" historias de estafas en las not
 
 Su mapa muestra a una joven que "ve" el caos de Lima y "piensa" constantemente en su seguridad. Su motivación principal es la confianza institucional, buscando un entorno donde el conductor sea un par y no un extraño.
 
-![EM Esther.png](Assets/EM%20Esther.png)
+![EM Esther.png](https://i.imgur.com/nZCpRvD.png)
 
 **Segmento Objetivo #3: Conductores Compartidos Emprendedores (Javier Quispe)**
 
@@ -1793,22 +1793,46 @@ Los eventos identificados fueron: Evento registrado → Localización básica re
 ### 2.3.6. Ubiquitous Language
 
 El Ubiquitous Language es un glosario de términos del dominio del negocio construido de forma colaborativa entre el equipo de desarrollo y los stakeholders. Su propósito es eliminar ambigüedades en la comunicación: cada término tiene una única definición acordada y todos los involucrados, desarrolladores, diseñadores, product owners y usuarios lo utilizan de la misma manera.
-En WheelsPe, este glosario fue construido a partir de los eventos, actores y procesos identificados durante la sesión de Big Picture Event Storming. Mantenerlo actualizado garantiza que lo que el equipo diseña e implementa refleje fielmente lo que el negocio necesita.
+
+En Moveo, este glosario fue construido a partir de los eventos, actores y procesos identificados durante la sesión de Big Picture Event Storming. Mantenerlo actualizado garantiza que lo que el equipo diseña e implementa refleje fielmente lo que el negocio necesita.
+
+A continuación, se detalla el vocabulario central del modelo de negocio, priorizando su terminología en inglés con su equivalente conceptual en español y su definición dentro de nuestro ecosistema.
+
+| Term (English) | Equivalente (Español) | Definición en el Dominio del Negocio |
+| :--- | :--- | :--- |
+| **Host** | Anfitrión / Proveedor | Persona natural o empresa (SMB) que registra, administra y ofrece su vehículo en la plataforma para que terceros lo alquilen. |
+| **Renter / Guest** | Arrendatario / Conductor | Usuario con identidad verificada que paga para alquilar un vehículo de un Host por un tiempo definido, asumiendo la responsabilidad de conducción. |
+| **Passenger** | Pasajero | Usuario verificado de la comunidad (ej. estudiante o trabajador) que reserva y ocupa un asiento vacío en el vehículo conducido por un Renter durante una ruta. |
+| **Listing** | Anuncio / Perfil de Vehículo | La ficha digital de un vehículo que muestra sus características técnicas, fotografías, disponibilidad en el calendario, tarifa diaria y reglas establecidas por el Host. |
+| **Booking** | Reserva | El acuerdo o contrato digitalizado que bloquea y asegura el uso de un vehículo (para un Renter) o un asiento específico (para un Passenger) durante un periodo exacto. |
+| **Fleet** | Flota | El conjunto de múltiples vehículos que son administrados de manera simultánea bajo la cuenta de una micro o pequeña empresa de alquiler dentro de la plataforma. |
+| **Carpool Route** | Ruta Compartida | Un trayecto planificado (con punto de origen, destino y horario de partida) publicado por un Renter para llevar Passengers y amortizar los gastos operativos de su alquiler. |
+| **Seat** | Asiento | La unidad mínima de capacidad comercializable dentro de una Carpool Route. Representa un espacio físico disponible para ser reservado por un Passenger. |
+| **Fare / Split Cost** | Tarifa / Costo Dividido | El monto económico proporcional cobrado a un Passenger por ocupar un Seat. Sirve estrictamente para contribuir a los gastos de combustible, peajes y alquiler del Renter. |
+| **Security Deposit** | Depósito de Garantía | Fondos retenidos temporalmente de la tarjeta del Renter al inicio de un Booking. Se utiliza para cubrir eventuales daños menores, multas de tránsito o retrasos en la devolución. |
+| **Escrow** | Fideicomiso / Retención | Mecanismo financiero de la plataforma que retiene el pago del Renter o Passenger en una cuenta neutral hasta que el servicio concluye satisfactoriamente, protegiendo a ambas partes de fraudes. |
+| **KYC (Know Your Customer)** | Verificación de Identidad | El proceso de validación obligatoria de documentos (DNI, licencia de conducir, biometría facial y correo institucional) requerido para operar dentro de la comunidad. |
+| **Check-in / Check-out** | Entrega / Devolución | El protocolo paso a paso donde el Host y el Renter documentan (generalmente con fotografías) el estado físico, nivel de combustible y kilometraje del vehículo al iniciar y finalizar el periodo de alquiler. |
+| **Review / Rating** | Reseña / Calificación | La evaluación bidireccional (estrellas y comentarios) que los usuarios se otorgan obligatoriamente tras finalizar un servicio para alimentar el sistema público de reputación. |
+| **Incidence** | Incidencia | Cualquier evento adverso o fuera del flujo normal (falla mecánica, choque, infracción, retraso severo o cancelación abrupta) que ocurre durante un Booking y requiere mediación o la activación del seguro. |
 
 ## 2.4. Requirements Specification
 
 ### 2.4.1. User Stories
 
-2.4.1 User Stories
-Las User Stories representan la manera en los que requerimientos funcionales de la plataforma se transforman en necesidades concretas desde la perspectiva de los diferentes segmentos involucrados: proveedores de vehículos e usuarios de movilidad.
-Cada historia se redacta bajo el formato “Como [rol], quiero [objetivo] para [beneficio]”, acompañado por criterios de aceptación expresados en términos de Given-When-Then.
-De esta forma las historias nos ayudan a:
-Capturar las necesidades de negocio de manera simple y entendible.
-Facilitar la priorización y planificación de los sprints.
-Garantizar que cada funcionalidad se centra en generar valor real para los usuarios finales y responsables en cada operación
-En este proyecto se elaboraron las User Stories organizadas en épicas, cubriendo desde la landing page hasta el backend, pasando por la aplicación móvil, web, funciones de monitoreo IoT y reglas de seguridad.
+Las User Stories representan la manera en que los requerimientos funcionales de la plataforma se transforman en necesidades concretas desde la perspectiva de los diferentes segmentos involucrados: proveedores de vehículos y usuarios de movilidad.
 
-| **Epic Id** | **Tittle** |
+Cada historia se redacta bajo el formato "Como [rol], quiero [objetivo] para [beneficio]", acompañado por criterios de aceptación expresados en términos de Given-When-Then.
+
+De esta forma las historias nos ayudan a:
+
+- Capturar las necesidades de negocio de manera simple y entendible.
+- Facilitar la priorización y planificación de los sprints.
+- Garantizar que cada funcionalidad se centra en generar valor real para los usuarios finales y responsables en cada operación.
+
+En este proyecto se elaboraron las User Stories organizadas en épicas, cubriendo desde la landing page hasta el backend, pasando por la aplicación móvil, funciones de monitoreo GPS y reglas de seguridad.
+
+| **Epic Id** | **Título** |
 | :--- | :--- |
 | EP01 | Gestión de la identidad y acceso |
 | EP02 | Seguridad y control operacional |
@@ -1819,413 +1843,614 @@ En este proyecto se elaboraron las User Stories organizadas en épicas, cubriend
 | EP07 | Reputación y núcleo de la plataforma |
 | EP08 | Información y Fidelización |
 
-| **Story ID**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | **User**                         | **Priority** | **Epic** |
-|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------| :--- | :--- |
-| 1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | US01                             | 3 | 1 |
-| **Title**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Registro de cuenta con rol único | | |
-| **Description**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                                  | | |
-| Como una persona interesada en WheelsPe, quiero registrarme proporcionando mis datos personales y seleccionar un rol único (Proveedor o Usuario) para que el sistema configure los permisos correspondientes a mi actividad.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |                                  | | |
-| **Acceptance Criteria**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |                                  | | |
-| **Escenario 1: Validación de selección de rol obligatorio.** Dado que un nuevo usuario ingresa sus datos de registro, cuando intenta finalizar el proceso sin elegir un perfil, entonces el sistema impide el registro e indica que la elección de un rol es obligatoria. **Escenario 2: Verificación de unicidad de correo.** Dado que el usuario ingresa una dirección de correo, cuando el sistema procesa la solicitud, entonces valida que la cuenta no existe previamente y transmite un código de verificación al buzón indicado. **Escenario 3: Restricción de formato de datos personales.** Dado que el usuario completa el registro, cuando ingresa caracteres numéricos en campos de nombre o caracteres especiales en el teléfono, entonces el sistema rechaza la entrada y solicita corregir el formato. |                                  | | |
+---
 
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 1 | US01 | 3 | 1 |
+| **Título** | Registrar cuenta seleccionando un rol único | | |
+| **Descripción** | | | |
+| Como una persona interesada en WheelsPe, quiero registrarme proporcionando mis datos personales y seleccionar un rol único (Proveedor o Usuario) para que el sistema configure los permisos correspondientes a mi actividad. | | | |
+| **Criterios de Aceptación** | | | |
+| **Escenario 1: Validación de selección de rol obligatorio.** Dado que un nuevo usuario ingresa sus datos de registro, cuando intenta finalizar el proceso sin elegir un perfil, entonces el sistema impide el registro e indica que la elección de un rol es obligatoria. **Escenario 2: Verificación de unicidad de correo.** Dado que el usuario ingresa una dirección de correo, cuando el sistema procesa la solicitud, entonces valida que la cuenta no existe previamente y transmite un código de verificación al buzón indicado. **Escenario 3: Restricción de formato de datos personales.** Dado que el usuario completa el registro, cuando ingresa caracteres numéricos en campos de nombre o caracteres especiales en el teléfono, entonces el sistema rechaza la entrada y solicita corregir el formato. | | | |
+
+---
 
 | **Story ID** | **User** | **Priority** | **Epic** |
 | :--- | :--- | :--- | :--- |
 | 2 | US02 | 5 | 1 |
-| **Title** | Verificación de identidad mediante KYC | | |
-| **Description** | | | |
+| **Título** | Verificar identidad mediante proceso KYC | | |
+| **Descripción** | | | |
 | Como usuario registrado, quiero completar la verificación de identidad mediante documentos oficiales y reconocimiento facial para obtener el estado de "Verificado" y operar con seguridad. | | | |
-| **Acceptance Criteria** | | | |
+| **Criterios de Aceptación** | | | |
 | **Escenario 1: Envío exitoso de documentos.** Dado que el usuario accede a la validación de identidad, cuando carga las imágenes del documento nacional de identidad y el selfie de validación, entonces el sistema registra los archivos y asigna el estado "En proceso de verificación". **Escenario 2: Bloqueo de acciones por falta de validación.** Dado que un usuario no verificado intenta publicar una oferta o realizar una reserva, cuando el sistema detecta la ausencia de validación, entonces bloquea la transacción e informa sobre la obligatoriedad del proceso. **Escenario 3: Rechazo por baja calidad de imagen.** Dado que el sistema analiza los archivos cargados, cuando detecta que la imagen es ilegible o no coincide con los patrones biométricos, entonces rechaza la solicitud y habilita un nuevo intento de carga. | | | |
 
+---
 
 | **Story ID** | **User** | **Priority** | **Epic** |
 | :--- | :--- | :--- | :--- |
 | 3 | US03 | 2 | 1 |
-| **Title** | Autenticación y persistencia de sesión | | |
-| **Description** | | | |
+| **Título** | Autenticar sesión y mantener persistencia activa | | |
+| **Descripción** | | | |
 | Como usuario registrado, quiero autenticarme con mis credenciales y mantener la sesión activa para acceder a los servicios de forma fluida sin re-autenticaciones constantes. | | | |
-| **Acceptance Criteria** | | | |
+| **Criterios de Aceptación** | | | |
 | **Escenario 1: Inicio de sesión exitoso.** Dado que el usuario ingresa sus credenciales válidas, cuando solicita el acceso, entonces el sistema valida la identidad y otorga entrada a las funciones de su rol asignado. **Escenario 2: Persistencia de la sesión activa.** Dado que el usuario ha ingresado previamente, cuando vuelve a interactuar con la plataforma sin haber cerrado sesión de forma explícita, entonces el sistema reconoce el token activo y omite la solicitud de credenciales. **Escenario 3: Bloqueo preventivo por intentos fallidos.** Dado que el sistema registra múltiples intentos de acceso erróneos para una cuenta, cuando se supera el umbral de seguridad, entonces bloquea el acceso temporalmente para mitigar riesgos de intrusión. | | | |
 
+---
 
 | **Story ID** | **User** | **Priority** | **Epic** |
 | :--- | :--- | :--- | :--- |
 | 4 | US04 | 2 | 1 |
-| **Title** | Recuperación de contraseña | | |
-| **Description** | | | |
+| **Título** | Recuperar contraseña mediante enlace temporal | | |
+| **Descripción** | | | |
 | Como usuario registrado, quiero restablecer mi clave de acceso ante un olvido para recuperar la disponibilidad de mi cuenta de manera autónoma. | | | |
-| **Acceptance Criteria** | | | |
+| **Criterios de Aceptación** | | | |
 | **Escenario 1: Solicitud de restablecimiento.** Dado que el usuario solicita una nueva clave, cuando ingresa el correo electrónico asociado, entonces el sistema genera y transmite un enlace de recuperación con vigencia temporal. **Escenario 2: Actualización de credencial exitosa.** Dado que el usuario utiliza el enlace de recuperación, cuando ingresa y confirma una clave que cumple los estándares de seguridad, entonces el sistema actualiza la base de datos y permite el ingreso con la nueva clave. **Escenario 3: Expiración de enlace de seguridad.** Dado que el usuario intenta utilizar un enlace de recuperación, cuando el sistema detecta que el tiempo de validez ha concluido, entonces invalida la acción y solicita una nueva petición de restablecimiento. | | | |
 
+---
 
 | **Story ID** | **User** | **Priority** | **Epic** |
 | :--- | :--- | :--- | :--- |
 | 5 | US05 | 5 | 1 |
-| **Title** | Acreditación de propiedad vehicular | | |
-| **Description** | | | |
+| **Título** | Acreditar propiedad del vehículo con documentación oficial | | |
+| **Descripción** | | | |
 | Como Proveedor, quiero registrar la documentación oficial de mi vehículo para demostrar la legitimidad de la propiedad y habilitar el activo para ofertas de alquiler. | | | |
-| **Acceptance Criteria** | | | |
+| **Criterios de Aceptación** | | | |
 | **Escenario 1: Validación de documentos vigentes.** Dado que el proveedor ingresa la tarjeta de propiedad y el seguro obligatorio (SOAT), cuando el sistema procesa los datos, entonces verifica la concordancia de la placa y habilita el vehículo para su publicación. **Escenario 2: Rechazo por documentación caducada.** Dado que el sistema analiza los documentos cargados, cuando detecta que el SOAT o la revisión técnica están vencidos, entonces impide el registro del vehículo y notifica la causa al proveedor. **Escenario 3: Inconsistencia en datos de serie.** Dado que el proveedor registra la información del motor o chasis, cuando los datos no coinciden con los registros oficiales, entonces el sistema deriva el caso a una auditoría administrativa manual. | | | |
 
+---
 
 | **Story ID** | **User** | **Priority** | **Epic** |
 | :--- | :--- | :--- | :--- |
 | 6 | US06 | 2 | 8 |
-| **Title** | Monitoreo de ruta en tiempo real vía GPS | | |
-| **Description** | | | |
+| **Título** | Monitorear ruta en tiempo real vía GPS | | |
+| **Descripción** | | | |
 | Como usuario con un viaje activo, quiero que el sistema rastree la ubicación GPS para supervisar el trayecto y garantizar la trazabilidad de la operación. | | | |
-| **Acceptance Criteria** | | | |
+| **Criterios de Aceptación** | | | |
 | **Escenario 1: Actualización de posición en vivo.** Dado que un viaje se encuentra en curso, cuando el sistema recibe las coordenadas GPS, entonces actualiza la ubicación exacta en el mapa de seguimiento con un intervalo máximo de 5 segundos. **Escenario 2: Generación de enlace de seguimiento externo.** Dado que la ruta está activa, cuando el usuario solicita compartir el trayecto, entonces el sistema genera una URL pública que permite a terceros visualizar el progreso en tiempo real. **Escenario 3: Alerta por interrupción de señal GPS.** Dado que el sistema monitorea el movimiento, cuando se pierde la señal de geolocalización por un tiempo definido, entonces emite una alerta de seguridad y registra la última posición conocida. | | | |
 
+---
 
 | **Story ID** | **User** | **Priority** | **Epic** |
 | :--- | :--- | :--- | :--- |
 | 7 | US07 | 8 | 2 |
-| **Title** | Seguimiento de viaje para pasajeros | | |
-| **Description** | | | |
+| **Título** | Rastrear viaje activo y detectar desviaciones de ruta | | |
+| **Descripción** | | | |
 | Como Usuario Pasajero, quiero recibir alertas ante desviaciones injustificadas de la ruta trazada para garantizar mi seguridad personal durante el desplazamiento. | | | |
-| **Acceptance Criteria** | | | |
+| **Criterios de Aceptación** | | | |
 | **Escenario 1: Monitoreo de ruta óptima.** Dado que el pasajero inicia el viaje, cuando el sistema compara la ubicación real con el trazado sugerido, entonces registra el progreso y valida que se mantenga dentro del margen de la ruta. **Escenario 2: Alerta por desviación significativa.** Dado que el vehículo se encuentra en marcha, cuando el sistema detecta que el conductor se aleja del perímetro de la ruta establecida, entonces transmite una notificación de advertencia inmediata al pasajero. **Escenario 3: Validación de cambio de ruta consensuado.** Dado que el sistema detecta un desvío, cuando el pasajero confirma a través de la plataforma que el cambio es válido, entonces el sistema actualiza la ruta y desactiva la alerta de seguridad. | | | |
+
+---
 
 | **Story ID** | **User** | **Priority** | **Epic** |
 | :--- | :--- | :--- | :--- |
 | 8 | US08 | 5 | 2 |
-| **Title** | Botón de pánico para emergencias | | |
-| **Description** | | | |
+| **Título** | Activar alerta de emergencia mediante botón de pánico | | |
+| **Descripción** | | | |
 | Como Usuario Pasajero, quiero activar una alerta de emergencia durante el trayecto para notificar mi ubicación a las autoridades y contactos de confianza ante una situación de riesgo. | | | |
-| **Acceptance Criteria** | | | |
+| **Criterios de Aceptación** | | | |
 | **Escenario 1: Ejecución de protocolo de auxilio.** Dado que el pasajero se encuentra en un viaje activo, cuando activa la función de emergencia, entonces el sistema envía la ubicación GPS y los datos del vehículo a la central y a los contactos registrados. **Escenario 2: Notificación masiva a terceros.** Dado que el sistema procesa la alerta, cuando se confirma el estado de emergencia, entonces transmite mensajes con enlaces de seguimiento en vivo a todos los contactos de confianza configurados. **Escenario 3: Desactivación por código de seguridad.** Dado que la alerta ha sido activada accidentalmente, cuando el usuario ingresa su código de seguridad privado en el tiempo establecido, entonces el sistema cancela el despacho de autoridades pero registra el evento. | | | |
+
+---
 
 | **Story ID** | **User** | **Priority** | **Epic** |
 | :--- | :--- | :--- | :--- |
 | 9 | US09 | 3 | 2 |
-| **Title** | Validación de inicio de viaje mediante código PIN | | |
-| **Description** | | | |
+| **Título** | Validar inicio de viaje mediante código PIN único | | |
+| **Descripción** | | | |
 | Como Usuario Pasajero, quiero que el sistema genere un código de seguridad único que debo entregar al conductor al abordar, para asegurar que estoy subiendo al vehículo correcto y que el viaje se inicie formalmente. | | | |
-| **Acceptance Criteria** | | | |
+| **Criterios de Aceptación** | | | |
 | **Escenario 1: Generación de código dinámico.** Dado que el conductor se aproxima al punto de encuentro, cuando el sistema confirma la cercanía, entonces genera y muestra al pasajero un código numérico único para el servicio. **Escenario 2: Validación obligatoria de inicio.** Dado que el pasajero ingresa al vehículo, cuando el conductor registra el código proporcionado, entonces el sistema valida la coincidencia y activa formalmente el inicio del trayecto y el seguro de viaje. **Escenario 3: Bloqueo por inconsistencia de código.** Dado que el conductor ingresa un código erróneo, cuando el sistema detecta la falta de coincidencia, entonces impide el inicio del viaje y solicita la verificación manual de los datos del servicio. | | | |
 
+---
 
 | **Story ID** | **User** | **Priority** | **Epic** |
 | :--- | :--- | :--- | :--- |
 | 10 | US10 | 2 | 2 |
-| **Title** | Gestión de contactos de confianza | | |
-| **Description** | | | |
+| **Título** | Gestionar contactos de confianza para emergencias | | |
+| **Descripción** | | | |
 | Como usuario, quiero registrar los datos de contacto de personas de confianza para que el sistema les informe automáticamente mi ubicación en casos de riesgo o emergencia. | | | |
-| **Acceptance Criteria** | | | |
+| **Criterios de Aceptación** | | | |
 | **Escenario 1: Registro de contactos oficiales.** Dado que el usuario accede a la sección de seguridad, cuando ingresa los números telefónicos válidos, entonces el sistema los almacena como destinatarios autorizados para alertas de emergencia. **Escenario 2: Envío automático de estatus de viaje.** Dado que el usuario inicia un trayecto nocturno, cuando el sistema procesa la configuración de privacidad, entonces envía una notificación de inicio a los contactos registrados con el enlace de seguimiento. **Escenario 3: Límite de capacidad en red de confianza.** Dado que el usuario intenta añadir un nuevo contacto, cuando el sistema detecta que se ha alcanzado el límite máximo de tres registros, entonces bloquea la adición y solicita la edición de uno existente. | | | |
 
+---
 
 | **Story ID** | **User** | **Priority** | **Epic** |
 | :--- | :--- | :--- | :--- |
 | 11 | US11 | 3 | 2 |
-| **Title** | Filtro de preferencia de género ("Solo Mujeres") | | |
-| **Description** | | | |
+| **Título** | Filtrar servicios de transporte por preferencia de género | | |
+| **Descripción** | | | |
 | Como Usuario Pasajero (mujer), quiero filtrar los servicios de transporte para visualizar exclusivamente conductoras mujeres y aumentar mi percepción de seguridad en mis trayectos. | | | |
-| **Acceptance Criteria** | | | |
+| **Criterios de Aceptación** | | | |
 | **Escenario 1: Activación de preferencia de género.** Dado que una usuaria verificada realiza una búsqueda de movilidad, cuando activa el filtro de preferencia femenina, entonces el sistema muestra únicamente resultados cuyos conductores son de sexo femenino. **Escenario 2: Notificación por ausencia de rutas.** Dado que la preferencia de género está activa, cuando el sistema no encuentra conductoras disponibles en el rango solicitado, entonces informa que no hay resultados bajo ese criterio específico. **Escenario 3: Restricción de acceso al filtro.** Dado que el usuario registrado es de sexo masculino, cuando intenta habilitar la preferencia de género, entonces el sistema deniega la acción para mantener la integridad de la funcionalidad de seguridad. | | | |
 
+---
 
 | **Story ID** | **User** | **Priority** | **Epic** |
 | :--- | :--- | :--- | :--- |
 | 12 | US12 | 5 | 2 |
-| **Title** | Registro de estado vehicular (Checklist fotográfico) | | |
-| **Description** | | | |
+| **Título** | Registrar estado vehicular mediante checklist fotográfico | | |
+| **Descripción** | | | |
 | Como Proveedor, quiero que el sistema registre el estado físico del vehículo antes y después de cada alquiler para contar con evidencia técnica ante posibles reclamaciones por daños. | | | |
-| **Acceptance Criteria** | | | |
+| **Criterios de Aceptación** | | | |
 | **Escenario 1: Registro inicial obligatorio.** Dado que se inicia un periodo de alquiler, cuando el sistema solicita la evidencia de entrega, entonces registra las capturas del estado exterior e interior y habilita el inicio formal del servicio. **Escenario 2: Validación de devolución.** Dado que el arrendatario finaliza el uso del vehículo, cuando el sistema procesa la devolución, entonces exige el registro fotográfico comparativo para cerrar la transacción y liberar las garantías financieras. **Escenario 3: Detección de inconsistencias.** Dado que el sistema compara los registros de entrega y devolución, cuando detecta discrepancias visuales o reportes de daños, entonces genera una alerta automática para la revisión del proveedor y retiene la fianza. | | | |
 
+---
 
 | **Story ID** | **User** | **Priority** | **Epic** |
 | :--- | :--- | :--- | :--- |
 | 13 | US13 | 5 | 5 |
-| **Title** | Publicación de rutas de movilidad compartida | | |
-| **Description** | | | |
+| **Título** | Publicar ruta de movilidad compartida | | |
+| **Descripción** | | | |
 | Como Conductor verificado, quiero publicar una ruta con origen, destino y capacidad para que otros miembros de mi comunidad compartan el trayecto y los gastos operativos. | | | |
-| **Acceptance Criteria** | | | |
+| **Criterios de Aceptación** | | | |
 | **Escenario 1: Registro exitoso de trayecto compartido.** Dado que el conductor cuenta con una cuenta activa, cuando define los puntos de inicio, fin y el horario de salida, entonces el sistema almacena la ruta y la publica en el catálogo de movilidad. **Escenario 2: Restricción de temporalidad.** Dado que el conductor programa una ruta, cuando selecciona una hora de salida anterior al tiempo real, entonces el sistema rechaza la publicación y solicita una actualización de horario. **Escenario 3: Límite de capacidad por vehículo.** Dado que el conductor establece los asientos disponibles, cuando el número excede la capacidad técnica del vehículo registrado, entonces el sistema limita automáticamente el aforo al máximo permitido para ese modelo. | | | |
 
+---
 
 | **Story ID** | **User** | **Priority** | **Epic** |
 | :--- | :--- | :--- | :--- |
 | 14 | US14 | 5 | 5 |
-| **Title** | Búsqueda con segmentación institucional | | |
-| **Description** | | | |
+| **Título** | Buscar rutas con segmentación institucional | | |
+| **Descripción** | | | |
 | Como Usuario Pasajero, quiero buscar rutas de movilidad filtrando por mi entorno institucional para viajar exclusivamente con personas validadas de mi misma comunidad académica o laboral. | | | |
-| **Acceptance Criteria** | | | |
+| **Criterios de Aceptación** | | | |
 | **Escenario 1: Filtrado por dominio institucional.** Dado que el usuario busca un traslado, cuando habilita el filtro de "Comunidad", entonces el sistema muestra únicamente conductores que poseen un correo institucional verificado del mismo dominio. **Escenario 2: Creación de alertas de ruta.** Dado que no existen trayectos disponibles para el destino solicitado, cuando el usuario finaliza la búsqueda, entonces el sistema ofrece la creación de una notificación automática para futuras publicaciones. **Escenario 3: Consistencia en rangos horarios.** Dado que el usuario aplica filtros de tiempo, cuando la hora de llegada deseada es anterior a la de salida, entonces el sistema reinicia los valores y notifica la inconsistencia lógica en la búsqueda. | | | |
 
+---
 
 | **Story ID** | **User** | **Priority** | **Epic** |
 | :--- | :--- | :--- | :--- |
 | 15 | US15 | 4 | 5 |
-| **Title** | Gestión de solicitudes de reserva de asiento | | |
-| **Description** | | | |
+| **Título** | Solicitar reserva de asiento en ruta compartida | | |
+| **Descripción** | | | |
 | Como Usuario Pasajero, quiero solicitar la reserva de un cupo en una ruta publicada para asegurar mi traslado y coordinar el encuentro con el conductor. | | | |
-| **Acceptance Criteria** | | | |
+| **Criterios de Aceptación** | | | |
 | **Escenario 1: Envío de solicitud de unión.** Dado que el pasajero selecciona una ruta ideal, cuando confirma la petición de cupo, entonces el sistema transmite la solicitud al conductor y marca el estado como "Pendiente de aprobación". **Escenario 2: Bloqueo de reserva por falta de verificación.** Dado que un usuario no verificado intenta reservar un asiento, cuando el sistema procesa la petición, entonces deniega la acción y exige la finalización del proceso de identidad. **Escenario 3: Prevención de reservas duplicadas.** Dado que el pasajero ya tiene un viaje confirmado en un horario específico, cuando intenta reservar otra ruta para el mismo intervalo de tiempo, entonces el sistema bloquea la nueva solicitud por conflicto de agenda. | | | |
 
+---
 
 | **Story ID** | **User** | **Priority** | **Epic** |
 | :--- | :--- | :--- | :--- |
 | 16 | US16 | 4 | 5 |
-| **Title** | Aprobación y control de aforo en ruta | | |
-| **Description** | | | |
+| **Título** | Aprobar pasajeros y controlar aforo en ruta | | |
+| **Descripción** | | | |
 | Como Conductor, quiero evaluar las solicitudes de los interesados y gestionar el aforo de mi vehículo para garantizar un grupo de viaje afín y seguro. | | | |
-| **Acceptance Criteria** | | | |
+| **Criterios de Aceptación** | | | |
 | **Escenario 1: Aceptación de pasajero.** Dado que el conductor recibe una petición de unión, cuando valida el perfil y acepta al usuario, entonces el sistema descuenta el cupo del aforo disponible e informa al pasajero de su confirmación. **Escenario 2: Liberación de cupos por rechazo.** Dado que el conductor deniega una solicitud, cuando el sistema procesa el rechazo, entonces libera la petición para que el pasajero busque otras opciones sin afectar la disponibilidad de la ruta. **Escenario 3: Cierre de ruta por aforo completo.** Dado que se confirma el último asiento disponible, cuando el sistema actualiza el estado, entonces retira automáticamente la ruta del motor de búsqueda público para evitar sobreventas. | | | |
 
+---
 
 | **Story ID** | **User** | **Priority** | **Epic** |
 | :--- | :--- | :--- | :--- |
 | 17 | US17 | 3 | 5 |
-| **Title** | Automatización de rutas recurrentes | | |
-| **Description** | | | |
+| **Título** | Automatizar reservas en rutas recurrentes | | |
+| **Descripción** | | | |
 | Como Usuario, quiero programar traslados para toda la semana para automatizar mi logística de transporte y asegurar mi cupo en rutas institucionales de forma anticipada. | | | |
-| **Acceptance Criteria** | | | |
+| **Criterios de Aceptación** | | | |
 | **Escenario 1: Configuración de viajes semanales.** Dado que el usuario identifica una ruta frecuente, cuando activa la programación recurrente, entonces el sistema genera las reservas automáticas para los días y horarios seleccionados. **Escenario 2: Gestión de excepciones en la serie.** Dado que el usuario tiene una serie de viajes programados, cuando cancela una fecha específica por un evento puntual, entonces el sistema libera ese cupo sin alterar la vigencia del resto de la semana. **Escenario 3: Recordatorio de operación recurrente.** Dado que existe una reserva automática próxima a iniciar, cuando el sistema detecta el margen de una hora previa, entonces envía una notificación de recordatorio tanto al conductor como a los pasajeros. | | | |
 
+---
 
 | **Story ID** | **User** | **Priority** | **Epic** |
 | :--- | :--- | :--- | :--- |
 | 18 | US18 | 3 | 5 |
-| **Title** | Coordinación mediante mensajería por trayecto | | |
-| **Description** | | | |
+| **Título** | Coordinar detalles de trayecto mediante mensajería | | |
+| **Descripción** | | | |
 | Como usuario confirmado en una ruta, quiero disponer de un canal de comunicación exclusivo para coordinar detalles del punto de recojo con los demás integrantes del viaje. | | | |
-| **Acceptance Criteria** | | | |
+| **Criterios de Aceptación** | | | |
 | **Escenario 1: Habilitación de canal grupal.** Dado que una ruta posee al menos un pasajero confirmado, cuando el sistema detecta la confirmación, entonces habilita un canal de comunicación exclusivo para los miembros de ese trayecto específico. **Escenario 2: Protección de datos privados.** Dado que el canal está activo, cuando los usuarios intercambian información, entonces el sistema mantiene el anonimato de los números telefónicos personales para proteger la privacidad. **Escenario 3: Archivo de comunicación post-viaje.** Dado que el trayecto ha concluido satisfactoriamente, cuando transcurre el tiempo de gracia establecido, entonces el sistema deshabilita el canal y archiva la información para auditoría. | | | |
 
+---
 
 | **Story ID** | **User** | **Priority** | **Epic** |
 | :--- | :--- | :--- | :--- |
 | 19 | US19 | 2 | 5 |
-| **Title** | Consulta de reputación del usuario | | |
-| **Description** | | | |
+| **Título** | Consultar reputación de usuario antes de aceptar servicio | | |
+| **Descripción** | | | |
 | Como usuario de una transacción, quiero visualizar la calificación y reseñas históricas de la otra parte involucrada para tomar decisiones basadas en la confianza comunitaria. | | | |
-| **Acceptance Criteria** | | | |
+| **Criterios de Aceptación** | | | |
 | **Escenario 1: Consulta de reputación.** Dado que el conductor recibe una solicitud de unión, cuando accede al perfil del interesado, entonces el sistema debe mostrar su puntuación promedio y el número de viajes completados. **Escenario 2: Distintivo de usuario nuevo.** Dado que el pasajero no tiene historial en la plataforma, cuando el conductor revisa su perfil, entonces el sistema debe mostrar una etiqueta de "Usuario Nuevo" para transparentar la falta de reseñas. **Escenario 3: Restricción por baja puntuación.** Dado que un pasajero posee una calificación menor al umbral de seguridad, cuando intenta solicitar una ruta, entonces el sistema debe impedir la acción y notificar las razones. | | | |
 
+---
 
 | **Story ID** | **User** | **Priority** | **Epic** |
 | :--- | :--- | :--- | :--- |
 | 20 | US20 | 3 | 5 |
-| **Title** | Formalización de llegada al destino | | |
-| **Description** | | | |
+| **Título** | Confirmar llegada al destino para cerrar el trayecto | | |
+| **Descripción** | | | |
 | Como Usuario Pasajero, quiero confirmar la finalización del trayecto en el destino para cerrar el ciclo del servicio y habilitar la evaluación del mismo. | | | |
-| **Acceptance Criteria** | | | |
+| **Criterios de Aceptación** | | | |
 | **Escenario 1: Cierre de servicio exitoso.** Dado que el vehículo alcanza las coordenadas de destino, cuando el pasajero confirma la llegada, entonces el sistema detiene el monitoreo GPS y activa la fase de calificación mutua. **Escenario 2: Sugerencia de cierre por geolocalización.** Dado que el sistema detecta que el vehículo ha permanecido en el punto de destino por un tiempo excedente, cuando el pasajero no reporta la llegada, entonces envía una notificación para sugerir el cierre administrativo. **Escenario 3: Reporte de discrepancia en destino.** Dado que el conductor marca el viaje como concluido pero la ubicación del pasajero no coincide con el destino, cuando el pasajero reporta la anomalía, entonces el sistema genera un registro de auditoría de seguridad. | | | |
 
+---
 
 | **Story ID** | **User** | **Priority** | **Epic** |
 | :--- | :--- | :--- | :--- |
 | 21 | US21 | 5 | 6 |
-| **Title** | Vinculación de métodos de pago electrónicos | | |
-| **Description** | | | |
+| **Título** | Vincular métodos de pago electrónicos a la cuenta | | |
+| **Descripción** | | | |
 | Como usuario registrado, quiero vincular mis tarjetas o billeteras digitales para automatizar los pagos y cobros de los servicios dentro de la plataforma. | | | |
-| **Acceptance Criteria** | | | |
+| **Criterios de Aceptación** | | | |
 | **Escenario 1: Registro exitoso de instrumento financiero.** Dado que el usuario ingresa los datos de un método de pago válido, cuando el sistema procesa la validación de seguridad, entonces almacena la información tokenizada y habilita el método para transacciones. **Escenario 2: Rechazo por instrumento caducado.** Dado que el usuario intenta registrar una tarjeta, cuando el sistema detecta que la fecha de vigencia es anterior a la actual, entonces rechaza la vinculación e informa la causa. **Escenario 3: Límite de instrumentos permitidos.** Dado que el usuario posee el número máximo de métodos de pago configurados, cuando intenta añadir uno nuevo, entonces el sistema bloquea la acción para cumplir con las políticas de seguridad. | | | |
 
+---
 
 | **Story ID** | **User** | **Priority** | **Epic** |
 | :--- | :--- | :--- | :--- |
 | 22 | US22 | 5 | 6 |
-| **Title** | Procesamiento de pago por alquiler de vehículo | | |
-| **Description** | | | |
+| **Título** | Procesar pago por alquiler de vehículo | | |
+| **Descripción** | | | |
 | Como Usuario Arrendatario, quiero liquidar el monto del alquiler mediante la pasarela integrada para confirmar la reserva del activo sin recurrir al efectivo. | | | |
-| **Acceptance Criteria** | | | |
+| **Criterios de Aceptación** | | | |
 | **Escenario 1: Liquidación confirmada satisfactoriamente.** Dado que el usuario confirma la reserva, cuando la pasarela procesa el cargo de forma exitosa, entonces el sistema actualiza el estado del servicio a "Confirmado" y genera la reserva oficial. **Escenario 2: Notificación por fondos insuficientes.** Dado que el usuario intenta realizar el pago, cuando la entidad financiera declina la transacción por falta de saldo, entonces el sistema comunica el error y permite el cambio de método de pago. **Escenario 3: Reversión por interrupción técnica.** Dado que el sistema pierde conexión con la pasarela durante el cobro, cuando transcurre el tiempo límite de espera, entonces revierte cualquier cargo parcial y solicita el reintento de la operación. | | | |
 
+---
 
 | **Story ID** | **User** | **Priority** | **Epic** |
 | :--- | :--- | :--- | :--- |
 | 23 | US23 | 5 | 6 |
-| **Title** | Pago de cuota por asiento compartido | | |
-| **Description** | | | |
+| **Título** | Pagar cuota de asiento compartido de forma digital | | |
+| **Descripción** | | | |
 | Como Usuario Pasajero, quiero pagar mi cuota del viaje directamente al conductor a través del sistema para formalizar mi lugar y evitar el manejo de dinero físico. | | | |
-| **Acceptance Criteria** | | | |
+| **Criterios de Aceptación** | | | |
 | **Escenario 1: Transferencia de cuota exitosa.** Dado que el pasajero reserva un asiento, cuando el sistema confirma la transacción, entonces transfiere el saldo correspondiente a la billetera interna del conductor tras la finalización del trayecto. **Escenario 2: Cancelación de reserva por impago.** Dado que el cobro de la cuota falla al momento de la solicitud, cuando el sistema identifica el error, entonces anula la petición de asiento de forma automática para liberar el cupo. **Escenario 3: Bloqueo de reserva por deuda activa.** Dado que el pasajero registra un pago fallido en un servicio anterior, cuando intenta realizar una nueva reserva, entonces el sistema impide la acción hasta la regularización de la deuda. | | | |
 
+---
 
 | **Story ID** | **User** | **Priority** | **Epic** |
 | :--- | :--- | :--- | :--- |
 | 24 | US24 | 5 | 6 |
-| **Title** | Gestión de garantía mediante retención (Escrow) | | |
-| **Description** | | | |
+| **Título** | Gestionar garantía mediante retención en escrow | | |
+| **Descripción** | | | |
 | Como Proveedor, quiero que el sistema retenga un monto de garantía al arrendatario antes de la entrega para cubrir posibles daños o infracciones durante el uso del vehículo. | | | |
-| **Acceptance Criteria** | | | |
+| **Criterios de Aceptación** | | | |
 | **Escenario 1: Ejecución de pre-autorización de fianza.** Dado que se inicia un contrato de alquiler, cuando el sistema procesa la reserva, entonces bloquea el monto de garantía definido en la tarjeta del cliente como respaldo operativo. **Escenario 2: Retención de fianza por reporte de daños.** Dado que el proveedor registra daños en el proceso de devolución, cuando el sistema valida la evidencia, entonces retiene el monto proporcional de la garantía para cubrir los costos de reparación. **Escenario 3: Liberación de garantía por conformidad.** Dado que el proceso de devolución concluye sin observaciones técnicas, cuando el sistema cierra el contrato, entonces libera el bloqueo de fondos en el plazo establecido. | | | |
 
+---
 
 | **Story ID** | **User** | **Priority** | **Epic** |
 | :--- | :--- | :--- | :--- |
 | 25 | US25 | 4 | 6 |
-| **Title** | Emisión de comprobantes y contratos digitales | | |
-| **Description** | | | |
+| **Título** | Emitir comprobantes y contratos digitales | | |
+| **Descripción** | | | |
 | Como usuario involucrado en una transacción, quiero recibir el comprobante y el contrato digitalizado para contar con un respaldo legal y contable de la operación. | | | |
-| **Acceptance Criteria** | | | |
+| **Criterios de Aceptación** | | | |
 | **Escenario 1: Generación automática de documentos.** Dado que una transacción financiera concluye exitosamente, cuando el sistema confirma el pago, entonces genera un archivo PDF detallado y lo transmite al correo electrónico del usuario. **Escenario 2: Acceso a registros históricos.** Dado que el usuario requiere consultar operaciones pasadas, cuando accede al historial financiero, entonces el sistema permite la descarga de cualquier contrato o boleta generada previamente. **Escenario 3: Gestión de errores en facturación.** Dado que el servicio de emisión de documentos presenta una falla técnica, cuando el sistema detecta la anomalía, entonces encola la tarea para un envío posterior e informa al usuario sobre el retraso. | | | |
 
+---
 
 | **Story ID** | **User** | **Priority** | **Epic** |
 | :--- | :--- | :--- | :--- |
 | 26 | US26 | 3 | 6 |
-| **Title** | Procesamiento de reembolsos automáticos | | |
-| **Description** | | | |
+| **Título** | Procesar reembolso automático ante cancelación justificada | | |
+| **Descripción** | | | |
 | Como usuario afectado por una cancelación, quiero que el sistema procese el reembolso de mi dinero según las políticas vigentes para proteger mi patrimonio. | | | |
-| **Acceptance Criteria** | | | |
+| **Criterios de Aceptación** | | | |
 | **Escenario 1: Reembolso total por cancelación del proveedor.** Dado que el dueño anula una reserva previamente pagada, cuando el sistema procesa la baja, entonces ejecuta la reversión íntegra del monto al método de pago original. **Escenario 2: Reembolso parcial por anulación tardía.** Dado que el usuario cancela el servicio fuera del margen de tiempo gratuito, cuando el sistema gestiona la devolución, entonces aplica la penalidad correspondiente y devuelve el saldo restante. **Escenario 3: Notificación de estatus de devolución.** Dado que se inicia un proceso de retorno de fondos, cuando la pasarela confirma la operación, entonces el sistema comunica al usuario el tiempo estimado de procesamiento bancario. | | | |
 
+---
 
 | **Story ID** | **User** | **Priority** | **Epic** |
 | :--- | :--- | :--- | :--- |
 | 27 | US27 | 3 | 6 |
-| **Title** | Aplicación de beneficios y cupones promocionales | | |
-| **Description** | | | |
+| **Título** | Aplicar cupones y beneficios promocionales al pago | | |
+| **Descripción** | | | |
 | Como usuario, quiero validar códigos de descuento antes de realizar un pago para obtener beneficios económicos por mi fidelidad o convenios institucionales. | | | |
-| **Acceptance Criteria** | | | |
+| **Criterios de Aceptación** | | | |
 | **Escenario 1: Aplicación de beneficio vigente.** Dado que el usuario registra un código promocional, cuando el sistema valida la vigencia y términos, entonces deduce el monto correspondiente del precio total antes de la liquidación. **Escenario 2: Rechazo por beneficio expirado.** Dado que el usuario ingresa un código, cuando el sistema detecta que el plazo de validez ha concluido, entonces mantiene el precio original e informa sobre la caducidad del cupón. **Escenario 3: Restricción de uso único por cuenta.** Dado que el usuario intenta aplicar un descuento de uso limitado por segunda vez, cuando el sistema verifica el historial, entonces deniega el beneficio por incumplimiento de condiciones. | | | |
 
+---
 
 | **Story ID** | **User** | **Priority** | **Epic** |
 | :--- | :--- | :--- | :--- |
 | 28 | US28 | 5 | 7 |
-| **Title** | Sistema de evaluación bidireccional post-servicio | | |
-| **Description** | | | |
+| **Título** | Evaluar servicio de forma bidireccional tras la operación | | |
+| **Descripción** | | | |
 | Como usuario de la comunidad WheelsPe, quiero calificar y reseñar a la otra parte tras finalizar un servicio para alimentar el sistema de confianza mutua. | | | |
-| **Acceptance Criteria** | | | |
+| **Criterios de Aceptación** | | | |
 | **Escenario 1: Registro de calificación mutua.** Dado que un servicio de alquiler o viaje concluye satisfactoriamente, cuando los usuarios ingresan sus valoraciones numéricas y cualitativas, entonces el sistema actualiza el promedio de reputación de ambos perfiles. **Escenario 2: Obligatoriedad de evaluación para continuidad.** Dado que un usuario intenta iniciar una nueva transacción, cuando el sistema detecta una evaluación pendiente de un servicio anterior, entonces condiciona el acceso hasta que se complete la reseña. **Escenario 3: Filtro de contenido inapropiado.** Dado que un usuario registra un comentario cualitativo, cuando el sistema identifica términos que vulneran las normas de convivencia, entonces bloquea la publicación de la reseña para moderación manual. | | | |
 
+---
 
 | **Story ID** | **User** | **Priority** | **Epic** |
 | :--- | :--- | :--- | :--- |
 | 29 | US29 | 3 | 7 |
-| **Title** | Programa de incentivos por reputación alta | | |
-| **Description** | | | |
+| **Título** | Recibir incentivos por mantener reputación alta | | |
+| **Descripción** | | | |
 | Como usuario con comportamiento ejemplar, quiero recibir distintivos o beneficios para obtener mayor visibilidad y recompensas tangibles por mi buen historial. | | | |
-| **Acceptance Criteria** | | | |
+| **Criterios de Aceptación** | | | |
 | **Escenario 1: Asignación de distintivo de excelencia.** Dado que un conductor mantiene una puntuación promedio sobresaliente tras un número mínimo de viajes, cuando el sistema actualiza su perfil, entonces le otorga una insignia de "Usuario Estrella". **Escenario 2: Canje de recompensas por actividad.** Dado que el usuario acumula puntos por calificaciones positivas, cuando solicita un beneficio, entonces el sistema valida el saldo disponible y aplica el crédito correspondiente en su siguiente transacción. **Escenario 3: Revocación de beneficios por caída de puntuación.** Dado que un usuario premiado desciende de la calificación mínima requerida, cuando el sistema procesa la nueva media aritmética, entonces retira el distintivo y los beneficios asociados. | | | |
 
+---
 
 | **Story ID** | **User** | **Priority** | **Epic** |
 | :--- | :--- | :--- | :--- |
 | 30 | US30 | 4 | 7 |
-| **Title** | Configuración de umbrales de reputación | | |
-| **Description** | | | |
+| **Título** | Configurar umbral mínimo de reputación para arrendatarios | | |
+| **Descripción** | | | |
 | Como Proveedor, quiero establecer un nivel mínimo de calificación para los solicitantes para asegurar que mis activos sean utilizados solo por usuarios con antecedentes confiables. | | | |
-| **Acceptance Criteria** | | | |
+| **Criterios de Aceptación** | | | |
 | **Escenario 1: Definición de requisito de entrada.** Dado que el proveedor configura sus preferencias de seguridad, cuando establece un puntaje mínimo para los arrendatarios, entonces el sistema almacena la regla para filtrar las solicitudes entrantes. **Escenario 2: Rechazo automático de solicitudes de bajo perfil.** Dado que un usuario con baja reputación intenta realizar una reserva, cuando el sistema identifica que no alcanza el umbral definido por el dueño, entonces deniega la petición automáticamente. **Escenario 3: Visualización de efectividad del filtro.** Dado que el proveedor consulta sus estadísticas, cuando el sistema genera el reporte, entonces muestra el número de solicitudes filtradas por no cumplir con los estándares de reputación establecidos. | | | |
 
+---
 
 | **Story ID** | **User** | **Priority** | **Epic** |
 | :--- | :--- | :--- | :--- |
 | 31 | US31 | 5 | 6 |
-| **Title** | Procesamiento multicanal de pagos de alquiler | | |
-| **Description** | | | |
+| **Título** | Procesar pago de alquiler por múltiples canales electrónicos | | |
+| **Descripción** | | | |
 | Como Usuario conductor, quiero pagar el alquiler del vehículo utilizando diversos métodos electrónicos para asegurar la reserva de forma rápida y confiable. | | | |
-| **Acceptance Criteria** | | | |
+| **Criterios de Aceptación** | | | |
 | **Escenario 1: Procesamiento exitoso con diversos métodos.** Dado que el usuario selecciona una reserva, cuando proporciona los datos de su tarjeta o billetera digital, entonces el sistema procesa la transacción y confirma el alquiler en menos de 10 segundos. **Escenario 2: Rechazo por método de pago inválido.** Dado que el usuario ingresa una tarjeta no soportada o vencida, cuando el sistema intenta realizar el cobro, entonces rechaza la operación e informa sobre la incompatibilidad del método. **Escenario 3: Bloqueo por tiempo de espera excedido.** Dado que el usuario inicia el pago, cuando la transacción no concluye en el tiempo límite establecido, entonces el sistema cancela el proceso y libera el vehículo para otros interesados. | | | |
 
+---
 
 | **Story ID** | **User** | **Priority** | **Epic** |
 | :--- | :--- | :--- | :--- |
 | 32 | US32 | 5 | 6 |
-| **Title** | Liquidación de cuota de carpooling | | |
-| **Description** | | | |
+| **Título** | Liquidar cuota de carpooling de forma digital | | |
+| **Descripción** | | | |
 | Como Usuario pasajero, quiero liquidar mi cuota del viaje al conductor de forma digital para formalizar mi lugar sin necesidad de manejar efectivo. | | | |
-| **Acceptance Criteria** | | | |
+| **Criterios de Aceptación** | | | |
 | **Escenario 1: Transferencia de saldo exitosa.** Dado que el pasajero reserva un asiento, cuando confirma el pago desde su billetera interna, entonces el sistema transfiere el saldo al perfil del conductor tras finalizar el trayecto. **Escenario 2: Notificación de tarifa exacta.** Dado que se confirma el pago, cuando el sistema procesa la cuota, entonces envía una notificación de confirmación detallando el monto exacto cobrado a ambas partes. **Escenario 3: Reversión por cancelación de ruta.** Dado que el pasajero pagó su cuota y el conductor anula la ruta, cuando el sistema detecta la cancelación, entonces reintegra el saldo total al pasajero de forma inmediata. | | | |
 
+---
 
 | **Story ID** | **User** | **Priority** | **Epic** |
 | :--- | :--- | :--- | :--- |
 | 33 | US33 | 8 | 6 |
-| **Title** | Ejecución de reembolsos automatizados | | |
-| **Description** | | | |
+| **Título** | Ejecutar reembolsos automatizados ante cancelaciones justificadas | | |
+| **Descripción** | | | |
 | Como Usuario, quiero que el sistema ejecute reembolsos automáticos ante cancelaciones justificadas para proteger mi capital y mantener la confianza en la plataforma. | | | |
-| **Acceptance Criteria** | | | |
+| **Criterios de Aceptación** | | | |
 | **Escenario 1: Cálculo según política de cancelación.** Dado que una reserva elegible se anula, cuando el sistema inicia el proceso de devolución, entonces aplica automáticamente las reglas de reembolso según el tiempo de anticipación. **Escenario 2: Plazo de ejecución técnica.** Dado que el reembolso es aprobado, cuando el sistema activa la reversión en la pasarela de pagos, entonces completa la instrucción de retorno en un plazo no mayor a 2 horas. **Escenario 3: Notificación de error en reembolso.** Dado que la pasarela de pago rechaza la reversión por problemas bancarios, cuando el sistema detecta el fallo, entonces genera un ticket de soporte y notifica al usuario sobre el retraso. | | | |
 
+---
 
 | **Story ID** | **User** | **Priority** | **Epic** |
 | :--- | :--- | :--- | :--- |
 | 34 | US34 | 3 | 6 |
-| **Title** | Gestión de ofertas promocionales temporales | | |
-| **Description** | | | |
+| **Título** | Gestionar ofertas promocionales temporales en la flota | | |
+| **Descripción** | | | |
 | Como Proveedor empresarial, quiero aplicar descuentos a mi flota durante periodos específicos para incentivar la demanda y atraer nuevos clientes. | | | |
-| **Acceptance Criteria** | | | |
+| **Criterios de Aceptación** | | | |
 | **Escenario 1: Configuración de rango de oferta.** Dado que el proveedor establece un periodo de descuento, cuando define el porcentaje entre el 5% y 50%, entonces el sistema actualiza los precios del catálogo para las fechas seleccionadas. **Escenario 2: Visibilidad de precios reducidos.** Dado que un usuario busca vehículos, cuando el sistema identifica unidades con oferta activa, entonces muestra el precio promocional destacado frente al precio regular. **Escenario 3: Límite de aplicación de descuentos.** Dado que el proveedor intenta aplicar un descuento fuera del rango permitido, cuando el sistema procesa la solicitud, entonces bloquea la configuración y solicita ajustar el porcentaje a las reglas de negocio. | | | |
 
+---
 
 | **Story ID** | **User** | **Priority** | **Epic** |
 | :--- | :--- | :--- | :--- |
 | 35 | US35 | 5 | 7 |
-| **Title** | Sistema de evaluación bidireccional obligatoria | | |
-| **Description** | | | |
+| **Título** | Calificar y reseñar al inquilino tras finalizar el alquiler | | |
+| **Descripción** | | | |
 | Como Proveedor, quiero calificar y reseñar al inquilino tras el alquiler para alimentar el sistema de reputación y seguridad de la comunidad. | | | |
-| **Acceptance Criteria** | | | |
+| **Criterios de Aceptación** | | | |
 | **Escenario 1: Registro de reseña cualitativa.** Dado que el alquiler finaliza, cuando el proveedor proporciona la calificación (1-5 estrellas), entonces el sistema almacena el comentario y actualiza el promedio del inquilino. **Escenario 2: Bloqueo de actividad por pendiente.** Dado que el usuario intenta realizar una nueva reserva, cuando el sistema identifica una calificación pendiente del servicio anterior, entonces impide la acción hasta completar el feedback. **Escenario 3: Moderación de contenido ofensivo.** Dado que el usuario escribe una reseña, cuando el sistema detecta palabras prohibidas o lenguaje inapropiado, entonces bloquea la publicación e informa sobre la infracción a las normas de conducta. | | | |
 
+---
 
 | **Story ID** | **User** | **Priority** | **Epic** |
 | :--- | :--- | :--- | :--- |
 | 36 | US36 | 8 | 7 |
-| **Title** | Reconocimiento por comportamiento positivo | | |
-| **Description** | | | |
+| **Título** | Obtener distintivos por comportamiento positivo sostenido | | |
+| **Descripción** | | | |
 | Como Usuario conductor, quiero recibir distintivos por obtener calificaciones altas para mejorar mi visibilidad y obtener beneficios dentro de la red. | | | |
-| **Acceptance Criteria** | | | |
+| **Criterios de Aceptación** | | | |
 | **Escenario 1: Asignación de insignia de excelencia.** Dado que el conductor supera los 10 viajes con un promedio de 4.8 o superior, cuando el sistema actualiza sus estadísticas, entonces le otorga automáticamente el distintivo de "Conductor Estrella". **Escenario 2: Canje de incentivos económicos.** Dado que el usuario acumula puntos por buena conducta, cuando solicita un canje, entonces el sistema aplica un crédito a su siguiente fianza según el saldo disponible. **Escenario 3: Revocación por descenso de reputación.** Dado que el promedio de un conductor estrella cae por debajo del umbral mínimo, cuando el sistema recalcula la puntuación, entonces retira el distintivo y los beneficios asociados. | | | |
 
+---
 
 | **Story ID** | **User** | **Priority** | **Epic** |
 | :--- | :--- | :--- | :--- |
 | 37 | US37 | 3 | 7 |
-| **Title** | Consulta de transparencia en reputación | | |
-| **Description** | | | |
+| **Título** | Consultar historial de reseñas para evaluar confianza | | |
+| **Descripción** | | | |
 | Como Usuario, quiero consultar el historial de reseñas de otros miembros antes de aceptar un trato para tomar una decisión basada en la confianza. | | | |
-| **Acceptance Criteria** | | | |
+| **Criterios de Aceptación** | | | |
 | **Escenario 1: Exposición de métricas de confianza.** Dado que el usuario accede al perfil de un tercero, cuando el sistema genera la vista, entonces muestra de forma destacada la calificación promedio y el volumen de servicios completados. **Escenario 2: Acceso a reseñas detalladas.** Dado que el usuario solicita ver el detalle, cuando el sistema carga el historial, entonces muestra los comentarios cualitativos más recientes organizados por relevancia y fecha. **Escenario 3: Privacidad de datos sensibles en reseñas.** Dado que el sistema muestra el historial de feedback, cuando el usuario visualiza las reseñas, entonces oculta cualquier dato de contacto o información privada para proteger la seguridad de los involucrados. | | | |
 
+---
 
 | **Story ID** | **User** | **Priority** | **Epic** |
 | :--- | :--- | :--- | :--- |
 | 38 | US38 | 3 | 7 |
-| **Title** | Filtrado por umbrales de confianza | | |
-| **Description** | | | |
+| **Título** | Filtrar solicitudes por umbral mínimo de confianza | | |
+| **Descripción** | | | |
 | Como Proveedor empresarial, quiero establecer requisitos mínimos de calificación para asegurar que mis vehículos sean operados por usuarios confiables. | | | |
-| **Acceptance Criteria** | | | |
+| **Criterios de Aceptación** | | | |
 | **Escenario 1: Definición de umbral de seguridad.** Dado que el proveedor configura sus preferencias, cuando establece un puntaje mínimo requerido, entonces el sistema guarda la regla para filtrar automáticamente las solicitudes de alquiler. **Escenario 2: Rechazo de perfiles de baja reputación.** Dado que un usuario con baja calificación solicita una reserva, cuando el sistema detecta que no cumple con el umbral del dueño, entonces deniega la solicitud de forma inmediata. **Escenario 3: Excepción por perfil verificado.** Dado que el usuario tiene baja puntuación pero cuenta con una verificación institucional especial, cuando el sistema procesa la regla, entonces permite que la solicitud llegue al dueño para una revisión manual. | | | |
 
+---
 
 | **Story ID** | **User** | **Priority** | **Epic** |
 | :--- | :--- | :--- | :--- |
 | 39 | US39 | 5 | 8 |
-| **Title** | Visualización de propuesta de valor y servicios | | |
-| **Description** | | | |
+| **Título** | Explorar propuesta de valor y servicios en la landing page | | |
+| **Descripción** | | | |
 | Como Visitante de la Landing Page, quiero conocer cómo funciona WheelsPe y sus beneficios para decidir registrarme en la plataforma. | | | |
-| **Acceptance Criteria** | | | |
+| **Criterios de Aceptación** | | | |
 | **Escenario 1: Consulta de secciones informativas.** Dado que el visitante navega por el sitio web, cuando accede a la sección de "Cómo funciona", entonces el sistema muestra el flujo de alquiler y carpooling de forma clara y visual. **Escenario 2: Acceso a testimonios reales.** Dado que el visitante busca validación social, cuando llega a la sección de reseñas, entonces el sistema presenta testimonios de usuarios verificados de la comunidad universitaria y empresarial. **Escenario 3: Redirección al registro.** Dado que el visitante decide unirse, cuando selecciona la opción de "Unirse a WheelsPe", entonces el sistema lo dirige al formulario de registro correspondiente según el segmento elegido. | | | |
 
+---
 
-| **Story ID**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | **User**                           | **Priority** | **Epic** |
-|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------|:-------------|:---------|
-| 40                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | US40                               | 5            | 7        |
-| **Title**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | Monitoreo de anomalías financieras |              |          |
-| **Description**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |                                    |              |          |
-| Como Administrador, quiero recibir alertas sobre pagos fallidos o posibles fraudes para actuar rápidamente y brindar soporte al usuario.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |                                    |              |          |
-| **Acceptance Criteria**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |                                    |              |          |
-| **Escenario 1: Detección de intentos de fraude.** Dado que se registra un pago rechazado por la pasarela por motivos de seguridad, cuando el sistema identifica la alerta, entonces notifica al administrador con el ID de transacción y el perfil del usuario. **Escenario 2: Alerta por depósitos inconsistentes.** Dado que un usuario reporta un depósito manual, cuando el sistema detecta discrepancias en los datos bancarios, entonces marca la operación como "En revisión" y alerta al equipo administrativo. **Escenario 3: Seguimiento de soluciones a fallos.** Dado que se genera una alerta de pago, cuando el administrador inicia el seguimiento, entonces el sistema registra cada paso de la resolución hasta que el problema queda marcado como "Solucionado". |
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 40 | US40 | 5 | 7 |
+| **Título** | Monitorear anomalías financieras como administrador | | |
+| **Descripción** | | | |
+| Como Administrador, quiero recibir alertas sobre pagos fallidos o posibles fraudes para actuar rápidamente y brindar soporte al usuario. | | | |
+| **Criterios de Aceptación** | | | |
+| **Escenario 1: Detección de intentos de fraude.** Dado que se registra un pago rechazado por la pasarela por motivos de seguridad, cuando el sistema identifica la alerta, entonces notifica al administrador con el ID de transacción y el perfil del usuario. **Escenario 2: Alerta por depósitos inconsistentes.** Dado que un usuario reporta un depósito manual, cuando el sistema detecta discrepancias en los datos bancarios, entonces marca la operación como "En revisión" y alerta al equipo administrativo. **Escenario 3: Seguimiento de soluciones a fallos.** Dado que se genera una alerta de pago, cuando el administrador inicia el seguimiento, entonces el sistema registra cada paso de la resolución hasta que el problema queda marcado como "Solucionado". | | | |
 
+---
 
 | **Story ID** | **User** | **Priority** | **Epic** |
 | :--- | :--- | :--- | :--- |
 | 41 | US41 | 2 | 7 |
-| **Title** | Mediación automatizada de disputas de reputación | | |
-| **Description** | | | |
+| **Título** | Mediar disputas de reputación de forma automatizada | | |
+| **Descripción** | | | |
 | Como Administrador, quiero que el sistema gestione un flujo de trabajo para investigar y resolver conflictos de reseñas para mantener la integridad de la comunidad. | | | |
-| **Acceptance Criteria** | | | |
+| **Criterios de Aceptación** | | | |
 | **Escenario 1: Apertura de ticket de mediación.** Dado que un usuario reporta una reseña por ser injusta o falsa, cuando el sistema procesa el reporte, entonces genera un ticket de incidencia e informa a ambas partes sobre el inicio del proceso de investigación. **Escenario 2: Registro de evidencia para resolución.** Dado que el ticket se encuentra activo, cuando el sistema solicita descargos a los involucrados, entonces permite la carga de pruebas fotográficas o registros de chat para sustentar la decisión administrativa. **Escenario 3: Cierre forzado por tiempo límite.** Dado que transcurren 48 horas sin una resolución manual, cuando el sistema detecta el vencimiento del plazo, entonces aplica una decisión por defecto (mantener calificación o suspender temporalmente) para evitar procesos estancados. | | | |
 
+---
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 42 | US42 | 5 | 8 |
+| **Título** | Explorar beneficios para propietarios en la landing page | | |
+| **Descripción** | | | |
+| Como Visitante propietario de vehículos, quiero conocer las ventajas económicas y de seguridad de publicar mi auto en WheelsPe para decidir registrarme como Proveedor. | | | |
+| **Criterios de Aceptación** | | | |
+| **Escenario 1: Visualización de beneficios.** Dado que el visitante accede a la sección de propietarios, cuando navega por el contenido, entonces el sistema muestra los beneficios de ingresos pasivos, protección de activos y verificación de arrendatarios. **Escenario 2: Cálculo estimado de ganancias.** Dado que el visitante consulta la rentabilidad, cuando revisa la sección de ingresos, entonces el sistema presenta un estimado referencial de ganancias mensuales. **Escenario 3: Redirección al registro de proveedor.** Dado que el visitante decide registrarse, cuando selecciona "Publicar mi auto", entonces el sistema lo dirige al formulario de registro con rol Proveedor. | | | |
+
+---
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 43 | US43 | 5 | 8 |
+| **Título** | Conocer ventajas del carpooling en la landing page | | |
+| **Descripción** | | | |
+| Como Visitante interesado en movilidad, quiero conocer cómo funciona el carpooling de WheelsPe y sus beneficios de ahorro y seguridad para decidir unirme a la comunidad. | | | |
+| **Criterios de Aceptación** | | | |
+| **Escenario 1: Explicación del flujo de carpooling.** Dado que el visitante accede a la sección de carpooling, cuando revisa el contenido, entonces el sistema explica el proceso de búsqueda, reserva de asiento y pago compartido. **Escenario 2: Énfasis en seguridad institucional.** Dado que el visitante valora la seguridad, cuando consulta los diferenciadores, entonces el sistema destaca la segmentación por comunidad verificada (universidades/empresas). **Escenario 3: Redirección al registro.** Dado que el visitante decide unirse, cuando selecciona "Unirme al carpooling", entonces el sistema lo dirige al formulario de registro. | | | |
+
+---
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 44 | US44 | 3 | 8 |
+| **Título** | Acceder a centro de ayuda y preguntas frecuentes | | |
+| **Descripción** | | | |
+| Como Usuario o visitante, quiero acceder a un centro de ayuda con preguntas frecuentes para resolver mis dudas de forma autónoma sin contactar a soporte. | | | |
+| **Criterios de Aceptación** | | | |
+| **Escenario 1: Consulta de preguntas frecuentes.** Dado que el usuario accede al centro de ayuda, cuando despliega una categoría, entonces el sistema muestra las preguntas y respuestas asociadas mediante un acordeón interactivo. **Escenario 2: Búsqueda de temas.** Dado que el usuario tiene una duda específica, cuando ingresa un término en el buscador de ayuda, entonces el sistema filtra y muestra los artículos relevantes. **Escenario 3: Derivación a soporte.** Dado que el usuario no encuentra respuesta, cuando selecciona "Contactar soporte", entonces el sistema habilita la creación de un ticket de ayuda. | | | |
+
+---
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 45 | US45 | 2 | 1 |
+| **Título** | Solicitar baja voluntaria y eliminación de datos personales | | |
+| **Descripción** | | | |
+| Como Usuario registrado, quiero solicitar la baja de mi cuenta y la eliminación de mis datos personales para ejercer mi derecho al olvido conforme a la normativa de protección de datos. | | | |
+| **Criterios de Aceptación** | | | |
+| **Escenario 1: Solicitud de baja.** Dado que el usuario accede a la configuración de su cuenta, cuando confirma la solicitud de eliminación, entonces el sistema valida que no existan operaciones financieras pendientes antes de proceder. **Escenario 2: Bloqueo por obligaciones activas.** Dado que el usuario tiene reservas o pagos en curso, cuando intenta darse de baja, entonces el sistema impide la acción e informa las obligaciones pendientes. **Escenario 3: Eliminación efectiva de datos.** Dado que la baja procede, cuando el sistema ejecuta el proceso, entonces anonimiza o elimina los datos personales conservando solo lo exigido legalmente. | | | |
+
+---
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 46 | US46 | 3 | 8 |
+| **Título** | Enviar solicitud de alianza corporativa | | |
+| **Descripción** | | | |
+| Como Representante de una empresa o institución, quiero enviar una solicitud de alianza corporativa para integrar a mi organización al ecosistema WheelsPe. | | | |
+| **Criterios de Aceptación** | | | |
+| **Escenario 1: Envío de formulario corporativo.** Dado que el representante accede a la sección B2B, cuando completa los datos de su organización, entonces el sistema registra la solicitud y confirma la recepción. **Escenario 2: Validación de datos obligatorios.** Dado que el representante envía el formulario, cuando omite campos requeridos (RUC, contacto), entonces el sistema rechaza el envío y solicita completarlos. **Escenario 3: Notificación al equipo comercial.** Dado que la solicitud se registra correctamente, cuando el sistema la procesa, entonces notifica al equipo comercial para su seguimiento. | | | |
+
+---
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 47 | US47 | 3 | 2 |
+| **Título** | Optimizar latencia en consultas de geolocalización | | |
+| **Descripción** | | | |
+| Como Equipo técnico, quiero optimizar la latencia de las consultas de geolocalización para garantizar una experiencia fluida en el seguimiento y la búsqueda por cercanía. | | | |
+| **Criterios de Aceptación** | | | |
+| **Escenario 1: Tiempo de respuesta objetivo.** Dado que un usuario ordena el catálogo por cercanía, cuando el sistema procesa la consulta geoespacial, entonces devuelve resultados en un tiempo no mayor a 2 segundos. **Escenario 2: Indexación geoespacial.** Dado que crece el volumen de registros, cuando el sistema ejecuta búsquedas por radio, entonces utiliza índices geoespaciales para mantener el rendimiento. **Escenario 3: Degradación controlada.** Dado que el servicio de mapas presenta latencia alta, cuando el sistema detecta la demora, entonces aplica un fallback de orden alternativo sin bloquear la búsqueda. | | | |
+
+---
+
+> **Nota de actualización (13/06/2026):** Las historias **US48 a US55** se incorporan para cubrir las épicas **EP03 (Inventario y ofertas de vehículos)** y **EP04 (Experiencia de alquiler y reserva)**, que no contaban con User Stories definidas en la versión anterior de esta sección. Los endpoints de backend que las respaldan ya existen: `GET/POST/PUT /vehicles`, `GET /vehicles/{id}/availability` y `POST/GET/PATCH /rentals`.
+
+---
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 48 | US48 | 5 | 3 |
+| **Título** | Consultar catálogo de vehículos con filtros avanzados | | |
+| **Descripción** | | | |
+| Como Usuario Arrendatario, quiero explorar el catálogo de vehículos disponibles aplicando filtros por ubicación, tipo, precio y rango de fechas para encontrar la opción que mejor se adapte a mis necesidades. | | | |
+| **Criterios de Aceptación** | | | |
+| **Escenario 1: Filtrado por parámetros combinados.** Dado que el usuario accede al catálogo, cuando aplica filtros de distrito, tipo de carrocería, transmisión y rango de precio, entonces el sistema devuelve únicamente los vehículos que cumplen todos los criterios seleccionados de forma simultánea. **Escenario 2: Ordenamiento por cercanía geográfica.** Dado que el usuario activa su ubicación, cuando ordena los resultados por distancia, entonces el sistema calcula y presenta los vehículos más cercanos al punto actual del usuario en orden ascendente. **Escenario 3: Catálogo vacío por filtros restrictivos.** Dado que el usuario aplica filtros muy específicos, cuando no existen vehículos que los cumplan, entonces el sistema informa la ausencia de resultados y sugiere ampliar o modificar los criterios de búsqueda. | | | |
+
+---
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 49 | US49 | 5 | 3 |
+| **Título** | Visualizar detalle y calendario de disponibilidad del vehículo | | |
+| **Descripción** | | | |
+| Como Usuario Arrendatario, quiero ver la información completa de un vehículo, incluyendo especificaciones técnicas, reseñas y su calendario de fechas ocupadas, para tomar una decisión informada antes de reservar. | | | |
+| **Criterios de Aceptación** | | | |
+| **Escenario 1: Carga de información completa del vehículo.** Dado que el usuario selecciona un vehículo del catálogo, cuando el sistema carga la vista de detalle, entonces muestra especificaciones técnicas, precio diario, datos y calificación del propietario, cantidad de alquileres completados y las reseñas más recientes. **Escenario 2: Visualización de fechas ocupadas en el calendario.** Dado que el usuario accede al calendario de disponibilidad, cuando el sistema consulta los rangos de ocupación existentes, entonces bloquea visualmente las fechas con reservas activas y permite seleccionar libremente los periodos disponibles. **Escenario 3: Notificación de solapamiento al seleccionar fechas.** Dado que el usuario elige un rango de fechas, cuando el sistema detecta que alguna fecha del rango ya está reservada, entonces informa la indisponibilidad y resalta las fechas en conflicto para facilitar la selección de un periodo alternativo. | | | |
+
+---
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 50 | US50 | 3 | 3 |
+| **Título** | Editar información y precio de vehículo publicado | | |
+| **Descripción** | | | |
+| Como Proveedor, quiero actualizar los datos, precio o fotos de mi vehículo publicado para mantener la información vigente y atractiva para los arrendatarios interesados. | | | |
+| **Criterios de Aceptación** | | | |
+| **Escenario 1: Actualización exitosa de datos del vehículo.** Dado que el proveedor accede al panel de gestión de su vehículo, cuando modifica campos como precio diario, descripción o imágenes y confirma los cambios, entonces el sistema actualiza la información y refleja los cambios inmediatamente en el catálogo público. **Escenario 2: Restricción de edición de precio con reserva activa.** Dado que el vehículo tiene una reserva en estado activo, cuando el proveedor modifica el precio diario, entonces el sistema permite el cambio pero aplica el nuevo valor solo a futuras reservas sin afectar las transacciones en curso. **Escenario 3: Validación de campos obligatorios al guardar.** Dado que el proveedor intenta guardar los cambios, cuando deja vacíos campos obligatorios como el precio o el tipo de vehículo, entonces el sistema rechaza la actualización, resalta los campos incompletos e indica cuáles son requeridos. | | | |
+
+---
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 51 | US51 | 2 | 3 |
+| **Título** | Retirar temporalmente vehículo del catálogo público | | |
+| **Descripción** | | | |
+| Como Proveedor, quiero desactivar temporalmente mi vehículo del catálogo para evitar nuevas reservas durante periodos de mantenimiento o uso personal, sin necesidad de eliminar mi publicación. | | | |
+| **Criterios de Aceptación** | | | |
+| **Escenario 1: Desactivación exitosa del vehículo.** Dado que el proveedor accede al panel de su vehículo, cuando cambia el estado a "No disponible" y confirma la acción, entonces el sistema retira el activo del catálogo público de forma inmediata sin eliminar el historial de reservas ni las calificaciones acumuladas. **Escenario 2: Bloqueo de desactivación por reserva pendiente o activa.** Dado que el vehículo tiene reservas en estado pendiente o aceptado, cuando el proveedor intenta desactivarlo, entonces el sistema impide la acción, informa las reservas vigentes y solicita resolverlas antes de proceder con la desactivación. **Escenario 3: Reactivación del vehículo en el catálogo.** Dado que el proveedor finaliza el periodo de indisponibilidad, cuando cambia el estado nuevamente a "Disponible", entonces el vehículo vuelve a aparecer de forma inmediata en el catálogo para nuevas solicitudes de reserva. | | | |
+
+---
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 52 | US52 | 8 | 4 |
+| **Título** | Crear reserva de alquiler seleccionando fechas y vehículo | | |
+| **Descripción** | | | |
+| Como Usuario Arrendatario, quiero seleccionar las fechas de inicio y fin del alquiler y confirmar la reserva para asegurar la disponibilidad del vehículo elegido antes de proceder al pago. | | | |
+| **Criterios de Aceptación** | | | |
+| **Escenario 1: Reserva exitosa sin solapamiento de fechas.** Dado que el usuario selecciona un vehículo disponible y define un rango de fechas válido, cuando el sistema verifica que no existen reservas en ese periodo, entonces crea la reserva con estado "Pendiente", notifica al proveedor y habilita el proceso de pago en el paso siguiente. **Escenario 2: Rechazo por solapamiento con reserva existente.** Dado que el usuario intenta reservar fechas ya ocupadas por otra reserva activa, cuando el sistema detecta el conflicto, entonces devuelve un error con los rangos en conflicto y solicita elegir fechas alternativas disponibles. **Escenario 3: Expiración automática por pago no completado.** Dado que la reserva queda en estado "Pendiente" sin que el usuario complete el pago, cuando transcurren 30 minutos desde la creación, entonces el sistema cancela la reserva automáticamente, libera las fechas para otros interesados y notifica al usuario. | | | |
+
+---
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 53 | US53 | 3 | 4 |
+| **Título** | Consultar historial de reservas y alquileres propios | | |
+| **Descripción** | | | |
+| Como Usuario Arrendatario, quiero ver el listado completo de todas mis reservas pasadas y activas para hacer seguimiento de mis alquileres y acceder a los detalles de cada operación. | | | |
+| **Criterios de Aceptación** | | | |
+| **Escenario 1: Listado de reservas ordenado por fecha.** Dado que el usuario accede a la sección "Mis reservas", cuando el sistema carga el historial, entonces muestra todas las reservas ordenadas por fecha de creación con su estado actualizado (pendiente, aceptado, activo, completado, cancelado). **Escenario 2: Filtrado del historial por estado de reserva.** Dado que el usuario desea ver solo sus alquileres activos, cuando aplica el filtro de estado correspondiente, entonces el sistema muestra únicamente los registros que coinciden con el criterio seleccionado. **Escenario 3: Acceso al detalle completo de una reserva.** Dado que el usuario selecciona una reserva del historial, cuando el sistema carga la vista de detalle, entonces muestra el vehículo, las fechas, el monto total pagado, el estado actual y las acciones disponibles según dicho estado. | | | |
+
+---
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 54 | US54 | 4 | 4 |
+| **Título** | Cancelar reserva de alquiler según políticas vigentes | | |
+| **Descripción** | | | |
+| Como Usuario Arrendatario, quiero cancelar una reserva que ya no necesito para liberar el vehículo y gestionar el reembolso correspondiente de acuerdo con las políticas de la plataforma. | | | |
+| **Criterios de Aceptación** | | | |
+| **Escenario 1: Cancelación con reembolso total dentro del plazo gratuito.** Dado que el usuario cancela una reserva dentro del periodo de cancelación sin penalidad, cuando el sistema procesa la solicitud, entonces cambia el estado a "Cancelado", libera las fechas del vehículo para nuevas reservas y aplica el reembolso total al método de pago original. **Escenario 2: Cancelación con penalidad por anulación tardía.** Dado que el usuario cancela una reserva fuera del plazo de cancelación gratuita, cuando el sistema gestiona la solicitud, entonces informa la penalidad aplicable según la política, procesa el reembolso parcial y libera el vehículo para otros interesados. **Escenario 3: Bloqueo de cancelación en estado activo.** Dado que el alquiler ya se encuentra en estado "Activo" (vehículo entregado), cuando el usuario intenta cancelar desde la aplicación, entonces el sistema impide la acción e indica que debe coordinarse directamente con el proveedor para gestionar la devolución. | | | |
+
+---
+
+| **Story ID** | **User** | **Priority** | **Epic** |
+| :--- | :--- | :--- | :--- |
+| 55 | US55 | 5 | 4 |
+| **Título** | Gestionar estado de reservas recibidas como proveedor | | |
+| **Descripción** | | | |
+| Como Proveedor, quiero revisar y gestionar el ciclo de vida de las reservas de mis vehículos (aceptar, activar, completar o rechazar) para mantener el control operativo de mi flota. | | | |
+| **Criterios de Aceptación** | | | |
+| **Escenario 1: Aceptación de reserva pendiente.** Dado que el proveedor recibe una nueva solicitud de alquiler, cuando revisa los datos del arrendatario y confirma la aceptación, entonces el sistema cambia el estado a "Aceptado" y notifica al cliente que su reserva ha sido aprobada. **Escenario 2: Activación de la reserva en la fecha de inicio.** Dado que llega la fecha de inicio del alquiler acordado, cuando el proveedor confirma la entrega física del vehículo al arrendatario, entonces el sistema cambia el estado a "Activo" e inicia el cómputo del periodo de alquiler. **Escenario 3: Cierre exitoso y liberación del pago.** Dado que el vehículo es devuelto al proveedor en conformidad, cuando el proveedor confirma la recepción sin observaciones de daños, entonces el sistema cambia el estado a "Completado", habilita la evaluación mutua entre ambas partes y libera el pago retenido al proveedor. | | | |
 
 ### 2.4.2. Impact Mapping
 
@@ -2247,13 +2472,13 @@ Link de los impact mapping: https://drive.google.com/drive/folders/1x7m4N6Fzopy-
 
 ### 2.4.3. Product Backlog
 
-**Priorización por Valor de Negocio (No por Precedencia Técnica)**
+**Priorización por Valor de Negocio**
 
 El Product Backlog de WheelsPe se ordena estrictamente por VALOR DE NEGOCIO para los usuarios finales y stakeholders, no por precedencia técnica ni dependencias de implementación. Este enfoque ágil asegura que cada sprint entregue funcionalidades que los segmentos objetivo puedan percibir, utilizar y validar inmediatamente, comprobando las hipótesis de negocio establecidas en el Lean UX Process desde el primer momento del ciclo de desarrollo.
 
 Las primeras posiciones del backlog se asignan a User Stories que:
 - Generan conversión inicial de visitantes a usuarios registrados (Landing Page)
-- Materializan el core del modelo de negocio (búsqueda de vehículos/rutas, publicación de ofertas, transacciones)
+- Materializan el core del modelo de negocio (búsqueda de vehículos/rutas, publicación de ofertas, reservas, transacciones)
 - Implementan diferenciadores competitivos clave (segmentación institucional, carpooling integrado con alquiler)
 - Garantizan seguridad y construcción de confianza (alertas de emergencia, sistema de reputación, checklist de protección)
 
@@ -2261,62 +2486,82 @@ Las User Stories de infraestructura técnica (autenticación, registro, gestión
 
 Esta priorización se validó mediante el Impact Mapping elaborado en la sección 2.4.2, donde se identificaron los Business Goals y los comportamientos de usuario que generan mayor impacto en el éxito de la plataforma.
 
-**NUEVA TABLA DE PRODUCT BACKLOG (Ordenada por Valor de Negocio):**
+> **Nota de concordancia con Sprints (16/06/2026):** al cruzar este backlog con los Sprint Backlogs 1, 2 y 3 se detectaron tres inconsistencias de numeración heredadas de la documentación original, ya corregidas en la columna "Sprint":
+> 1. **Sprint 1 y Sprint 2 usan "US22" para el catálogo de vehículos.** Con la numeración corregida (sección 2.4.1), esa función es **US48** (catálogo) y **US49** (detalle + calendario). El verdadero US22 es "Procesar pago por alquiler de vehículo".
+> 2. **La tarea "Calendario de fechas... validación de solapamiento" (Sprint 2)**, etiquetada `US22/US31`, corresponde en realidad a **US49** (calendario de disponibilidad) y **US52** (crear reserva con anti-solapamiento).
+> 3. **El Sprint 3 planifica "US16: Aceptar/activar/completar reservas".** US16 en 2.4.1 es "Aprobar pasajeros y controlar aforo" (carpooling) y no tiene relación con el ciclo de vida de un alquiler. La tarea descrita corresponde en realidad a la nueva **US55**.
+>
+> La tabla se presenta agrupada por sprint (Sprint 1 a Sprint 4) para facilitar el seguimiento de avance. Dentro de cada sprint se mantiene el orden original de valor de negocio. Cada historia aparece en un único sprint: el que refleja su estado más avanzado. Las historias que aún no entraban en ningún Sprint Planning se agrupan en el **Sprint 4 (propuesto)**.
 
-| # Orden | Story ID | Título | Story Points | Épica | Justificación de Prioridad |
-|---------|----------|--------|--------------|-------|----------------------------|
-| 1 | US39 | Visualizar propuesta de valor en landing page | 5 | EP08 | Primera impresión de visitantes, comunicación de beneficios, generación de conversión inicial |
-| 2 | US22 | Consultar catálogo de vehículos disponibles | 5 | EP03 | Core business - permite a usuarios explorar inventario de vehículos |
-| 3 | US13 | Publicar ruta de movilidad compartida | 8 | EP05 | Core business - habilita oferta de carpooling por conductores |
-| 4 | US14 | Buscar rutas con segmentación institucional | 5 | EP05 | Diferenciador clave - comunidad verificada (UPC/empresas) genera confianza |
-| 5 | US31 | Procesar pago de alquiler multicanal | 8 | EP06 | Monetización directa del modelo de negocio de alquiler |
-| 6 | US32 | Liquidar cuota de carpooling digitalmente | 5 | EP06 | Monetización de movilidad compartida |
-| 7 | US08 | Activar alerta de emergencia durante viaje | 5 | EP02 | Propuesta de valor #1 - seguridad personal de pasajeros |
-| 8 | US28 | Evaluar servicio de forma bidireccional | 5 | EP07 | Construcción de confianza y reputación comunitaria |
-| 9 | US12 | Registrar checklist fotográfico del vehículo | 5 | EP02 | Protección de activos del proveedor - diferenciador vs competencia |
-| 10 | US21 | Vincular métodos de pago electrónicos | 5 | EP06 | Habilitador de transacciones financieras seguras |
-| 11 | US24 | Gestionar garantía mediante retención (Escrow) | 5 | EP06 | Protección financiera bilateral proveedor-arrendatario |
-| 12 | US01 | Registrar cuenta con rol único | 3 | EP01 | Habilitador necesario para acceso al sistema |
-| 13 | US02 | Verificar identidad mediante KYC | 5 | EP01 | Seguridad necesaria para construcción de confianza |
-| 14 | US03 | Iniciar sesión con credenciales | 2 | EP01 | Soporte técnico para persistencia de sesión |
-| 15 | US05 | Acreditar propiedad de vehículo | 5 | EP03 | Validación de oferta legítima y protección contra fraude |
-| 16 | US06 | Monitorear ruta en tiempo real vía GPS | 8 | EP02 | Trazabilidad y seguridad activa durante viajes |
-| 17 | US09 | Validar inicio de viaje con código PIN | 3 | EP02 | Confirmación de identidad correcta en momento de abordaje |
-| 18 | US15 | Reservar asiento en ruta compartida | 4 | EP05 | Funcionalidad core de carpooling |
-| 19 | US25 | Emitir comprobantes y contratos digitales | 4 | EP06 | Respaldo legal de transacciones |
-| 20 | US11 | Filtrar rutas por preferencia de género | 3 | EP02 | Seguridad percibida (target específico: mujeres universitarias) |
-| 21 | US16 | Aprobar solicitudes de pasajeros y controlar aforo | 4 | EP05 | Control de capacidad del conductor |
-| 22 | US19 | Consultar reputación de otros usuarios | 2 | EP07 | Transparencia pre-transacción |
-| 23 | US30 | Configurar umbrales de reputación mínimos | 3 | EP07 | Personalización de seguridad por proveedor |
-| 24 | US26 | Procesar reembolsos automáticos | 3 | EP06 | Gestión de cancelaciones y devoluciones |
-| 25 | US10 | Gestionar contactos de confianza | 2 | EP02 | Seguridad pasiva mediante red de protección |
-| 26 | US17 | Automatizar rutas recurrentes semanales | 3 | EP05 | Optimización de experiencia para usuarios frecuentes |
-| 27 | US18 | Coordinar detalles por mensajería integrada | 3 | EP05 | Comunicación directa entre usuarios del viaje |
-| 28 | US20 | Confirmar llegada al destino final | 3 | EP05 | Cierre formal de servicio |
-| 29 | US27 | Aplicar cupones y beneficios promocionales | 3 | EP08 | Incentivos comerciales para adopción |
-| 30 | US29 | Recompensar usuarios con alta reputación | 3 | EP07 | Gamificación de comportamiento positivo |
-| 31 | US34 | Gestionar ofertas promocionales temporales | 3 | EP08 | Promociones estacionales y feriados |
-| 32 | US36 | Reconocer comportamiento positivo con distintivos | 8 | EP07 | Sistema de incentivos y construcción de lealtad |
-| 33 | US37 | Consultar historial completo de reseñas | 3 | EP07 | Transparencia histórica de comportamiento |
-| 34 | US38 | Filtrar solicitudes por umbral de confianza | 3 | EP07 | Protección automática basada en reputación |
-| 35 | US42 | Explorar beneficios para propietarios (Landing) | 5 | EP08 | Conversión de segmento proveedores |
-| 36 | US43 | Conocer ventajas del carpooling (Landing) | 5 | EP08 | Conversión de segmento usuarios movilidad |
-| 37 | US44 | Acceder a centro de ayuda y FAQ | 3 | EP08 | Soporte autoservicio |
-| 38 | US04 | Recuperar contraseña olvidada | 2 | EP01 | Soporte técnico de acceso |
-| 39 | US07 | Rastrear viaje activo para seguridad de pasajero | 8 | EP02 | Monitoreo de anomalías en ruta |
-| 40 | US33 | Ejecutar reembolsos automatizados | 8 | EP06 | Automatización de procesos financieros |
-| 41 | US35 | Evaluar mutuamente tras finalizar servicio | 5 | EP07 | Sistema de reputación bilateral |
-| 42 | US40 | Monitorear anomalías financieras (Admin) | 5 | EP06 | Operaciones administrativas de vigilancia |
-| 43 | US41 | Mediar disputas de reputación (Admin) | 2 | EP07 | Gestión de conflictos y moderación |
-| 44 | US45 | Solicitar baja voluntaria y eliminación de datos | 2 | EP01 | Derecho al olvido (cumplimiento GDPR) |
-| 45 | US46 | Enviar solicitud de alianza corporativa | 3 | EP08 | Expansión del modelo B2B |
-| 46 | US47 | Optimizar latencia en geolocalización (Technical) | 3 | SP02 | Mejora de performance técnico |
-| 47 | SP01 | Investigar integraciones de pasarelas de pago | 5 | SP | Spike: Validar viabilidad técnica de Stripe, PayPal, Yape |
-| 48 | SP02 | Evaluar soluciones de GPS y mapas (Google Maps vs Mapbox) | 5 | SP | Spike: Comparar latencia, precisión y costos |
-| 49 | SP03 | Analizar opciones de KYC mediante IA (inteligencia facial) | 8 | SP | Spike: Validar providers como IDology, Jumio, Onfido |
-| 50 | SP04 | Investigar arquitectura de microservicios y contenedorización | 8 | SP | Spike: Evaluar Docker, Kubernetes, serverless options |
+**TABLA DE PRODUCT BACKLOG (Agrupada por Sprint):**
 
-**Actualizar también la captura de Trello con este nuevo orden**
+| # | Story ID | Título | Story Points | Épica | Sprint | Justificación de Prioridad |
+|---|----------|--------|--------------|-------|--------|----------------------------|
+| 1 | US39 | Explorar propuesta de valor en landing page | 5 | EP08 | Sprint 1 (Hecho) | Primera impresión de visitantes, comunicación de beneficios, generación de conversión inicial |
+| 2 | US13 | Publicar ruta de movilidad compartida | 8 | EP05 | Sprint 1 (Hecho) | Core business - habilita oferta de carpooling por conductores |
+| 3 | US01 | Registrar cuenta con rol único | 3 | EP01 | Sprint 1 (Hecho) | Habilitador necesario para acceso al sistema |
+| 4 | US03 | Autenticar sesión con credenciales | 2 | EP01 | Sprint 1 (Hecho) | Soporte técnico para persistencia de sesión |
+| 5 | US42 | Explorar beneficios para propietarios (Landing) | 5 | EP08 | Sprint 1 (Hecho) | Conversión de segmento proveedores |
+| 6 | US43 | Conocer ventajas del carpooling (Landing) | 5 | EP08 | Sprint 1 (Hecho) | Conversión de segmento usuarios movilidad |
+| 7 | US48 | Consultar catálogo de vehículos con filtros avanzados | 5 | EP03 | Sprint 2 (Hecho) | Core business - permite a usuarios explorar el inventario de vehículos disponibles |
+| 8 | US49 | Visualizar detalle y calendario de disponibilidad del vehículo | 5 | EP03 | Sprint 2 (Hecho) | Core business - paso obligatorio antes de reservar; expone reputación del proveedor |
+| 9 | US52 | Crear reserva de alquiler seleccionando fechas y vehículo | 8 | EP04 | Sprint 2 (Hecho) | Core business - materializa la transacción principal de alquiler entre pares |
+| 10 | US14 | Buscar rutas con segmentación institucional | 5 | EP05 | Sprint 2 (Hecho) | Diferenciador clave - comunidad verificada (UPC/empresas) genera confianza |
+| 11 | US22 | Procesar pago por alquiler de vehículo | 5 | EP06 | Sprint 2 (En proceso) | Monetización directa del modelo de negocio de alquiler |
+| 12 | US31 | Procesar pago de alquiler multicanal | 8 | EP06 | Sprint 2 (En proceso) | Ampliación de medios de pago para asegurar la reserva sin friccción |
+| 13 | US28 | Evaluar servicio de forma bidireccional | 5 | EP07 | Sprint 2 (Hecho) | Construcción de confianza y reputación comunitaria |
+| 14 | US24 | Gestionar garantía mediante retención (Escrow) | 5 | EP06 | Sprint 2 (En proceso) | Protección financiera bilateral proveedor-arrendatario |
+| 15 | US15 | Reservar asiento en ruta compartida | 4 | EP05 | Sprint 2 (Hecho) | Funcionalidad core de carpooling |
+| 16 | US53 | Consultar historial de reservas y alquileres propios | 3 | EP04 | Sprint 2 (Hecho) | Seguimiento del estado de las transacciones por parte del arrendatario |
+| 17 | US19 | Consultar reputación de otros usuarios | 2 | EP07 | Sprint 2 (Hecho) | Transparencia pre-transacción |
+| 18 | US18 | Coordinar detalles por mensajería integrada | 3 | EP05 | Sprint 2 (Hecho) | Comunicación directa entre usuarios del viaje |
+| 19 | US37 | Consultar historial completo de reseñas | 3 | EP07 | Sprint 2 (Hecho) | Transparencia histórica de comportamiento |
+| 20 | US44 | Acceder a centro de ayuda y FAQ | 3 | EP08 | Sprint 2 (Hecho) | Soporte autoservicio |
+| 21 | US35 | Evaluar mutuamente tras finalizar servicio | 5 | EP07 | Sprint 2 (Hecho) | Sistema de reputación bilateral |
+| 22 | US47 | Optimizar latencia en geolocalización (Technical) | 3 | SP02 | Sprint 2 (Hecho) | Mejora de performance técnico |
+| 23 | US55 | Gestionar estado de reservas recibidas como proveedor | 5 | EP04 | Sprint 3 (En proceso) | Core business - control operativo del ciclo de vida del alquiler por el proveedor |
+| 24 | US54 | Cancelar reserva de alquiler según políticas vigentes | 4 | EP04 | Sprint 3 (En proceso) | Gestión de cancelaciones - protege la confianza del arrendatario en el servicio |
+| 25 | US02 | Verificar identidad mediante KYC | 5 | EP01 | Sprint 3 (En proceso) | Seguridad necesaria para construcción de confianza |
+| 26 | US05 | Acreditar propiedad de vehículo | 5 | EP03 | Sprint 3 (En proceso) | Validación de oferta legítima y protección contra fraude |
+| 27 | US50 | Editar información y precio de vehículo publicado | 3 | EP03 | Sprint 3 (En proceso) | Mantiene la oferta vigente y atractiva sin recrear la publicación |
+| 28 | US06 | Monitorear ruta en tiempo real vía GPS | 8 | EP02 | Sprint 3 (En proceso) | Trazabilidad y seguridad activa durante viajes |
+| 29 | US25 | Emitir comprobantes y contratos digitales | 4 | EP06 | Sprint 3 (En proceso) | Respaldo legal de transacciones |
+| 30 | US26 | Procesar reembolsos automáticos | 3 | EP06 | Sprint 3 (En proceso) | Gestión de cancelaciones y devoluciones |
+| 31 | US20 | Confirmar llegada al destino final | 3 | EP05 | Sprint 3 (En proceso) | Cierre formal de servicio |
+| 32 | US04 | Recuperar contraseña olvidada | 2 | EP01 | Sprint 3 (En proceso) | Soporte técnico de acceso |
+| 33 | US33 | Ejecutar reembolsos automatizados | 8 | EP06 | Sprint 3 (En proceso) | Automatización de procesos financieros |
+| 34 | SP01 | Investigar integraciones de pasarelas de pago | 5 | SP | Sprint 3 (En proceso) | Spike: Validar viabilidad técnica de Stripe, PayPal, Yape |
+| 35 | SP02 | Evaluar soluciones de GPS y mapas (Google Maps vs Mapbox) | 5 | SP | Sprint 3 (En proceso) | Spike: Comparar latencia, precisión y costos |
+| 36 | US32 | Liquidar cuota de carpooling digitalmente | 5 | EP06 | Sprint 4 (Pendiente) | Monetización de movilidad compartida |
+| 37 | US23 | Pagar cuota de asiento compartido de forma digital | 5 | EP06 | Sprint 4 (Pendiente) | Formaliza el lugar del pasajero sin manejo de efectivo |
+| 38 | US08 | Activar alerta de emergencia durante viaje | 5 | EP02 | Sprint 4 (Pendiente) | Propuesta de valor #1 - seguridad personal de pasajeros |
+| 39 | US12 | Registrar checklist fotográfico del vehículo | 5 | EP02 | Sprint 4 (Pendiente) | Protección de activos del proveedor - diferenciador vs competencia |
+| 40 | US21 | Vincular métodos de pago electrónicos | 5 | EP06 | Sprint 4 (Pendiente) | Habilitador de transacciones financieras seguras |
+| 41 | US09 | Validar inicio de viaje con código PIN | 3 | EP02 | Sprint 4 (Pendiente) | Confirmación de identidad correcta en momento de abordaje |
+| 42 | US11 | Filtrar rutas por preferencia de género | 3 | EP02 | Sprint 4 (Pendiente) | Seguridad percibida (target específico: mujeres universitarias) |
+| 43 | US16 | Aprobar solicitudes de pasajeros y controlar aforo | 4 | EP05 | Sprint 4 (Pendiente) | Control de capacidad del conductor |
+| 44 | US51 | Retirar temporalmente vehículo del catálogo público | 2 | EP03 | Sprint 4 (Pendiente) | Gestión operativa del proveedor durante mantenimiento o uso personal |
+| 45 | US30 | Configurar umbrales de reputación mínimos | 3 | EP07 | Sprint 4 (Pendiente) | Personalización de seguridad por proveedor |
+| 46 | US10 | Gestionar contactos de confianza | 2 | EP02 | Sprint 4 (Pendiente) | Seguridad pasiva mediante red de protección |
+| 47 | US17 | Automatizar rutas recurrentes semanales | 3 | EP05 | Sprint 4 (Pendiente) | Optimización de experiencia para usuarios frecuentes |
+| 48 | US27 | Aplicar cupones y beneficios promocionales | 3 | EP08 | Sprint 4 (Pendiente) | Incentivos comerciales para adopción |
+| 49 | US29 | Recompensar usuarios con alta reputación | 3 | EP07 | Sprint 4 (Pendiente) | Gamificación de comportamiento positivo |
+| 50 | US34 | Gestionar ofertas promocionales temporales | 3 | EP08 | Sprint 4 (Pendiente) | Promociones estacionales y feriados |
+| 51 | US36 | Reconocer comportamiento positivo con distintivos | 8 | EP07 | Sprint 4 (Pendiente) | Sistema de incentivos y construcción de lealtad |
+| 52 | US38 | Filtrar solicitudes por umbral de confianza | 3 | EP07 | Sprint 4 (Pendiente) | Protección automática basada en reputación |
+| 53 | US07 | Rastrear viaje activo para seguridad de pasajero | 8 | EP02 | Sprint 4 (Pendiente) | Monitoreo de anomalías en ruta |
+| 54 | US40 | Monitorear anomalías financieras (Admin) | 5 | EP06 | Sprint 4 (Pendiente) | Operaciones administrativas de vigilancia |
+| 55 | US41 | Mediar disputas de reputación (Admin) | 2 | EP07 | Sprint 4 (Pendiente) | Gestión de conflictos y moderación |
+| 56 | US45 | Solicitar baja voluntaria y eliminación de datos | 2 | EP01 | Sprint 4 (Pendiente) | Derecho al olvido (cumplimiento GDPR) |
+| 57 | US46 | Enviar solicitud de alianza corporativa | 3 | EP08 | Sprint 4 (Pendiente) | Expansión del modelo B2B |
+| 58 | SP03 | Analizar opciones de KYC mediante IA (inteligencia facial) | 8 | SP | Sprint 4 (Pendiente) | Spike: Validar providers como IDology, Jumio, Onfido |
+| 59 | SP04 | Investigar arquitectura de microservicios y contenedorización | 8 | SP | Sprint 4 (Pendiente) | Spike: Evaluar Docker, Kubernetes, serverless options |
+
+**Resumen de cobertura por sprint:**
+- **Sprint 1 (cerrado):** 6 historias — US39, US13, US01, US03, US42, US43.
+- **Sprint 2 (cerrado):** 16 historias — US48, US49, US52, US14, US22 (en proceso), US31 (en proceso), US28, US24 (en proceso), US15, US53, US19, US18, US37, US44, US35, US47.
+- **Sprint 3 (en curso):** 13 historias — US55, US54, US02, US05, US50, US06, US25, US26, US20, US04, US33, SP01, SP02.
+- **Sprint 4 (propuesto, pendientes de planificación):** 24 historias — US32, US23, US08, US12, US21, US09, US11, US16, US51, US30, US10, US17, US27, US29, US34, US36, US38, US07, US40, US41, US45, US46, SP03, SP04.
 
 [INSERTAR IMAGEN: Captura del tablero de Trello con Product Backlog reordenado]
 
@@ -2330,6 +2575,9 @@ Esta priorización se validó mediante el Impact Mapping elaborado en la secció
 - EP07: Reputación y núcleo de la plataforma
 - EP08: Información y Fidelización
 - SP: Spike Stories (Investigación técnica)
+
+**Total del backlog:** 55 User Stories (US01–US55) + 4 Spike Stories (SP01–SP04) = **59 elementos**, distribuidos en 4 sprints (3 cerrados/en curso + 1 propuesto).
+
 ## 2.5. Strategic-Level Domain Driven Design
 
 En esta sección se introduce el proceso de Domain-Driven Desing a nivel estratégico para MOVEO. Nuestro enfoque nos permitió conceptualizar el sistema a partir de la lógica de nuetro negocio, con el proposito de modelar una arquitectura de microservicios coherentes. Para conseguir eso identificamos subconjuntos del sistema con límites naturales y claros, conocidos como los Bounded Contexts. Las herramientas utilizadas para este propósito son el EventStorming, que nos ayudó a visualizar el flujo de eventos del negocio, y el Bounded Context Canvas, la cual nos ayuda a definir formalmente cada contexto y sus relaciones, garantizando así una base sólida para el desarrollo de nuestro proyecto.
@@ -2499,7 +2747,7 @@ En el ámbito de las integraciones, WheelsPe delega funciones especializadas en 
 
 En esta vista, se observa que la **WheelsPe Platform** está compuesta por tres contenedores principales que interactúan de forma desacoplada:
 
-1.  **Mobile Application:** (Desarrollada en Kotlin/Swift) Actúa como la interfaz de usuario donde el Arrendatario y el Proveedor gestionan el *Catálogo*, sus *Rutas* y su *Reputación*.
+1.  **Mobile Application:** (Dos apps móviles: app **Cliente/Arrendatario** en **Kotlin** y app **Proveedor/Conductor** en **Flutter**) Actúan como la interfaz de usuario donde el Arrendatario y el Proveedor gestionan el *Catálogo*, sus *Rutas* y su *Reputación*. Ambas consumen el mismo backend.
 2.  **API Application:** El núcleo de la plataforma construido sobre **C# y ASP.NET Core**. Este contenedor es el responsable de orquestar la lógica de negocio compleja, incluyendo la *Reserva de asiento*, el cálculo de *Precio dinámico* y la *Coincidencia de ruta*. Se comunica con el frontend mediante el protocolo **JSON/HTTPS**.
 3.  **Database:** (MySQL) Donde se resguarda la *Bitácora de eventos*, el historial de *Pagos* y la persistencia de toda la información del sistema.
 
@@ -2515,7 +2763,7 @@ Finalmente, la **API Application** es la encargada de consumir los sistemas exte
 Dentro de la **API Application**, la arquitectura se organiza en tres capas claramente diferenciadas:
 
 * **Capa de Interfaz:** Expone los controladores *User & Auth*, *Vehicle* y *Rental & Carpool*, los cuales gestionan los endpoints para procesos como la *Acreditación de vehículo* y la *Confirmación de reserva*.
-* **Capa de Aplicación y Dominio:** Donde el *Identity Service* valida el estado de *Usuario verificado* mediante tokens **JWT** y la *WheelsPe Domain Logic* aplica las reglas críticas de *Reputación*, *Precio dinámico* y *Coincidencia de ruta*.
+* **Capa de Aplicación y Dominio:** Donde el *Identity Service* valida el estado de *Usuario verificado* y la *WheelsPe Domain Logic* aplica las reglas críticas de *Reputación*, *Precio dinámico* y *Coincidencia de ruta*. **Nota de implementación (13/06/2026):** el diseño original contemplaba autenticación por tokens **JWT**; sin embargo, el backend implementado opera de forma **stateless basada en `userId`** (el login devuelve el objeto usuario, no un token Bearer). Esta diferencia entre diseño y código se documenta para alinear ambos.
 * **Capa de Infraestructura:** Utiliza el *Data Repository* para centralizar el acceso a la *Database* mediante **Entity Framework Core**, mientras coordina las salidas hacia sistemas externos: el *Servicio de Verificación* para el proceso KYC, la *API de Mapas* para la navegación y la *Pasarela de Pagos* para ejecutar la *Liquidación al proveedor*.
 
 **Figura 47** *Diagrama de Componentes - Fleet Management API* **![Diagrama de componentes de la Fleet Management API y sus conexiones internas.](https://i.imgur.com/89HBqvF.png)**
@@ -4364,6 +4612,190 @@ Contribuciones por desarrollador
 - Implementar CI/CD para validación automática antes del merge
 - Separar CSS y JS en archivos independientes para mejor mantenibilidad
 - Agregar tests automatizados para componentes interactivos
+
+### 4.2.2. Sprint 2
+
+Sprint 2 tuvo una duración de 2 semanas (del **30 de Mayo al 12 de Junio, 2026**) y se enfocó en construir el **núcleo funcional de la app Cliente (Kotlin)** conectándola al backend real, así como en avances clave del backend (disponibilidad por fechas y validación de reservas).
+
+> **Nota de actualización del contrato de API (13/06/2026):** Durante el Sprint 2 se contrastó el backlog inicial con el **código real del backend** y con la **app Cliente**. Se detectaron diferencias importantes respecto a la documentación de Sprint 1 (sección 4.2.1.6), que se corrigen formalmente aquí:
+> 1. **No se usa JWT.** El backend es **stateless por `userId`**: `POST /api/v1/auth/login` devuelve el objeto usuario (con `id` y `role`), y la sesión consiste en guardar ese `id` y enviarlo como `?userId=` / `renterId=` / `ownerId=` / `payerId=`. No existe header `Authorization: Bearer`.
+> 2. **Nombres reales de endpoints** (difieren del backlog): `/rentals` (no `/reservations`), `/adventure-routes` (no `/routes`), `/payments` + `/rentals/{id}/pay` (no `/transactions`), `/Reviews` + `/user-reviews` (no `/users/{id}/ratings`).
+> 3. **Módulos que NO existen como endpoint en el backend** (aunque el Sprint 1 mostró capturas de Swagger): **KYC, incidents (pánico/anomalías/disputas), invoices, escrow, métodos de pago tokenizados, GPS/trips, recuperar contraseña, cupones**. En el modelo `User` existen flags (`DniVerified`, `LicenseVerified`) pero sin flujo KYC.
+> 4. **Módulos que el backlog daba como pendientes pero YA funcionan:** **chat/mensajería (`/messages`, US18)** y **notificaciones (`/Notifications`)**.
+
+#### 4.2.2.1. Sprint Planning 2
+
+**Objetivo del Sprint:**
+Completar el camino crítico del Cliente (descubrir → reservar → pagar un auto) conectado al backend real, integrar carpooling como pasajero, chat, reseñas y notificaciones, e implementar en el backend la disponibilidad por fechas con anti-solapamiento.
+
+**Historias incluidas en el Sprint (estado real):**
+- US22: Consultar catálogo + detalle de vehículos (5 SP) — ✅ conectado
+- US31: Pago de alquiler (8 SP) — 🟡 demo (Stripe modo demo + Yape en un paso, sin pasarela real)
+- US24: Garantía / Escrow (5 SP) — 🟡 solo visual (sin retención real)
+- US14: Buscar rutas de carpooling (5 SP) — ✅ (filtro por comunidad 🟡 pendiente en backend)
+- US15: Reservar asiento en ruta compartida (4 SP) — ✅ conectado
+- US28/US35: Evaluación bidireccional (5 SP) — ✅ `/user-reviews` + `/Reviews`
+- US19/US37: Consultar reputación / reseñas (2 SP) — ✅ `/users/{id}`
+- US18: Mensajería / chat (3 SP) — ✅ `/messages`
+- Notificaciones (3 SP) — ✅ `/Notifications`
+- US44: Centro de ayuda / FAQ (3 SP) — ✅ + `/support-tickets`
+- Backend: Disponibilidad por fechas + anti-solapamiento (8 SP) — ✅ `/vehicles/{id}/availability`, `POST /rentals` (409)
+
+**Total Sprint: 51 SP**
+
+#### 4.2.2.2. Sprint Backlog 2
+
+| Tarea | Historia | Responsable | Estimado | Estado |
+| :--- | :--- | :--- | :--- | :--- |
+| Listar catálogo real + filtros (distrito, tipo, transmisión, combustible) | US22 | Alison Arrieta | 3 SP | Completado |
+| Pantalla de detalle de vehículo (specs, propietario, garantía, total por días) | US22 | Esther Goñe | 2 SP | Completado |
+| Calendario de fechas con días bloqueados y validación de solapamiento | US22/US31 | Andreow Santiago Peña | 3 SP | Completado |
+| Flujo de pago (Stripe modo demo + Yape un paso) | US31 | Alvaro Salazar | 3 SP | Completado (demo) |
+| Mostrar garantía/escrow en resumen de pago | US24 | Alvaro Salazar | 1 SP | Completado (visual) |
+| Buscar rutas de carpooling + detalle | US14 | Alexis Encalada | 2 SP | Completado |
+| Reservar asiento (book) | US15 | Alexis Encalada | 2 SP | Completado |
+| Pantalla de calificación + consultar reseñas | US28/US35/US19 | Alison Arrieta | 3 SP | Completado |
+| Chat 1-a-1 con propietario/conductor | US18 | Andreow Santiago Peña | 3 SP | Completado |
+| Bandeja de notificaciones | — | Esther Goñe | 2 SP | Completado |
+| Centro de ayuda / FAQ + tickets de soporte | US44 | Esther Goñe | 2 SP | Completado |
+| Backend: validación de solapamiento (409) al crear reserva | — | Alvaro Salazar | 3 SP | Completado |
+| Backend: `GET /vehicles/{id}/availability` (busyRanges) | — | Alexis Encalada | 2 SP | Completado |
+| Backend: filtro de catálogo por fechas + transmisión/combustible | US22 | Alexis Encalada | 2 SP | Completado |
+| Backend: expiración automática de reservas pending (30 min) | — | Alvaro Salazar | 2 SP | Completado |
+| Backend: orden por cercanía + paginación | US47 | Andreow Santiago Peña | 2 SP | Completado |
+
+#### 4.2.2.3. Development Evidence for Sprint Review
+
+- Repositorio App móvil (Cliente, Kotlin): https://github.com/App-Moviles-MOVEO/MOVEO-Frontend
+- Repositorio Backend (.NET): https://github.com/App-Moviles-MOVEO/MOVEO-Backend
+
+| Repository | Branch | Commit Id | Commit Message | Committed on |
+| :--- | :--- | :--- | :--- | :--- |
+| MOVEO-Frontend | develop | _(por completar)_ | feat: catálogo + detalle de vehículos | 02/06/2026 |
+| MOVEO-Frontend | develop | _(por completar)_ | feat: flujo de reserva + pago demo | 06/06/2026 |
+| MOVEO-Frontend | develop | _(por completar)_ | feat: carpooling, chat, reseñas y notificaciones | 11/06/2026 |
+| MOVEO-Backend | develop | _(por completar)_ | feat: disponibilidad por fechas + 409 anti-solapamiento | 09/06/2026 |
+
+#### 4.2.2.4. Services Documentation Evidence for Sprint Review (contrato REAL)
+
+Inventario real de endpoints expuestos por el backend (`/api/v1`, sin JWT, Swagger en `/swagger/index.html`):
+
+```
+IAM / Auth — /auth
+POST   /auth/register            Registro (devuelve usuario, no token); role = renter | owner
+POST   /auth/login               Login (devuelve usuario, no token)
+POST   /auth/logout              Logout simbólico
+GET    /auth/me?userId=          Datos del usuario logueado
+POST   /auth/change-password     Cambiar contraseña (requiere la actual)
+
+Usuarios — /users
+GET    /users  ·  /users?email=  ·  /users/{id}     Listar / buscar / perfil + reputación
+POST   /users  ·  PUT/PATCH /users/{id}  ·  DELETE /users/{id}
+
+Vehículos — /vehicles  (filtros: ownerId, status, minPrice, maxPrice, district,
+                        bodyType, transmission, fuelType, startDate+endDate,
+                        lat+lng+sort=distance, page+pageSize)
+GET    /vehicles  ·  /vehicles/{id}  ·  /vehicles/{id}/availability
+POST   /vehicles  ·  PUT/PATCH /vehicles/{id}  ·  DELETE /vehicles/{id}   (rol Proveedor)
+
+Reservas / Alquileres — /rentals
+GET    /rentals?renterId=  ·  ?ownerId=  ·  ?vehicleId=  ·  ?status=
+GET    /rentals/{id}  ·  /rentals/user/{userId}  ·  /rentals/active
+POST   /rentals                  Crear reserva (valida solapamiento -> 409)
+PUT    /rentals/{id}  ·  PATCH /rentals/{id}   (status: accepted/active/completed/cancelled)
+POST   /rentals/{id}/pay         Pagar reserva en un paso
+DELETE /rentals/{id}
+
+Carpooling / Rutas — /adventure-routes  (filtros: ownerId, type, difficulty, featured, onlyWomen)
+GET    /adventure-routes  ·  /adventure-routes/{id}
+POST   /adventure-routes         Publicar ruta/viaje (rol Conductor)
+POST   /adventure-routes/{id}/book   Reservar asiento(s)
+PUT    /adventure-routes/{id}  ·  DELETE /adventure-routes/{id}
+
+Pagos — /payments  (NO hay pasarela real; es registro de pagos en BD)
+GET    /payments?payerId=  ·  ?recipientId=  ·  ?rentalId=  ·  ?status=  ·  ?type=
+POST   /payments  ·  PUT/PATCH /payments/{id}  ·  DELETE /payments/{id}
+
+Reseñas de vehículo — /Reviews   |   Reseñas entre usuarios — /user-reviews
+Notificaciones — /Notifications   |   Chat 1-a-1 — /messages   |   Soporte — /support-tickets
+```
+
+> **Importante:** el pago (`/payments`, `/rentals/{id}/pay`) **registra** la operación pero **no integra una pasarela real** (Stripe/Yape/Plin) — el Spike SP01 sigue pendiente.
+
+#### 4.2.2.5. Execution Evidence for Sprint Review
+
+Evidencia de ejecución de la app Cliente (Kotlin) sobre el backend real: registro, KYC (UI), login, catálogo con filtros, detalle, selección de fechas con calendario, reserva, pago demo, carpooling (buscar/reservar asiento), chat, reseñas, notificaciones y perfil con reputación.
+
+> _(Insertar capturas de pantalla de la app Cliente ejecutándose contra el backend.)_
+
+#### 4.2.2.6. Team Collaboration Insights during Sprint 2
+
+- **GitHub** (organización App-Moviles-MOVEO): gestión de código en `MOVEO-Frontend` y `MOVEO-Backend` bajo GitFlow.
+- **Discord / Google Meet**: coordinación diaria y revisión de contrato de API entre los equipos móvil y backend.
+- **Aprendizaje del sprint:** se evidenció la necesidad de mantener **Swagger como única fuente de verdad** del contrato, tras detectar divergencias entre el backlog y el código.
+
+---
+
+### 4.2.3. Sprint 3 (en curso)
+
+Sprint 3 inició el **13 de Junio de 2026** y tiene previsto cerrar el **26 de Junio de 2026** (2 semanas). Es el sprint **actualmente en ejecución**.
+
+#### 4.2.3.1. Sprint Planning 3
+
+**Objetivo del Sprint:**
+Iniciar la **app de Proveedor/Conductor en Flutter** sobre los endpoints ya existentes (publicar autos/rutas, aceptar y gestionar reservas, ver ingresos, reputación), y cubrir en el backend las brechas que hoy bloquean a la app Cliente (KYC real, recuperar contraseña, comprobantes, reembolsos y los spikes de pasarela de pago y GPS).
+
+**Historias planificadas (en curso / pendientes):**
+
+*App Proveedor (Flutter) — sobre endpoints existentes:*
+- US05: Acreditar / publicar vehículo (`POST /vehicles`) — 🟡 en curso (falta validación de documentos)
+- US13: Publicar ruta de carpool (`POST /adventure-routes`) — ⬜ por iniciar
+- US16: Aceptar/activar/completar reservas (`PATCH /rentals/{id}`) — ⬜ por iniciar
+- Panel de ingresos del proveedor (`/payments?recipientId=`) — ⬜ por iniciar
+- Reputación recibida (`/user-reviews`) — ⬜ por iniciar
+
+*Backend — brechas a cubrir (desbloquean a la app Cliente):*
+- US02: Flujo KYC real (`/kyc/upload`, `/status`, `/verify`, `/reject`) — ⬜ no existe hoy
+- US04: Recuperar contraseña (`/auth/password/forgot` + `/reset`) — ⬜ no existe hoy
+- US25: Comprobantes / facturas (`/invoices`) — ⬜ no existe hoy
+- US26/US33: Flujo y política de reembolsos sobre `/payments` — 🟡 base existe (`status="refunded"`)
+- US14: Filtro por comunidad/dominio en `GET /adventure-routes` — 🟡 campo existe, falta query param
+- SP01: Spike de pasarela de pago real (Stripe/Yape/Plin) — ⬜
+- SP02: Spike de GPS/mapas para US06/US07/US08 (tracking, pánico) — ⬜
+
+#### 4.2.3.2. Sprint Backlog 3
+
+| Tarea | Historia | App/Backend | Responsable | Estimado | Estado |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Configurar proyecto Flutter (app Proveedor) | — | Flutter | Andreow Santiago Peña | 2 SP | En progreso |
+| Login/registro reutilizando `/auth` (rol owner) | US01/US03 | Flutter | Alvaro Salazar | 2 SP | En progreso |
+| Publicar / editar vehículo | US05 | Flutter | Alison Arrieta | 3 SP | Por iniciar |
+| Publicar ruta de carpool | US13 | Flutter | Alexis Encalada | 3 SP | Por iniciar |
+| Gestionar reservas (aceptar/activar/completar) | US16 | Flutter | Andreow Santiago Peña | 3 SP | Por iniciar |
+| Panel de ingresos + reputación | — | Flutter | Esther Goñe | 3 SP | Por iniciar |
+| Backend: endpoints de flujo KYC | US02 | Backend | Alvaro Salazar | 5 SP | Por iniciar |
+| Backend: recuperar contraseña (forgot/reset) | US04 | Backend | Alexis Encalada | 2 SP | Por iniciar |
+| Backend: `/invoices` (comprobantes PDF) | US25 | Backend | Alvaro Salazar | 3 SP | Por iniciar |
+| Backend: política de reembolsos | US26/US33 | Backend | Alexis Encalada | 2 SP | Por iniciar |
+| Backend: filtro por comunidad en rutas | US14 | Backend | Andreow Santiago Peña | 2 SP | Por iniciar |
+| Spike: pasarela de pago real | SP01 | Backend | Equipo | 5 SP | Investigación |
+| Spike: GPS/mapas (tracking, pánico) | SP02 | Backend/Móvil | Equipo | 5 SP | Investigación |
+
+#### 4.2.3.3. Pendientes priorizados (Backend Requests)
+
+Brechas del backend que hoy mantienen pantallas de la app Cliente como "solo UI" o "demo", a resolver en Sprint 3 y siguientes:
+
+| Prioridad | Necesidad | US afectada | Estado |
+| :--- | :--- | :--- | :--- |
+| P1 | Flujo KYC real (hoy solo flags en `User`) | US02 | Pendiente |
+| P2 | Pasarela de pago real (hoy registro en BD) | US31/US32/SP01 | Pendiente |
+| P3 | Escrow real (hold/release de garantía) | US24 | Pendiente |
+| P4 | Recuperar contraseña (forgot/reset) | US04 | Pendiente |
+| P5 | GPS en tiempo real + botón de pánico (`/incidents`, `/trips`) | US06/US07/US08 | Pendiente |
+| P6 | Métodos de pago tokenizados | US21 | Pendiente |
+| P7 | Comprobantes (`/invoices`) y cupones | US25/US27/US34 | Pendiente |
+
+> El detalle operativo de estos pendientes (rutas propuestas, contratos y prioridades) se mantiene en los documentos de coordinación del repositorio (`backlog/BACKEND-BACKLOG.md` y `backlog/FRONTEND-BACKLOG.md`).
 
 ## 4.3. Validation Interviews
 
