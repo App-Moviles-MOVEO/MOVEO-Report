@@ -1,0 +1,90 @@
+@startuml
+skinparam classAttributeIconSize 0
+skinparam classFontSize 13
+skinparam defaultFontName Arial
+
+package "Carpooling - Domain Layer" {
+
+  interface "<<Repository>>\nViajeRepository" as ViajeRepo {
+    + save(viaje: ViajeCompartido): void
+    + findById(id: UUID): ViajeCompartido
+    + findByRutaId(rutaId: UUID): List~ViajeCompartido~
+    + findAvailable(): List~ViajeCompartido~
+  }
+
+  class "<<Aggregate Root>>\nViajeCompartido" as Viaje {
+    - id: UUID
+    - rutaId: UUID
+    - totalSeats: int
+    - availableSeats: int
+    - suggestedAmount: Decimal
+    - status: ViajeStatus
+    - onlyWomen: boolean
+    - community: String
+    - createdAt: Timestamp
+    + reservarAsiento(pasajeroId: UUID): ReservaAsiento
+    + cancelarAsiento(reservaId: UUID): void
+    + cerrarViaje(): void
+    + estaDisponible(): boolean
+  }
+
+  class "<<Entity>>\nRuta" as Ruta {
+    - id: UUID
+    - driverId: UUID
+    - origin: String
+    - destination: String
+    - waypoints: String
+    - departureDate: Date
+    - departureTime: Time
+    - createdAt: Timestamp
+    + actualizarWaypoints(waypoints: String): void
+    + esFutura(): boolean
+  }
+
+  class "<<Entity>>\nReservaAsiento" as Reserva {
+    - id: UUID
+    - viajeId: UUID
+    - passengerId: UUID
+    - status: ReservaStatus
+    - reservedAt: Timestamp
+    + confirmar(): void
+    + cancelar(): void
+  }
+
+  class "<<Value Object>>\nPeriodoViaje" as Periodo {
+    - departureDate: Date
+    - departureTime: Time
+    + esPosteriorA(ahora: DateTime): boolean
+    + equals(otro: PeriodoViaje): boolean
+  }
+
+  class "<<Domain Service>>\nReglasCarpoolDomainService" as ReglasSvc {
+    + validarCapacidad(viaje: ViajeCompartido, solicitado: int): boolean
+    + validarFiltroGenero(viaje: ViajeCompartido, pasajeroId: UUID): boolean
+    + validarComunidad(viaje: ViajeCompartido, pasajeroId: UUID): boolean
+    + validarReputacionPasajero(pasajeroId: UUID, umbral: float): boolean
+  }
+
+  enum ViajeStatus {
+    DISPONIBLE
+    COMPLETO
+    EN_CURSO
+    FINALIZADO
+    CANCELADO
+  }
+
+  enum ReservaStatus {
+    PENDIENTE
+    CONFIRMADA
+    CANCELADA
+  }
+
+  Ruta "1" --> "0..*" Viaje : genera >
+  Viaje "1" --> "0..*" Reserva : contiene >
+  Viaje --> Periodo : usa >
+  Viaje --> ViajeStatus
+  Reserva --> ReservaStatus
+  ReglasSvc ..> Viaje : valida >
+  ViajeRepo ..> Viaje : persiste >
+}
+@enduml

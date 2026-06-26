@@ -2486,14 +2486,8 @@ Las User Stories de infraestructura técnica (autenticación, registro, gestión
 
 Esta priorización se validó mediante el Impact Mapping elaborado en la sección 2.4.2, donde se identificaron los Business Goals y los comportamientos de usuario que generan mayor impacto en el éxito de la plataforma.
 
-> **Nota de concordancia con Sprints (16/06/2026):** al cruzar este backlog con los Sprint Backlogs 1, 2 y 3 se detectaron tres inconsistencias de numeración heredadas de la documentación original, ya corregidas en la columna "Sprint":
-> 1. **Sprint 1 y Sprint 2 usan "US22" para el catálogo de vehículos.** Con la numeración corregida (sección 2.4.1), esa función es **US48** (catálogo) y **US49** (detalle + calendario). El verdadero US22 es "Procesar pago por alquiler de vehículo".
-> 2. **La tarea "Calendario de fechas... validación de solapamiento" (Sprint 2)**, etiquetada `US22/US31`, corresponde en realidad a **US49** (calendario de disponibilidad) y **US52** (crear reserva con anti-solapamiento).
-> 3. **El Sprint 3 planifica "US16: Aceptar/activar/completar reservas".** US16 en 2.4.1 es "Aprobar pasajeros y controlar aforo" (carpooling) y no tiene relación con el ciclo de vida de un alquiler. La tarea descrita corresponde en realidad a la nueva **US55**.
->
-> La tabla se presenta agrupada por sprint (Sprint 1 a Sprint 4) para facilitar el seguimiento de avance. Dentro de cada sprint se mantiene el orden original de valor de negocio. Cada historia aparece en un único sprint: el que refleja su estado más avanzado. Las historias que aún no entraban en ningún Sprint Planning se agrupan en el **Sprint 4 (propuesto)**.
 
-**TABLA DE PRODUCT BACKLOG (Agrupada por Sprint):**
+**TABLA DE PRODUCT BACKLOG:**
 
 | # | Story ID | Título | Story Points | Épica | Sprint | Justificación de Prioridad |
 |---|----------|--------|--------------|-------|--------|----------------------------|
@@ -2763,7 +2757,7 @@ Finalmente, la **API Application** es la encargada de consumir los sistemas exte
 Dentro de la **API Application**, la arquitectura se organiza en tres capas claramente diferenciadas:
 
 * **Capa de Interfaz:** Expone los controladores *User & Auth*, *Vehicle* y *Rental & Carpool*, los cuales gestionan los endpoints para procesos como la *Acreditación de vehículo* y la *Confirmación de reserva*.
-* **Capa de Aplicación y Dominio:** Donde el *Identity Service* valida el estado de *Usuario verificado* y la *WheelsPe Domain Logic* aplica las reglas críticas de *Reputación*, *Precio dinámico* y *Coincidencia de ruta*. **Nota de implementación (13/06/2026):** el diseño original contemplaba autenticación por tokens **JWT**; sin embargo, el backend implementado opera de forma **stateless basada en `userId`** (el login devuelve el objeto usuario, no un token Bearer). Esta diferencia entre diseño y código se documenta para alinear ambos.
+* **Capa de Aplicación y Dominio:** Donde el *Identity Service* valida el estado de *Usuario verificado* y la *WheelsPe Domain Logic* aplica las reglas críticas de *Reputación*, *Precio dinámico* y *Coincidencia de ruta*. 
 * **Capa de Infraestructura:** Utiliza el *Data Repository* para centralizar el acceso a la *Database* mediante **Entity Framework Core**, mientras coordina las salidas hacia sistemas externos: el *Servicio de Verificación* para el proceso KYC, la *API de Mapas* para la navegación y la *Pasarela de Pagos* para ejecutar la *Liquidación al proveedor*.
 
 **Figura 47** *Diagrama de Componentes - Fleet Management API* **![Diagrama de componentes de la Fleet Management API y sus conexiones internas.](https://i.imgur.com/89HBqvF.png)**
@@ -2922,9 +2916,35 @@ SafetyStorageAdapter (External Service): Gestión en la nube para el almacenamie
 
 ##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
 
+El siguiente diagrama de clases UML representa las entidades, objetos de valor, servicios de dominio e interfaces de repositorio que conforman el Domain Layer del Bounded Context Carpooling. Su propósito es reflejar las reglas de negocio y las relaciones estructurales del dominio sin hacer referencia a detalles de implementación técnica o de infraestructura.
+ 
+El `ViajeCompartido` actúa como Aggregate Root, agrupando la lógica transaccional del viaje. Contiene los atributos que determinan la disponibilidad de asientos, el monto sugerido por pasajero, el filtro de género (`onlyWomen`) y el segmento de comunidad institucional (`community`). A partir de él se gestionan las instancias de `ReservaAsiento`, que representan la participación confirmada de un pasajero en un viaje.
+ 
+La entidad `Ruta` encapsula la información geográfica y temporal del trayecto (origen, destino, waypoints y horario de salida). Actúa como precondición para la creación de un `ViajeCompartido`, ya que todo viaje compartido se deriva de una ruta previamente definida por el conductor.
+ 
+El Value Object `PeriodoViaje` garantiza la inmutabilidad de los datos temporales del trayecto y expone el método `esPosteriorA` para validar que el horario de salida sea siempre futuro respecto al momento de publicación, cubriendo la regla de negocio definida en US13 (Escenario 2: Restricción de temporalidad).
+ 
+El `ReglasCarPoolDomainService` centraliza las validaciones cruzadas que no pertenecen naturalmente a una sola entidad: verificación de capacidad, filtro de género, pertenencia a comunidad institucional y reputación mínima del pasajero (vinculada con US38). Finalmente, la interfaz `ViajeRepository` define el contrato de persistencia sin acoplar el dominio a ningún motor de base de datos específico.
+ 
+![Carpooling Domain Layer Class Diagram](Assets/Carpooling%20Diagrams/carpooling-domain-class.png)
+ 
+*Nota. Diagrama de clases UML del Domain Layer para el Bounded Context Carpooling. Elaboración propia mediante PlantUML.*
+ 
+
 ##### 2.6.2.6.2. Bounded Context Database Design Diagram
 
-![Carpooling BC 3.png](Assets/Carpooling%20BC%203.png) 
+El siguiente diagrama representa el modelo relacional que soporta la persistencia del Bounded Context Carpooling. Está compuesto por tres tablas principales cuya estructura se alinea directamente con las entidades del Domain Layer descrito en la sección anterior.
+ 
+La tabla `rutas` almacena la información geográfica y temporal del trayecto definido por el conductor. Los campos `only_women` (BOOLEAN) y `community` (VARCHAR) materializan en base de datos las reglas de segmentación de US11 y US14 respectivamente. Esta tabla tiene una relación uno a muchos con `viajes_compartidos`, dado que una misma ruta puede originar múltiples instancias de viaje a lo largo del tiempo.
+ 
+La tabla `viajes_compartidos` es la proyección persistida del Aggregate Root `ViajeCompartido`. Los campos `total_seats` y `available_seats` permiten el control de aforo en tiempo real, mientras que `suggested_amount` registra el precio por pasajero y `status` refleja el ciclo de vida del viaje (DISPONIBLE, COMPLETO, EN_CURSO, FINALIZADO, CANCELADO). La clave foránea `ruta_id` establece la dependencia estructural con la tabla `rutas`.
+ 
+La tabla `reservas_asiento` registra la participación de cada pasajero en un viaje específico. Los campos `viaje_id` y `passenger_id` actúan como claves foráneas que vinculan la reserva con su viaje y con el usuario del sistema IAM respectivamente. El campo `status` refleja los estados definidos en el dominio (PENDIENTE, CONFIRMADA, CANCELADA), y `reserved_at` provee trazabilidad temporal de cada operación.
+ 
+![Carpooling Database Design Diagram](Assets/Carpooling%20Diagrams/carpooling-database.png)
+ 
+*Nota. Diagrama de base de datos relacional para el Bounded Context Carpooling. Elaboración propia mediante PlantUML.*
+
 
 ### 2.6.3. Bounded Context: Rental
 

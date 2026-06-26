@@ -1,0 +1,41 @@
+@startuml
+skinparam linetype ortho
+skinparam defaultFontName Arial
+
+entity "rutas" as rutas {
+  * id : UUID <<PK>>
+  --
+  * driver_id : UUID <<FK>>
+  * origin : VARCHAR(255) NOT NULL
+  * destination : VARCHAR(255) NOT NULL
+  waypoints : TEXT
+  * departure_date : DATE NOT NULL
+  * departure_time : TIME NOT NULL
+  only_women : BOOLEAN DEFAULT false
+  community : VARCHAR(100)
+  * created_at : TIMESTAMP DEFAULT NOW()
+}
+
+entity "viajes_compartidos" as viajes {
+  * id : UUID <<PK>>
+  --
+  * ruta_id : UUID <<FK>>
+  * total_seats : INT NOT NULL
+  * available_seats : INT NOT NULL
+  * suggested_amount : DECIMAL(10,2) NOT NULL
+  * status : VARCHAR(50) NOT NULL
+  * created_at : TIMESTAMP DEFAULT NOW()
+}
+
+entity "reservas_asiento" as reservas {
+  * id : UUID <<PK>>
+  --
+  * viaje_id : UUID <<FK>>
+  * passenger_id : UUID <<FK>>
+  * status : VARCHAR(50) NOT NULL
+  * reserved_at : TIMESTAMP DEFAULT NOW()
+}
+
+rutas ||--o{ viajes : "ruta_id"
+viajes ||--o{ reservas : "viaje_id"
+@enduml
