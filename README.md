@@ -81,9 +81,21 @@
 
 # Project Report Collaboration Insights 
 
-Repositorio donde se encuentra el **Project Report**: [https://github.com/App-Moviles-MOVEO/MOVEO-Report](https://github.com/App-Moviles-MOVEO/MOVEO-Report)
+Repositorio donde se encuentra el *Project Report*: [https://github.com/App-Moviles-MOVEO/MOVEO-Report](https://github.com/App-Moviles-MOVEO/MOVEO-Report)
 
-FOTO
+![Report-repository.PNG](Assets/Report-repository.PNG).
+
+Repositorio donde se encuentra la *Landing Page*: [https://github.com/App-Moviles-MOVEO/MOVEO-Landing](https://github.com/App-Moviles-MOVEO/MOVEO-Landing-Page)
+
+![Landing-repository.PNG](Assets/Landing-repository.PNG).
+
+Repositorio donde se encuentra el *Backend*: [https://github.com/App-Moviles-MOVEO/MOVEO-Backend](https://github.com/App-Moviles-MOVEO/MOVEO-Backend)
+
+![Back-repository.PNG](Assets/Back-repository.PNG).
+
+Repositorio donde se encuentra el *Frontend*: [https://github.com/App-Moviles-MOVEO/MOVEO-Frontend](https://github.com/App-Moviles-MOVEO/MOVEO-Frontend)
+
+![Front-repository.PNG](Assets/Front-repository.PNG).
 
 Utilizamos Google Docs como herramienta colaborativa para redactar el informe y luego trasladamos la información al archivo README.md de nuestro repositorio.
 
@@ -5104,4 +5116,9 @@ Badges del perfil sin diseño de medalla o insignia reconocible
 - Enlace Repositorio Project Report: https://github.com/App-Moviles-MOVEO/MOVEO-Report
 - Videos Entrevistas
 - Enlace Entrevistas Segmento Objetivo #1 y #2: https://goo.su/c7RNR
-- Link del Event Storming: https://miro.com/app/board/uXjVGjmy9g0=/?share_link_id=877504217546 
+- Link del Event Storming: https://miro.com/app/board/uXjVGjmy9g0=/?share_link_id=877504217546
+- Link de la landing page: https://app-moviles-moveo.github.io/MOVEO-Landing-Page/ 
+- Link del swagger: https://moveo-backend-production.up.railway.app/swagger/index.html
+- Link del video about the team: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g491_upc_edu_pe/IQDTerfy2agCTpzrTCqBLbt4Aak0zEDAlqCpnUeLck5XK8M?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=HA7DWv
+- Link del video about the product: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g491_upc_edu_pe/IQAOuyMzpGb4TbCja958z4f9AVyWRHNrNxvo03CVLYpmNOE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=8JcbQk
+- Link del video Validation interview: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g491_upc_edu_pe/IQDy47nyt-wXTZ0mKcYbLRjYAfhkGrWy_ALEzU8ykD9cQKo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=qutsGy 
