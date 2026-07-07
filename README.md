@@ -4666,17 +4666,17 @@ Sprint 2 tuvo una duración de 2 semanas (del **30 de Mayo al 12 de Junio, 2026*
 Completar el camino crítico del Cliente (descubrir → reservar → pagar un auto) conectado al backend real, integrar carpooling como pasajero, chat, reseñas y notificaciones, e implementar en el backend la disponibilidad por fechas con anti-solapamiento.
 
 **Historias incluidas en el Sprint (estado real):**
-- US22: Consultar catálogo + detalle de vehículos (5 SP) — ✅ conectado
-- US31: Pago de alquiler (8 SP) — 🟡 demo (Stripe modo demo + Yape en un paso, sin pasarela real)
-- US24: Garantía / Escrow (5 SP) — 🟡 solo visual (sin retención real)
-- US14: Buscar rutas de carpooling (5 SP) — ✅ (filtro por comunidad 🟡 pendiente en backend)
-- US15: Reservar asiento en ruta compartida (4 SP) — ✅ conectado
-- US28/US35: Evaluación bidireccional (5 SP) — ✅ `/user-reviews` + `/Reviews`
-- US19/US37: Consultar reputación / reseñas (2 SP) — ✅ `/users/{id}`
-- US18: Mensajería / chat (3 SP) — ✅ `/messages`
-- Notificaciones (3 SP) — ✅ `/Notifications`
-- US44: Centro de ayuda / FAQ (3 SP) — ✅ + `/support-tickets`
-- Backend: Disponibilidad por fechas + anti-solapamiento (8 SP) — ✅ `/vehicles/{id}/availability`, `POST /rentals` (409)
+- US22: Consultar catálogo + detalle de vehículos (5 SP) 
+- US31: Pago de alquiler (8 SP)
+- US24: Garantía / Escrow (5 SP) 
+- US14: Buscar rutas de carpooling (5 SP)
+- US15: Reservar asiento en ruta compartida (4 SP)
+- US28/US35: Evaluación bidireccional (5 SP) `/user-reviews` + `/Reviews`
+- US19/US37: Consultar reputación / reseñas (2 SP)  `/users/{id}`
+- US18: Mensajería / chat (3 SP) `/messages`
+- Notificaciones (3 SP) `/Notifications`
+- US44: Centro de ayuda / FAQ (3 SP)  + `/support-tickets`
+- Backend: Disponibilidad por fechas + anti-solapamiento (8 SP)  `/vehicles/{id}/availability`, `POST /rentals` (409)
 
 **Total Sprint: 51 SP**
 
@@ -4773,7 +4773,7 @@ Evidencia de ejecución de la app Cliente (Kotlin) sobre el backend real: regist
 
 ---
 
-### 4.2.3. Sprint 3 (en curso)
+### 4.2.3. Sprint 3 
 
 Sprint 3 inició el **13 de Junio de 2026** y tiene previsto cerrar el **26 de Junio de 2026** (2 semanas). Es el sprint **actualmente en ejecución**.
 
@@ -4782,23 +4782,23 @@ Sprint 3 inició el **13 de Junio de 2026** y tiene previsto cerrar el **26 de J
 **Objetivo del Sprint:**
 Iniciar la **app de Proveedor/Conductor en Flutter** sobre los endpoints ya existentes (publicar autos/rutas, aceptar y gestionar reservas, ver ingresos, reputación), y cubrir en el backend las brechas que hoy bloquean a la app Cliente (KYC real, recuperar contraseña, comprobantes, reembolsos y los spikes de pasarela de pago y GPS).
 
-**Historias planificadas (en curso / pendientes):**
+**Historias planificadas:**
 
 *App Proveedor (Flutter) — sobre endpoints existentes:*
-- US05: Acreditar / publicar vehículo (`POST /vehicles`) — 🟡 en curso (falta validación de documentos)
-- US13: Publicar ruta de carpool (`POST /adventure-routes`) — ⬜ por iniciar
-- US16: Aceptar/activar/completar reservas (`PATCH /rentals/{id}`) — ⬜ por iniciar
-- Panel de ingresos del proveedor (`/payments?recipientId=`) — ⬜ por iniciar
-- Reputación recibida (`/user-reviews`) — ⬜ por iniciar
+- US05: Acreditar / publicar vehículo (`POST /vehicles`) 
+- US13: Publicar ruta de carpool (`POST /adventure-routes`) 
+- US16: Aceptar/activar/completar reservas (`PATCH /rentals/{id}`) 
+- Panel de ingresos del proveedor (`/payments?recipientId=`) 
+- Reputación recibida (`/user-reviews`)
 
 *Backend — brechas a cubrir (desbloquean a la app Cliente):*
-- US02: Flujo KYC real (`/kyc/upload`, `/status`, `/verify`, `/reject`) — ⬜ no existe hoy
-- US04: Recuperar contraseña (`/auth/password/forgot` + `/reset`) — ⬜ no existe hoy
-- US25: Comprobantes / facturas (`/invoices`) — ⬜ no existe hoy
-- US26/US33: Flujo y política de reembolsos sobre `/payments` — 🟡 base existe (`status="refunded"`)
-- US14: Filtro por comunidad/dominio en `GET /adventure-routes` — 🟡 campo existe, falta query param
-- SP01: Spike de pasarela de pago real (Stripe/Yape/Plin) — ⬜
-- SP02: Spike de GPS/mapas para US06/US07/US08 (tracking, pánico) — ⬜
+- US02: Flujo KYC real (`/kyc/upload`, `/status`, `/verify`, `/reject`) 
+- US04: Recuperar contraseña (`/auth/password/forgot` + `/reset`)
+- US25: Comprobantes / facturas (`/invoices`)
+- US26/US33: Flujo y política de reembolsos sobre `/payments` (`status="refunded"`)
+- US14: Filtro por comunidad/dominio en `GET /adventure-routes` 
+- SP01: Spike de pasarela de pago real (Stripe/Yape/Plin) 
+- SP02: Spike de GPS/mapas para US06/US07/US08 (tracking, pánico)
 
 #### 4.2.3.2. Sprint Backlog 3
 
@@ -4867,6 +4867,28 @@ Firebase App Distribution — Release de la app Proveedor (Flutter)
 *Nota. Consola de Firebase App Distribution mostrando la versión 1.0.0 (1) de la app en Flutter desplegada, con los verificadores invitados. Elaboración propia.*
 
 Con este despliegue, ambas aplicaciones quedan accesibles públicamente para los verificadores mediante sus vínculos de invitación, permitiendo su instalación directa en dispositivos Android y habilitando el proceso de Validation Interviews documentado en la sección 4.3.
+
+
+
+#### 4.2.3.8. Team Collaboration Insights during Sprint 3
+
+Durante el Sprint 3, el equipo coordinó el trabajo utilizando **Trello** como tablero de gestión del sprint, complementado con GitHub para el control de versiones y Discord/Google Meet para la comunicación diaria y las reuniones de revisión.
+
+- **Trello** — tablero de gestión del Sprint Backlog y seguimiento de tareas (To Do / In Progress / Done): https://trello.com/invite/b/6a0551b3fb7aa18ffdc4a4e4/ATTI045cf36b153a5d436450e5cef479e2168E34DA41/wheelpe
+- **GitHub** (organización App-Moviles-MOVEO) — gestión de código en `MOVEO-Frontend` y `MOVEO-Backend` bajo GitFlow.
+- **Discord / Google Meet** — coordinación diaria y revisión del sprint entre los equipos móvil y backend.
+
+
+
+Tablero de Trello — Gestión del Sprint 3
+
+
+![Trello-SP3](Assets/Trello-SP3.PNG)
+*Nota. Tablero de Trello del equipo WheelsPe mostrando la distribución de tareas del Sprint 3. Elaboración propia.*
+
+**Aprendizaje del sprint:** el equipo consolidó el uso de Trello como fuente única de seguimiento del sprint, mejorando la visibilidad del estado real de cada historia frente a sprints anteriores donde el seguimiento se hacía de forma dispersa.
+
+
 
 ## 4.3. Validation Interviews
 
@@ -4937,23 +4959,7 @@ Registro de Entrevistas de Validación
 
 
 
-#### 4.2.3.8. Team Collaboration Insights during Sprint 3
 
-Durante el Sprint 3, el equipo coordinó el trabajo utilizando **Trello** como tablero de gestión del sprint, complementado con GitHub para el control de versiones y Discord/Google Meet para la comunicación diaria y las reuniones de revisión.
-
-- **Trello** — tablero de gestión del Sprint Backlog y seguimiento de tareas (To Do / In Progress / Done): https://trello.com/invite/b/6a0551b3fb7aa18ffdc4a4e4/ATTI045cf36b153a5d436450e5cef479e2168E34DA41/wheelpe
-- **GitHub** (organización App-Moviles-MOVEO) — gestión de código en `MOVEO-Frontend` y `MOVEO-Backend` bajo GitFlow.
-- **Discord / Google Meet** — coordinación diaria y revisión del sprint entre los equipos móvil y backend.
-
-**Figura**
-
-Tablero de Trello — Gestión del Sprint 3
-
-![Tablero Trello Sprint 3]([PEGAR LINK IMGUR CAPTURA TRELLO])
-
-*Nota. Tablero de Trello del equipo WheelsPe mostrando la distribución de tareas del Sprint 3. Elaboración propia.*
-
-**Aprendizaje del sprint:** el equipo consolidó el uso de Trello como fuente única de seguimiento del sprint, mejorando la visibilidad del estado real de cada historia frente a sprints anteriores donde el seguimiento se hacía de forma dispersa.
 
 
 ### 4.3.3. Evaluaciones según Heurísticas
