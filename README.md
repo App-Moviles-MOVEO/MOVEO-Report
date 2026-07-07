@@ -77,6 +77,11 @@
 | 3.1 (AV2) | 08/06/2026 | Santiago Peña, Andreow Jomark | Capítulo IV: Adición de Development Evidence, Testing Suite (Unit/Integration Tests) y Services Documentation (OpenAPI/Swagger) para el Sprint 2. |
 | 3.2 (AV2) | 12/06/2026 | Encalada Salazar, Alexis | Adición de enlaces y resúmenes de videos: Video App Validation, Video About the Product y Video About the Team. |
 | 3.3 (AV2) | 14/06/2026 | Salazar Caballero, Alvaro Fabrizzio | Revisión general AV2: Actualización de la Tabla de Contenidos, ajuste de conclusiones preliminares y formato final del documento Markdown. |
+| 4.0 (TF) | 26/06/2026 | Santiago Peña, Andreow Jomark | Capítulo IV: Documentación completa del Sprint 3 (Sprint Planning 3, Sprint Backlog 3, Development, Testing y Execution Evidence) para la app Proveedor (Flutter) y la app Cliente (Kotlin). |
+| 4.1 (TF) | 28/06/2026 | Salazar Caballero, Alvaro Fabrizzio | Capítulo IV: Adición de la evidencia de despliegue móvil en Firebase App Distribution (apps nativa Kotlin y Flutter), con tabla de releases, vínculos de invitación y registro de verificadores. |
+| 4.2 (TF) | 29/06/2026 | Encalada Salazar, Alexis | Backend: despliegue del 100% de la API en servidor público (Railway) con documentación OpenAPI/Swagger. Actualización de la Services Documentation Evidence al contrato real. |
+| 4.3 (TF) | 29/06/2026 | Goñe Araccata, Esther Abigail | Capítulo IV: Validation Interviews (diseño, registro y evaluación heurística). Adición de enlaces finales de Video App Validation, About-the-Product y About-the-Team. |
+| 4.4 (TF) | 01/07/2026 | Arrieta Quispe, Alison Jimena | Revisión final TF: versión final de Conclusiones, Bibliografía y Anexos; corrección de artefactos previos y formato final del documento Markdown. |
 
 
 # Project Report Collaboration Insights 
@@ -4829,6 +4834,40 @@ Brechas del backend que hoy mantienen pantallas de la app Cliente como "solo UI"
 
 > El detalle operativo de estos pendientes (rutas propuestas, contratos y prioridades) se mantiene en los documentos de coordinación del repositorio (`backlog/BACKEND-BACKLOG.md` y `backlog/FRONTEND-BACKLOG.md`).
 
+
+#### 4.2.3.4. Software Deployment Evidence for Sprint Review (Firebase App Distribution)
+
+Como parte del cierre del Sprint 3, ambas aplicaciones móviles de WheelsPe se empaquetaron y desplegaron en **Firebase App Distribution**, dentro del proyecto **MOVEO**, para su distribución controlada a los verificadores (testers) y la ejecución de las sesiones de validación con usuarios reales. Se distribuyeron dos aplicaciones: la app **Cliente/Arrendatario (Kotlin nativo)** y la app **Proveedor/Conductor (Flutter)**, cada una con su primera build funcional.
+
+**Tabla**
+
+Registro de Releases en Firebase App Distribution
+
+| App | Proyecto Firebase | Versión (build) | Fecha de subida | Verificadores invitados | Vínculo de invitación |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Cliente / Arrendatario (Kotlin nativo) | MOVEO | 1.0 (1) — Primera build | 06/07/2026, 2:41 p.m. (UTC-5) | 2 | https://appdistribution.firebase.dev/i/7dff304633989727 |
+| Proveedor / Conductor (Flutter) | MOVEO FLUTTER | 1.0.0 (1) — FLUTTER | 06/07/2026, 5:32 p.m. (UTC-5) | 3 | https://appdistribution.firebase.dev/i/36a6b5feb3ea0475 |
+
+*Nota. Correo de contacto de la distribución: alexisfyd@gmail.com. Elaboración propia.*
+
+**Figura**
+
+Firebase App Distribution — Release de la app Cliente (Kotlin nativo)
+
+![Firebase App Distribution - App Nativa Kotlin]([PEGAR LINK IMGUR CAPTURA 1])
+
+*Nota. Consola de Firebase App Distribution mostrando la versión 1.0 (1) de la app nativa desplegada, con los verificadores invitados. Elaboración propia.*
+
+**Figura**
+
+Firebase App Distribution — Release de la app Proveedor (Flutter)
+
+![Firebase App Distribution - App Flutter]([PEGAR LINK IMGUR CAPTURA 2])
+
+*Nota. Consola de Firebase App Distribution mostrando la versión 1.0.0 (1) de la app en Flutter desplegada, con los verificadores invitados. Elaboración propia.*
+
+Con este despliegue, ambas aplicaciones quedan accesibles públicamente para los verificadores mediante sus vínculos de invitación, permitiendo su instalación directa en dispositivos Android y habilitando el proceso de Validation Interviews documentado en la sección 4.3.
+
 ## 4.3. Validation Interviews
 
 ### 4.3.1. Diseño de Entrevistas
@@ -4895,6 +4934,27 @@ Registro de Entrevistas de Validación
     </tr>
   </tbody>
 </table>
+
+
+
+#### 4.2.3.8. Team Collaboration Insights during Sprint 3
+
+Durante el Sprint 3, el equipo coordinó el trabajo utilizando **Trello** como tablero de gestión del sprint, complementado con GitHub para el control de versiones y Discord/Google Meet para la comunicación diaria y las reuniones de revisión.
+
+- **Trello** — tablero de gestión del Sprint Backlog y seguimiento de tareas (To Do / In Progress / Done): https://trello.com/invite/b/6a0551b3fb7aa18ffdc4a4e4/ATTI045cf36b153a5d436450e5cef479e2168E34DA41/wheelpe
+- **GitHub** (organización App-Moviles-MOVEO) — gestión de código en `MOVEO-Frontend` y `MOVEO-Backend` bajo GitFlow.
+- **Discord / Google Meet** — coordinación diaria y revisión del sprint entre los equipos móvil y backend.
+
+**Figura**
+
+Tablero de Trello — Gestión del Sprint 3
+
+![Tablero Trello Sprint 3]([PEGAR LINK IMGUR CAPTURA TRELLO])
+
+*Nota. Tablero de Trello del equipo WheelsPe mostrando la distribución de tareas del Sprint 3. Elaboración propia.*
+
+**Aprendizaje del sprint:** el equipo consolidó el uso de Trello como fuente única de seguimiento del sprint, mejorando la visibilidad del estado real de cada historia frente a sprints anteriores donde el seguimiento se hacía de forma dispersa.
+
 
 ### 4.3.3. Evaluaciones según Heurísticas
 
