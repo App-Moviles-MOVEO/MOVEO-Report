@@ -3950,11 +3950,65 @@ MOVEO-Landing-Page/
 
 #### 4.2.1.4. Testing Suite Evidence for Sprint Review
 
-**Figura XX** - *Cobertura de Tests Unitarios*
+#### Unit Tests
 
-[INSERTAR IMAGEN: test-coverage-sprint1.png]
+A continuación se detalla la relación entre las clases probadas, los comportamientos verificados y las User Stories asociadas.
 
-Nota. Reporte de cobertura mostrando 82% cobertura global de código.
+#### AdventureRouteCommandService
+
+| Test Method | Comportamiento verificado | User Story relacionada |
+|---|---|---|
+| `Handle_CreatesRoute_WhenNameIsUniqueAndNotCarpool` | Crea una ruta de aventura clásica cuando el nombre es único y no es de tipo carpool | Crear ruta de aventura |
+| `Handle_ThrowsException_WhenNameAlreadyExists` | Lanza excepción cuando ya existe una ruta con el mismo nombre | Validar unicidad de nombre de ruta |
+| `Handle_ThrowsCarpoolException_WhenOwnerHasNoInstitutionalEmail` | Rechaza la creación de una ruta carpool si el propietario no tiene correo institucional | Restricción de carpool a usuarios institucionales |
+| `Handle_CreatesCarpoolRoute_WhenOwnerHasInstitutionalEmail` | Crea correctamente una ruta carpool cuando el propietario tiene correo institucional válido | Crear ruta carpool |
+
+#### PaymentCommandService
+
+| Test Method | Comportamiento verificado | User Story relacionada |
+|---|---|---|
+| `Handle_Create_AddsPaymentAndReturnsIt` | Registra un nuevo pago y lo retorna correctamente | Registrar pago |
+| `Handle_Update_ReturnsNull_WhenPaymentDoesNotExist` | Retorna `null` al intentar actualizar un pago inexistente | Actualizar pago |
+| `Handle_Update_UpdatesPayment_WhenPaymentExists` | Actualiza correctamente monto y estado de un pago existente | Actualizar pago |
+| `Handle_Delete_ReturnsFalse_WhenPaymentDoesNotExist` | Retorna `false` al intentar eliminar un pago inexistente | Eliminar pago |
+| `Handle_Delete_RemovesPaymentAndReturnsTrue_WhenPaymentExists` | Elimina correctamente un pago existente | Eliminar pago |
+
+#### UserReviewCommandService
+
+| Test Method | Comportamiento verificado | User Story relacionada |
+|---|---|---|
+| `Handle_Update_ReturnsNull_WhenReviewDoesNotExist` | Retorna `null` al intentar actualizar una reseña inexistente | Actualizar reseña de usuario |
+| `Handle_Update_UpdatesRatingAndComment_WhenReviewExists` | Actualiza correctamente el rating y comentario de una reseña existente | Actualizar reseña de usuario |
+| `Handle_Delete_ReturnsFalse_WhenReviewDoesNotExist` | Retorna `false` al intentar eliminar una reseña inexistente | Eliminar reseña de usuario |
+| `Handle_Delete_RemovesReviewAndReturnsTrue_WhenReviewExists` | Elimina correctamente una reseña existente | Eliminar reseña de usuario |
+
+#### Repositorio de Control de Versiones
+
+Repositorio: `https://github.com/App-Moviles-MOVEO/MOVEO-Backend.git`
+
+La siguiente tabla debe completarse con los commits relacionados con el avance de Testing en este Sprint:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|---|---|---|---|---|---|
+| App-Moviles-MOVEO/MOVEO-Backend | _(pendiente: nombre del branch)_ | 1d44c7c | test: add initial unit tests for command services | Se agregaron pruebas unitarias iniciales para AdventureRouteCommandService, PaymentCommandService y UserReviewCommandService, cubriendo creación, actualización y eliminación con mocks de repositorios y unit of work. | 07/07/2026 |
+
+<div style="display: flex; flex-direction: column; gap: 20px; margin: 20px 0;">
+
+  <figure style="margin: 0;">
+    <img src="/Assets/Testing_Suite_Evidence_1.jpg" alt="Ejecución de pruebas unitarias" style="width: 100%; max-width: 800px; border: 1px solid #ccc; border-radius: 6px;">
+    <figcaption style="text-align: center; font-style: italic; margin-top: 8px;">
+      Figura 1: Ejecución de las pruebas unitarias en Rider (resultado: todos los tests pasando).
+    </figcaption>
+  </figure>
+
+  <figure style="margin: 0;">
+    <img src="/Assets/Testing_Suite_Evidence_2.jpg" alt="Código de las pruebas unitarias" style="width: 100%; max-width: 800px; border: 1px solid #ccc; border-radius: 6px;">
+    <figcaption style="text-align: center; font-style: italic; margin-top: 8px;">
+      Figura 2: Código fuente de las pruebas unitarias implementadas.
+    </figcaption>
+  </figure>
+
+</div>
 
 #### 4.2.1.5. Execution Evidence for Sprint Review
 
