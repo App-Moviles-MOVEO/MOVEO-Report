@@ -4866,7 +4866,36 @@ Firebase App Distribution — Release de la app Proveedor (Flutter)
 
 Con este despliegue, ambas aplicaciones quedan accesibles públicamente para los verificadores mediante sus vínculos de invitación, permitiendo su instalación directa en dispositivos Android y habilitando el proceso de Validation Interviews documentado en la sección 4.3.
 
+#### 4.2.3.6. Services Documentation Evidence for Sprint Review
 
+Durante el Sprint 3 **no se definieron nuevos endpoints**: el backend ya exponía el contrato completo documentado en la sección 4.2.2.4. El trabajo de servicios de este sprint consistió en **integrar la app Proveedor/Conductor (Flutter) contra el contrato REST real** desplegado en Railway, reemplazando los datos simulados (mock) por consumo directo de la API. Esto quedó evidenciado en los commits `f394505` (*apunta al backend real de Railway y alinea vehículos, rutas y reservas al contrato Swagger*) y `833a71c` (*integra endpoints reales de backend*).
+
+- **Base URL de producción:** `https://moveo-backend-production.up.railway.app/api/v1`
+- **Documentación OpenAPI/Swagger:** `https://moveo-backend-production.up.railway.app/swagger/index.html`
+
+La app Proveedor consume, sobre el mismo contrato de la sección 4.2.2.4, los siguientes grupos de servicios: 
+IAM / Auth — /auth
+POST   /auth/register · /auth/login · /auth/logout
+POST   /auth/change-password        Cambio de contraseña (US integrada en Sprint 3)
+Vehículos — /vehicles   (rol Proveedor)
+POST   /vehicles                    Publicar vehículo + documentos de propiedad (US05)
+GET    /vehicles · /vehicles/{id} · /vehicles/{id}/availability
+PUT/PATCH /vehicles/{id} · DELETE /vehicles/{id}
+Carpooling / Rutas — /adventure-routes   (rol Conductor)
+POST   /adventure-routes            Publicar ruta/viaje
+GET    /adventure-routes · /adventure-routes/{id}
+POST   /adventure-routes/{id}/book  Reservar asiento(s)
+Reservas / Alquileres — /rentals
+GET    /rentals?ownerId= · /rentals/{id} · /rentals/active
+PUT/PATCH /rentals/{id}              Aceptar / activar / completar reservas
+POST   /rentals/{id}/pay            Registro de pago de la reserva
+Documentos / KYC / Wallet — consumidos vía multipart
+Subida de imágenes, documentos, KYC, retiros, reembolsos,
+comprobantes, inspecciones y badges
+
+*Nota. El inventario completo de endpoints, filtros y parámetros se encuentra documentado en la sección 4.2.2.4 (contrato REAL). La app Proveedor consume este contrato sin modificaciones, por lo que la documentación de servicios se mantiene como fuente única en dicha sección. Elaboración propia.*
+
+> **Nota sobre pagos:** los servicios de pago (`/payments`, `/rentals/{id}/pay`) **registran** la operación en base de datos pero **no integran una pasarela real** (Stripe/Yape/Plin); el Spike SP01 continúa pendiente.
 
 #### 4.2.3.8. Team Collaboration Insights during Sprint 3
 
