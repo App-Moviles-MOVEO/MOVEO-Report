@@ -4850,19 +4850,17 @@ Registro de Releases en Firebase App Distribution
 
 *Nota. Correo de contacto de la distribución: alexisfyd@gmail.com. Elaboración propia.*
 
-**Figura**
+
 
 Firebase App Distribution — Release de la app Cliente (Kotlin nativo)
-
-![Firebase App Distribution - App Nativa Kotlin]([PEGAR LINK IMGUR CAPTURA 1])
-
+![Firebase-native](Assets/Firebase-native.PNG)
 *Nota. Consola de Firebase App Distribution mostrando la versión 1.0 (1) de la app nativa desplegada, con los verificadores invitados. Elaboración propia.*
 
-**Figura**
+
 
 Firebase App Distribution — Release de la app Proveedor (Flutter)
+![Firebase-flutter](Assets/Firebase-flutter.PNG)
 
-![Firebase App Distribution - App Flutter]([PEGAR LINK IMGUR CAPTURA 2])
 
 *Nota. Consola de Firebase App Distribution mostrando la versión 1.0.0 (1) de la app en Flutter desplegada, con los verificadores invitados. Elaboración propia.*
 
