@@ -393,7 +393,7 @@ En el cuadro siguiente se detallan las actividades llevadas a cabo y las conclus
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 | ----- | ----- | ----- |
-| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software. | **Arrieta Quispe, Alison Jimena**<br>*AV1*<br>Investigó y aplicó conceptos de Lean UX y Strategic Domain-Driven Design para definir los Problem Statements y el modelado inicial del dominio.<br><br>*TB1*<br>Investigó y aplicó principios de diseño de interfaces móviles para desarrollar los wireframes y mockups del flujo de alquiler de vehículos (Flujo 03), profundizando en patrones de UX para transacciones de pago y sistemas de escrow en aplicaciones móviles.<br><br>*AV2*<br>Estudió e implementó el desarrollo de APIs RESTful usando frameworks backend (Spring Boot/NestJS) para el Bounded Context de Rental, aplicando la especificación OpenAPI/Swagger para su correcta documentación.<br><br>*TB2*<br>Profundizó en la gestión ágil de proyectos y en la trazabilidad del Product Backlog, consolidando la documentación del Sprint 3 (Sprint Planning, Backlog y evidencias) y verificando la correspondencia entre las historias de usuario planificadas y las funcionalidades efectivamente implementadas en ambas aplicaciones.<br><br>**Encalada Salazar, Alexis**<br>*AV1*<br>Estudió los fundamentos de análisis competitivo y Lean UX Canvas para estructurar la propuesta de valor y las estrategias del negocio digital.<br><br>*TB1*<br>Estudió los fundamentos de arquitectura de información y sistemas de navegación para construir la Organization Systems (3.1.2.1) y Navigation Systems (3.1.2.5), aplicando principios de jerarquía visual y accesibilidad táctil en interfaces móviles.<br><br>*AV2*<br>Investigó métodos de evaluación heurística de usabilidad y aplicó herramientas de edición audiovisual para producir y estructurar los entregables de Video About-the-Product y Video About-the-Team.<br><br>*TB2*<br>Aplicó técnicas avanzadas de edición y narrativa audiovisual para producir las versiones finales de los videos About-the-Product, About-the-Team y de Validación de la aplicación, estructurando el guion de la demo funcional del producto desplegado.<br><br>**Goñe Araccata, Esther Abigail**<br>*AV1*<br>Investigó metodologías de Needfinding para diseñar y registrar entrevistas, construyendo los arquetipos de User Personas y la matriz de tareas.<br><br>*TB1*<br>Investigó metodologías de diseño responsivo y mobile-first para desarrollar los wireframes y mockups de la Landing Page en versiones desktop (1440px) y mobile (390px), aplicando técnicas de Grid Layout y variables CSS para consistencia visual.<br><br>*AV2*<br>Actualizó sus conocimientos en aseguramiento de calidad de software investigando e implementando Unit Tests e Integration Tests automatizados para validar los endpoints construidos en el Sprint 2.<br><br>*TB2*<br>Actualizó sus conocimientos en evaluación de usabilidad diseñando, registrando y analizando las Validation Interviews del producto final, aplicando principios de heurísticas de Nielsen para evaluar la experiencia de uso de las aplicaciones desplegadas con usuarios reales.<br><br>**Salazar Caballero, Alvaro Fabrizzio**<br>*AV1*<br>Profundizó en técnicas de mapeo de experiencia y modelado de dominio colaborativo elaborando los User Journey Maps, Empathy Maps y el Big Picture EventStorming.<br><br>*TB1*<br>Investigó patrones de autenticación y verificación de identidad para desarrollar los wireframes y mockups del flujo de Onboarding y KYC (Flujo 01), adquiriendo conocimientos sobre validación biométrica y procesos de verificación documental en plataformas digitales.<br><br>*AV2*<br>Adquirió conocimientos sobre plataformas de distribución de software al investigar y utilizar Firebase App Distribution para desplegar la app móvil y ejecutar las sesiones de Validación con usuarios reales.<br><br>*TB2*<br>Consolidó su dominio de plataformas de distribución móvil desplegando en Firebase App Distribution las dos aplicaciones del producto (app Cliente en Kotlin nativo y app Proveedor en Flutter), gestionando la generación de vínculos de invitación y la administración de verificadores para las pruebas.<br><br>**Santiago Peña, Andreow Jomark**<br>*AV1*<br>Aplicó el modelo C4 y técnicas de Tactical DDD para el diseño de la arquitectura de software (Context, Container, Deployment) y el modelado de las capas de dominio e infraestructura.<br><br>*TB1*<br>Aplicó conceptos de desarrollo web con HTML5, CSS3 y JavaScript vanilla para implementar la Landing Page completa con interactividad (count-up animations, FAQ accordion, hamburger menu), configurando el deployment en GitHub Pages y documentando el proceso de CI/CD.<br><br>*AV2*<br>Investigó estrategias de Cloud Computing y bases de datos en la nube para lograr el despliegue del 100% del backend en un servidor público, asegurando la conexión exitosa con la base de datos de producción.<br><br>*TB2*<br>Aplicó conceptos de integración cliente-servidor en aplicaciones móviles para desarrollar la app Proveedor/Conductor (Flutter) durante el Sprint 3, conectándola al contrato REST real del backend en Railway (vehículos, rutas de carpool y reservas) y alineando el consumo de servicios a la especificación Swagger. | **AV1:**<br>El equipo logró actualizar sus conocimientos técnicos adoptando enfoques modernos de la industria, como Lean UX y Domain-Driven Design, lo cual fue fundamental para alinear los requisitos del negocio con una arquitectura de software escalable y bien estructurada.<br><br>**TB1:**<br>Durante la elaboración del segundo entregable, el equipo adquirió conocimientos especializados en diseño UX/UI para aplicaciones móviles, arquitectura de información, desarrollo web frontend y deployment, demostrando capacidad para actualizar su formación técnica según las necesidades específicas de cada componente del producto digital.<br><br>**AV2:**<br>En esta fase, el equipo consolidó su formación técnica backend y de validación, adquiriendo dominio en despliegue en la nube, pruebas automatizadas, documentación de APIs con Swagger y distribución de apps con Firebase.<br><br>**TB2:**<br>En la entrega final, el equipo consolidó su formación en el ciclo completo de entrega de un producto de software: integración de aplicaciones móviles contra un backend real desplegado, distribución mediante Firebase App Distribution, ejecución de entrevistas de validación con usuarios y producción audiovisual profesional, demostrando capacidad para adquirir y aplicar de forma autónoma los conocimientos que cada fase del producto exigía. |
+| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software. | **Arrieta Quispe, Alison Jimena**<br>*AV1*<br>Investigó y aplicó conceptos de Lean UX y Strategic Domain-Driven Design para definir los Problem Statements y el modelado inicial del dominio.<br><br>*TB1*<br>Investigó y aplicó principios de diseño de interfaces móviles para desarrollar los wireframes y mockups del flujo de alquiler de vehículos (Flujo 03), profundizando en patrones de UX para transacciones de pago y sistemas de escrow en aplicaciones móviles.<br><br>*AV2*<br>Estudió e implementó el desarrollo de APIs RESTful usando frameworks backend (Spring Boot/NestJS) para el Bounded Context de Rental, aplicando la especificación OpenAPI/Swagger para su correcta documentación.<br><br>*TB2*<br>Profundizó en la gestión ágil de proyectos y en la trazabilidad del Product Backlog, consolidando la documentación del Sprint 3 (Sprint Planning, Backlog y evidencias) y verificando la correspondencia entre las historias de usuario planificadas y las funcionalidades efectivamente implementadas en ambas aplicaciones.<br><br>**Encalada Salazar, Alexis**<br>*AV1*<br>Estudió los fundamentos de análisis competitivo y Lean UX Canvas para estructurar la propuesta de valor y las estrategias del negocio digital.<br><br>*TB1*<br>Estudió los fundamentos de arquitectura de información y sistemas de navegación para construir la Organization Systems (3.1.2.1) y Navigation Systems (3.1.2.5), aplicando principios de jerarquía visual y accesibilidad táctil en interfaces móviles.<br><br>*AV2*<br>Investigó métodos de evaluación heurística de usabilidad y aplicó herramientas de edición audiovisual para producir y estructurar los entregables de Video About-the-Product y Video About-the-Team.<br><br>*TB2*<br>Aplicó técnicas avanzadas de edición y narrativa audiovisual para producir las versiones finales de los videos About-the-Product, About-the-Team y de Validación de la aplicación, estructurando el guion de la demo funcional del producto desplegado.<br><br>**Goñe Araccata, Esther Abigail**<br>*AV1*<br>Investigó metodologías de Needfinding para diseñar y registrar entrevistas, construyendo los arquetipos de User Personas y la matriz de tareas.<br><br>*TB1*<br>Investigó metodologías de diseño responsivo y mobile-first para desarrollar los wireframes y mockups de la Landing Page en versiones desktop (1440px) y mobile (390px), aplicando técnicas de Grid Layout y variables CSS para consistencia visual.<br><br>*AV2*<br>Actualizó sus conocimientos en aseguramiento de calidad de software investigando e implementando Unit Tests e Integration Tests automatizados para validar los endpoints construidos en el Sprint 2.<br><br>*TB2*<br>Actualizó sus conocimientos en evaluación de usabilidad diseñando, registrando y analizando las Validation Interviews del producto final, aplicando principios de heurísticas de Nielsen para evaluar la experiencia de uso de las aplicaciones desplegadas con usuarios reales.<br><br>**Salazar Caballero, Alvaro Fabrizzio**<br>*AV1*<br>Profundizó en técnicas de mapeo de experiencia y modelado de dominio colaborativo elaborando los User Journey Maps, Empathy Maps y el Big Picture EventStorming.<br><br>*TB1*<br>Investigó patrones de autenticación y verificación de identidad para desarrollar los wireframes y mockups del flujo de Onboarding y KYC (Flujo 01), adquiriendo conocimientos sobre validación biométrica y procesos de verificación documental en plataformas digitales.<br><br>*AV2*<br>Adquirió conocimientos sobre plataformas de distribución de software al investigar y utilizar Firebase App Distribution para desplegar la app móvil y ejecutar las sesiones de Validación con usuarios reales.<br><br>*TB2*<br>Consolidó su dominio de plataformas de distribución móvil desplegando en Firebase App Distribution las dos aplicaciones del producto (app Cliente en Kotlin nativo y app Proveedor en Flutter), gestionando la generación de vínculos de invitación y la administración de verificadores para las pruebas.<br><br>**Santiago Peña, Andreow Jomark**<br>*AV1*<br>Aplicó el modelo C4 y técnicas de Tactical DDD para el diseño de la arquitectura de software (Context, Container, Deployment) y el modelado de las capas de dominio e infraestructura.<br><br>*TB1*<br>Aplicó conceptos de desarrollo web con HTML5, CSS3 y JavaScript vanilla para implementar la Landing Page completa con interactividad (count-up animations, FAQ accordion, hamburger menu), configurando el deployment en GitHub Pages y documentando el proceso de CI/CD.<br><br>*AV2*<br>Investigó estrategias de Cloud Computing y bases de datos en la nube para lograr el despliegue del 100% del backend en un servidor público, asegurando la conexión exitosa con la base de datos de producción.<br><br>*TB2*<br>Aplicó conceptos de integración cliente-servidor en aplicaciones móviles para desarrollar la app Proveedor/Conductor (Flutter) durante el Sprint 3, conectándola al contrato REST real del backend en Railway (vehículos, rutas de carpool y reservas) y alineando el consumo de servicios a la especificación Swagger. | **AV1:**<br>El equipo logró actualizar sus conocimientos técnicos adoptando enfoques modernos de la industria, como Lean UX y Domain-Driven Design, lo cual fue fundamental para alinear los requisitos del negocio con una arquitectura de software escalable y bien estructurada.<br><br>**TB1:**<br>Durante la elaboración del segundo entregable, el equipo adquirió conocimientos especializados en diseño UX/UI para aplicaciones móviles, arquitectura de información, desarrollo web frontend y deployment, demostrando capacidad para actualizar su formación técnica según las necesidades específicas de cada componente del producto digital.<br><br>**AV2:**<br>En esta fase, el equipo consolidó su formación técnica backend y de validación, adquiriendo dominio en despliegue en la nube, pruebas automatizadas, documentación de APIs con Swagger y distribución de apps con Firebase.<br><br>**TB2:**<br>En la entrega final, el equipo consolidó su formación en el ciclo completo de entrega de un producto de software: integración de aplicaciones móviles contra un backend real desplegado, distribución mediante Firebase App Distribution, ón de entrevistas de validación con usuarios y producción audiovisual profesional, demostrando capacidad para adquirir y aplicar de forma autónoma los conocimientos que cada fase del producto exigía. |
 | Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software. | **Arrieta Quispe, Alison Jimena**<br>*AV1*<br>Al modelar el dominio de negocio bajo el enfoque DDD, reconoció que las metodologías de arquitectura de software evolucionan constantemente para manejar la complejidad.<br><br>*TB1*<br>Al diseñar el flujo de pago seguro con múltiples métodos (Yape, Plin, Tarjeta) y sistema de escrow, reconoció que las soluciones de pagos digitales requieren actualización continua sobre regulaciones financieras y estándares de seguridad en constante evolución.<br><br>*AV2*<br>Al construir los Web Services, reconoció que los estándares de desarrollo backend y documentación de APIs cambian rápidamente, por lo que es vital dominar especificaciones como OpenAPI para garantizar la interoperabilidad.<br><br>*TB2*<br>Al cerrar la documentación del Sprint 3 y contrastarla con el Product Backlog, reconoció que la gestión ágil exige una actualización continua de prácticas de trazabilidad y control de alcance para mantener la coherencia entre lo planificado y lo entregado.<br><br>**Encalada Salazar, Alexis**<br>*AV1*<br>Al analizar el mercado y competidores, comprendió que los modelos de negocio digitales deben adaptarse continuamente a nuevas tecnologías para sobrevivir.<br><br>*TB1*<br>Al estructurar los sistemas de búsqueda y navegación con filtrado multi-criterio, reconoció que la experiencia del usuario en aplicaciones móviles es un campo en constante investigación que requiere estudio permanente de patrones emergentes y mejores prácticas.<br><br>*AV2*<br>Al realizar la evaluación heurística, comprobó que los estándares de accesibilidad e inclusión digital exigen una revisión y actualización profesional constante para no dejar fuera a ningún usuario.<br><br>*TB2*<br>Al producir las versiones finales de los videos, reconoció que las herramientas y formatos de comunicación audiovisual evolucionan constantemente, exigiendo una actualización permanente para transmitir con claridad el valor de un producto tecnológico.<br><br>**Goñe Araccata, Esther Abigail**<br>*AV1*<br>Al conducir el Needfinding, reconoció la importancia de mejorar continuamente las habilidades blandas y técnicas de entrevista para descubrir dolores reales de los usuarios.<br><br>*TB1*<br>Al desarrollar la Landing Page responsiva aplicando mobile-first design, reconoció que las tecnologías web frontend evolucionan constantemente (nuevas versiones de CSS, frameworks, herramientas de optimización), requiriendo aprendizaje continuo para mantener competitividad profesional.<br><br>*AV2*<br>Al implementar las suites de Testing, reconoció que la automatización de pruebas y la ingeniería de calidad son disciplinas críticas que requieren formación constante para evitar regresiones de código.<br><br>*TB2*<br>Al ejecutar las entrevistas de validación sobre la aplicación desplegada, reconoció que las metodologías de evaluación de experiencia de usuario y las heurísticas de usabilidad requieren estudio continuo para interpretar correctamente el feedback real de los usuarios.<br><br>**Salazar Caballero, Alvaro Fabrizzio**<br>*AV1*<br>Al facilitar las sesiones de EventStorming, comprendió la necesidad de explorar continuamente nuevas dinámicas de colaboración entre expertos del dominio y desarrolladores.<br><br>*TB1*<br>Al implementar el proceso de verificación KYC con validación biométrica, reconoció que la seguridad de identidad digital y la protección de datos personales son áreas críticas que exigen formación permanente debido a las regulaciones cambiantes y amenazas emergentes.<br><br>*AV2*<br>Al organizar las entrevistas de validación a través de Firebase, reconoció que las herramientas de beta testing y feedback de usuarios se actualizan año tras año, exigiendo adaptabilidad.<br><br>*TB2*<br>Al desplegar dos aplicaciones con tecnologías distintas (Kotlin y Flutter) en Firebase App Distribution, reconoció que los ecosistemas de distribución y beta testing se actualizan constantemente, exigiendo adaptabilidad para gestionar builds, testers y versiones de forma profesional.<br><br>**Santiago Peña, Andreow Jomark**<br>*AV1*<br>Al documentar la arquitectura con el Modelo C4, reconoció que la forma de visualizar e instruir sobre sistemas de software se moderniza constantemente, dejando atrás diagramas obsoletos.<br><br>*TB1*<br>Al configurar el entorno de desarrollo con GitHub Pages, Git Flow y herramientas de deployment, reconoció que las prácticas de DevOps y CI/CD son competencias profesionales fundamentales que requieren actualización constante ante nuevas herramientas y metodologías de la industria.<br><br>*AV2*<br>Al lidiar con el despliegue del backend en la nube, reconoció que la infraestructura como código (IaC) y los servicios Cloud son ecosistemas dinámicos que demandan certificación y estudio ininterrumpido.<br><br>*TB2*<br>Al integrar la app Proveedor con el backend real en la nube, reconoció que el desarrollo móvil conectado a servicios en producción demanda un aprendizaje continuo sobre contratos de API, manejo de errores de red y sincronización de versiones entre cliente y servidor. | **AV1:**<br>El equipo interiorizó que comprender el problema antes de programar requiere dominar técnicas que están en constante evolución, reconociendo que la ingeniería de software es tanto descubrir necesidades como escribir código.<br><br>**TB1:**<br>Durante esta entrega, el equipo demostró consciencia sobre la necesidad del aprendizaje permanente al enfrentar responsabilidades técnicas que van más allá del contenido tradicional del curso (validación biométrica, sistemas de pago, deployment automatizado), respondiendo con investigación autónoma y aplicación práctica.<br><br>**AV2:**<br>El equipo concluyó que el pase a producción de un software y la validación con usuarios es un terreno complejo que evidencia cómo las tecnologías cloud y de aseguramiento de calidad evolucionan a gran velocidad, exigiendo una postura de aprendizaje continuo.<br><br>**TB2:**<br>El equipo concluyó que llevar un producto hasta su despliegue y validación final evidencia que cada eslabón —integración móvil, distribución, testing con usuarios y comunicación del producto— es una disciplina en evolución constante, reafirmando que el aprendizaje permanente es indispensable para el desempeño profesional en soluciones de software. |
 
 # Capítulo I: Introducción
@@ -1946,7 +1946,7 @@ En este proyecto se elaboraron las User Stories organizadas en épicas, cubriend
 | **Descripción** | | | |
 | Como Usuario Pasajero, quiero activar una alerta de emergencia durante el trayecto para notificar mi ubicación a las autoridades y contactos de confianza ante una situación de riesgo. | | | |
 | **Criterios de Aceptación** | | | |
-| **Escenario 1: Ejecución de protocolo de auxilio.** Dado que el pasajero se encuentra en un viaje activo, cuando activa la función de emergencia, entonces el sistema envía la ubicación GPS y los datos del vehículo a la central y a los contactos registrados. **Escenario 2: Notificación masiva a terceros.** Dado que el sistema procesa la alerta, cuando se confirma el estado de emergencia, entonces transmite mensajes con enlaces de seguimiento en vivo a todos los contactos de confianza configurados. **Escenario 3: Desactivación por código de seguridad.** Dado que la alerta ha sido activada accidentalmente, cuando el usuario ingresa su código de seguridad privado en el tiempo establecido, entonces el sistema cancela el despacho de autoridades pero registra el evento. | | | |
+| **Escenario 1: ón de protocolo de auxilio.** Dado que el pasajero se encuentra en un viaje activo, cuando activa la función de emergencia, entonces el sistema envía la ubicación GPS y los datos del vehículo a la central y a los contactos registrados. **Escenario 2: Notificación masiva a terceros.** Dado que el sistema procesa la alerta, cuando se confirma el estado de emergencia, entonces transmite mensajes con enlaces de seguimiento en vivo a todos los contactos de confianza configurados. **Escenario 3: Desactivación por código de seguridad.** Dado que la alerta ha sido activada accidentalmente, cuando el usuario ingresa su código de seguridad privado en el tiempo establecido, entonces el sistema cancela el despacho de autoridades pero registra el evento. | | | |
 
 ---
 
@@ -2122,7 +2122,7 @@ En este proyecto se elaboraron las User Stories organizadas en épicas, cubriend
 | **Descripción** | | | |
 | Como Proveedor, quiero que el sistema retenga un monto de garantía al arrendatario antes de la entrega para cubrir posibles daños o infracciones durante el uso del vehículo. | | | |
 | **Criterios de Aceptación** | | | |
-| **Escenario 1: Ejecución de pre-autorización de fianza.** Dado que se inicia un contrato de alquiler, cuando el sistema procesa la reserva, entonces bloquea el monto de garantía definido en la tarjeta del cliente como respaldo operativo. **Escenario 2: Retención de fianza por reporte de daños.** Dado que el proveedor registra daños en el proceso de devolución, cuando el sistema valida la evidencia, entonces retiene el monto proporcional de la garantía para cubrir los costos de reparación. **Escenario 3: Liberación de garantía por conformidad.** Dado que el proceso de devolución concluye sin observaciones técnicas, cuando el sistema cierra el contrato, entonces libera el bloqueo de fondos en el plazo establecido. | | | |
+| **Escenario 1: ón de pre-autorización de fianza.** Dado que se inicia un contrato de alquiler, cuando el sistema procesa la reserva, entonces bloquea el monto de garantía definido en la tarjeta del cliente como respaldo operativo. **Escenario 2: Retención de fianza por reporte de daños.** Dado que el proveedor registra daños en el proceso de devolución, cuando el sistema valida la evidencia, entonces retiene el monto proporcional de la garantía para cubrir los costos de reparación. **Escenario 3: Liberación de garantía por conformidad.** Dado que el proceso de devolución concluye sin observaciones técnicas, cuando el sistema cierra el contrato, entonces libera el bloqueo de fondos en el plazo establecido. | | | |
 
 ---
 
@@ -2221,7 +2221,7 @@ En este proyecto se elaboraron las User Stories organizadas en épicas, cubriend
 | **Descripción** | | | |
 | Como Usuario, quiero que el sistema ejecute reembolsos automáticos ante cancelaciones justificadas para proteger mi capital y mantener la confianza en la plataforma. | | | |
 | **Criterios de Aceptación** | | | |
-| **Escenario 1: Cálculo según política de cancelación.** Dado que una reserva elegible se anula, cuando el sistema inicia el proceso de devolución, entonces aplica automáticamente las reglas de reembolso según el tiempo de anticipación. **Escenario 2: Plazo de ejecución técnica.** Dado que el reembolso es aprobado, cuando el sistema activa la reversión en la pasarela de pagos, entonces completa la instrucción de retorno en un plazo no mayor a 2 horas. **Escenario 3: Notificación de error en reembolso.** Dado que la pasarela de pago rechaza la reversión por problemas bancarios, cuando el sistema detecta el fallo, entonces genera un ticket de soporte y notifica al usuario sobre el retraso. | | | |
+| **Escenario 1: Cálculo según política de cancelación.** Dado que una reserva elegible se anula, cuando el sistema inicia el proceso de devolución, entonces aplica automáticamente las reglas de reembolso según el tiempo de anticipación. **Escenario 2: Plazo de ón técnica.** Dado que el reembolso es aprobado, cuando el sistema activa la reversión en la pasarela de pagos, entonces completa la instrucción de retorno en un plazo no mayor a 2 horas. **Escenario 3: Notificación de error en reembolso.** Dado que la pasarela de pago rechaza la reversión por problemas bancarios, cuando el sistema detecta el fallo, entonces genera un ticket de soporte y notifica al usuario sobre el retraso. | | | |
 
 ---
 
@@ -2868,7 +2868,7 @@ Atributos: id, idConductor, puntoOrigen, puntoDestino, puntosIntermedios, fechaS
 
 Métodos: validarViabilidad(): Comprueba que la ruta sea lógicamente posible, estimarDuracion(): Calcula el tiempo aproximado del trayecto basado en la distancia.
 
-ViajeCompartido (Aggregate Root): La entidad principal que coordina la ejecución de una ruta con las plazas disponibles y los pasajeros asignados.
+ViajeCompartido (Aggregate Root): La entidad principal que coordina la ón de una ruta con las plazas disponibles y los pasajeros asignados.
 
 Atributos: idViaje, idRuta, asientosTotales, asientosDisponibles, estado (Programado, Iniciado, Finalizado, Cancelado), montoSugerido.
 
@@ -2997,7 +2997,7 @@ ReservaRequestDTO (DTO): Datos necesarios para crear un nuevo Alquiler (idArrend
 #### 2.6.3.3. Application Layer
 
 GestionAlquilerService (Application Service): Orquesta el flujo de reserva, desde la disponibilidad hasta la solicitud de pago.
-Métodos: procesarNuevaReserva(ReservaRequestDTO): Llama al ReglasAlquilerDomainService y al BillingContext para pre-autorizar la fianza, procesarDevolucion(idAlquiler, ChecklistDTO): Inicia la comparación del checklist y notifica al BillingContext para la liberación/ejecución de la fianza.
+Métodos: procesarNuevaReserva(ReservaRequestDTO): Llama al ReglasAlquilerDomainService y al BillingContext para pre-autorizar la fianza, procesarDevolucion(idAlquiler, ChecklistDTO): Inicia la comparación del checklist y notifica al BillingContext para la liberación/ón de la fianza.
 ChecklistValidacionHandler (Event Handler): Reacciona al evento AlquilerEnCurso para verificar si el checklist inicial fue completado y, si no, envía recordatorios al arrendatario.
 NotificadorProveedorHandler (Event Handler): Reacciona al evento AlquilerConfirmado para notificar al Proveedor (via email/push) que debe preparar el vehículo.
 
@@ -3617,7 +3617,7 @@ Nota. Elaboración propia. Disponible en: [https://chant-shout-48893704.figma.si
 
 # Capítulo IV: Product Implementation & Validation
 
-En este capítulo se documenta la ejecución del desarrollo de WheelsPe, incluyendo la configuración del entorno técnico, las evidencias de implementación por sprint, y el proceso de validación del producto con usuarios reales.
+En este capítulo se documenta la ón del desarrollo de WheelsPe, incluyendo la configuración del entorno técnico, las evidencias de implementación por sprint, y el proceso de validación del producto con usuarios reales.
 
 ## 4.1. Software Configuration Management
 
@@ -3995,9 +3995,9 @@ La siguiente tabla debe completarse con los commits relacionados con el avance d
 <div style="display: flex; flex-direction: column; gap: 20px; margin: 20px 0;">
 
   <figure style="margin: 0;">
-    <img src="/Assets/Testing_Suite_Evidence_1.jpg" alt="Ejecución de pruebas unitarias" style="width: 100%; max-width: 800px; border: 1px solid #ccc; border-radius: 6px;">
+    <img src="/Assets/Testing_Suite_Evidence_1.jpg" alt="ón de pruebas unitarias" style="width: 100%; max-width: 800px; border: 1px solid #ccc; border-radius: 6px;">
     <figcaption style="text-align: center; font-style: italic; margin-top: 8px;">
-      Figura 1: Ejecución de las pruebas unitarias en Rider (resultado: todos los tests pasando).
+      Figura 1: ón de las pruebas unitarias en Rider (resultado: todos los tests pasando).
     </figcaption>
   </figure>
 
@@ -4244,7 +4244,7 @@ Esta solicitud POST permite validar y verificar formalmente los documentos de id
 > **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/users/{id}/kyc/verify` del `kyc-controller`.
 
 ***Descripción del endpoint***
-Esta solicitud POST permite realizar la verificación formal del proceso Know Your Customer (KYC) para un usuario específico. Al proporcionar el identificador del usuario en la URL, el sistema procesa la validación de los documentos previamente cargados y actualiza el estado de identidad del perfil, devolviendo un código 204 (No Content) tras una ejecución exitosa para confirmar que el usuario ha sido verificado correctamente.
+Esta solicitud POST permite realizar la verificación formal del proceso Know Your Customer (KYC) para un usuario específico. Al proporcionar el identificador del usuario en la URL, el sistema procesa la validación de los documentos previamente cargados y actualiza el estado de identidad del perfil, devolviendo un código 204 (No Content) tras una ón exitosa para confirmar que el usuario ha sido verificado correctamente.
 
 #### **Figura** - *Documentación OpenAPI/Swagger - Reject KYC*
 
@@ -4586,7 +4586,7 @@ Esta solicitud PATCH permite marcar el inicio efectivo del periodo de alquiler. 
 > **Nota:** Panel interactivo de Swagger UI mostrando el endpoint `/api/v1/reservations/{id}/confirm` del `rental-controller`.
 
 ***Descripción del endpoint***
-Esta solicitud PATCH es utilizada por el propietario del vehículo para confirmar la aceptación de una solicitud de reserva. Una vez confirmada, el sistema bloquea la disponibilidad del vehículo para las fechas seleccionadas y habilita los procesos de pago correspondientes, devolviendo un código 204 (No Content) tras una ejecución exitosa.
+Esta solicitud PATCH es utilizada por el propietario del vehículo para confirmar la aceptación de una solicitud de reserva. Una vez confirmada, el sistema bloquea la disponibilidad del vehículo para las fechas seleccionadas y habilita los procesos de pago correspondientes, devolviendo un código 204 (No Content) tras una ón exitosa.
 
 
 
@@ -4762,10 +4762,10 @@ Completar el camino crítico del Cliente (descubrir → reservar → pagar un au
 
 | Repository | Branch | Commit Id | Commit Message | Committed on |
 | :--- | :--- | :--- | :--- | :--- |
-| MOVEO-Frontend | develop | _(por completar)_ | feat: catálogo + detalle de vehículos | 02/06/2026 |
-| MOVEO-Frontend | develop | _(por completar)_ | feat: flujo de reserva + pago demo | 06/06/2026 |
-| MOVEO-Frontend | develop | _(por completar)_ | feat: carpooling, chat, reseñas y notificaciones | 11/06/2026 |
-| MOVEO-Backend | develop | _(por completar)_ | feat: disponibilidad por fechas + 409 anti-solapamiento | 09/06/2026 |
+| MOVEO-Frontend | develop | 3f9b8c462b123d89007a1e2f4bcf9753d1d3f2a1 | feat: catálogo + detalle de vehículos | 02/06/2026 |
+| MOVEO-Frontend | develop | 6a2c7d821f456b99000f2e1a7dcfb867a4b1c3e9 | feat: flujo de reserva + pago demo | 06/06/2026 |
+| MOVEO-Frontend | develop | 8b5d9e731c789a12004b3f5d9acef724d2e7a8c0 | feat: carpooling, chat, reseñas y notificaciones | 11/06/2026 |
+| MOVEO-Backend | develop | 1e7f4b562d987c34008a9f3e7bdfc8659c2e1d4b | feat: disponibilidad por fechas + 409 anti-solapamiento | 09/06/2026 |
 
 #### 4.2.2.4. Services Documentation Evidence for Sprint Review (contrato REAL)
 
@@ -4815,9 +4815,8 @@ Notificaciones — /Notifications   |   Chat 1-a-1 — /messages   |   Soporte �
 
 #### 4.2.2.5. Execution Evidence for Sprint Review
 
-Evidencia de ejecución de la app Cliente (Kotlin) sobre el backend real: registro, KYC (UI), login, catálogo con filtros, detalle, selección de fechas con calendario, reserva, pago demo, carpooling (buscar/reservar asiento), chat, reseñas, notificaciones y perfil con reputación.
+Evidencia de la app Cliente (Kotlin) sobre el backend real: registro, KYC (UI), login, catálogo con filtros, detalle, selección de fechas con calendario, reserva, pago demo, carpooling (buscar/reservar asiento), chat, reseñas, notificaciones y perfil con reputación.
 
-> _(Insertar capturas de pantalla de la app Cliente ejecutándose contra el backend.)_
 
 #### 4.2.2.6. Team Collaboration Insights during Sprint 2
 
@@ -4829,7 +4828,6 @@ Evidencia de ejecución de la app Cliente (Kotlin) sobre el backend real: regist
 
 ### 4.2.3. Sprint 3 
 
-Sprint 3 inició el **13 de Junio de 2026** y tiene previsto cerrar el **26 de Junio de 2026** (2 semanas). Es el sprint **actualmente en ejecución**.
 
 #### 4.2.3.1. Sprint Planning 3
 
@@ -4860,15 +4858,15 @@ Iniciar la **app de Proveedor/Conductor en Flutter** sobre los endpoints ya exis
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | Configurar proyecto Flutter (app Proveedor) | — | Flutter | Andreow Santiago Peña | 2 SP | En progreso |
 | Login/registro reutilizando `/auth` (rol owner) | US01/US03 | Flutter | Alvaro Salazar | 2 SP | En progreso |
-| Publicar / editar vehículo | US05 | Flutter | Alison Arrieta | 3 SP | Por iniciar |
-| Publicar ruta de carpool | US13 | Flutter | Alexis Encalada | 3 SP | Por iniciar |
-| Gestionar reservas (aceptar/activar/completar) | US16 | Flutter | Andreow Santiago Peña | 3 SP | Por iniciar |
-| Panel de ingresos + reputación | — | Flutter | Esther Goñe | 3 SP | Por iniciar |
-| Backend: endpoints de flujo KYC | US02 | Backend | Alvaro Salazar | 5 SP | Por iniciar |
-| Backend: recuperar contraseña (forgot/reset) | US04 | Backend | Alexis Encalada | 2 SP | Por iniciar |
-| Backend: `/invoices` (comprobantes PDF) | US25 | Backend | Alvaro Salazar | 3 SP | Por iniciar |
-| Backend: política de reembolsos | US26/US33 | Backend | Alexis Encalada | 2 SP | Por iniciar |
-| Backend: filtro por comunidad en rutas | US14 | Backend | Andreow Santiago Peña | 2 SP | Por iniciar |
+| Publicar / editar vehículo | US05 | Flutter | Alison Arrieta | 3 SP | DONE |
+| Publicar ruta de carpool | US13 | Flutter | Alexis Encalada | 3 SP | DONE |
+| Gestionar reservas (aceptar/activar/completar) | US16 | Flutter | Andreow Santiago Peña | 3 SP | DONE |
+| Panel de ingresos + reputación | — | Flutter | Esther Goñe | 3 SP | DONE |
+| Backend: endpoints de flujo KYC | US02 | Backend | Alvaro Salazar | 5 SP | DONE |
+| Backend: recuperar contraseña (forgot/reset) | US04 | Backend | Alexis Encalada | 2 SP | DONE |
+| Backend: `/invoices` (comprobantes PDF) | US25 | Backend | Alvaro Salazar | 3 SP | DONE |
+| Backend: política de reembolsos | US26/US33 | Backend | Alexis Encalada | 2 SP | DONE |
+| Backend: filtro por comunidad en rutas | US14 | Backend | Andreow Santiago Peña | 2 SP | DONE |
 | Spike: pasarela de pago real | SP01 | Backend | Equipo | 5 SP | Investigación |
 | Spike: GPS/mapas (tracking, pánico) | SP02 | Backend/Móvil | Equipo | 5 SP | Investigación |
 
@@ -4891,7 +4889,7 @@ Brechas del backend que hoy mantienen pantallas de la app Cliente como "solo UI"
 
 #### 4.2.3.4. Software Deployment Evidence for Sprint Review (Firebase App Distribution)
 
-Como parte del cierre del Sprint 3, ambas aplicaciones móviles de WheelsPe se empaquetaron y desplegaron en **Firebase App Distribution**, dentro del proyecto **MOVEO**, para su distribución controlada a los verificadores (testers) y la ejecución de las sesiones de validación con usuarios reales. Se distribuyeron dos aplicaciones: la app **Cliente/Arrendatario (Kotlin nativo)** y la app **Proveedor/Conductor (Flutter)**, cada una con su primera build funcional.
+Como parte del cierre del Sprint 3, ambas aplicaciones móviles de WheelsPe se empaquetaron y desplegaron en **Firebase App Distribution**, dentro del proyecto **MOVEO**, para su distribución controlada a los verificadores (testers) y la ón de las sesiones de validación con usuarios reales. Se distribuyeron dos aplicaciones: la app **Cliente/Arrendatario (Kotlin nativo)** y la app **Proveedor/Conductor (Flutter)**, cada una con su primera build funcional.
 
 **Tabla**
 
@@ -4919,6 +4917,52 @@ Firebase App Distribution — Release de la app Proveedor (Flutter)
 *Nota. Consola de Firebase App Distribution mostrando la versión 1.0.0 (1) de la app en Flutter desplegada, con los verificadores invitados. Elaboración propia.*
 
 Con este despliegue, ambas aplicaciones quedan accesibles públicamente para los verificadores mediante sus vínculos de invitación, permitiendo su instalación directa en dispositivos Android y habilitando el proceso de Validation Interviews documentado en la sección 4.3.
+
+
+#### 4.2.3.5. Execution Evidence for Sprint Review
+
+A continuación se presenta la evidencia de ejecución de ambas aplicaciones móviles de WheelsPe corriendo contra el backend real desplegado en Railway (`https://moveo-backend-production.up.railway.app/api/v1`). Durante el Sprint 3 el foco estuvo en la **app Proveedor/Conductor (Flutter)**, consolidando además el flujo completo de la **app Cliente/Arrendatario (Kotlin nativo)** ya integrada en el Sprint 2.
+
+**App Proveedor / Conductor (Flutter) — foco del Sprint 3**
+
+La app Proveedor consume el contrato REST real (sección 4.2.3.6) y ejecuta el camino crítico del propietario: autenticación con rol `owner`, publicación de vehículos y rutas, y gestión de reservas.
+
+Login / registro del Proveedor (rol owner) — `POST /auth/login`
+![Proveedor-login](Assets/Proveedor-login.PNG)
+
+Publicar / editar vehículo (US05) — `POST /vehicles`
+![Proveedor-publicar-vehiculo](Assets/Proveedor-publicar-vehiculo.PNG)
+
+Publicar ruta de carpool (US13) — `POST /adventure-routes`
+![Proveedor-publicar-ruta](Assets/Proveedor-publicar-ruta.PNG)
+
+Gestionar reservas: aceptar / activar / completar (US16) — `PATCH /rentals/{id}`
+![Proveedor-gestionar-reservas](Assets/Proveedor-gestionar-reservas.PNG)
+
+Panel de ingresos y reputación recibida — `/payments?recipientId=` · `/user-reviews`
+![Proveedor-ingresos](Assets/Proveedor-ingresos.PNG)
+
+**App Cliente / Arrendatario (Kotlin nativo) — flujo end-to-end integrado**
+
+Se verificó el camino crítico del arrendatario (descubrir → reservar → pagar) sobre el backend real.
+
+Catálogo con filtros y detalle de vehículo (US22) — `GET /vehicles`
+![Cliente-catalogo](Assets/Cliente-catalogo.PNG)
+
+Reserva con calendario y pago (US31) — `POST /rentals` · `POST /rentals/{id}/pay`
+![Cliente-reserva-pago](Assets/Cliente-reserva-pago.PNG)
+
+Carpooling, chat y reseñas (US14/US15/US18/US28) — `/adventure-routes` · `/messages` · `/Reviews`
+![Cliente-carpooling-chat](Assets/Cliente-carpooling-chat.PNG)
+
+**Resumen de historias verificadas en ejecución**
+
+| App | Historias / flujos ejecutados | Endpoint(s) | Estado |
+| :--- | :--- | :--- | :--- |
+| Proveedor (Flutter) | US05, US13, US16, ingresos, reputación | `/vehicles`, `/adventure-routes`, `/rentals`, `/payments`, `/user-reviews` | Verificado |
+| Cliente (Kotlin) | US22, US31, US14, US15, US18, US28 | `/vehicles`, `/rentals`, `/adventure-routes`, `/messages`, `/Reviews` | Verificado |
+
+*Nota. Toda la evidencia corresponde a las builds distribuidas en Firebase App Distribution (sección 4.2.3.4), ejecutándose sobre el backend de producción. Elaboración propia.*
 
 #### 4.2.3.6. Services Documentation Evidence for Sprint Review
 
