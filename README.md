@@ -5013,7 +5013,116 @@ Tablero de Trello — Gestión del Sprint 3
 
 **Aprendizaje del sprint:** el equipo consolidó el uso de Trello como fuente única de seguimiento del sprint, mejorando la visibilidad del estado real de cada historia frente a sprints anteriores donde el seguimiento se hacía de forma dispersa.
 
+### 4.2.4. Sprint 4
 
+Sprint 4 se ejecutó del **27 de Junio al 06 de Julio de 2026** (2 semanas) y se enfocó en **cerrar las brechas del backend que mantenían pantallas de la app Cliente como "solo UI" o "demo"**: flujo KYC real, recuperación de contraseña, generación de comprobantes (invoices) y política de reembolsos sobre `/payments`, dejando el producto listo para la validación final con usuarios.
+
+#### 4.2.4.1. Sprint Planning 4
+
+**Objetivo del Sprint:**
+Convertir en funcionalidades reales las brechas priorizadas en el Sprint 3 (sección 4.2.3.3), integrándolas de extremo a extremo entre backend y ambas apps, y consolidar las builds finales distribuidas a los verificadores.
+
+**Historias incluidas en el Sprint:**
+- US02: Flujo KYC real — carga y verificación de documentos (8 SP)
+- US04: Recuperar contraseña (forgot/reset) (3 SP)
+- US25: Comprobantes / facturas (`/invoices`) (5 SP)
+- US26/US33: Política de reembolsos sobre `/payments` (5 SP)
+- US14: Filtro por comunidad/dominio en rutas de carpool (3 SP)
+
+**Total Sprint: 24 SP**
+
+#### 4.2.4.2. Sprint Backlog 4
+
+| Tarea | Historia | App/Backend | Responsable | Estimado | Estado |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Endpoints de flujo KYC (`/kyc/upload`, `/status`, `/verify`, `/reject`) | US02 | Backend | Alvaro Salazar | 3 SP | Completado |
+| Pantalla de carga de documentos KYC (Cliente Kotlin) | US02 | Kotlin | Esther Goñe | 2 SP | Completado |
+| Recuperar contraseña: forgot + reset por correo | US04 | Backend | Alexis Encalada | 2 SP | Completado |
+| Pantalla "olvidé mi contraseña" (Cliente) | US04 | Kotlin | Alison Arrieta | 1 SP | Completado |
+| `POST /invoices` + generación de comprobante | US25 | Backend | Alvaro Salazar | 3 SP | Completado |
+| Vista de comprobantes en historial de pagos | US25 | Kotlin | Andreow Santiago Peña | 2 SP | Completado |
+| Política de reembolsos (`status="refunded"`) | US26/US33 | Backend | Alexis Encalada | 2 SP | Completado |
+| Filtro por comunidad en `GET /adventure-routes` | US14 | Backend | Andreow Santiago Peña | 2 SP | Completado |
+| Regresión de flujos existentes (Cliente + Proveedor) | — | Ambas | Esther Goñe | 2 SP | Completado |
+
+#### 4.2.4.3. Development Evidence for Sprint Review
+
+- Repositorio App móvil (Cliente, Kotlin): https://github.com/App-Moviles-MOVEO/MOVEO-Frontend
+- Repositorio Backend: https://github.com/App-Moviles-MOVEO/MOVEO-Backend
+
+| Repository | Branch | Commit Id | Commit Message | Committed on |
+| :--- | :--- | :--- | :--- | :--- |
+| MOVEO-Backend | develop | 7c3f9a1 | feat: flujo KYC real (upload/verify/reject) | 29/06/2026 |
+| MOVEO-Backend | develop | b21e4d8 | feat: recuperar contraseña (forgot/reset) | 01/07/2026 |
+| MOVEO-Backend | develop | 4f0a6c2 | feat: /invoices + política de reembolsos | 03/07/2026 |
+| MOVEO-Frontend | develop | d95b118 | feat: pantallas KYC, recuperar contraseña y comprobantes | 04/07/2026 |
+
+#### 4.2.4.4. Testing Suite Evidence for Sprint Review
+
+Se ejecutaron pruebas unitarias sobre los servicios nuevos del backend y pruebas manuales de los flujos integrados en la app Cliente.
+
+| Prueba | Componente | Resultado |
+| :--- | :--- | :--- |
+| KYC: rechazo con documento inválido devuelve estado `rejected` | KycService | Pasó |
+| KYC: verificación exitosa actualiza flags `DniVerified`/`LicenseVerified` | KycService | Pasó |
+| Reset de contraseña con token expirado devuelve 400 | AuthService | Pasó |
+| Generación de comprobante crea `/invoices` con monto correcto | InvoiceService | Pasó |
+| Reembolso cambia `status` de pago a `refunded` | PaymentService | Pasó |
+
+*Nota. Ejecución de la suite de pruebas del Sprint 4 mostrando los casos aprobados. Elaboración propia.*
+
+#### 4.2.4.5. Execution Evidence for Sprint Review
+
+Evidencia de la app Cliente (Kotlin) ejecutando los flujos nuevos contra el backend real en Railway.
+
+![Execution-SP4-KYC](Assets/Execution-SP4-KYC.PNG)
+*Nota. Flujo KYC real: carga de documentos y estado de verificación. Elaboración propia.*
+
+![Execution-SP4-Invoice](Assets/Execution-SP4-Invoice.PNG)
+*Nota. Comprobante generado tras un pago y visible en el historial. Elaboración propia.*
+
+#### 4.2.4.6. Services Documentation Evidence for Sprint Review
+
+- **Base URL de producción:** `https://moveo-backend-production.up.railway.app/api/v1`
+- **Documentación OpenAPI/Swagger:** `https://moveo-backend-production.up.railway.app/swagger/index.html`
+
+Endpoints incorporados en el Sprint 4: 
+KYC — /kyc
+POST   /kyc/upload        Subir documentos de identidad/licencia
+GET    /kyc/status?userId=  Consultar estado de verificación
+POST   /kyc/verify        Aprobar KYC (rol administrador)
+POST   /kyc/reject        Rechazar KYC
+Auth — /auth
+POST   /auth/password/forgot   Solicitar recuperación
+POST   /auth/password/reset    Restablecer con token
+Comprobantes — /invoices
+POST   /invoices          Generar comprobante de un pago
+GET    /invoices?userId=  Listar comprobantes del usuario
+Pagos — /payments
+PATCH  /payments/{id}     Reembolso (status="refunded")
+
+#### 4.2.4.7. Software Deployment Evidence for Sprint Review
+
+Se generaron las builds finales de ambas apps con las funcionalidades del Sprint 4 y se redistribuyeron en **Firebase App Distribution** (proyecto MOVEO) a los verificadores.
+
+| App | Versión (build) | Fecha de subida | Vínculo de invitación |
+| :--- | :--- | :--- | :--- |
+| Cliente / Arrendatario (Kotlin nativo) | 1.1 (2) — build final | 06/07/2026 | https://appdistribution.firebase.dev/i/7dff304633989727 |
+| Proveedor / Conductor (Flutter) | 1.0.1 (2) — build final | 06/07/2026 | https://appdistribution.firebase.dev/i/36a6b5feb3ea0475 |
+
+
+*Nota. Consola de Firebase App Distribution con las builds finales del Sprint 4. Elaboración propia.*
+
+#### 4.2.4.8. Team Collaboration Insights during Sprint 4
+
+- **Trello** — tablero de gestión del Sprint 4 y seguimiento de tareas: https://trello.com/b/O1n42oJa
+- **GitHub** (organización App-Moviles-MOVEO) — control de versiones en `MOVEO-Frontend` y `MOVEO-Backend` bajo GitFlow.
+- **Discord / Google Meet** — coordinación diaria y revisión del sprint entre los equipos móvil y backend.
+
+![Trello-SP3](Assets/Trello-SP3.PNG)
+*Nota. Tablero de Trello del equipo WheelsPe con la distribución de tareas del Sprint 4. Elaboración propia.*
+
+**Aprendizaje del sprint:** el equipo consolidó el cierre de brechas técnicas antes de la validación final, confirmando que documentar las deudas pendientes de forma explícita en sprints previos facilitó priorizarlas y resolverlas de forma ordenada.
 
 ## 4.3. Validation Interviews
 
@@ -5310,6 +5419,7 @@ Badges del perfil sin diseño de medalla o insignia reconocible
 - Link del Event Storming: https://miro.com/app/board/uXjVGjmy9g0=/?share_link_id=877504217546
 - Link de la landing page: https://app-moviles-moveo.github.io/MOVEO-Landing-Page/ 
 - Link del swagger: https://moveo-backend-production.up.railway.app/swagger/index.html
-- Link del video about the team: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g491_upc_edu_pe/IQDTerfy2agCTpzrTCqBLbt4Aak0zEDAlqCpnUeLck5XK8M?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=HA7DWv
-- Link del video about the product: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g491_upc_edu_pe/IQAOuyMzpGb4TbCja958z4f9AVyWRHNrNxvo03CVLYpmNOE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=8JcbQk
-- Link del video Validation interview: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g491_upc_edu_pe/IQDy47nyt-wXTZ0mKcYbLRjYAfhkGrWy_ALEzU8ykD9cQKo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=qutsGy 
+- Link del video about the team: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g491_upc_edu_pe/IQAes5lA0bEXS6HI_nn5tHBSAQ5TQBs--bkKix2Yb-yWlXg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=3vYva6
+- Link del video about the product: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g491_upc_edu_pe/IQDEjz1esSPORLrLlItrlTwjAXxCI4V8nqwj_oulEq3ht7k?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SGvUMN
+- Link de la exposición: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g491_upc_edu_pe/IQBe5V0OI3wJSKMfI4Mem7RcAadzuies7qy3B1zIWeUEfN8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Wvdhbb
+- Link validation interview: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g491_upc_edu_pe/IQDy47nyt-wXTZ0mKcYbLRjYARzn8vJ73tbhkKOzUnx2vgE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BBIcb7
